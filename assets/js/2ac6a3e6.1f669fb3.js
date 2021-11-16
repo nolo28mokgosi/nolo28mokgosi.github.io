@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolomokgosi_blog=self.webpackChunknolomokgosi_blog||[]).push([[504],{1024:function(o){o.exports=JSON.parse('{"allTagsPath":"/nolomokgosi-blog/blog/tags","slug":"/nolomokgosi-blog/blog/tags/facebook","name":"facebook","count":1,"permalink":"/nolomokgosi-blog/blog/tags/facebook"}')}}]);
