@@ -9,12 +9,13 @@ const config = {
   title: 'Design & Azure Basix',
   tagline: 'Simplifying the learning',
   url: 'https://nolo28mokgosi@github.io',
+  // baseUrl: '/nolomokgosi-blog/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'nolo28mokgosi', // Usually your GitHub org/user name.
-  projectName: 'nolomokgosi-blog', // Usually your repo name.
+  projectName: 'nolo28mokgosi.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -43,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Design & Azure Basix',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
