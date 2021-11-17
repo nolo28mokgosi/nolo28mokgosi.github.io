@@ -6,15 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: 'Design & Azure Basix',
+   tagline: 'Simplifying the learning',
+   url: 'https://nolo28mokgosi@github.io',
+   // baseUrl: '/nolomokgosi-blog/',
+   baseUrl: '/',
+   onBrokenLinks: 'throw',
+   onBrokenMarkdownLinks: 'warn',
+   favicon: 'img/favicon.ico',
+   organizationName: 'nolo28mokgosi', // Usually your GitHub org/user name.
+   projectName: 'nolo28mokgosi.github.io', // Usually your repo name.
 
   presets: [
     [
