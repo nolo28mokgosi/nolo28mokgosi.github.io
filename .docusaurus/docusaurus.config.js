@@ -1,13 +1,14 @@
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "Design & Azure Basix",
+  "tagline": "Simplifying the learning",
+  "url": "https://nolo28mokgosi@github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "nolo28mokgosi",
+  "projectName": "nolo28mokgosi.github.io",
+  "deploymentBranch": "gh-pages",
   "presets": [
     [
       "@docusaurus/preset-classic",
