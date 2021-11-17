@@ -1,19 +1,19 @@
 export default {
-  "title": "Design & Azure Basix",
-  "tagline": "Simplifying the learning",
-  "url": "https://nolo28mokgosi@github.io",
+  "title": "My Site",
+  "tagline": "Dinosaurs are cool",
+  "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "nolo28mokgosi",
-  "projectName": "nolo28mokgosi.github.io",
+  "organizationName": "facebook",
+  "projectName": "docusaurus",
   "presets": [
     [
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/nolomokgosi/Development/git-source-repo/nolomokgosi-blog/sidebars.js",
+          "sidebarPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/"
         },
         "blog": {
@@ -21,14 +21,14 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/nolomokgosi/Development/git-source-repo/nolomokgosi-blog/src/css/custom.css"
+          "customCss": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Design & Azure Basix",
+      "title": "My Site",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"

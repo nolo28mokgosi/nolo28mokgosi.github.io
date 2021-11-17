@@ -14,9 +14,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/nolomokgosi/Development/git-source-repo/nolomokgosi-blog/sidebars.js",
-          "contentPath": "/Users/nolomokgosi/Development/git-source-repo/nolomokgosi-blog/docs",
-          "contentPathLocalized": "/Users/nolomokgosi/Development/git-source-repo/nolomokgosi-blog/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js",
+          "contentPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/docs",
+          "contentPathLocalized": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "intro",
           "docs": [
             {
