@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Design & Azure Basix',
+  title: 'Design and Azure Basix',
    tagline: 'Simplifying the learning',
    url: 'https://nolo28mokgosi@github.io',
    // baseUrl: '/nolomokgosi-blog/',
