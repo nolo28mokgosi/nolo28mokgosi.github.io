@@ -10,62 +10,62 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Intro to Nuggets",
         "href": "/docs/intro"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Nuggets - Designs",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page"
+            "href": "/docs/nuggets-design/create-a-page"
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document"
+            "href": "/docs/nuggets-design/create-a-document"
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post"
+            "href": "/docs/nuggets-design/create-a-blog-post"
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features"
+            "href": "/docs/nuggets-design/markdown-features"
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site"
+            "href": "/docs/nuggets-design/deploy-your-site"
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations"
+            "href": "/docs/nuggets-design/congratulations"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "Nuggets - Azure",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions"
+            "href": "/docs/nuggets-azure/manage-docs-versions"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site"
+            "href": "/docs/nuggets-azure/translate-your-site"
           }
         ]
       }

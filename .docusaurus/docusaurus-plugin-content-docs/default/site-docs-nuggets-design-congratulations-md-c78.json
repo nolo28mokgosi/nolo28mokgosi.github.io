@@ -1,0 +1,27 @@
+{
+  "unversionedId": "nuggets-design/congratulations",
+  "id": "nuggets-design/congratulations",
+  "isDocsHomePage": false,
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/nuggets-design/congratulations.md",
+  "sourceDirName": "nuggets-design",
+  "slug": "/nuggets-design/congratulations",
+  "permalink": "/docs/nuggets-design/congratulations",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/nuggets-design/deploy-your-site"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/nuggets-azure/manage-docs-versions"
+  }
+}

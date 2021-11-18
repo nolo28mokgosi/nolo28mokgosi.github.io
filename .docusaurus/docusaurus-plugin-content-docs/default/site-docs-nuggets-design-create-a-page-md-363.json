@@ -1,0 +1,27 @@
+{
+  "unversionedId": "nuggets-design/create-a-page",
+  "id": "nuggets-design/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/nuggets-design/create-a-page.md",
+  "sourceDirName": "nuggets-design",
+  "slug": "/nuggets-design/create-a-page",
+  "permalink": "/docs/nuggets-design/create-a-page",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Nuggets",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/nuggets-design/create-a-document"
+  }
+}

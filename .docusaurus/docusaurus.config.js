@@ -1,11 +1,11 @@
 export default {
-  "title": "Design & Azure Basix",
-  "tagline": "Simplifying the learning",
+  "title": "Design and Azure Basix",
+  "tagline": "Demistifying",
   "url": "https://nolo28mokgosi@github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/fav.ico",
   "organizationName": "nolo28mokgosi",
   "projectName": "nolo28mokgosi.github.io",
   "deploymentBranch": "gh-pages",
@@ -29,27 +29,22 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "@nolomokgosi",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "nolomokgosi",
+        "src": "img/profile.png"
       },
       "items": [
         {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Nuggets"
         },
         {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -58,28 +53,20 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Mini Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Nuggets",
               "to": "/docs/intro"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "Learnings",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Blog",
+              "to": "/blog"
             }
           ]
         },
@@ -87,17 +74,13 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/nolo28mokgosi"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Built with Docusaurus."
     },
     "prism": {
       "theme": {

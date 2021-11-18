@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "isDocsHomePage": false,
-  "title": "Tutorial Intro",
+  "title": "Intro to Nuggets",
   "description": "Let's discover Docusaurus in less than 5 minutes.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "permalink": "/docs/nuggets-design/create-a-page"
   }
 }

@@ -16,43 +16,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "id": "nuggets-azure/manage-docs-versions",
+              "path": "/docs/nuggets-azure/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "id": "nuggets-azure/translate-your-site",
+              "path": "/docs/nuggets-azure/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
+              "id": "nuggets-design/congratulations",
+              "path": "/docs/nuggets-design/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
+              "id": "nuggets-design/create-a-blog-post",
+              "path": "/docs/nuggets-design/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "id": "nuggets-design/create-a-document",
+              "path": "/docs/nuggets-design/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "id": "nuggets-design/create-a-page",
+              "path": "/docs/nuggets-design/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "id": "nuggets-design/deploy-your-site",
+              "path": "/docs/nuggets-design/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "nuggets-design/markdown-features",
+              "path": "/docs/nuggets-design/markdown-features",
               "sidebar": "tutorialSidebar"
             }
           ]

@@ -1,8 +1,8 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
-authors: endi
-tags: [hello, docusaurus]
+slug: bicep-modules-variables
+title: Bicep 2-modules, iterations, variables..
+authors: nolo
+tags: [azure, bicep]
 ---
 
 This is the summary of a very long blog post,

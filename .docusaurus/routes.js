@@ -4,8 +4,43 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog','520'),
+    component: ComponentCreator('/blog','abe'),
     exact: true
   },
   {
@@ -14,18 +49,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post','6c7'),
+    path: '/blog/bicep-modules-variables',
+    component: ComponentCreator('/blog/bicep-modules-variables','c18'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post','f06'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post','bee'),
+    path: '/blog/introduction-to-bicep',
+    component: ComponentCreator('/blog/introduction-to-bicep','772'),
     exact: true
   },
   {
@@ -34,28 +64,28 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/azure',
+    component: ComponentCreator('/blog/tags/azure','525'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/bicep',
+    component: ComponentCreator('/blog/tags/bicep','6ea'),
+    exact: true
+  },
+  {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','ddf'),
+    component: ComponentCreator('/blog/tags/docusaurus','3d7'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook','ede'),
+    component: ComponentCreator('/blog/tags/facebook','e85'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','4c2'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola','752'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome','bfa'),
+    component: ComponentCreator('/blog/tags/hello','47e'),
     exact: true
   },
   {
@@ -65,7 +95,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','87d'),
+    component: ComponentCreator('/docs','856'),
     routes: [
       {
         path: '/docs/intro',
@@ -74,50 +104,50 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations','793'),
+        path: '/docs/nuggets-azure/manage-docs-versions',
+        component: ComponentCreator('/docs/nuggets-azure/manage-docs-versions','85e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','68e'),
+        path: '/docs/nuggets-azure/translate-your-site',
+        component: ComponentCreator('/docs/nuggets-azure/translate-your-site','6c0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document','c2d'),
+        path: '/docs/nuggets-design/congratulations',
+        component: ComponentCreator('/docs/nuggets-design/congratulations','53e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page','f44'),
+        path: '/docs/nuggets-design/create-a-blog-post',
+        component: ComponentCreator('/docs/nuggets-design/create-a-blog-post','179'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','e46'),
+        path: '/docs/nuggets-design/create-a-document',
+        component: ComponentCreator('/docs/nuggets-design/create-a-document','b5e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features','4b7'),
+        path: '/docs/nuggets-design/create-a-page',
+        component: ComponentCreator('/docs/nuggets-design/create-a-page','792'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','fdd'),
+        path: '/docs/nuggets-design/deploy-your-site',
+        component: ComponentCreator('/docs/nuggets-design/deploy-your-site','a79'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site','2d7'),
+        path: '/docs/nuggets-design/markdown-features',
+        component: ComponentCreator('/docs/nuggets-design/markdown-features','84c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

@@ -1,7 +1,7 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
+slug: introduction-to-bicep
+title: Bicep 1-Introduction to Bicep
+authors: nolo
 tags: [facebook, hello, docusaurus]
 ---
 
@@ -15,6 +15,7 @@ The blog post date can be extracted from filenames, such as:
 
 - `2019-05-30-welcome.md`
 - `2019-05-30-welcome/index.md`
+<!--truncate-->
 
 A blog post folder can be convenient to co-locate blog post images:
 

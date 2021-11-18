@@ -1,0 +1,27 @@
+{
+  "unversionedId": "nuggets-design/create-a-document",
+  "id": "nuggets-design/create-a-document",
+  "isDocsHomePage": false,
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/nuggets-design/create-a-document.md",
+  "sourceDirName": "nuggets-design",
+  "slug": "/nuggets-design/create-a-document",
+  "permalink": "/docs/nuggets-design/create-a-document",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/create-a-document.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Page",
+    "permalink": "/docs/nuggets-design/create-a-page"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/nuggets-design/create-a-blog-post"
+  }
+}

@@ -23,7 +23,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
-              "title": "Tutorial Intro",
+              "title": "Intro to Nuggets",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -39,20 +39,70 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/nuggets-design/create-a-page"
               }
             },
             {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
+              "unversionedId": "nuggets-azure/manage-docs-versions",
+              "id": "nuggets-azure/manage-docs-versions",
+              "isDocsHomePage": false,
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/docs/nuggets-azure/manage-docs-versions.md",
+              "sourceDirName": "nuggets-azure",
+              "slug": "/nuggets-azure/manage-docs-versions",
+              "permalink": "/docs/nuggets-azure/manage-docs-versions",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-azure/manage-docs-versions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Congratulations!",
+                "permalink": "/docs/nuggets-design/congratulations"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/nuggets-azure/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "nuggets-azure/translate-your-site",
+              "id": "nuggets-azure/translate-your-site",
+              "isDocsHomePage": false,
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/docs/nuggets-azure/translate-your-site.md",
+              "sourceDirName": "nuggets-azure",
+              "slug": "/nuggets-azure/translate-your-site",
+              "permalink": "/docs/nuggets-azure/translate-your-site",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-azure/translate-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/nuggets-azure/manage-docs-versions"
+              }
+            },
+            {
+              "unversionedId": "nuggets-design/congratulations",
+              "id": "nuggets-design/congratulations",
               "isDocsHomePage": false,
               "title": "Congratulations!",
               "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/congratulations.md",
+              "source": "@site/docs/nuggets-design/congratulations.md",
+              "sourceDirName": "nuggets-design",
+              "slug": "/nuggets-design/congratulations",
+              "permalink": "/docs/nuggets-design/congratulations",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/congratulations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -62,24 +112,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docs/nuggets-design/deploy-your-site"
               },
               "next": {
                 "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/nuggets-azure/manage-docs-versions"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
+              "unversionedId": "nuggets-design/create-a-blog-post",
+              "id": "nuggets-design/create-a-blog-post",
               "isDocsHomePage": false,
               "title": "Create a Blog Post",
               "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/create-a-blog-post.md",
+              "source": "@site/docs/nuggets-design/create-a-blog-post.md",
+              "sourceDirName": "nuggets-design",
+              "slug": "/nuggets-design/create-a-blog-post",
+              "permalink": "/docs/nuggets-design/create-a-blog-post",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/create-a-blog-post.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -89,24 +139,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/nuggets-design/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/nuggets-design/markdown-features"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
+              "unversionedId": "nuggets-design/create-a-document",
+              "id": "nuggets-design/create-a-document",
               "isDocsHomePage": false,
               "title": "Create a Document",
               "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/create-a-document.md",
+              "source": "@site/docs/nuggets-design/create-a-document.md",
+              "sourceDirName": "nuggets-design",
+              "slug": "/nuggets-design/create-a-document",
+              "permalink": "/docs/nuggets-design/create-a-document",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/create-a-document.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -116,24 +166,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/nuggets-design/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/nuggets-design/create-a-blog-post"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
+              "unversionedId": "nuggets-design/create-a-page",
+              "id": "nuggets-design/create-a-page",
               "isDocsHomePage": false,
               "title": "Create a Page",
               "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/create-a-page.md",
+              "source": "@site/docs/nuggets-design/create-a-page.md",
+              "sourceDirName": "nuggets-design",
+              "slug": "/nuggets-design/create-a-page",
+              "permalink": "/docs/nuggets-design/create-a-page",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/create-a-page.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -142,25 +192,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
+                "title": "Intro to Nuggets",
                 "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/nuggets-design/create-a-document"
               }
             },
             {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
+              "unversionedId": "nuggets-design/deploy-your-site",
+              "id": "nuggets-design/deploy-your-site",
               "isDocsHomePage": false,
               "title": "Deploy your site",
               "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/deploy-your-site.md",
+              "source": "@site/docs/nuggets-design/deploy-your-site.md",
+              "sourceDirName": "nuggets-design",
+              "slug": "/nuggets-design/deploy-your-site",
+              "permalink": "/docs/nuggets-design/deploy-your-site",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/deploy-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -170,24 +220,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/nuggets-design/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/docs/nuggets-design/congratulations"
               }
             },
             {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
+              "unversionedId": "nuggets-design/markdown-features",
+              "id": "nuggets-design/markdown-features",
               "isDocsHomePage": false,
               "title": "Markdown Features",
               "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/markdown-features.mdx",
+              "source": "@site/docs/nuggets-design/markdown-features.mdx",
+              "sourceDirName": "nuggets-design",
+              "slug": "/nuggets-design/markdown-features",
+              "permalink": "/docs/nuggets-design/markdown-features",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/markdown-features.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -197,61 +247,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/nuggets-design/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/nuggets-design/deploy-your-site"
               }
             }
           ],
@@ -263,49 +263,49 @@
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "Nuggets - Designs",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "nuggets-design/create-a-page"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "nuggets-design/create-a-document"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
+                    "id": "nuggets-design/create-a-blog-post"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
+                    "id": "nuggets-design/markdown-features"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
+                    "id": "nuggets-design/deploy-your-site"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "nuggets-design/congratulations"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Tutorial - Extras",
+                "label": "Nuggets - Azure",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "nuggets-azure/manage-docs-versions"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "nuggets-azure/translate-your-site"
                   }
                 ]
               }
@@ -320,15 +320,53 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "welcome",
+          "id": "bicep-modules-variables",
           "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-26-welcome/index.md",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
+            "permalink": "/blog/bicep-modules-variables",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-08-bicep-fundamentals.md",
+            "source": "@site/blog/2021-08-08-bicep-fundamentals.md",
+            "title": "Bicep 2-modules, iterations, variables..",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2021-08-08T00:00:00.000Z",
+            "formattedDate": "August 8, 2021",
+            "tags": [
+              {
+                "label": "azure",
+                "permalink": "/blog/tags/azure"
+              },
+              {
+                "label": "bicep",
+                "permalink": "/blog/tags/bicep"
+              }
+            ],
+            "readingTime": 2.05,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Nolo Mokgosi",
+                "title": "admin",
+                "url": "https://github.com/nolo28mokgosi",
+                "imageURL": "img/profile.png",
+                "key": "nolo"
+              }
+            ],
+            "nextItem": {
+              "title": "Bicep 1-Introduction to Bicep",
+              "permalink": "/blog/introduction-to-bicep"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "introduction-to-bicep",
+          "metadata": {
+            "permalink": "/blog/introduction-to-bicep",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-03-intro-to-bicep/index.md",
+            "source": "@site/blog/2021-08-03-intro-to-bicep/index.md",
+            "title": "Bicep 1-Introduction to Bicep",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
+            "date": "2021-08-03T00:00:00.000Z",
+            "formattedDate": "August 3, 2021",
             "tags": [
               {
                 "label": "facebook",
@@ -343,148 +381,23 @@
                 "permalink": "/blog/tags/docusaurus"
               }
             ],
-            "readingTime": 0.405,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-01-mdx-blog-post.mdx",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2019-05-29-long-blog-post.md",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
+            "readingTime": 0.41,
             "truncated": true,
             "authors": [
               {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
+                "name": "Nolo Mokgosi",
+                "title": "admin",
+                "url": "https://github.com/nolo28mokgosi",
+                "imageURL": "img/profile.png",
+                "key": "nolo"
               }
             ],
             "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
+              "title": "Bicep 2-modules, iterations, variables..",
+              "permalink": "/blog/bicep-modules-variables"
             }
           },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n<!--truncate-->\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
         }
       ],
       "blogListPaginated": [
@@ -494,52 +407,53 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 2,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "bicep-modules-variables",
+            "introduction-to-bicep"
           ]
         }
       ],
       "blogTags": {
+        "/blog/tags/azure": {
+          "name": "azure",
+          "items": [
+            "bicep-modules-variables"
+          ],
+          "permalink": "/blog/tags/azure"
+        },
+        "/blog/tags/bicep": {
+          "name": "bicep",
+          "items": [
+            "bicep-modules-variables"
+          ],
+          "permalink": "/blog/tags/bicep"
+        },
         "/blog/tags/facebook": {
           "name": "facebook",
           "items": [
-            "welcome"
+            "introduction-to-bicep"
           ],
           "permalink": "/blog/tags/facebook"
         },
         "/blog/tags/hello": {
           "name": "hello",
           "items": [
-            "welcome",
-            "long-blog-post"
+            "introduction-to-bicep"
           ],
           "permalink": "/blog/tags/hello"
         },
         "/blog/tags/docusaurus": {
           "name": "docusaurus",
           "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "introduction-to-bicep"
           ],
           "permalink": "/blog/tags/docusaurus"
-        },
-        "/blog/tags/hola": {
-          "name": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/hola"
         }
       },
       "blogTagsListPath": "/blog/tags"

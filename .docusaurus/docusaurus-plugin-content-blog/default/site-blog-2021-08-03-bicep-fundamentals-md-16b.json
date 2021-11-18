@@ -1,0 +1,34 @@
+{
+  "permalink": "/blog/bicep-modules-variables",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-03-bicep-fundamentals.md",
+  "source": "@site/blog/2021-08-03-bicep-fundamentals.md",
+  "title": "Bicep modules, iterations, variables.. | ep2",
+  "description": "This is the summary of a very long blog post,",
+  "date": "2021-08-03T00:00:00.000Z",
+  "formattedDate": "August 3, 2021",
+  "tags": [
+    {
+      "label": "azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "bicep",
+      "permalink": "/blog/tags/bicep"
+    }
+  ],
+  "readingTime": 2.05,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Nolo Mokgosi",
+      "title": "admin",
+      "url": "https://github.com/endiliey",
+      "imageURL": "https://github.com/endiliey.png",
+      "key": "nolo"
+    }
+  ],
+  "nextItem": {
+    "title": "Introduction to Bicep  | ep1",
+    "permalink": "/blog/introduction-to-bicep"
+  }
+}

@@ -20,8 +20,8 @@
       "permalink": "/blog/tags/docusaurus"
     }
   ],
-  "readingTime": 0.405,
-  "truncated": false,
+  "readingTime": 0.41,
+  "truncated": true,
   "authors": [
     {
       "name": "Sébastien Lorber",
@@ -38,8 +38,8 @@
       "key": "yangshun"
     }
   ],
-  "nextItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+  "prevItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/introduction-to-bicep"
   }
 }
