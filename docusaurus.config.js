@@ -17,7 +17,6 @@ const config = {
    organizationName: 'nolo28mokgosi', // Usually your GitHub org/user name.
    projectName: 'nolo28mokgosi.github.io', // Usually your repo name.
    deploymentBranch: 'gh-pages', //specify since my repo name has .github.io
-   cname: 'nolomokgosi.com',
 
   presets: [
     [
