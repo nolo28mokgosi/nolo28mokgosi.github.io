@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nolo28mokgosi@github.io/blog</id>
-    <title>Design &amp; Azure Basix Blog</title>
+    <title>Design and Azure Basix Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nolo28mokgosi@github.io/blog"/>
-    <subtitle>Design &amp; Azure Basix Blog</subtitle>
+    <subtitle>Design and Azure Basix Blog</subtitle>
     <icon>https://nolo28mokgosi@github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
