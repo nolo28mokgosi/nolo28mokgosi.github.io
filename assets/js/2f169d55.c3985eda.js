@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[226],{6637:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/azure","name":"azure","count":1,"permalink":"/blog/tags/azure"}')}}]);
