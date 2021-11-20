@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bicep 2-modules, iterations, variables..","permalink":"/blog/bicep-modules-variables"},{"title":"Bicep 1-Introduction to Bicep","permalink":"/blog/introduction-to-bicep"}]}')}}]);
