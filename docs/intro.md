@@ -4,32 +4,6 @@ sidebar_position: 1
 
 # Intro to Nuggets
 
-Let's discover **Docusaurus in less than 5 minutes**.
+I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I 
+write bits and pieces I learn in my day-to-day and hope to help others in the process
 
-## Blog
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Nuggets
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.

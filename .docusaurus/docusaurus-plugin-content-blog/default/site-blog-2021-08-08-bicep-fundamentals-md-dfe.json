@@ -1,9 +1,8 @@
 {
   "permalink": "/blog/bicep-modules-variables",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-08-bicep-fundamentals.md",
   "source": "@site/blog/2021-08-08-bicep-fundamentals.md",
-  "title": "Bicep 2-modules, iterations, variables..",
-  "description": "This is the summary of a very long blog post,",
+  "title": "Modules, iterations, variables-b2",
+  "description": "Summary on #2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
   "date": "2021-08-08T00:00:00.000Z",
   "formattedDate": "August 8, 2021",
   "tags": [
@@ -16,7 +15,7 @@
       "permalink": "/blog/tags/bicep"
     }
   ],
-  "readingTime": 2.05,
+  "readingTime": 2.18,
   "truncated": true,
   "authors": [
     {

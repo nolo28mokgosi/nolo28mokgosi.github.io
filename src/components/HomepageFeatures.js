@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/writings.svg').default,
     description: (
       <>
-        Research and learnings are documented in blog
+        My research and learning are documented in Blog
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/nuggets.svg').default,
     description: (
       <>
-        Bits and pieces of my everyday learning, techniques, patterns are documented in Nuggets
+        Bits and pieces of my everyday learning (e.g techniques, patterns) are documented in Nuggets
       </>
     ),
   },
@@ -27,7 +27,7 @@ const FeatureList = [
     description: (
       <>
         Research and learning is one thing, getting your <code>hands dirty</code> is more exciting.
-        Excitement is documented in blog
+        Excitement is documented in both Blog and Nuggets
       </>
     ),
   },

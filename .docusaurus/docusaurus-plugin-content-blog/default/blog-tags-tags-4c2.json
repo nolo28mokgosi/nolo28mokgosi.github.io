@@ -6,20 +6,6 @@
     "count": 1,
     "permalink": "/blog/tags/azure"
   },
-  "/blog/tags/bicep": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/bicep",
-    "name": "bicep",
-    "count": 1,
-    "permalink": "/blog/tags/bicep"
-  },
-  "/blog/tags/facebook": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/facebook",
-    "name": "facebook",
-    "count": 1,
-    "permalink": "/blog/tags/facebook"
-  },
   "/blog/tags/hello": {
     "allTagsPath": "/blog/tags",
     "slug": "/blog/tags/hello",

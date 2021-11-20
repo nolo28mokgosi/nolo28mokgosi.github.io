@@ -1,9 +1,8 @@
 {
   "permalink": "/blog/introduction-to-bicep",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-03-intro-to-bicep/index.md",
   "source": "@site/blog/2021-08-03-intro-to-bicep/index.md",
   "title": "Bicep 1-Introduction to Bicep",
-  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "description": "Summary on",
   "date": "2021-08-03T00:00:00.000Z",
   "formattedDate": "August 3, 2021",
   "tags": [
@@ -20,7 +19,7 @@
       "permalink": "/blog/tags/docusaurus"
     }
   ],
-  "readingTime": 0.41,
+  "readingTime": 0.87,
   "truncated": true,
   "authors": [
     {
@@ -32,7 +31,7 @@
     }
   ],
   "prevItem": {
-    "title": "Bicep 2-modules, iterations, variables..",
+    "title": "Modules, iterations, variables-b2",
     "permalink": "/blog/bicep-modules-variables"
   }
 }

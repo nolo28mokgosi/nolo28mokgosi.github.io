@@ -21,15 +21,12 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-abe": {
+  "/blog-0d3": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogecc-8c8"
-      },
-      {
-        "content": "content---blog-45-a-9b1"
+        "content": "content---blog-766-e3c"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -38,114 +35,57 @@
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/bicep-modules-variables-c18": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-bicep-modules-variablesdfe-872"
-  },
-  "/blog/introduction-to-bicep-772": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-introduction-to-bicep-0-c-9-42f"
-  },
   "/blog/tags-e13": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/azure-525": {
+  "/blog/tags/azure-62e": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogecc-8c8"
+        "content": "content---blog-766-e3c"
       }
     ],
     "metadata": "metadata---blog-tags-azure-2-f-1-4e8"
   },
-  "/blog/tags/bicep-6ea": {
+  "/blog/tags/docusaurus-8be": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogecc-8c8"
-      }
-    ],
-    "metadata": "metadata---blog-tags-bicepfed-1e8"
-  },
-  "/blog/tags/docusaurus-3d7": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-45-a-9b1"
+        "content": "content---blog-766-e3c"
       }
     ],
     "metadata": "metadata---blog-tags-docusaurusa-80-728"
   },
-  "/blog/tags/facebook-e85": {
+  "/blog/tags/hello-51f": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-45-a-9b1"
-      }
-    ],
-    "metadata": "metadata---blog-tags-facebook-031-c52"
-  },
-  "/blog/tags/hello-47e": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-45-a-9b1"
+        "content": "content---blog-766-e3c"
       }
     ],
     "metadata": "metadata---blog-tags-hello-30-a-bed"
+  },
+  "/blog/welcome-bfa": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
   },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-856": {
+  "/docs-4ca": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/nuggets-azure/manage-docs-versions-85e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-azure-manage-docs-versions-51-b-03e"
-  },
-  "/docs/nuggets-azure/translate-your-site-6c0": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-azure-translate-your-site-51-f-bfc"
-  },
-  "/docs/nuggets-design/congratulations-53e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-congratulationsc-78-306"
-  },
-  "/docs/nuggets-design/create-a-blog-post-179": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-create-a-blog-postf-98-1e4"
-  },
-  "/docs/nuggets-design/create-a-document-b5e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-create-a-documentb-43-1bc"
-  },
-  "/docs/nuggets-design/create-a-page-792": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-create-a-page-363-ecd"
-  },
-  "/docs/nuggets-design/deploy-your-site-a79": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-deploy-your-site-1-d-4-31d"
-  },
-  "/docs/nuggets-design/markdown-features-84c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-markdown-features-2-a-2-575"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

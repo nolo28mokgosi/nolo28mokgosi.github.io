@@ -40,22 +40,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','abe'),
+    component: ComponentCreator('/blog','0d3'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
-    exact: true
-  },
-  {
-    path: '/blog/bicep-modules-variables',
-    component: ComponentCreator('/blog/bicep-modules-variables','c18'),
-    exact: true
-  },
-  {
-    path: '/blog/introduction-to-bicep',
-    component: ComponentCreator('/blog/introduction-to-bicep','772'),
     exact: true
   },
   {
@@ -65,27 +55,22 @@ export default [
   },
   {
     path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure','525'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/bicep',
-    component: ComponentCreator('/blog/tags/bicep','6ea'),
+    component: ComponentCreator('/blog/tags/azure','62e'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','3d7'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook','e85'),
+    component: ComponentCreator('/blog/tags/docusaurus','8be'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','47e'),
+    component: ComponentCreator('/blog/tags/hello','51f'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome','bfa'),
     exact: true
   },
   {
@@ -95,59 +80,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','856'),
+    component: ComponentCreator('/docs','4ca'),
     routes: [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-azure/manage-docs-versions',
-        component: ComponentCreator('/docs/nuggets-azure/manage-docs-versions','85e'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-azure/translate-your-site',
-        component: ComponentCreator('/docs/nuggets-azure/translate-your-site','6c0'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/congratulations',
-        component: ComponentCreator('/docs/nuggets-design/congratulations','53e'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/create-a-blog-post',
-        component: ComponentCreator('/docs/nuggets-design/create-a-blog-post','179'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/create-a-document',
-        component: ComponentCreator('/docs/nuggets-design/create-a-document','b5e'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/create-a-page',
-        component: ComponentCreator('/docs/nuggets-design/create-a-page','792'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/deploy-your-site',
-        component: ComponentCreator('/docs/nuggets-design/deploy-your-site','a79'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/markdown-features',
-        component: ComponentCreator('/docs/nuggets-design/markdown-features','84c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

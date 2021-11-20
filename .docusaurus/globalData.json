@@ -14,46 +14,6 @@
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-azure/manage-docs-versions",
-              "path": "/docs/nuggets-azure/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-azure/translate-your-site",
-              "path": "/docs/nuggets-azure/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-design/congratulations",
-              "path": "/docs/nuggets-design/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-design/create-a-blog-post",
-              "path": "/docs/nuggets-design/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-design/create-a-document",
-              "path": "/docs/nuggets-design/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-design/create-a-page",
-              "path": "/docs/nuggets-design/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-design/deploy-your-site",
-              "path": "/docs/nuggets-design/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nuggets-design/markdown-features",
-              "path": "/docs/nuggets-design/markdown-features",
-              "sidebar": "tutorialSidebar"
             }
           ]
         }

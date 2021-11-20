@@ -8,7 +8,6 @@
   "sourceDirName": "nuggets-azure",
   "slug": "/nuggets-azure/manage-docs-versions",
   "permalink": "/docs/nuggets-azure/manage-docs-versions",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-azure/manage-docs-versions.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/nuggets-design/congratulations"
+    "title": "Deploy your site",
+    "permalink": "/docs/nuggets-design/deploy-your-site"
   },
   "next": {
     "title": "Translate your site",

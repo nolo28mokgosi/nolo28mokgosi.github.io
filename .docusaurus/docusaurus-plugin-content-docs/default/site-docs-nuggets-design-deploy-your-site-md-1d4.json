@@ -8,7 +8,6 @@
   "sourceDirName": "nuggets-design",
   "slug": "/nuggets-design/deploy-your-site",
   "permalink": "/docs/nuggets-design/deploy-your-site",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/nuggets-design/deploy-your-site.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -21,7 +20,7 @@
     "permalink": "/docs/nuggets-design/markdown-features"
   },
   "next": {
-    "title": "Congratulations!",
-    "permalink": "/docs/nuggets-design/congratulations"
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/nuggets-azure/manage-docs-versions"
   }
 }

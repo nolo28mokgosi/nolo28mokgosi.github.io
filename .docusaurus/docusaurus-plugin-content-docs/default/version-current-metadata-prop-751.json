@@ -12,62 +12,6 @@
         "type": "link",
         "label": "Intro to Nuggets",
         "href": "/docs/intro"
-      },
-      {
-        "type": "category",
-        "label": "Nuggets - Designs",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/nuggets-design/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/nuggets-design/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/nuggets-design/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/nuggets-design/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/nuggets-design/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/nuggets-design/congratulations"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Nuggets - Azure",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/nuggets-azure/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/nuggets-azure/translate-your-site"
-          }
-        ]
       }
     ]
   }

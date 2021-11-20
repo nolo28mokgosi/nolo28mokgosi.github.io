@@ -1,6 +1,6 @@
 export default {
-  "title": "Design and Azure Basix",
-  "tagline": "Demistifying",
+  "title": "demistify & simplify tech concepts",
+  "tagline": "back to basix",
   "url": "https://nolo28mokgosi@github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -14,12 +14,10 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/"
+          "sidebarPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/src/css/custom.css"
