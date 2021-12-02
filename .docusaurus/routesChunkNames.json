@@ -21,12 +21,12 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-0d3": {
+  "/blog-f44": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "content---blogef-6-2a3"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -35,57 +35,51 @@
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---blog-archiveb-2-f-393"
   },
+  "/blog/entanglement-0eb": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-entanglement-004-aa9"
+  },
   "/blog/tags-e13": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/azure-62e": {
+  "/blog/tags/architecture-1e9": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "content---blogef-6-2a3"
       }
     ],
-    "metadata": "metadata---blog-tags-azure-2-f-1-4e8"
+    "metadata": "metadata---blog-tags-architecturec-80-7ae"
   },
-  "/blog/tags/docusaurus-8be": {
+  "/blog/tags/design-156": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "content---blogef-6-2a3"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728"
-  },
-  "/blog/tags/hello-51f": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-766-e3c"
-      }
-    ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed"
-  },
-  "/blog/welcome-bfa": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "metadata": "metadata---blog-tags-designfdb-49c"
   },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-4ca": {
+  "/docs-729": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/nuggets-design/Entanglement-7b4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-nuggets-design-entanglement-024-5c2"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

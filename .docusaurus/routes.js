@@ -40,7 +40,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','0d3'),
+    component: ComponentCreator('/blog','f44'),
     exact: true
   },
   {
@@ -49,28 +49,23 @@ export default [
     exact: true
   },
   {
+    path: '/blog/entanglement',
+    component: ComponentCreator('/blog/entanglement','0eb'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags','e13'),
     exact: true
   },
   {
-    path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure','62e'),
+    path: '/blog/tags/architecture',
+    component: ComponentCreator('/blog/tags/architecture','1e9'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','8be'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','51f'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome','bfa'),
+    path: '/blog/tags/design',
+    component: ComponentCreator('/blog/tags/design','156'),
     exact: true
   },
   {
@@ -80,11 +75,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','4ca'),
+    component: ComponentCreator('/docs','729'),
     routes: [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/nuggets-design/Entanglement',
+        component: ComponentCreator('/docs/nuggets-design/Entanglement','7b4'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

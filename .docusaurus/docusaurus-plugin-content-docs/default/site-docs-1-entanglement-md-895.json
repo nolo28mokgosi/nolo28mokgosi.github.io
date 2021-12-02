@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Entanglement",
+  "id": "Entanglement",
+  "isDocsHomePage": false,
+  "title": "Entanglement",
+  "description": "According to oxford dictionary, entanglement is \"a complicated or compromising relationship or situation\". The word was made popular in 2020 by famous couple around the red table. In this document, we will be talking about entaglement in IT system or applications.",
+  "source": "@site/docs/1. Entanglement.md",
+  "sourceDirName": ".",
+  "slug": "/Entanglement",
+  "permalink": "/docs/Entanglement",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Entanglement",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Nuggets",
+    "permalink": "/docs/intro"
+  }
+}

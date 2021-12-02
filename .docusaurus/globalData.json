@@ -14,6 +14,11 @@
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nuggets-design/Entanglement",
+              "path": "/docs/nuggets-design/Entanglement",
+              "sidebar": "tutorialSidebar"
             }
           ]
         }

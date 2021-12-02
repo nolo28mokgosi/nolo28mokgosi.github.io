@@ -1,0 +1,29 @@
+{
+  "permalink": "/blog/entanglement",
+  "source": "@site/blog/2021-12-02-Entanglement/index.md",
+  "title": "Entanglement",
+  "description": "Imagine you are an engineer working in a application/system that has been operating for years. Your stakeholders asks  to implement a breaking change on the API.Assuming you joined the organisation less than a year ago, you ask around if anyone knows  about your API integration points and no one knows. You start feeling like an application you working on looks and feels like the picture below, \"ENTANGLED\".",
+  "date": "2021-12-02T00:00:00.000Z",
+  "formattedDate": "December 2, 2021",
+  "tags": [
+    {
+      "label": "architecture",
+      "permalink": "/blog/tags/architecture"
+    },
+    {
+      "label": "design",
+      "permalink": "/blog/tags/design"
+    }
+  ],
+  "readingTime": 2.755,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Nolo Mokgosi",
+      "title": "admin",
+      "url": "https://github.com/nolo28mokgosi",
+      "imageURL": "/img/profile.png",
+      "key": "nolo"
+    }
+  ]
+}

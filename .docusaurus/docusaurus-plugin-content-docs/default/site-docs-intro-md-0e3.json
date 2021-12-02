@@ -14,5 +14,9 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar"
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/nuggets-design/Entanglement"
+  }
 }

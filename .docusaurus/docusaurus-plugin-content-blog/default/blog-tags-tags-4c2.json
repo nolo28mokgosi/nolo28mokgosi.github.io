@@ -1,23 +1,16 @@
 {
-  "/blog/tags/azure": {
+  "/blog/tags/architecture": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/azure",
-    "name": "azure",
+    "slug": "/blog/tags/architecture",
+    "name": "architecture",
     "count": 1,
-    "permalink": "/blog/tags/azure"
+    "permalink": "/blog/tags/architecture"
   },
-  "/blog/tags/hello": {
+  "/blog/tags/design": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/hello",
-    "name": "hello",
+    "slug": "/blog/tags/design",
+    "name": "design",
     "count": 1,
-    "permalink": "/blog/tags/hello"
-  },
-  "/blog/tags/docusaurus": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/docusaurus",
-    "name": "docusaurus",
-    "count": 1,
-    "permalink": "/blog/tags/docusaurus"
+    "permalink": "/blog/tags/design"
   }
 }
