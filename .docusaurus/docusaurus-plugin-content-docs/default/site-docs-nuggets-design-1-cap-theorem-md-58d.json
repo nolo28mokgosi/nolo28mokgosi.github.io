@@ -1,0 +1,23 @@
+{
+  "unversionedId": "nuggets-design/CAP Theorem",
+  "id": "nuggets-design/CAP Theorem",
+  "isDocsHomePage": false,
+  "title": "CAP Theorem",
+  "description": "Coming soon",
+  "source": "@site/docs/nuggets-design/1. CAP Theorem.md",
+  "sourceDirName": "nuggets-design",
+  "slug": "/nuggets-design/CAP Theorem",
+  "permalink": "/docs/nuggets-design/CAP Theorem",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "CAP Theorem",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reliability",
+    "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
+  }
+}

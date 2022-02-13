@@ -15,6 +15,24 @@
       },
       {
         "type": "category",
+        "label": "Microsoft Azure Well-Architected Framework",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/microsoft-azure-well-architected-framework/introduction"
+          },
+          {
+            "type": "link",
+            "label": "Reliability",
+            "href": "/docs/microsoft-azure-well-architected-framework/Reliability"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Nuggets - Designs",
         "collapsible": true,
         "collapsed": true,
@@ -22,7 +40,7 @@
           {
             "type": "link",
             "label": "CAP Theorem",
-            "href": "/docs/nuggets-design/Entanglement"
+            "href": "/docs/nuggets-design/CAP Theorem"
           }
         ]
       }

@@ -83,7 +83,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 Built with Docusaurus."
+      "copyright": "Copyright © 2022 Built with Docusaurus."
     },
     "prism": {
       "theme": {

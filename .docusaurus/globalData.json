@@ -16,8 +16,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "nuggets-design/Entanglement",
-              "path": "/docs/nuggets-design/Entanglement",
+              "id": "microsoft-azure-well-architected-framework/introduction",
+              "path": "/docs/microsoft-azure-well-architected-framework/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "microsoft-azure-well-architected-framework/Reliability",
+              "path": "/docs/microsoft-azure-well-architected-framework/Reliability",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nuggets-design/CAP Theorem",
+              "path": "/docs/nuggets-design/CAP Theorem",
               "sidebar": "tutorialSidebar"
             }
           ]

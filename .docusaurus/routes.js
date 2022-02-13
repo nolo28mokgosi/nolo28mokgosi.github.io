@@ -40,7 +40,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','f44'),
+    component: ComponentCreator('/blog','f21'),
     exact: true
   },
   {
@@ -60,12 +60,22 @@ export default [
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture','1e9'),
+    component: ComponentCreator('/blog/tags/architecture','818'),
     exact: true
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design','156'),
+    component: ComponentCreator('/blog/tags/design','aef'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/domain-driven-design',
+    component: ComponentCreator('/blog/tags/domain-driven-design','38a'),
+    exact: true
+  },
+  {
+    path: '/blog/understandingboundaries',
+    component: ComponentCreator('/blog/understandingboundaries','80d'),
     exact: true
   },
   {
@@ -75,7 +85,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','729'),
+    component: ComponentCreator('/docs','e92'),
     routes: [
       {
         path: '/docs/intro',
@@ -84,8 +94,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/nuggets-design/Entanglement',
-        component: ComponentCreator('/docs/nuggets-design/Entanglement','7b4'),
+        path: '/docs/microsoft-azure-well-architected-framework/introduction',
+        component: ComponentCreator('/docs/microsoft-azure-well-architected-framework/introduction','d0f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/microsoft-azure-well-architected-framework/Reliability',
+        component: ComponentCreator('/docs/microsoft-azure-well-architected-framework/Reliability','61f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/nuggets-design/CAP Theorem',
+        component: ComponentCreator('/docs/nuggets-design/CAP Theorem','a9e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

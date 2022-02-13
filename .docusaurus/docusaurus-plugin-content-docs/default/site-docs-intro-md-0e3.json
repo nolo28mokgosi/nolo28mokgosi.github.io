@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "CAP Theorem",
-    "permalink": "/docs/nuggets-design/Entanglement"
+    "title": "Introduction",
+    "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
   }
 }

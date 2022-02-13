@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Understanding Boundaries",
+      "permalink": "/blog/understandingboundaries"
+    },
+    {
       "title": "Entanglement",
       "permalink": "/blog/entanglement"
     }

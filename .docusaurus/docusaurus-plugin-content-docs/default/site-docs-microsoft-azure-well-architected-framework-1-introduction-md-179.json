@@ -1,0 +1,27 @@
+{
+  "unversionedId": "microsoft-azure-well-architected-framework/introduction",
+  "id": "microsoft-azure-well-architected-framework/introduction",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Microsoft Azure Well-Architected Framework is long to repeat in the document, I'll use the MAWAF accronyms instead.",
+  "source": "@site/docs/microsoft-azure-well-architected-framework/1.introduction.md",
+  "sourceDirName": "microsoft-azure-well-architected-framework",
+  "slug": "/microsoft-azure-well-architected-framework/introduction",
+  "permalink": "/docs/microsoft-azure-well-architected-framework/introduction",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Introduction",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Nuggets",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Reliability",
+    "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
+  }
+}

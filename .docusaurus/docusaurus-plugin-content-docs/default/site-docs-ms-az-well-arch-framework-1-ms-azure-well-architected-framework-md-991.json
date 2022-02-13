@@ -1,0 +1,27 @@
+{
+  "unversionedId": "MS Az Well-Arch Framework/MS Azure Well-Architected Framework",
+  "id": "MS Az Well-Arch Framework/MS Azure Well-Architected Framework",
+  "isDocsHomePage": false,
+  "title": "Microsoft Azure Well-Architected Framework",
+  "description": "Microsoft Azure Well-Architected Framework is long to repeat in the document, I'll use the MAWAF accronyms instead.",
+  "source": "@site/docs/MS Az Well-Arch Framework/1. MS Azure Well-Architected Framework.md",
+  "sourceDirName": "MS Az Well-Arch Framework",
+  "slug": "/MS Az Well-Arch Framework/MS Azure Well-Architected Framework",
+  "permalink": "/docs/MS Az Well-Arch Framework/MS Azure Well-Architected Framework",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Microsoft Azure Well-Architected Framework",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Nuggets",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/nuggets-design/CAP Theorem"
+  }
+}

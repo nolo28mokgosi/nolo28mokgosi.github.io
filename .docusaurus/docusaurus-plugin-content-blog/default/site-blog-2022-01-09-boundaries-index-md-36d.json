@@ -1,0 +1,37 @@
+{
+  "permalink": "/blog/understandingboundaries",
+  "source": "@site/blog/2022-01-09-Boundaries/index.md",
+  "title": "Understanding Boundaries",
+  "description": "The term Domain Driven Design was coined by Eric Evans and it means [...]. It took me time to understand it and once I got it, I realised it is key & important to designing of software.",
+  "date": "2022-01-09T00:00:00.000Z",
+  "formattedDate": "January 9, 2022",
+  "tags": [
+    {
+      "label": "architecture",
+      "permalink": "/blog/tags/architecture"
+    },
+    {
+      "label": "design",
+      "permalink": "/blog/tags/design"
+    },
+    {
+      "label": "Domain Driven Design",
+      "permalink": "/blog/tags/domain-driven-design"
+    }
+  ],
+  "readingTime": 2.245,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Nolo Mokgosi",
+      "title": "admin",
+      "url": "https://github.com/nolo28mokgosi",
+      "imageURL": "/img/profile.png",
+      "key": "nolo"
+    }
+  ],
+  "nextItem": {
+    "title": "Entanglement",
+    "permalink": "/blog/entanglement"
+  }
+}

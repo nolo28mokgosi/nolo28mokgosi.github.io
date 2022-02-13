@@ -21,10 +21,13 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-f44": {
+  "/blog-f21": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-958-e53"
+      },
       {
         "content": "content---blogef-6-2a3"
       }
@@ -45,31 +48,52 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-1e9": {
+  "/blog/tags/architecture-818": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-958-e53"
+      },
       {
         "content": "content---blogef-6-2a3"
       }
     ],
     "metadata": "metadata---blog-tags-architecturec-80-7ae"
   },
-  "/blog/tags/design-156": {
+  "/blog/tags/design-aef": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-958-e53"
+      },
       {
         "content": "content---blogef-6-2a3"
       }
     ],
     "metadata": "metadata---blog-tags-designfdb-49c"
   },
+  "/blog/tags/domain-driven-design-38a": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-958-e53"
+      }
+    ],
+    "metadata": "metadata---blog-tags-domain-driven-design-002-4fa"
+  },
+  "/blog/understandingboundaries-80d": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-understandingboundaries-36-d-6ba"
+  },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-729": {
+  "/docs-e92": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -77,9 +101,17 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/nuggets-design/Entanglement-7b4": {
+  "/docs/microsoft-azure-well-architected-framework/introduction-d0f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-entanglement-024-5c2"
+    "content": "content---docs-microsoft-azure-well-architected-framework-introduction-179-f19"
+  },
+  "/docs/microsoft-azure-well-architected-framework/Reliability-61f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-microsoft-azure-well-architected-framework-reliabilityd-03-ea8"
+  },
+  "/docs/nuggets-design/CAP Theorem-a9e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-nuggets-design-cap-theorem-58-d-537"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "microsoft-azure-well-architected-framework/Reliability",
+  "id": "microsoft-azure-well-architected-framework/Reliability",
+  "isDocsHomePage": false,
+  "title": "Reliability",
+  "description": "Reliability covers both resiliency and availability.",
+  "source": "@site/docs/microsoft-azure-well-architected-framework/2. Reliability.md",
+  "sourceDirName": "microsoft-azure-well-architected-framework",
+  "slug": "/microsoft-azure-well-architected-framework/Reliability",
+  "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Reliability",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+  },
+  "next": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/nuggets-design/CAP Theorem"
+  }
+}

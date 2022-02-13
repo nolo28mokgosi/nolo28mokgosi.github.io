@@ -25,5 +25,9 @@
       "imageURL": "/img/profile.png",
       "key": "nolo"
     }
-  ]
+  ],
+  "prevItem": {
+    "title": "Understanding Boundaries",
+    "permalink": "/blog/understandingboundaries"
+  }
 }
