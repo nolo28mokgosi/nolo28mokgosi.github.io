@@ -3,7 +3,7 @@
   "id": "microsoft-azure-well-architected-framework/introduction",
   "isDocsHomePage": false,
   "title": "Introduction",
-  "description": "Microsoft Azure Well-Architected Framework is long to repeat in the document, I'll use the MAWAF accronyms instead.",
+  "description": "According to Microsoft, Azure Well-Architected Framework is \"a set of guiding tenets that can be used to improve quality of worklload\".",
   "source": "@site/docs/microsoft-azure-well-architected-framework/1.introduction.md",
   "sourceDirName": "microsoft-azure-well-architected-framework",
   "slug": "/microsoft-azure-well-architected-framework/introduction",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Intro to Nuggets",
-    "permalink": "/docs/intro"
+    "title": "First Azure Pipeline",
+    "permalink": "/docs/azure/first_azure_pipeline"
   },
   "next": {
     "title": "Reliability",

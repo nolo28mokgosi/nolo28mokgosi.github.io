@@ -18,6 +18,34 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "unversionedId": "azure/First Pipeline",
+              "id": "azure/First Pipeline",
+              "isDocsHomePage": false,
+              "title": "First Azure Pipeline",
+              "description": "Pipeline",
+              "source": "@site/docs/azure/1. First Pipeline.md",
+              "sourceDirName": "azure",
+              "slug": "/azure/first_azure_pipeline",
+              "permalink": "/docs/azure/first_azure_pipeline",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "First Azure Pipeline",
+                "slug": "first_azure_pipeline",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Intro to Nuggets",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
@@ -35,8 +63,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+                "title": "First Azure Pipeline",
+                "permalink": "/docs/azure/first_azure_pipeline"
               }
             },
             {
@@ -44,7 +72,7 @@
               "id": "microsoft-azure-well-architected-framework/introduction",
               "isDocsHomePage": false,
               "title": "Introduction",
-              "description": "Microsoft Azure Well-Architected Framework is long to repeat in the document, I'll use the MAWAF accronyms instead.",
+              "description": "According to Microsoft, Azure Well-Architected Framework is \"a set of guiding tenets that can be used to improve quality of worklload\".",
               "source": "@site/docs/microsoft-azure-well-architected-framework/1.introduction.md",
               "sourceDirName": "microsoft-azure-well-architected-framework",
               "slug": "/microsoft-azure-well-architected-framework/introduction",
@@ -58,8 +86,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro to Nuggets",
-                "permalink": "/docs/intro"
+                "title": "First Azure Pipeline",
+                "permalink": "/docs/azure/first_azure_pipeline"
               },
               "next": {
                 "title": "Reliability",
@@ -125,7 +153,20 @@
               },
               {
                 "type": "category",
-                "label": "Microsoft Azure Well-Architected Framework",
+                "label": "Azure Notes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "azure/First Pipeline",
+                    "label": "First Azure Pipeline"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Ms Az Well-Architected",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -170,7 +211,7 @@
             "permalink": "/blog/understandingboundaries",
             "source": "@site/blog/2022-01-09-Boundaries/index.md",
             "title": "Understanding Boundaries",
-            "description": "The term Domain Driven Design was coined by Eric Evans and it means [...]. It took me time to understand it and once I got it, I realised it is key & important to designing of software.",
+            "description": "\"One of the undecided problems of software development is deciding what the boundaries of a piece of software is\" - Martin Fowler. This is statement is so true, creeps into most of my design conversation.",
             "date": "2022-01-09T00:00:00.000Z",
             "formattedDate": "January 9, 2022",
             "tags": [
@@ -187,7 +228,7 @@
                 "permalink": "/blog/tags/domain-driven-design"
               }
             ],
-            "readingTime": 2.245,
+            "readingTime": 2.79,
             "truncated": true,
             "authors": [
               {
@@ -203,7 +244,7 @@
               "permalink": "/blog/entanglement"
             }
           },
-          "content": "The term Domain Driven Design was coined by Eric Evans and it means [...]. It took me time to understand it and once I got it, I realised it is key & important to designing of software.\n\n<!--truncate-->\n\n## Growing up\nBoundaries are applied in our everyday life. You spot it by standards & principles that we apply, written & unwritten. For example, in our houses, there are things you do in 1 room, and not in another. Growing up I could have mu lunch in my bedroom when my mother is not around. Whenever she was around, world war 3.\n\nI grew up in a 4  bedroom house, 2 bedrooms, kitchen & lounge. My recollection:\n- **Bedroom 1:** My parents bedroom, always clean and organised. It was clear it was following my mother's standards and principles.\n- **Bedroom 2:**A room i shared with my sister. Through constant screaming and ruling with terror, my mother tried to instill her standards and principles and failed dismallly. I implemented my standard & principles. I had soccer posters everywhere and Brazil 1998 squad was dominating. Zidane did hurt my feelings that year, I'll never forget.\n- **Kitchen & Lounge:** Just like my parents bedroom, always organised. It was clear that my mother's standards and principles.\n\n## In Tech\n\nIt is important to create and understand boundaries on the software we build. In m early development days, I used to focus on solving the problem for my stakeholders. I could solve everything in the software I was building. \nStakeholder: Can you create a screen where i can manage client data\nMe: Say no more\nStakeholder: I would like to send an email to client after completing this task\nMe: I got it\nStake holder: Can you make sure that I can see all the holidays on the system\nMe: Coming soon\n\nLittle did I know that it is eazy & possible to end up with a monolith that manage client data, holiday data, communications etc. It doesn't mean it's impossible, but in large organisation maintaining one pieace of software can be challenging and can introduce unessary cost & delay in introducing new functionality [..link to show disadvantages of monolith.]\n\nHence it is important to understand the capabilities & functions of the application you want to build.It is important to have a boundary of your application, with defined standards & principles.\nThose standards & principles becomes a guidance to new joiners & anyone who would like to understand capabilities & functions of your application.\n\n## Conclusion\nDefining boundaries in large organisations can be a difficult task but a good investement for the future of software we build.\n[..Find article on the benefits of DDD..]"
+          "content": "\"One of the undecided problems of software development is deciding what the boundaries of a piece of software is\" - [Martin Fowler](https://martinfowler.com/bliki/ApplicationBoundary.html). This is statement is so true, creeps into most of my design conversation. \n\n![Cable Mess](/img/blog/boundaries.jpg)\n\n*Photo by goodtherapy.org*\n<!--truncate-->\n\nIf we step out of tech world for a moment, we'll realise that boundaries are applied in our everyday life. Some of those boundaries has unwritten rules or principles.\n\nLet's zoom into John's life as an example. John is a 14 year old boy who lives with his parents and younger sister in a 4 bedroom house. He loves football and has posters all over the bedroom he shares with his younger sister. John's mother is strict and likes order in her house. John's father is chilled. \n\n\n\n## John's house\n\n- **Bedroom 1:** Parents bedroom, always clean and organised. It is clear that mother's standards and principles are followed.\n- **Bedroom 2:** A room John shares with his sister. Through constant screaming and ruling with terror, John's mother tried to instill her standards and principles and failed dismallly. John implemented his own standard & principles\n\n- **Kitchen & Lounge:** Just like John's parents bedroom, always organised. It is clear that mother's standards and principles are followed. Kitchen is for cooking. Lounge is where family watches 7de laan everyday at 7. \n\nLooking at this example, and zooming into our everyday life, you will realise our space has boundaries and most of the rules or principles are not written down. For example, only sleep in the bedroom, cook in the kitchen.\n\n\n## In Software World\n\nIn large organisations where teams write software each and every day, it is important to define and document boundaries. Since teams have different stakeholders, you might find teams writing duplicate capabilities in the same organisation. \n\nTake this example: \n- Stakeholder: Can you create a screen where i can manage client data?\n- Engineer: Say no more.\n- Stakeholder: I would like to send an email to client after completing this task.\n- Engineer: I got it, its a simple functionality to build.\n- Stakeholder: Can you make sure that I can see all the holidays on the system?\n- Engineer: We know what to to build. We'll be done next week. \n\nIn this case, tech team is writing software to fulfil stakeholder needs without checking if the capablility exists in the organisation. Since  boundaries are not applied, the team will end up with an application that manages client data, execute client communications & managing holiday data. \n\nIt does not mean it's bad to have such application. It's only bad if the boundary is not defined, it's done in isolation or leads to refactoring and data clean up projects in future. \n \n## Conclusion\nDefining boundaries in large organisations can be a difficult task but it is a good investment.\n\n The absence of software or application boundaries leads to\n - Data being duplicated & managed in different applications.\n - Increase in cost at organisational level\n - Bad client experience e.g. where client updates address or contact details and the update does not filter down to other applications\n\nThe results of boundary definition exercise should include this major points:\n- Application is responsible for ABC capability/function\n- Application is NOT responsible for XYZ capability/function\n\n[Team Topologies](https://teamtopologies.com/book) and [Domain Driven Design](https://www.amazon.co.uk/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) books shines the light in this subject."
         },
         {
           "id": "entanglement",

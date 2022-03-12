@@ -15,7 +15,20 @@
       },
       {
         "type": "category",
-        "label": "Microsoft Azure Well-Architected Framework",
+        "label": "Azure Notes",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "First Azure Pipeline",
+            "href": "/docs/azure/first_azure_pipeline"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Ms Az Well-Architected",
         "collapsible": true,
         "collapsed": true,
         "items": [

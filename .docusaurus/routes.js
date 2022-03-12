@@ -85,8 +85,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','e92'),
+    component: ComponentCreator('/docs','e79'),
     routes: [
+      {
+        path: '/docs/azure/first_azure_pipeline',
+        component: ComponentCreator('/docs/azure/first_azure_pipeline','c3d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),

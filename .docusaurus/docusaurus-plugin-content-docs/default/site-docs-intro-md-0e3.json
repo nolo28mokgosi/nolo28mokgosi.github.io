@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Introduction",
-    "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+    "title": "First Azure Pipeline",
+    "permalink": "/docs/azure/first_azure_pipeline"
   }
 }

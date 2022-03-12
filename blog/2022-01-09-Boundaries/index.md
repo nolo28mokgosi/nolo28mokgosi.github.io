@@ -5,37 +5,58 @@ authors: nolo
 tags: [architecture, design, Domain Driven Design]
 
 ---
+"One of the undecided problems of software development is deciding what the boundaries of a piece of software is" - [Martin Fowler](https://martinfowler.com/bliki/ApplicationBoundary.html). This is statement is so true, creeps into most of my design conversation. 
 
-The term Domain Driven Design was coined by Eric Evans and it means [...]. It took me time to understand it and once I got it, I realised it is key & important to designing of software.
+![Cable Mess](/img/blog/boundaries.jpg)
 
+*Photo by goodtherapy.org*
 <!--truncate-->
 
-## Growing up
-Boundaries are applied in our everyday life. You spot it by standards & principles that we apply, written & unwritten. For example, in our houses, there are things you do in 1 room, and not in another. Growing up I could have mu lunch in my bedroom when my mother is not around. Whenever she was around, world war 3.
+If we step out of tech world for a moment, we'll realise that boundaries are applied in our everyday life. Some of those boundaries has unwritten rules or principles.
 
-I grew up in a 4  bedroom house, 2 bedrooms, kitchen & lounge. My recollection:
-- **Bedroom 1:** My parents bedroom, always clean and organised. It was clear it was following my mother's standards and principles.
-- **Bedroom 2:**A room i shared with my sister. Through constant screaming and ruling with terror, my mother tried to instill her standards and principles and failed dismallly. I implemented my standard & principles. I had soccer posters everywhere and Brazil 1998 squad was dominating. Zidane did hurt my feelings that year, I'll never forget.
-- **Kitchen & Lounge:** Just like my parents bedroom, always organised. It was clear that my mother's standards and principles.
+Let's zoom into John's life as an example. John is a 14 year old boy who lives with his parents and younger sister in a 4 bedroom house. He loves football and has posters all over the bedroom he shares with his younger sister. John's mother is strict and likes order in her house. John's father is chilled. 
 
-## In Tech
 
-It is important to create and understand boundaries on the software we build. In m early development days, I used to focus on solving the problem for my stakeholders. I could solve everything in the software I was building. 
-Stakeholder: Can you create a screen where i can manage client data
-Me: Say no more
-Stakeholder: I would like to send an email to client after completing this task
-Me: I got it
-Stake holder: Can you make sure that I can see all the holidays on the system
-Me: Coming soon
 
-Little did I know that it is eazy & possible to end up with a monolith that manage client data, holiday data, communications etc. It doesn't mean it's impossible, but in large organisation maintaining one pieace of software can be challenging and can introduce unessary cost & delay in introducing new functionality [..link to show disadvantages of monolith.]
+## John's house
 
-Hence it is important to understand the capabilities & functions of the application you want to build.It is important to have a boundary of your application, with defined standards & principles.
-Those standards & principles becomes a guidance to new joiners & anyone who would like to understand capabilities & functions of your application.
+- **Bedroom 1:** Parents bedroom, always clean and organised. It is clear that mother's standards and principles are followed.
+- **Bedroom 2:** A room John shares with his sister. Through constant screaming and ruling with terror, John's mother tried to instill her standards and principles and failed dismallly. John implemented his own standard & principles
 
+- **Kitchen & Lounge:** Just like John's parents bedroom, always organised. It is clear that mother's standards and principles are followed. Kitchen is for cooking. Lounge is where family watches 7de laan everyday at 7. 
+
+Looking at this example, and zooming into our everyday life, you will realise our space has boundaries and most of the rules or principles are not written down. For example, only sleep in the bedroom, cook in the kitchen.
+
+
+## In Software World
+
+In large organisations where teams write software each and every day, it is important to define and document boundaries. Since teams have different stakeholders, you might find teams writing duplicate capabilities in the same organisation. 
+
+Take this example: 
+- Stakeholder: Can you create a screen where i can manage client data?
+- Engineer: Say no more.
+- Stakeholder: I would like to send an email to client after completing this task.
+- Engineer: I got it, its a simple functionality to build.
+- Stakeholder: Can you make sure that I can see all the holidays on the system?
+- Engineer: We know what to to build. We'll be done next week. 
+
+In this case, tech team is writing software to fulfil stakeholder needs without checking if the capablility exists in the organisation. Since  boundaries are not applied, the team will end up with an application that manages client data, execute client communications & managing holiday data. 
+
+It does not mean it's bad to have such application. It's only bad if the boundary is not defined, it's done in isolation or leads to refactoring and data clean up projects in future. 
+ 
 ## Conclusion
-Defining boundaries in large organisations can be a difficult task but a good investement for the future of software we build.
-[..Find article on the benefits of DDD..]
+Defining boundaries in large organisations can be a difficult task but it is a good investment.
+
+ The absence of software or application boundaries leads to
+ - Data being duplicated & managed in different applications.
+ - Increase in cost at organisational level
+ - Bad client experience e.g. where client updates address or contact details and the update does not filter down to other applications
+
+The results of boundary definition exercise should include this major points:
+- Application is responsible for ABC capability/function
+- Application is NOT responsible for XYZ capability/function
+
+[Team Topologies](https://teamtopologies.com/book) and [Domain Driven Design](https://www.amazon.co.uk/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) books shines the light in this subject. 
 
 
 
