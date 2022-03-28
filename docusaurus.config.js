@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'demistify & simplify tech concepts',
-   tagline: 'back to basix',
+  title: 'back 2 basix',
+   tagline: 'simplify-ing tech concepts',
    url: 'https://nolo28mokgosi@github.io',
    // baseUrl: '/nolomokgosi-blog/',
    baseUrl: '/',

@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Introduction to C4 Diagramming",
+      "permalink": "/blog/introductiontoc4"
+    },
+    {
       "title": "Understanding Boundaries",
       "permalink": "/blog/understandingboundaries"
     },

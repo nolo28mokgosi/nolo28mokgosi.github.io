@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/introductiontoc4",
+  "source": "@site/blog/2022-03-27-Introduction-to-c4.md",
+  "title": "Introduction to C4 Diagramming",
+  "description": "Scenarios",
+  "date": "2022-03-27T00:00:00.000Z",
+  "formattedDate": "March 27, 2022",
+  "tags": [
+    {
+      "label": "architecture",
+      "permalink": "/blog/tags/architecture"
+    },
+    {
+      "label": "design",
+      "permalink": "/blog/tags/design"
+    },
+    {
+      "label": "diagramming",
+      "permalink": "/blog/tags/diagramming"
+    },
+    {
+      "label": "modelling",
+      "permalink": "/blog/tags/modelling"
+    }
+  ],
+  "readingTime": 6.595,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Nolo Mokgosi",
+      "title": "admin",
+      "url": "https://github.com/nolo28mokgosi",
+      "imageURL": "/img/profile.png",
+      "key": "nolo"
+    }
+  ],
+  "nextItem": {
+    "title": "Understanding Boundaries",
+    "permalink": "/blog/understandingboundaries"
+  }
+}

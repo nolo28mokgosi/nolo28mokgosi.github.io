@@ -21,10 +21,13 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-f21": {
+  "/blog-425": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-051-719"
+      },
       {
         "content": "content---blog-958-e53"
       },
@@ -43,15 +46,23 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-entanglement-004-aa9"
   },
+  "/blog/introductiontoc4-a76": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-introductiontoc-4-e-39-684"
+  },
   "/blog/tags-e13": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-818": {
+  "/blog/tags/architecture-901": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-051-719"
+      },
       {
         "content": "content---blog-958-e53"
       },
@@ -61,10 +72,13 @@
     ],
     "metadata": "metadata---blog-tags-architecturec-80-7ae"
   },
-  "/blog/tags/design-aef": {
+  "/blog/tags/design-5f9": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-051-719"
+      },
       {
         "content": "content---blog-958-e53"
       },
@@ -73,6 +87,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-designfdb-49c"
+  },
+  "/blog/tags/diagramming-c5a": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-051-719"
+      }
+    ],
+    "metadata": "metadata---blog-tags-diagramming-417-dbc"
   },
   "/blog/tags/domain-driven-design-38a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -83,6 +107,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-domain-driven-design-002-4fa"
+  },
+  "/blog/tags/modelling-cfb": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-051-719"
+      }
+    ],
+    "metadata": "metadata---blog-tags-modellingb-0-d-585"
   },
   "/blog/understandingboundaries-80d": {
     "component": "component---theme-blog-post-pageccc-cab",

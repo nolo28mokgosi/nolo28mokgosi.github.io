@@ -30,6 +30,10 @@
       "key": "nolo"
     }
   ],
+  "prevItem": {
+    "title": "Introduction to C4 Diagramming",
+    "permalink": "/blog/introductiontoc4"
+  },
   "nextItem": {
     "title": "Entanglement",
     "permalink": "/blog/entanglement"

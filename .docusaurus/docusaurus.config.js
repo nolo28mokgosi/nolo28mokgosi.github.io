@@ -1,6 +1,6 @@
 export default {
-  "title": "demistify & simplify tech concepts",
-  "tagline": "back to basix",
+  "title": "back 2 basix",
+  "tagline": "simplify-ing tech concepts",
   "url": "https://nolo28mokgosi@github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
