@@ -27,7 +27,7 @@ In this section we'll create a sequence diagram for a registration process. We'l
 Before creating sequence diagram, we create context and container diagram to highlight the connection between 3 diagrams.
 
 ## Context Diagram
-Application is simple and context diagram is self explanatory. Check out [previous post](https://nolomokgosi.com/blog/introductiontoc4) if you would like to know more about contecxt diagram
+Application is simple and context diagram is self explanatory. Check out [previous post](https://nolomokgosi.com/blog/introductiontoc4) if you would like to know more about context diagram
 ![Context Diagram](/img/blog/tskoContext.png)
 
 
@@ -77,7 +77,7 @@ Communication_Handler -> Database: Save communication response
 ```
 
 ## Conclusion
-Years ago if I had to choose between a sequence and communication diagram I always chose communication diagram. Since I started C4 I found it eazy to create simple sequence diagrams derived from container diagram as highlighted in the previous session.
+Years ago if I had to choose between a sequence and communication diagram I always chose communication diagram. Since I started C4 I found it easy to create simple sequence diagrams derived from container diagram as highlighted in the previous session.
 
 I prefer creating communication diagram at high-level interaction between applications. 
 
