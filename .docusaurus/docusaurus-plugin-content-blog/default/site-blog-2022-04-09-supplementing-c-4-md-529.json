@@ -1,10 +1,10 @@
 {
-  "permalink": "/blog/introductiontoc4",
-  "source": "@site/blog/2022-03-27-Introduction-to-c4.md",
-  "title": "Introduction to C4 Diagramming",
-  "description": "Scenarios",
-  "date": "2022-03-27T00:00:00.000Z",
-  "formattedDate": "March 27, 2022",
+  "permalink": "/blog/sequencediagramfromc4",
+  "source": "@site/blog/2022-04-09-supplementing-c4.md",
+  "title": "Suppplemeting c4",
+  "description": "Introduction",
+  "date": "2022-04-09T00:00:00.000Z",
+  "formattedDate": "April 9, 2022",
   "tags": [
     {
       "label": "architecture",
@@ -21,9 +21,13 @@
     {
       "label": "modelling",
       "permalink": "/blog/tags/modelling"
+    },
+    {
+      "label": "c4",
+      "permalink": "/blog/tags/c-4"
     }
   ],
-  "readingTime": 6.6,
+  "readingTime": 2.245,
   "truncated": true,
   "authors": [
     {
@@ -34,12 +38,8 @@
       "key": "nolo"
     }
   ],
-  "prevItem": {
-    "title": "Sequence on C4",
-    "permalink": "/blog/sequencediagramonc4"
-  },
   "nextItem": {
-    "title": "Understanding Boundaries",
-    "permalink": "/blog/understandingboundaries"
+    "title": "Introduction to C4 Diagramming",
+    "permalink": "/blog/introductiontoc4"
   }
 }

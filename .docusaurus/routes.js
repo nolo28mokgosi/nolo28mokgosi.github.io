@@ -40,7 +40,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','425'),
+    component: ComponentCreator('/blog','1b9'),
     exact: true
   },
   {
@@ -59,23 +59,33 @@ export default [
     exact: true
   },
   {
+    path: '/blog/sequencediagramonc4',
+    component: ComponentCreator('/blog/sequencediagramonc4','3a0'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags','e13'),
     exact: true
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture','901'),
+    component: ComponentCreator('/blog/tags/architecture','0f2'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/c-4',
+    component: ComponentCreator('/blog/tags/c-4','d00'),
     exact: true
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design','5f9'),
+    component: ComponentCreator('/blog/tags/design','889'),
     exact: true
   },
   {
     path: '/blog/tags/diagramming',
-    component: ComponentCreator('/blog/tags/diagramming','c5a'),
+    component: ComponentCreator('/blog/tags/diagramming','1b7'),
     exact: true
   },
   {
@@ -85,7 +95,7 @@ export default [
   },
   {
     path: '/blog/tags/modelling',
-    component: ComponentCreator('/blog/tags/modelling','cfb'),
+    component: ComponentCreator('/blog/tags/modelling','f32'),
     exact: true
   },
   {

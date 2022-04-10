@@ -132,7 +132,7 @@ Some of the reasons why I like C4 diagramming/modelling
 The first 2 diagrams (Context and Container) are key and can bring clarity and alignment needed through out the organisation. If each system in the organisation has this 2 diagrams (fresh not stale), there would not be a need to have meetings & meetings where architects or engineers explains  details (stucture, integration, relationships, deployed containers) of the system they look after. Most importantly, some conversations would not need architect or engineer to be present.
 
 It is important to note that C4 does not cover all architecture artifacts. Missing link:
-- Sequence. Although is in a dynamic diagram, lots and lots of line will complicate it. I still feel there’s a room for sequence and I’ll cover it in my next post. 
+- Sequence Diagram: Dynamic diagram can replace a sequence diagram but lots of lines/activities will complicate it. I still feel there’s a room for sequence and I’ll cover it in my next post. 
 - Business processes, workflows, state machines, domain models, 
 - Data models
 

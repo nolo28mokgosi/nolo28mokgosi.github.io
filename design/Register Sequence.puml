@@ -1,0 +1,26 @@
+@startuml
+actor TSKO_Client
+
+autonumber
+title Registration Process
+
+box "TravelSko Application" #FFFFFF
+participant Mobile_App #66B2FF
+participant Profile_Service #66B2FF
+participant Database #66B2FF
+participant Internal_Event_Stream #66B2FF
+participant Communication_Handler #66B2FF
+end box
+
+participant Communication_Application #CCC
+
+TSKO_Client -> Mobile_App: Create Account
+Mobile_App -> Profile_Service: Send create account command
+Profile_Service -> Database: Save account details
+Profile_Service -> Internal_Event_Stream: Publish "AccountCreated" event
+Internal_Event_Stream -> Communication_Handler: Publish "AccountCreated" event
+Communication_Handler -> Communication_Handler: Create email from template
+Communication_Handler -> Communication_Application: Send verification email
+Communication_Application --> Communication_Handler: Send email response
+Communication_Handler -> Database: Save communication response
+@enduml
