@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[198],{7964:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/diagramming","name":"diagramming","count":2,"permalink":"/blog/tags/diagramming"}')}}]);
