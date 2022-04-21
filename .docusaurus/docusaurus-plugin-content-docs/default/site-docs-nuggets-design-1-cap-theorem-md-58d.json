@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Reliability",
-    "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
+    "title": "Sidecar",
+    "permalink": "/docs/design-patterns/sidecarpattern"
   }
 }

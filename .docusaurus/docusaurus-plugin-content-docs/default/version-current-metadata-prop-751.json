@@ -46,6 +46,19 @@
       },
       {
         "type": "category",
+        "label": "Design Patterns",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Sidecar",
+            "href": "/docs/design-patterns/sidecarpattern"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Nuggets - Designs",
         "collapsible": true,
         "collapsed": true,

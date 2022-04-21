@@ -21,7 +21,7 @@
     "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
   },
   "next": {
-    "title": "CAP Theorem",
-    "permalink": "/docs/nuggets-design/CAP Theorem"
+    "title": "Sidecar",
+    "permalink": "/docs/design-patterns/sidecarpattern"
   }
 }

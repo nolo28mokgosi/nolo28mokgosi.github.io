@@ -1,0 +1,28 @@
+{
+  "unversionedId": "design-patterns/sidecar-pattern",
+  "id": "design-patterns/sidecar-pattern",
+  "isDocsHomePage": false,
+  "title": "Sidecar Pattern",
+  "description": "Sidecar",
+  "source": "@site/docs/design-patterns/sidecar-pattern.md",
+  "sourceDirName": "design-patterns",
+  "slug": "/design-patterns/sidecarpattern",
+  "permalink": "/docs/design-patterns/sidecarpattern",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "slug": "sidecarpattern",
+    "sidebar_label": "Sidecar",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reliability",
+    "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
+  },
+  "next": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/nuggets-design/CAP Theorem"
+  }
+}

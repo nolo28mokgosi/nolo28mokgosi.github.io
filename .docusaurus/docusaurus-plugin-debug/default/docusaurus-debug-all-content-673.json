@@ -46,6 +46,34 @@
               }
             },
             {
+              "unversionedId": "design-patterns/sidecar-pattern",
+              "id": "design-patterns/sidecar-pattern",
+              "isDocsHomePage": false,
+              "title": "Sidecar Pattern",
+              "description": "Sidecar",
+              "source": "@site/docs/design-patterns/sidecar-pattern.md",
+              "sourceDirName": "design-patterns",
+              "slug": "/design-patterns/sidecarpattern",
+              "permalink": "/docs/design-patterns/sidecarpattern",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "slug": "sidecarpattern",
+                "sidebar_label": "Sidecar",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Reliability",
+                "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
+              },
+              "next": {
+                "title": "CAP Theorem",
+                "permalink": "/docs/nuggets-design/CAP Theorem"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
@@ -117,8 +145,8 @@
                 "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
               },
               "next": {
-                "title": "CAP Theorem",
-                "permalink": "/docs/nuggets-design/CAP Theorem"
+                "title": "Sidecar",
+                "permalink": "/docs/design-patterns/sidecarpattern"
               }
             },
             {
@@ -140,8 +168,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Reliability",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
+                "title": "Sidecar",
+                "permalink": "/docs/design-patterns/sidecarpattern"
               }
             }
           ],
@@ -179,6 +207,19 @@
                     "type": "doc",
                     "id": "microsoft-azure-well-architected-framework/Reliability",
                     "label": "Reliability"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Design Patterns",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "design-patterns/sidecar-pattern",
+                    "label": "Sidecar"
                   }
                 ]
               },
@@ -252,7 +293,7 @@
               "permalink": "/blog/introductiontoc4"
             }
           },
-          "content": "## Introduction\n\n \"Architects ride the Architect Elevator from the penthouse, where the business strategy is set, to the engine room, where the enabling technologies are implemented\" ~ Gregor Hohpe\n\n![Penthouse Elevator](/img/blog/elevator.jpeg)\n<sub><sup>Credit roysrise.com</sup></sub>\n\n<!--truncate-->\n\n C4 diagrams are some of the best artefacts to carry in your briefcase while riding the elevator up and down. Amongst other artefacts like conceptual design and business capability map, C4 context and container diagrams are perfect for the pent house discussion.\n\n The discussions with the engineers & analysts in the engine room needs a full story, from the top to the lower details. This is where we need artefacts that connects user journeys to technology components. The connection is established by creating communication diagram or sequence diagram.\n\nThis posts outlines how to create sequence diagram that aligns with a container diagram.\n\n## Creating a Sequence diagram\nIn this section we'll create a sequence diagram for a registration process. We'll use and application called TravelSko with allows clients to manage their travel goals and calculates travel score from those records.\n\nBefore creating sequence diagram, we create context and container diagram to highlight the connection between 3 diagrams.\n\n## Context Diagram\nApplication is simple and context diagram is self explanatory. Check out [previous post](https://nolomokgosi.com/blog/introductiontoc4) if you would like to know more about contecxt diagram\n![Context Diagram](/img/blog/tskoContext.png)\n\n\n## Container Diagram\nCheck out [previous post](https://nolomokgosi.com/blog/introductiontoc4) if you would like to know more about container diagram\n\n![Context Diagram](/img/blog/tskoContainer.png)\n\n\n## Sequence diagram\n\n![Sequence Diagram](/img/blog/tskoRegSequence.png)\n\nTo ensure that sequence diagram aligns we container diagram, we need to:\n- Ensure all the containers in sequence diagram are in container diagram\n- Box the containers in the application name if the sequence diagram includes more than one application\n- Follow C4 colour concepts. External system should also be grey and keep containers blue\n\n### Plant UML Code for the sequence diagram\n```\n@startuml\nactor TSKO_Client\n\nautonumber\ntitle Registration Process\n\nbox \"TravelSko Application\" #FFFFFF\nparticipant Mobile_App #66B2FF\nparticipant Profile_Service #66B2FF\nparticipant Database #66B2FF\nparticipant Internal_Event_Stream #66B2FF\nparticipant Communication_Handler #66B2FF\nend box\n\nparticipant Communication_Application #CCC\n\nTSKO_Client -> Mobile_App: Create Account\nMobile_App -> Profile_Service: Send create account command\nProfile_Service -> Database: Save account details\nProfile_Service -> Internal_Event_Stream: Publish \"AccountCreated\" event\nInternal_Event_Stream -> Communication_Handler: Publish \"AccountCreated\" event\nCommunication_Handler -> Communication_Handler: Create email from template\nCommunication_Handler -> Communication_Application: Send verification email\nCommunication_Application --> Communication_Handler: Send email response\nCommunication_Handler -> Database: Save communication response\n@enduml\n```\n\n## Conclusion\nYears ago if I had to choose between a sequence and communication diagram I always chose communication diagram. Since I started C4 I found it eazy to create simple sequence diagrams derived from container diagram as highlighted in the previous session.\n\nI prefer creating communication diagram at high-level interaction between applications."
+          "content": "## Introduction\n\n \"Architects ride the Architect Elevator from the penthouse, where the business strategy is set, to the engine room, where the enabling technologies are implemented\" ~ Gregor Hohpe\n\n![Penthouse Elevator](/img/blog/elevator.jpeg)\n<sub><sup>Credit roysrise.com</sup></sub>\n\n<!--truncate-->\n\n C4 diagrams are some of the best artefacts to carry in your briefcase while riding the elevator up and down. Amongst other artefacts like conceptual design and business capability map, C4 context and container diagrams are perfect for the pent house discussion.\n\n The discussions with the engineers & analysts in the engine room needs a full story, from the top to the lower details. This is where we need artefacts that connects user journeys to technology components. The connection is established by creating communication diagram or sequence diagram.\n\nThis posts outlines how to create sequence diagram that aligns with a container diagram.\n\n## Creating a Sequence diagram\nIn this section we'll create a sequence diagram for a registration process. We'll use and application called TravelSko with allows clients to manage their travel goals and calculates travel score from those records.\n\nBefore creating sequence diagram, we create context and container diagram to highlight the connection between 3 diagrams.\n\n## Context Diagram\nApplication is simple and context diagram is self explanatory. Check out [previous post](https://nolomokgosi.com/blog/introductiontoc4) if you would like to know more about context diagram\n![Context Diagram](/img/blog/tskoContext.png)\n\n\n## Container Diagram\nCheck out [previous post](https://nolomokgosi.com/blog/introductiontoc4) if you would like to know more about container diagram\n\n![Context Diagram](/img/blog/tskoContainer.png)\n\n\n## Sequence diagram\n\n![Sequence Diagram](/img/blog/tskoRegSequence.png)\n\nTo ensure that sequence diagram aligns we container diagram, we need to:\n- Ensure all the containers in sequence diagram are in container diagram\n- Box the containers in the application name if the sequence diagram includes more than one application\n- Follow C4 colour concepts. External system should also be grey and keep containers blue\n\n### Plant UML Code for the sequence diagram\n```\n@startuml\nactor TSKO_Client\n\nautonumber\ntitle Registration Process\n\nbox \"TravelSko Application\" #FFFFFF\nparticipant Mobile_App #66B2FF\nparticipant Profile_Service #66B2FF\nparticipant Database #66B2FF\nparticipant Internal_Event_Stream #66B2FF\nparticipant Communication_Handler #66B2FF\nend box\n\nparticipant Communication_Application #CCC\n\nTSKO_Client -> Mobile_App: Create Account\nMobile_App -> Profile_Service: Send create account command\nProfile_Service -> Database: Save account details\nProfile_Service -> Internal_Event_Stream: Publish \"AccountCreated\" event\nInternal_Event_Stream -> Communication_Handler: Publish \"AccountCreated\" event\nCommunication_Handler -> Communication_Handler: Create email from template\nCommunication_Handler -> Communication_Application: Send verification email\nCommunication_Application --> Communication_Handler: Send email response\nCommunication_Handler -> Database: Save communication response\n@enduml\n```\n\n## Conclusion\nYears ago if I had to choose between a sequence and communication diagram I always chose communication diagram. Since I started C4 I found it easy to create simple sequence diagrams derived from container diagram as highlighted in the previous session.\n\nI prefer creating communication diagram at high-level interaction between applications."
         },
         {
           "id": "introductiontoc4",

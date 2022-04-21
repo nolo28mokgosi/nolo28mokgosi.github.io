@@ -110,11 +110,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','e79'),
+    component: ComponentCreator('/docs','7bb'),
     routes: [
       {
         path: '/docs/azure/first_azure_pipeline',
         component: ComponentCreator('/docs/azure/first_azure_pipeline','c3d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/design-patterns/sidecarpattern',
+        component: ComponentCreator('/docs/design-patterns/sidecarpattern','e15'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
