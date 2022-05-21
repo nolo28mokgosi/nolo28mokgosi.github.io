@@ -10,6 +10,7 @@ tags: [architecture, design, diagramming, modelling,c4]
 When I was introduced to C4 in 2019 there were few tools that supported it. Today there's multiple and I'll go through few tools in this post. 
 
 It is ok to create c4 in a tool of your choice. The most important part of creating C4 diagrams is to follow notation and recommended guidelines.
+<!--truncate-->
 ### Notation
 It is recommended that every element in the diagrams includes
 - Name
