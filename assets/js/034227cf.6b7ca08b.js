@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[159],{7306:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/c-4","name":"c4","count":1,"permalink":"/blog/tags/c-4"}')}}]);
