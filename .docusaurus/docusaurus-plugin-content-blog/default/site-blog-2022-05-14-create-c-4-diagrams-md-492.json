@@ -1,10 +1,10 @@
 {
-  "permalink": "/blog/sequencediagramonc4",
-  "source": "@site/blog/2022-04-09-SequenceOnC4.md",
-  "title": "Sequence on C4",
+  "permalink": "/blog/createC4diagrams",
+  "source": "@site/blog/2022-05-14-CreateC4Diagrams.md",
+  "title": "Creating C4 diagrams",
   "description": "Introduction",
-  "date": "2022-04-09T00:00:00.000Z",
-  "formattedDate": "April 9, 2022",
+  "date": "2022-05-14T00:00:00.000Z",
+  "formattedDate": "May 14, 2022",
   "tags": [
     {
       "label": "architecture",
@@ -27,8 +27,8 @@
       "permalink": "/blog/tags/c-4"
     }
   ],
-  "readingTime": 2.245,
-  "truncated": true,
+  "readingTime": 2.98,
+  "truncated": false,
   "authors": [
     {
       "name": "Nolo Mokgosi",
@@ -38,12 +38,8 @@
       "key": "nolo"
     }
   ],
-  "prevItem": {
-    "title": "Creating C4 diagrams",
-    "permalink": "/blog/createC4diagrams"
-  },
   "nextItem": {
-    "title": "Introduction to C4 Diagramming",
-    "permalink": "/blog/introductiontoc4"
+    "title": "Sequence on C4",
+    "permalink": "/blog/sequencediagramonc4"
   }
 }

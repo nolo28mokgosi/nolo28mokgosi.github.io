@@ -21,10 +21,13 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-1b9": {
+  "/blog-7f8": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-8-f-3de"
+      },
       {
         "content": "content---blogbce-b96"
       },
@@ -43,6 +46,11 @@
   "/blog/archive-f4c": {
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/createC4diagrams-ce0": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-create-c-4-diagrams-492-7b9"
   },
   "/blog/entanglement-0eb": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -64,10 +72,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-0f2": {
+  "/blog/tags/architecture-8d4": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-8-f-3de"
+      },
       {
         "content": "content---blogbce-b96"
       },
@@ -83,20 +94,26 @@
     ],
     "metadata": "metadata---blog-tags-architecturec-80-7ae"
   },
-  "/blog/tags/c-4-d00": {
+  "/blog/tags/c-4-79a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-8-f-3de"
+      },
       {
         "content": "content---blogbce-b96"
       }
     ],
     "metadata": "metadata---blog-tags-c-4034-00b"
   },
-  "/blog/tags/design-889": {
+  "/blog/tags/design-586": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-8-f-3de"
+      },
       {
         "content": "content---blogbce-b96"
       },
@@ -112,10 +129,13 @@
     ],
     "metadata": "metadata---blog-tags-designfdb-49c"
   },
-  "/blog/tags/diagramming-1b7": {
+  "/blog/tags/diagramming-d3d": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-8-f-3de"
+      },
       {
         "content": "content---blogbce-b96"
       },
@@ -135,10 +155,13 @@
     ],
     "metadata": "metadata---blog-tags-domain-driven-design-002-4fa"
   },
-  "/blog/tags/modelling-f32": {
+  "/blog/tags/modelling-131": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogb-8-f-3de"
+      },
       {
         "content": "content---blogbce-b96"
       },
@@ -157,7 +180,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-7bb": {
+  "/docs-7f7": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -167,7 +190,15 @@
   },
   "/docs/design-patterns/sidecarpattern-e15": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-design-patterns-sidecar-pattern-9-cb-f46"
+    "content": "content---docs-design-patterns-sidecarpattern-9-cb-ba6"
+  },
+  "/docs/engineering/dependencyinjectiononfunctions-d6b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-engineering-dependencyinjectiononfunctions-218-f8b"
+  },
+  "/docs/engineering/jwttokenvalidationonazurefunction-865": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-engineering-azurefunction-firebase-authcf-1-5c2"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",

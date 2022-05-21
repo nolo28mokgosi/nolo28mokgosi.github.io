@@ -19,5 +19,9 @@
   "previous": {
     "title": "Sidecar",
     "permalink": "/docs/design-patterns/sidecarpattern"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
   }
 }

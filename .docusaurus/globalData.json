@@ -21,6 +21,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "engineering/azurefunction-firebase-auth",
+              "path": "/docs/engineering/jwttokenvalidationonazurefunction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "engineering/DI-on-functions",
+              "path": "/docs/engineering/dependencyinjectiononfunctions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

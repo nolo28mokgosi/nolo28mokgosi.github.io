@@ -52,7 +52,7 @@ The next sections discusses each diagram in detail.
 ### 1: System Context Diagram
 Context diagram allows you to take a step back and see the bigger picture. It highlights the system we focusing on(hence the color blue), and the other systems and actors it integrates with. Each connection or relationship to actors or systems must have the purpose.
 
-The digram is what we use at the beginning of the story before zooming into details. The digram is good for both technical and non-technical people, but I’ve seen more value when presented to non-technical people. 
+The diagram is what we use at the beginning of the story before zooming into details. The diagram is good for both technical and non-technical people, but I’ve seen more value when presented to non-technical people. 
 
 It is important **not** to add technical details or the components that makes up the system in this diagram. No need to mention Azure, AWS, API, Database details etc. Those details are mentioned as we zoom into the next level of details, the container diagram.    
 
@@ -98,7 +98,7 @@ System landscape Diagram is a context diagram without focus in a single system.
 
 In some cases especially in projects, we need to present multiple applications in a single picture. Because C4 Core Diagrams focuses on a a static view of a **single system**, it might not be relevant.
 
-In my experience, this is one of the simple pictures to design provided you have core diagrams of all application within your organisation.
+In my experience, this is one of the simple pictures to design provided you have core diagrams of all application within your organization.
 
 
 ### Dynamic Diagram
@@ -115,7 +115,7 @@ This is where we show networks, load balancers, firewalls etc.
 ## Guidelines when creating c4 diagrams
 
 According to [C4Model.com](https://c4model.com),
-- Each diagram should have title describing digram type and scope (e.g. Context diagram of Travel Sko).
+- Each diagram should have title describing diagram type and scope (e.g. Context diagram of Travel Sko).
 - Each diagram should have a legend.
 - Acronyms and abbreviations should be understandable, otherwise avoid them.
 - Every container should have technology explicitly specified. (e.g Azure function, React Web app)
@@ -126,10 +126,10 @@ According to [C4Model.com](https://c4model.com),
 Some of the reasons why I like C4 diagramming/modelling
 - It is a simplified UML.
 - It’s practical, easy to understand.
-- Promote distributed design within the organisations. 
+- Promote distributed design within the organizations. 
 - Most important, it clarifies the System Boundary, which can be a struggle as highlighted on [understanding boundaries](https://nolomokgosi.com/blog/understandingboundaries) post.
 
-The first 2 diagrams (Context and Container) are key and can bring clarity and alignment needed through out the organisation. If each system in the organisation has this 2 diagrams (fresh not stale), there would not be a need to have meetings & meetings where architects or engineers explains  details (stucture, integration, relationships, deployed containers) of the system they look after. Most importantly, some conversations would not need architect or engineer to be present.
+The first 2 diagrams (Context and Container) are key and can bring clarity and alignment needed through out the organization. If each system in the organization has this 2 diagrams (fresh not stale), there would not be a need to have meetings & meetings where architects or engineers explains  details (structure, integration, relationships, deployed containers) of the system they look after. Most importantly, some conversations would not need architect or engineer to be present.
 
 It is important to note that C4 does not cover all architecture artifacts. Missing link:
 - Sequence Diagram: Dynamic diagram can replace a sequence diagram but lots of lines/activities will complicate it. I still feel there’s a room for sequence and I’ll cover it in my next post. 

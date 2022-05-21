@@ -1,0 +1,28 @@
+{
+  "unversionedId": "engineering/DI-on-functions",
+  "id": "engineering/DI-on-functions",
+  "isDocsHomePage": false,
+  "title": "Dependency injection on azure functions",
+  "description": "di",
+  "source": "@site/docs/engineering/DI-on-functions.md",
+  "sourceDirName": "engineering",
+  "slug": "/engineering/dependencyinjectiononfunctions",
+  "permalink": "/docs/engineering/dependencyinjectiononfunctions",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "slug": "dependencyinjectiononfunctions",
+    "sidebar_label": "DI on function",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/nuggets-design/CAP Theorem"
+  },
+  "next": {
+    "title": "Firebase Token Validation in Azure",
+    "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
+  }
+}

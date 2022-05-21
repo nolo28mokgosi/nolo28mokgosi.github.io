@@ -40,12 +40,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','1b9'),
+    component: ComponentCreator('/blog','7f8'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
+    exact: true
+  },
+  {
+    path: '/blog/createC4diagrams',
+    component: ComponentCreator('/blog/createC4diagrams','ce0'),
     exact: true
   },
   {
@@ -70,22 +75,22 @@ export default [
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture','0f2'),
+    component: ComponentCreator('/blog/tags/architecture','8d4'),
     exact: true
   },
   {
     path: '/blog/tags/c-4',
-    component: ComponentCreator('/blog/tags/c-4','d00'),
+    component: ComponentCreator('/blog/tags/c-4','79a'),
     exact: true
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design','889'),
+    component: ComponentCreator('/blog/tags/design','586'),
     exact: true
   },
   {
     path: '/blog/tags/diagramming',
-    component: ComponentCreator('/blog/tags/diagramming','1b7'),
+    component: ComponentCreator('/blog/tags/diagramming','d3d'),
     exact: true
   },
   {
@@ -95,7 +100,7 @@ export default [
   },
   {
     path: '/blog/tags/modelling',
-    component: ComponentCreator('/blog/tags/modelling','f32'),
+    component: ComponentCreator('/blog/tags/modelling','131'),
     exact: true
   },
   {
@@ -110,7 +115,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','7bb'),
+    component: ComponentCreator('/docs','7f7'),
     routes: [
       {
         path: '/docs/azure/first_azure_pipeline',
@@ -121,6 +126,18 @@ export default [
       {
         path: '/docs/design-patterns/sidecarpattern',
         component: ComponentCreator('/docs/design-patterns/sidecarpattern','e15'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/engineering/dependencyinjectiononfunctions',
+        component: ComponentCreator('/docs/engineering/dependencyinjectiononfunctions','d6b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/engineering/jwttokenvalidationonazurefunction',
+        component: ComponentCreator('/docs/engineering/jwttokenvalidationonazurefunction','865'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

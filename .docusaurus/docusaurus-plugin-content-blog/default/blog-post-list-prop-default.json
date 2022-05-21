@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Creating C4 diagrams",
+      "permalink": "/blog/createC4diagrams"
+    },
+    {
       "title": "Sequence on C4",
       "permalink": "/blog/sequencediagramonc4"
     },

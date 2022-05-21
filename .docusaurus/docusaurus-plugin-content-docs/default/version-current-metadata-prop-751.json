@@ -69,6 +69,24 @@
             "href": "/docs/nuggets-design/CAP Theorem"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Engineering",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "DI on function",
+            "href": "/docs/engineering/dependencyinjectiononfunctions"
+          },
+          {
+            "type": "link",
+            "label": "Firebase Token Validation in Azure",
+            "href": "/docs/engineering/jwttokenvalidationonazurefunction"
+          }
+        ]
       }
     ]
   }
