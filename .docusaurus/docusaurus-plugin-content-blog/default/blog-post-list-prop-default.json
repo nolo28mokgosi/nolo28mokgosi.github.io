@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Orchestration and Choreography",
+      "permalink": "/blog/orchestrationvschoreography"
+    },
+    {
       "title": "Creating C4 diagrams",
       "permalink": "/blog/createC4diagrams"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Understanding Boundaries",
       "permalink": "/blog/understandingboundaries"
-    },
-    {
-      "title": "Entanglement",
-      "permalink": "/blog/entanglement"
     }
   ]
 }

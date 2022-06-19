@@ -21,10 +21,13 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-7f8": {
+  "/blog-c7b": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-392-040"
+      },
       {
         "content": "content---blogb-8-f-3de"
       },
@@ -62,6 +65,11 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-introductiontoc-4-e-39-684"
   },
+  "/blog/orchestrationvschoreography-d8c": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-orchestrationvschoreographyc-3-e-2ff"
+  },
   "/blog/sequencediagramonc4-3a0": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
@@ -72,10 +80,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-8d4": {
+  "/blog/tags/architecture-5d6": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-392-040"
+      },
       {
         "content": "content---blogb-8-f-3de"
       },
@@ -107,10 +118,13 @@
     ],
     "metadata": "metadata---blog-tags-c-4034-00b"
   },
-  "/blog/tags/design-586": {
+  "/blog/tags/design-a95": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-392-040"
+      },
       {
         "content": "content---blogb-8-f-3de"
       },

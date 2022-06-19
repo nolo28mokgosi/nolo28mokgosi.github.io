@@ -3,14 +3,14 @@
     "allTagsPath": "/blog/tags",
     "slug": "/blog/tags/architecture",
     "name": "architecture",
-    "count": 5,
+    "count": 6,
     "permalink": "/blog/tags/architecture"
   },
   "/blog/tags/design": {
     "allTagsPath": "/blog/tags",
     "slug": "/blog/tags/design",
     "name": "design",
-    "count": 5,
+    "count": 6,
     "permalink": "/blog/tags/design"
   },
   "/blog/tags/diagramming": {

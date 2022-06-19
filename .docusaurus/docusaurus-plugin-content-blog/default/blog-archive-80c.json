@@ -1,6 +1,43 @@
 {
   "blogPosts": [
     {
+      "id": "orchestrationvschoreography",
+      "metadata": {
+        "permalink": "/blog/orchestrationvschoreography",
+        "source": "@site/blog/2022-06-17-orchestrationvschoreography.md",
+        "title": "Orchestration and Choreography",
+        "description": "Introduction",
+        "date": "2022-06-17T00:00:00.000Z",
+        "formattedDate": "June 17, 2022",
+        "tags": [
+          {
+            "label": "architecture",
+            "permalink": "/blog/tags/architecture"
+          },
+          {
+            "label": "design",
+            "permalink": "/blog/tags/design"
+          }
+        ],
+        "readingTime": 3.8,
+        "truncated": true,
+        "authors": [
+          {
+            "name": "Nolo Mokgosi",
+            "title": "admin",
+            "url": "https://github.com/nolo28mokgosi",
+            "imageURL": "/img/profile.png",
+            "key": "nolo"
+          }
+        ],
+        "nextItem": {
+          "title": "Creating C4 diagrams",
+          "permalink": "/blog/createC4diagrams"
+        }
+      },
+      "content": "## Introduction\n\nI have been involved in multiple orchestration vs choreography conversation. Conversation are normally about which one is better. At the end of most conversations, there’s no common ground, all goes down to preference. \n\nOne Friday morning on my way to work I listened to [Design time coupling in microservices](https://www.infoq.com/podcasts/design-time-coupling-microservices/) podcast and Chris Richardson touched on this subject. When the host asked him to talk about orchestration and choreography he said “I use those terms in the context of a saga pattern”.\nThat’s when the penny dropped and I thought...this makes sense.\n\nIn this post I will define these concepts and explain the relation between saga,orchestration and choreography. \n<!--truncate-->\n\n## Saga Pattern\n\nSaga is a sequence of transactions that updates services. Each service publishes a message or event to trigger the next transaction in the saga [#2].\nSaga provides transaction management using sequence of local transactions [#3].\n \nTransaction is single unit of logic or work. Transaction can have one or more operations which we’ll refer to as local transactions in this post.\n\nLet’s take an example where a user books a holiday via a web portal. Booking process will include:\n1. Request booking\n2. Making payment \n3. Send confirmation email\n\nThere are 2 ways to design the system:\n1. Single service that perform all operations at once. Example, 2 phase commit (2PC) type of transaction where all services in the transaction are required to commit or rollback before transaction can commit.\n\n![2pc transaction](/img/blog/transaction-2pc.png)\n\n2. Multiple services performing local transactions (Saga Pattern).\n\n![2pc transaction](/img/blog/transaction-saga.png)\n\nThere are 2 ways to implement a saga pattern, orchestration-based and choreography-based. \n\n## Orchestration\nAccording to Cambridge dictionary, orchestration is “an arrangement of a piece of music to be played by an orchestra”.\n\nWhen I think of orchestration, I see a group of musicians with their different instruments, playing a melodic tune that touches the heart. I also see a conductor, someone who directs the orchestra with a conducting baton.\n![ochestraonstrage](/img/blog/orchestra.jpg)\n<sub><sup>sso.org</sup></sub>\n\n### Orchestration-based Saga\nIn orchestration-based saga, a centralised controller(orchestrator) tells services(saga participants) what local transactions to execute [#3]. The orchestrator then interprets state of each operation based on the feedback from the participant.\n\n![choreographysaga](/img/blog/orchestration-design.png)\n\n#### Advantages\n1. Great for complex workflows with multiple services including long running local transactions.\n2. Services participating in a workflow don't need to know about commands from other participants.\n3. Single point to track the saga workflow\n\n#### Disadvantages\n1. Centralised coordinator adds another point of failure in the system\n2. New coordinated design requires additional centralised service.  \n\n## Choreography\nAccording to Cambridge dictionary, choreography is “the skill of combining movements into dances to be performed”.\nWhen I think of choreography I see group of dancers on stage, dancing to music in a well coordinated manner. Each dancer on the stage knows what to do. There is no central point to drive or command.\n\n\n![choreographers](/img/blog/choreographers.jpg)\n<sub><sup>countrytimes.co.uk</sup></sub>\n\n### Choreography based saga\nIn choreography-based saga, services(saga participants) exchange messages or events without a centralised point of control. Each service publishes events that triggers activities in other services.**Note** Published event can trigger acitivities in multiple services.\n\n![choreographysaga](/img/blog/choreography-design.png)\n\n#### Advantages\n1. Good for workflows that do not need  coordination logic.\n2. Unlike orchestrations-based, it does not require additional additional service implementation.\n3. Responsibilities are distributed across services participating in the saga therefore .\n\n#### Disadvantages\n1. It can be difficult to track which services listen to which commands.\n2. Confusion when adding new services in the workflow.\n\n\n## Conclusion\n\nIt is a good idea to look at orchestration and choreography as descendants of a saga pattern. This way it forces us to ask ourselves questions like:\n1. What process/workflow are trying to create?\n2. What activities do we want to trigger when \"X\" happens?\n\nThere's slight difference in terms of type of messages being exchanged between the patterns.\nOrchestration-based saga utilised commands more and choreography-based saga can operate on events only. \n\nThere’s no right or wrong in both orchestration and choreography. Both approaches works but it’s important to look at pros & cons for both. It’s also important to consider factors around implementing a saga pattern including:\n1. Data consistency for processes spanning multiple services [#3].\n2. Maintainability and ability to debug as more services are added in the process.\n3. Idempotence to ensure data consistency and reduce side-effects.\n4. Observability implementation is key.\n5. Ability to track workflows.\n6. Compensating transactions to undo changes that were made by other transactions.\n\n## Reference\n#1 InfoQ's [Chris Richardson on Design-Time Coupling in Microservices](https://www.infoq.com/podcasts/design-time-coupling-microservices/)\n\n#2  [Patterns: Saga](https://microservices.io/patterns/data/saga.html) by miroservices.io\n\n#3 Microsoft's [Saga distributed transactions pattern](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga)"
+    },
+    {
       "id": "createC4diagrams",
       "metadata": {
         "permalink": "/blog/createC4diagrams",
@@ -42,6 +79,10 @@
             "key": "nolo"
           }
         ],
+        "prevItem": {
+          "title": "Orchestration and Choreography",
+          "permalink": "/blog/orchestrationvschoreography"
+        },
         "nextItem": {
           "title": "Sequence on C4",
           "permalink": "/blog/sequencediagramonc4"

@@ -38,6 +38,10 @@
       "key": "nolo"
     }
   ],
+  "prevItem": {
+    "title": "Orchestration and Choreography",
+    "permalink": "/blog/orchestrationvschoreography"
+  },
   "nextItem": {
     "title": "Sequence on C4",
     "permalink": "/blog/sequencediagramonc4"

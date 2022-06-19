@@ -1,0 +1,33 @@
+{
+  "permalink": "/blog/orchestrationvschoreography",
+  "source": "@site/blog/2022-06-17-orchestrationvschoreography.md",
+  "title": "Orchestration and Choreography",
+  "description": "Introduction",
+  "date": "2022-06-17T00:00:00.000Z",
+  "formattedDate": "June 17, 2022",
+  "tags": [
+    {
+      "label": "architecture",
+      "permalink": "/blog/tags/architecture"
+    },
+    {
+      "label": "design",
+      "permalink": "/blog/tags/design"
+    }
+  ],
+  "readingTime": 3.8,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Nolo Mokgosi",
+      "title": "admin",
+      "url": "https://github.com/nolo28mokgosi",
+      "imageURL": "/img/profile.png",
+      "key": "nolo"
+    }
+  ],
+  "nextItem": {
+    "title": "Creating C4 diagrams",
+    "permalink": "/blog/createC4diagrams"
+  }
+}
