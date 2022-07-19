@@ -21,12 +21,15 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-c7b": {
+  "/blog-d5a": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-392-040"
+        "content": "content---bloge-7-e-679"
+      },
+      {
+        "content": "content---blog-182-9c5"
       },
       {
         "content": "content---blogb-8-f-3de"
@@ -50,6 +53,11 @@
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---blog-archiveb-2-f-393"
   },
+  "/blog/buildrightthingright-3da": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-buildrightthingright-26-d-a77"
+  },
   "/blog/createC4diagrams-ce0": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
@@ -65,10 +73,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-introductiontoc-4-e-39-684"
   },
-  "/blog/orchestrationvschoreography-d8c": {
+  "/blog/orchestrationvschoreography-6a6": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-orchestrationvschoreographyc-3-e-2ff"
+    "content": "content---blog-orchestrationvschoreography-63-d-247"
   },
   "/blog/sequencediagramonc4-3a0": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -80,12 +88,15 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-5d6": {
+  "/blog/tags/architecture-7c1": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-392-040"
+        "content": "content---bloge-7-e-679"
+      },
+      {
+        "content": "content---blog-182-9c5"
       },
       {
         "content": "content---blogb-8-f-3de"
@@ -118,12 +129,15 @@
     ],
     "metadata": "metadata---blog-tags-c-4034-00b"
   },
-  "/blog/tags/design-a95": {
+  "/blog/tags/design-4f9": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-392-040"
+        "content": "content---bloge-7-e-679"
+      },
+      {
+        "content": "content---blog-182-9c5"
       },
       {
         "content": "content---blogb-8-f-3de"
@@ -184,6 +198,26 @@
       }
     ],
     "metadata": "metadata---blog-tags-modellingb-0-d-585"
+  },
+  "/blog/tags/planning-05b": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---bloge-7-e-679"
+      }
+    ],
+    "metadata": "metadata---blog-tags-planninge-92-edb"
+  },
+  "/blog/tags/strategy-a6e": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---bloge-7-e-679"
+      }
+    ],
+    "metadata": "metadata---blog-tags-strategy-4-c-5-380"
   },
   "/blog/understandingboundaries-80d": {
     "component": "component---theme-blog-post-pageccc-cab",

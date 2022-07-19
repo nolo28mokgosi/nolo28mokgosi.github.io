@@ -321,10 +321,55 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "buildrightthingright",
+          "metadata": {
+            "permalink": "/blog/buildrightthingright",
+            "source": "@site/blog/2022-07-17-buldrightthingright.md",
+            "title": "Bulding right thing right",
+            "description": "rightandwrong",
+            "date": "2022-07-17T00:00:00.000Z",
+            "formattedDate": "July 17, 2022",
+            "tags": [
+              {
+                "label": "architecture",
+                "permalink": "/blog/tags/architecture"
+              },
+              {
+                "label": "design",
+                "permalink": "/blog/tags/design"
+              },
+              {
+                "label": "planning",
+                "permalink": "/blog/tags/planning"
+              },
+              {
+                "label": "strategy",
+                "permalink": "/blog/tags/strategy"
+              }
+            ],
+            "readingTime": 4.245,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Nolo Mokgosi",
+                "title": "admin",
+                "url": "https://github.com/nolo28mokgosi",
+                "imageURL": "/img/profile.png",
+                "key": "nolo"
+              }
+            ],
+            "nextItem": {
+              "title": "Orchestration and Choreography",
+              "permalink": "/blog/orchestrationvschoreography"
+            }
+          },
+          "content": "![rightandwrong](/img/blog/rightandwrong.webp)\n<sub><sup>fee.org</sup></sub>\n\nI recently listened to InfoQ podcast where Susanne Kaiser spoke about DDD, Wardley Mapping & Team topologies. Responding to one of the questions she said, “when we are building systems in general, we are faced with challenges of building the right thing and building the thing right”.\n\nI was fascinated by the use of the words “wrong” and “right” and I decided to dig deep.\n\n<!--truncate-->\n\n## Introduction\nThis post unpacks the following:\n- Building the right thing. \n- Building the thing right.\n- Building the right thing wrong.\n- Building the wrong thing right.\n\n\n\n### Building the right thing\nAccording to Susanne, building the right thing questions:\n- How aligned is our solution to the users needs?\n- How aligned is our solution to the business need?\n- Is the thing we are building valuable for our client?\n- Do we have understand the problem and do we share common understanding with all stakeholders? \n\n\n### Building the thing right \nBuilding the right thing focuses on the qualities of the thing we are building. Some call them non-functional requirement, or the “ilities” of the software e.g. scalability, reliability, maintainability, security etc. It also focuses on regulation and organisational governance processes.\n\nAccording to Susanne, building the thing right addresses the following:\n- Efficiency of engineering practices e.g. CI-CD, Automated testing\n- Efficiency to deliver value.\n- How fast and easy can we deliver the changes.\n\n\n## Building the right thing wrong\nBuilding the right thing wrong happens when we care and invest on the output, not how the thing is built.\n\nIt is the same as building the house with wrong foundation. When the builder hands over the keys to the house owner (client), family and the builder pops champagne and upload pictures on Instagram. 2 years later after few rainfalls, the lack of quality pops up and house starts cracking. \n![wrongfoundation](/img/blog/wrongfoundation.webp)\n<sub><sup>dryprosystems.com</sup></sub>\n\n\n## Building the wrong thing right\nBuilding the wrong thing right is same as building the house adhereing to all building qualities, but impractical to live in.\n \nWhen the builder hand over the key to the client, no one is popping champagne. The 2 parties engage in heated argument\n- Client: What type of house is this? I mean how do you expect me to get my car in the garage?\n- Builder: You wanted a garage with the ramp right? I built it to your specification. Exactly what you wanted and the foundation is very strong.\n- Client: Huuuuuusaaaaaa!\n\n![goodfoundation](/img/blog/goodfoundation.jpg)\n<sub><sup>imgflip.com</sup></sub>\n\n\n## Reality\nMost organisations strive to build the right thing right. Reality is there are forces in play that disrupts the main objective. \n\nSome of this forces are created by the structure or divisions in the organisation. For example, take an organisation that has a sales team and technology team. In a case where by there's huge walls between this teams and both team are not interested on what other teams do and why, you end up with the following:\n- Sales team cares about: Building the thing right.\n- Technology team cares about : Building the right thing.\n\nAs an organisation, you'll have 2 teams pulling opposite directions which leads to:\n1. Wrong thing built right (House with weird garage ramp)\n2. Right thing built wrong (House with wrong foundation)\n\n\n\n![disagreement](/img/blog/disagreement.webp)\n<sub><sup>time.com</sup></sub>\n\n#### Solution\nThere are multiple solutions to this problem. There are lots of case studies and books written. Some of solution items includes:\n- Breaking down the silos between sales and technology.\n- T shaped individuals within the organisation.\n    - Sales teams understand the basics of what Technology team does.\n    - Techonology team understand the basics of what Sales team does.\n- Alignment and common understading of the problem the organisation is trying to solve.\n- Teams in the organisation working towards common goal.\n\nIn summary, this is what most startups got right and big organisation are still struggling to get right. \n\n## Conclusion\n\n#### Building wrong thing right\nI’m not a fan of building the wrong thing right. It means we are building something for the sake of building. We are showing off our amazing technology skills but the results are not relevant and might not be used by our customers.\n\n#### Building right thing wrong\nSometimes it is ok to build right thing wrong “PROVIDED” we are aware and what we deem wrong is reversable. \n\nDifferent constraints can lead us to this route\n- Budget or Cost\n- Timelines\n- MVP (testing the waters)\n\nBased on those trade-offs, we can be comfortable with version 0.01 of what we are building knowing that we will fix where necessary.\n\n#### Building right thing right\nWe always strive to build right thing right. It's our wish to build the right thing right however, experience and reality says otherwise. Constraints like cost, timelines can be the deciding factor. \n\nWhen we are faced with such contraints, the best approach is to avoid “Building the **whole** thing right”. Let's divide the **whole** thing into smaller deliveries and crack on.\n \n\n## Reference\n#1: [DDD, Wardley Mapping & Team topologies](https://www.infoq.com/podcasts/ddd-wardley-mapping-team-topologies/)\n\n#2: [Non-functional requirements in software engineering](https://www.geeksforgeeks.org/non-functional-requirements-in-software-engineering/)"
+        },
+        {
           "id": "orchestrationvschoreography",
           "metadata": {
             "permalink": "/blog/orchestrationvschoreography",
-            "source": "@site/blog/2022-06-17-orchestrationvschoreography.md",
+            "source": "@site/blog/2022-06-17-orchestrationvschoreography copy.md",
             "title": "Orchestration and Choreography",
             "description": "Introduction",
             "date": "2022-06-17T00:00:00.000Z",
@@ -350,6 +395,10 @@
                 "key": "nolo"
               }
             ],
+            "prevItem": {
+              "title": "Bulding right thing right",
+              "permalink": "/blog/buildrightthingright"
+            },
             "nextItem": {
               "title": "Creating C4 diagrams",
               "permalink": "/blog/createC4diagrams"
@@ -602,13 +651,14 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 6,
+            "totalCount": 7,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
+            "buildrightthingright",
             "orchestrationvschoreography",
             "createC4diagrams",
             "sequencediagramonc4",
@@ -622,6 +672,7 @@
         "/blog/tags/architecture": {
           "name": "architecture",
           "items": [
+            "buildrightthingright",
             "orchestrationvschoreography",
             "createC4diagrams",
             "sequencediagramonc4",
@@ -634,6 +685,7 @@
         "/blog/tags/design": {
           "name": "design",
           "items": [
+            "buildrightthingright",
             "orchestrationvschoreography",
             "createC4diagrams",
             "sequencediagramonc4",
@@ -642,6 +694,20 @@
             "entanglement"
           ],
           "permalink": "/blog/tags/design"
+        },
+        "/blog/tags/planning": {
+          "name": "planning",
+          "items": [
+            "buildrightthingright"
+          ],
+          "permalink": "/blog/tags/planning"
+        },
+        "/blog/tags/strategy": {
+          "name": "strategy",
+          "items": [
+            "buildrightthingright"
+          ],
+          "permalink": "/blog/tags/strategy"
         },
         "/blog/tags/diagramming": {
           "name": "diagramming",

@@ -40,12 +40,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','c7b'),
+    component: ComponentCreator('/blog','d5a'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
+    exact: true
+  },
+  {
+    path: '/blog/buildrightthingright',
+    component: ComponentCreator('/blog/buildrightthingright','3da'),
     exact: true
   },
   {
@@ -65,7 +70,7 @@ export default [
   },
   {
     path: '/blog/orchestrationvschoreography',
-    component: ComponentCreator('/blog/orchestrationvschoreography','d8c'),
+    component: ComponentCreator('/blog/orchestrationvschoreography','6a6'),
     exact: true
   },
   {
@@ -80,7 +85,7 @@ export default [
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture','5d6'),
+    component: ComponentCreator('/blog/tags/architecture','7c1'),
     exact: true
   },
   {
@@ -90,7 +95,7 @@ export default [
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design','a95'),
+    component: ComponentCreator('/blog/tags/design','4f9'),
     exact: true
   },
   {
@@ -106,6 +111,16 @@ export default [
   {
     path: '/blog/tags/modelling',
     component: ComponentCreator('/blog/tags/modelling','131'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/planning',
+    component: ComponentCreator('/blog/tags/planning','05b'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/strategy',
+    component: ComponentCreator('/blog/tags/strategy','a6e'),
     exact: true
   },
   {

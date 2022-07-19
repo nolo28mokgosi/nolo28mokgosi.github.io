@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Bulding right thing right",
+      "permalink": "/blog/buildrightthingright"
+    },
+    {
       "title": "Orchestration and Choreography",
       "permalink": "/blog/orchestrationvschoreography"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Introduction to C4 Diagramming",
       "permalink": "/blog/introductiontoc4"
-    },
-    {
-      "title": "Understanding Boundaries",
-      "permalink": "/blog/understandingboundaries"
     }
   ]
 }
