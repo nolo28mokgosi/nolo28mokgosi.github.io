@@ -228,9 +228,13 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-7f7": {
+  "/docs-88d": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/azure/azure_static_site-d43": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-azure-first-azure-pipeline-89-e-747"
   },
   "/docs/azure/first_azure_pipeline-c3d": {
     "component": "component---theme-doc-item-178-a40",
@@ -243,6 +247,10 @@
   "/docs/engineering/dependencyinjectiononfunctions-d6b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-engineering-dependencyinjectiononfunctions-218-f8b"
+  },
+  "/docs/engineering/expodeployment-385": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-engineering-dependencyinjectiononfunctionsdb-2-5b8"
   },
   "/docs/engineering/jwttokenvalidationonazurefunction-865": {
     "component": "component---theme-doc-item-178-a40",

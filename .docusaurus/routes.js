@@ -135,8 +135,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','7f7'),
+    component: ComponentCreator('/docs','88d'),
     routes: [
+      {
+        path: '/docs/azure/azure_static_site',
+        component: ComponentCreator('/docs/azure/azure_static_site','d43'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/azure/first_azure_pipeline',
         component: ComponentCreator('/docs/azure/first_azure_pipeline','c3d'),
@@ -152,6 +158,12 @@ export default [
       {
         path: '/docs/engineering/dependencyinjectiononfunctions',
         component: ComponentCreator('/docs/engineering/dependencyinjectiononfunctions','d6b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/engineering/expodeployment',
+        component: ComponentCreator('/docs/engineering/expodeployment','385'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

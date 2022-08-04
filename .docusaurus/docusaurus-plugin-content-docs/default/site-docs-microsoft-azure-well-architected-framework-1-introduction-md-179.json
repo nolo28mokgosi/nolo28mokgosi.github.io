@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "First Azure Pipeline",
-    "permalink": "/docs/azure/first_azure_pipeline"
+    "title": "Azure Static Site",
+    "permalink": "/docs/azure/azure_static_site"
   },
   "next": {
     "title": "Reliability",

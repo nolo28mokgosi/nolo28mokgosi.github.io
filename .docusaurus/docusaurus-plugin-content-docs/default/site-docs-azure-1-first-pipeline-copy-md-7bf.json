@@ -1,10 +1,10 @@
 {
-  "unversionedId": "azure/First Pipeline",
-  "id": "azure/First Pipeline",
+  "unversionedId": "azure/First Pipeline copy",
+  "id": "azure/First Pipeline copy",
   "isDocsHomePage": false,
   "title": "First Azure Pipeline",
   "description": "Pipeline",
-  "source": "@site/docs/azure/1. First Pipeline.md",
+  "source": "@site/docs/azure/1. First Pipeline copy.md",
   "sourceDirName": "azure",
   "slug": "/azure/first_azure_pipeline",
   "permalink": "/docs/azure/first_azure_pipeline",
@@ -22,7 +22,7 @@
     "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Azure Static Site",
-    "permalink": "/docs/azure/azure_static_site"
+    "title": "First Azure Pipeline",
+    "permalink": "/docs/azure/first_azure_pipeline"
   }
 }

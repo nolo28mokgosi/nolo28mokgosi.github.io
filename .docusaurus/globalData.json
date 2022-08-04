@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "azure/Azure Static Site",
+              "path": "/docs/azure/azure_static_site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "azure/First Pipeline",
               "path": "/docs/azure/first_azure_pipeline",
               "sidebar": "tutorialSidebar"
@@ -28,6 +33,11 @@
             {
               "id": "engineering/DI-on-functions",
               "path": "/docs/engineering/dependencyinjectiononfunctions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "engineering/expo-deployment",
+              "path": "/docs/engineering/expodeployment",
               "sidebar": "tutorialSidebar"
             },
             {

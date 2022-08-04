@@ -18,6 +18,34 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "unversionedId": "azure/Azure Static Site",
+              "id": "azure/Azure Static Site",
+              "isDocsHomePage": false,
+              "title": "Azure Static Site",
+              "description": "Problem statement",
+              "source": "@site/docs/azure/2. Azure Static Site.md",
+              "sourceDirName": "azure",
+              "slug": "/azure/azure_static_site",
+              "permalink": "/docs/azure/azure_static_site",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Azure Static Site",
+                "slug": "azure_static_site",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "First Azure Pipeline",
+                "permalink": "/docs/azure/first_azure_pipeline"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+              }
+            },
+            {
               "unversionedId": "azure/First Pipeline",
               "id": "azure/First Pipeline",
               "isDocsHomePage": false,
@@ -41,8 +69,8 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+                "title": "Azure Static Site",
+                "permalink": "/docs/azure/azure_static_site"
               }
             },
             {
@@ -95,6 +123,10 @@
               "previous": {
                 "title": "DI on function",
                 "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+              },
+              "next": {
+                "title": "Expo Deployment",
+                "permalink": "/docs/engineering/expodeployment"
               }
             },
             {
@@ -121,6 +153,30 @@
                 "permalink": "/docs/nuggets-design/CAP Theorem"
               },
               "next": {
+                "title": "Firebase Token Validation in Azure",
+                "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
+              }
+            },
+            {
+              "unversionedId": "engineering/expo-deployment",
+              "id": "engineering/expo-deployment",
+              "isDocsHomePage": false,
+              "title": "Expo Deployment",
+              "description": "Context",
+              "source": "@site/docs/engineering/expo-deployment.md",
+              "sourceDirName": "engineering",
+              "slug": "/engineering/expodeployment",
+              "permalink": "/docs/engineering/expodeployment",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "slug": "expodeployment",
+                "sidebar_label": "Expo Deployment",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Firebase Token Validation in Azure",
                 "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
               }
@@ -166,8 +222,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "First Azure Pipeline",
-                "permalink": "/docs/azure/first_azure_pipeline"
+                "title": "Azure Static Site",
+                "permalink": "/docs/azure/azure_static_site"
               },
               "next": {
                 "title": "Reliability",
@@ -245,6 +301,11 @@
                     "type": "doc",
                     "id": "azure/First Pipeline",
                     "label": "First Azure Pipeline"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "azure/Azure Static Site",
+                    "label": "Azure Static Site"
                   }
                 ]
               },
@@ -281,7 +342,7 @@
               },
               {
                 "type": "category",
-                "label": "Nuggets - Designs",
+                "label": "Designs",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -307,6 +368,11 @@
                     "type": "doc",
                     "id": "engineering/azurefunction-firebase-auth",
                     "label": "Firebase Token Validation in Azure"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "engineering/expo-deployment",
+                    "label": "Expo Deployment"
                   }
                 ]
               }

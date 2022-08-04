@@ -23,6 +23,11 @@
             "type": "link",
             "label": "First Azure Pipeline",
             "href": "/docs/azure/first_azure_pipeline"
+          },
+          {
+            "type": "link",
+            "label": "Azure Static Site",
+            "href": "/docs/azure/azure_static_site"
           }
         ]
       },
@@ -59,7 +64,7 @@
       },
       {
         "type": "category",
-        "label": "Nuggets - Designs",
+        "label": "Designs",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -85,6 +90,11 @@
             "type": "link",
             "label": "Firebase Token Validation in Azure",
             "href": "/docs/engineering/jwttokenvalidationonazurefunction"
+          },
+          {
+            "type": "link",
+            "label": "Expo Deployment",
+            "href": "/docs/engineering/expodeployment"
           }
         ]
       }

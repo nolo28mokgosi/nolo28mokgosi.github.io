@@ -20,5 +20,9 @@
   "previous": {
     "title": "DI on function",
     "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+  },
+  "next": {
+    "title": "Expo Deployment",
+    "permalink": "/docs/engineering/expodeployment"
   }
 }

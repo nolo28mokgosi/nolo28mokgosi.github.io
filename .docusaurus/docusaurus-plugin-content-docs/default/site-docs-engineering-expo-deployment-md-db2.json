@@ -1,0 +1,24 @@
+{
+  "unversionedId": "engineering/expo-deployment",
+  "id": "engineering/expo-deployment",
+  "isDocsHomePage": false,
+  "title": "Expo Deployment",
+  "description": "Context",
+  "source": "@site/docs/engineering/expo-deployment.md",
+  "sourceDirName": "engineering",
+  "slug": "/engineering/expodeployment",
+  "permalink": "/docs/engineering/expodeployment",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "expodeployment",
+    "sidebar_label": "Expo Deployment",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Firebase Token Validation in Azure",
+    "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
+  }
+}
