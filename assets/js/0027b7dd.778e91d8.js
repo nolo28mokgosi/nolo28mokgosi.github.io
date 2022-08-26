@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[3605],{429:o=>{o.exports=JSON.parse('{"label":"Domain Driven Design","permalink":"/blog/tags/domain-driven-design","allTagsPath":"/blog/tags","count":1}')}}]);
