@@ -12,9 +12,24 @@ To deploy to Apple Store, you need to join [Apple Developer Program](https://dev
 
 Once registered, you need to go through below steps as documented [here](https://docs.expo.dev/build/setup/) (Provided you built your app using expo)
 1. Install the latest EAS CLI
+`npm install -g eas-cli`
+2. Log into your expo account
+`eas login`
 2. Configure the project
-3. Run a build. Can be for ios or android platform
-4. Deploy the build
+`eas build:configure`
+update the build and version on 
+- app.config file
+- info.plist (IOS)
+3. To ensure you version number registers on the build, run ``
+4. Run a build. Can be for ios or android platform
+
+IOS `eas build --platform ios`
+
+Android `eas build --platform android`
+
+All platforms `eas build --platform all`
+
+5. Deploy the build
 
 ## Notes
 ### Project config
