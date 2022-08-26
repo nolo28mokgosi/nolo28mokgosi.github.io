@@ -9,11 +9,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Intro to Nuggets",
-        "href": "/docs/intro"
-      },
-      {
         "type": "category",
         "label": "Azure Notes",
         "collapsible": true,
@@ -22,14 +17,22 @@
           {
             "type": "link",
             "label": "First Azure Pipeline",
-            "href": "/docs/azure/first_azure_pipeline"
+            "href": "/docs/azure/first_azure_pipeline",
+            "docId": "azure/First Pipeline"
           },
           {
             "type": "link",
             "label": "Azure Static Site",
-            "href": "/docs/azure/azure_static_site"
+            "href": "/docs/azure/azure_static_site",
+            "docId": "azure/Azure Static Site"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Intro to Nuggets",
+        "href": "/docs/intro",
+        "docId": "intro"
       },
       {
         "type": "category",
@@ -40,12 +43,14 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/microsoft-azure-well-architected-framework/introduction"
+            "href": "/docs/microsoft-azure-well-architected-framework/introduction",
+            "docId": "microsoft-azure-well-architected-framework/introduction"
           },
           {
             "type": "link",
             "label": "Reliability",
-            "href": "/docs/microsoft-azure-well-architected-framework/Reliability"
+            "href": "/docs/microsoft-azure-well-architected-framework/Reliability",
+            "docId": "microsoft-azure-well-architected-framework/Reliability"
           }
         ]
       },
@@ -58,7 +63,8 @@
           {
             "type": "link",
             "label": "Sidecar",
-            "href": "/docs/design-patterns/sidecarpattern"
+            "href": "/docs/design-patterns/sidecarpattern",
+            "docId": "design-patterns/sidecar-pattern"
           }
         ]
       },
@@ -71,7 +77,8 @@
           {
             "type": "link",
             "label": "CAP Theorem",
-            "href": "/docs/nuggets-design/CAP Theorem"
+            "href": "/docs/nuggets-design/CAP Theorem",
+            "docId": "nuggets-design/CAP Theorem"
           }
         ]
       },
@@ -84,20 +91,85 @@
           {
             "type": "link",
             "label": "DI on function",
-            "href": "/docs/engineering/dependencyinjectiononfunctions"
+            "href": "/docs/engineering/dependencyinjectiononfunctions",
+            "docId": "engineering/DI-on-functions"
           },
           {
             "type": "link",
             "label": "Firebase Token Validation in Azure",
-            "href": "/docs/engineering/jwttokenvalidationonazurefunction"
+            "href": "/docs/engineering/jwttokenvalidationonazurefunction",
+            "docId": "engineering/azurefunction-firebase-auth"
           },
           {
             "type": "link",
             "label": "Expo Deployment",
-            "href": "/docs/engineering/expodeployment"
+            "href": "/docs/engineering/expodeployment",
+            "docId": "engineering/expo-deployment"
           }
         ]
       }
     ]
+  },
+  "docs": {
+    "azure/Azure Static Site": {
+      "id": "azure/Azure Static Site",
+      "title": "Azure Static Site",
+      "description": "Problem statement",
+      "sidebar": "tutorialSidebar"
+    },
+    "azure/First Pipeline": {
+      "id": "azure/First Pipeline",
+      "title": "First Azure Pipeline",
+      "description": "Pipeline",
+      "sidebar": "tutorialSidebar"
+    },
+    "design-patterns/sidecar-pattern": {
+      "id": "design-patterns/sidecar-pattern",
+      "title": "Sidecar Pattern",
+      "description": "Sidecar",
+      "sidebar": "tutorialSidebar"
+    },
+    "engineering/azurefunction-firebase-auth": {
+      "id": "engineering/azurefunction-firebase-auth",
+      "title": "Firebase Token Validation in Azure",
+      "description": "This note documents a case where Firebase is used as Auth Server and Azure Function as the backend of the mobile application.",
+      "sidebar": "tutorialSidebar"
+    },
+    "engineering/DI-on-functions": {
+      "id": "engineering/DI-on-functions",
+      "title": "Dependency injection on azure functions",
+      "description": "di",
+      "sidebar": "tutorialSidebar"
+    },
+    "engineering/expo-deployment": {
+      "id": "engineering/expo-deployment",
+      "title": "Expo Deployment",
+      "description": "Context",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Intro to Nuggets",
+      "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
+      "sidebar": "tutorialSidebar"
+    },
+    "microsoft-azure-well-architected-framework/introduction": {
+      "id": "microsoft-azure-well-architected-framework/introduction",
+      "title": "Introduction",
+      "description": "According to Microsoft, Azure Well-Architected Framework is \"a set of guiding tenets that can be used to improve quality of worklload\".",
+      "sidebar": "tutorialSidebar"
+    },
+    "microsoft-azure-well-architected-framework/Reliability": {
+      "id": "microsoft-azure-well-architected-framework/Reliability",
+      "title": "Reliability",
+      "description": "Reliability covers both resiliency and availability.",
+      "sidebar": "tutorialSidebar"
+    },
+    "nuggets-design/CAP Theorem": {
+      "id": "nuggets-design/CAP Theorem",
+      "title": "CAP Theorem",
+      "description": "Coming soon",
+      "sidebar": "tutorialSidebar"
+    }
   }
 }

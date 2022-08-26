@@ -28,7 +28,7 @@
     }
   ],
   "readingTime": 2.985,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Nolo Mokgosi",
@@ -38,6 +38,18 @@
       "key": "nolo"
     }
   ],
+  "frontMatter": {
+    "slug": "createC4diagrams",
+    "title": "Creating C4 diagrams",
+    "authors": "nolo",
+    "tags": [
+      "architecture",
+      "design",
+      "diagramming",
+      "modelling",
+      "c4"
+    ]
+  },
   "prevItem": {
     "title": "Orchestration and Choreography",
     "permalink": "/blog/orchestrationvschoreography"

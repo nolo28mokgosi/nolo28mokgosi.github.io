@@ -20,7 +20,7 @@
     }
   ],
   "readingTime": 2.79,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Nolo Mokgosi",
@@ -30,6 +30,16 @@
       "key": "nolo"
     }
   ],
+  "frontMatter": {
+    "slug": "understandingboundaries",
+    "title": "Understanding Boundaries",
+    "authors": "nolo",
+    "tags": [
+      "architecture",
+      "design",
+      "Domain Driven Design"
+    ]
+  },
   "prevItem": {
     "title": "Introduction to C4 Diagramming",
     "permalink": "/blog/introductiontoc4"

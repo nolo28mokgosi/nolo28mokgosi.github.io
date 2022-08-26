@@ -1,58 +1,42 @@
-{
-  "/blog/tags/architecture": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/architecture",
-    "name": "architecture",
-    "count": 7,
-    "permalink": "/blog/tags/architecture"
+[
+  {
+    "label": "architecture",
+    "permalink": "/blog/tags/architecture",
+    "count": 7
   },
-  "/blog/tags/design": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/design",
-    "name": "design",
-    "count": 7,
-    "permalink": "/blog/tags/design"
+  {
+    "label": "design",
+    "permalink": "/blog/tags/design",
+    "count": 7
   },
-  "/blog/tags/planning": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/planning",
-    "name": "planning",
-    "count": 1,
-    "permalink": "/blog/tags/planning"
+  {
+    "label": "planning",
+    "permalink": "/blog/tags/planning",
+    "count": 1
   },
-  "/blog/tags/strategy": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/strategy",
-    "name": "strategy",
-    "count": 1,
-    "permalink": "/blog/tags/strategy"
+  {
+    "label": "strategy",
+    "permalink": "/blog/tags/strategy",
+    "count": 1
   },
-  "/blog/tags/diagramming": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/diagramming",
-    "name": "diagramming",
-    "count": 3,
-    "permalink": "/blog/tags/diagramming"
+  {
+    "label": "diagramming",
+    "permalink": "/blog/tags/diagramming",
+    "count": 3
   },
-  "/blog/tags/modelling": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/modelling",
-    "name": "modelling",
-    "count": 3,
-    "permalink": "/blog/tags/modelling"
+  {
+    "label": "modelling",
+    "permalink": "/blog/tags/modelling",
+    "count": 3
   },
-  "/blog/tags/c-4": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/c-4",
-    "name": "c4",
-    "count": 2,
-    "permalink": "/blog/tags/c-4"
+  {
+    "label": "c4",
+    "permalink": "/blog/tags/c-4",
+    "count": 2
   },
-  "/blog/tags/domain-driven-design": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/domain-driven-design",
-    "name": "Domain Driven Design",
-    "count": 1,
-    "permalink": "/blog/tags/domain-driven-design"
+  {
+    "label": "Domain Driven Design",
+    "permalink": "/blog/tags/domain-driven-design",
+    "count": 1
   }
-}
+]

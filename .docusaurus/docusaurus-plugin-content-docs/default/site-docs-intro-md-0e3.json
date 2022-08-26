@@ -1,13 +1,13 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "isDocsHomePage": false,
   "title": "Intro to Nuggets",
   "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -15,8 +15,12 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Static Site",
+    "permalink": "/docs/azure/azure_static_site"
+  },
   "next": {
-    "title": "First Azure Pipeline",
-    "permalink": "/docs/azure/first_azure_pipeline"
+    "title": "Introduction",
+    "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
   }
 }

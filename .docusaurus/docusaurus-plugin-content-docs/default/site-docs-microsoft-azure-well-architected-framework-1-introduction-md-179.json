@@ -1,13 +1,13 @@
 {
   "unversionedId": "microsoft-azure-well-architected-framework/introduction",
   "id": "microsoft-azure-well-architected-framework/introduction",
-  "isDocsHomePage": false,
   "title": "Introduction",
   "description": "According to Microsoft, Azure Well-Architected Framework is \"a set of guiding tenets that can be used to improve quality of worklload\".",
   "source": "@site/docs/microsoft-azure-well-architected-framework/1.introduction.md",
   "sourceDirName": "microsoft-azure-well-architected-framework",
   "slug": "/microsoft-azure-well-architected-framework/introduction",
   "permalink": "/docs/microsoft-azure-well-architected-framework/introduction",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Azure Static Site",
-    "permalink": "/docs/azure/azure_static_site"
+    "title": "Intro to Nuggets",
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "Reliability",

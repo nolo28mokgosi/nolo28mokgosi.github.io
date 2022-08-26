@@ -24,7 +24,7 @@
     }
   ],
   "readingTime": 6.6,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Nolo Mokgosi",
@@ -34,6 +34,17 @@
       "key": "nolo"
     }
   ],
+  "frontMatter": {
+    "slug": "introductiontoc4",
+    "title": "Introduction to C4 Diagramming",
+    "authors": "nolo",
+    "tags": [
+      "architecture",
+      "design",
+      "diagramming",
+      "modelling"
+    ]
+  },
   "prevItem": {
     "title": "Sequence on C4",
     "permalink": "/blog/sequencediagramonc4"

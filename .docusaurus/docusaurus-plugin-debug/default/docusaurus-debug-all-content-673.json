@@ -4,29 +4,28 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/docs",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/docs",
           "tagsPath": "/docs/tags",
-          "versionBanner": null,
-          "versionBadge": false,
-          "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js",
           "contentPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/docs",
           "contentPathLocalized": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
           "docs": [
             {
               "unversionedId": "azure/Azure Static Site",
               "id": "azure/Azure Static Site",
-              "isDocsHomePage": false,
               "title": "Azure Static Site",
               "description": "Problem statement",
               "source": "@site/docs/azure/2. Azure Static Site.md",
               "sourceDirName": "azure",
               "slug": "/azure/azure_static_site",
               "permalink": "/docs/azure/azure_static_site",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -41,20 +40,20 @@
                 "permalink": "/docs/azure/first_azure_pipeline"
               },
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+                "title": "Intro to Nuggets",
+                "permalink": "/docs/intro"
               }
             },
             {
               "unversionedId": "azure/First Pipeline",
               "id": "azure/First Pipeline",
-              "isDocsHomePage": false,
               "title": "First Azure Pipeline",
               "description": "Pipeline",
               "source": "@site/docs/azure/1. First Pipeline.md",
               "sourceDirName": "azure",
               "slug": "/azure/first_azure_pipeline",
               "permalink": "/docs/azure/first_azure_pipeline",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -64,10 +63,6 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Intro to Nuggets",
-                "permalink": "/docs/intro"
-              },
               "next": {
                 "title": "Azure Static Site",
                 "permalink": "/docs/azure/azure_static_site"
@@ -76,13 +71,13 @@
             {
               "unversionedId": "design-patterns/sidecar-pattern",
               "id": "design-patterns/sidecar-pattern",
-              "isDocsHomePage": false,
               "title": "Sidecar Pattern",
               "description": "Sidecar",
               "source": "@site/docs/design-patterns/sidecar-pattern.md",
               "sourceDirName": "design-patterns",
               "slug": "/design-patterns/sidecarpattern",
               "permalink": "/docs/design-patterns/sidecarpattern",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -104,13 +99,13 @@
             {
               "unversionedId": "engineering/azurefunction-firebase-auth",
               "id": "engineering/azurefunction-firebase-auth",
-              "isDocsHomePage": false,
               "title": "Firebase Token Validation in Azure",
               "description": "This note documents a case where Firebase is used as Auth Server and Azure Function as the backend of the mobile application.",
               "source": "@site/docs/engineering/azurefunction-firebase-auth.md",
               "sourceDirName": "engineering",
               "slug": "/engineering/jwttokenvalidationonazurefunction",
               "permalink": "/docs/engineering/jwttokenvalidationonazurefunction",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -132,13 +127,13 @@
             {
               "unversionedId": "engineering/DI-on-functions",
               "id": "engineering/DI-on-functions",
-              "isDocsHomePage": false,
               "title": "Dependency injection on azure functions",
               "description": "di",
               "source": "@site/docs/engineering/DI-on-functions.md",
               "sourceDirName": "engineering",
               "slug": "/engineering/dependencyinjectiononfunctions",
               "permalink": "/docs/engineering/dependencyinjectiononfunctions",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -160,13 +155,13 @@
             {
               "unversionedId": "engineering/expo-deployment",
               "id": "engineering/expo-deployment",
-              "isDocsHomePage": false,
               "title": "Expo Deployment",
               "description": "Context",
               "source": "@site/docs/engineering/expo-deployment.md",
               "sourceDirName": "engineering",
               "slug": "/engineering/expodeployment",
               "permalink": "/docs/engineering/expodeployment",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -184,13 +179,13 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "isDocsHomePage": false,
               "title": "Intro to Nuggets",
               "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -198,21 +193,25 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Azure Static Site",
+                "permalink": "/docs/azure/azure_static_site"
+              },
               "next": {
-                "title": "First Azure Pipeline",
-                "permalink": "/docs/azure/first_azure_pipeline"
+                "title": "Introduction",
+                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
               }
             },
             {
               "unversionedId": "microsoft-azure-well-architected-framework/introduction",
               "id": "microsoft-azure-well-architected-framework/introduction",
-              "isDocsHomePage": false,
               "title": "Introduction",
               "description": "According to Microsoft, Azure Well-Architected Framework is \"a set of guiding tenets that can be used to improve quality of worklload\".",
               "source": "@site/docs/microsoft-azure-well-architected-framework/1.introduction.md",
               "sourceDirName": "microsoft-azure-well-architected-framework",
               "slug": "/microsoft-azure-well-architected-framework/introduction",
               "permalink": "/docs/microsoft-azure-well-architected-framework/introduction",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -222,8 +221,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Azure Static Site",
-                "permalink": "/docs/azure/azure_static_site"
+                "title": "Intro to Nuggets",
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Reliability",
@@ -233,13 +232,13 @@
             {
               "unversionedId": "microsoft-azure-well-architected-framework/Reliability",
               "id": "microsoft-azure-well-architected-framework/Reliability",
-              "isDocsHomePage": false,
               "title": "Reliability",
               "description": "Reliability covers both resiliency and availability.",
               "source": "@site/docs/microsoft-azure-well-architected-framework/2. Reliability.md",
               "sourceDirName": "microsoft-azure-well-architected-framework",
               "slug": "/microsoft-azure-well-architected-framework/Reliability",
               "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -260,13 +259,13 @@
             {
               "unversionedId": "nuggets-design/CAP Theorem",
               "id": "nuggets-design/CAP Theorem",
-              "isDocsHomePage": false,
               "title": "CAP Theorem",
               "description": "Coming soon",
               "source": "@site/docs/nuggets-design/1. CAP Theorem.md",
               "sourceDirName": "nuggets-design",
               "slug": "/nuggets-design/CAP Theorem",
               "permalink": "/docs/nuggets-design/CAP Theorem",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -285,12 +284,9 @@
               }
             }
           ],
+          "drafts": [],
           "sidebars": {
             "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "intro"
-              },
               {
                 "type": "category",
                 "label": "Azure Notes",
@@ -308,6 +304,10 @@
                     "label": "Azure Static Site"
                   }
                 ]
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               },
               {
                 "type": "category",
@@ -414,7 +414,7 @@
               }
             ],
             "readingTime": 4.245,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -424,6 +424,17 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "buildrightthingright",
+              "title": "Bulding right thing right",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design",
+                "planning",
+                "strategy"
+              ]
+            },
             "nextItem": {
               "title": "Orchestration and Choreography",
               "permalink": "/blog/orchestrationvschoreography"
@@ -451,7 +462,7 @@
               }
             ],
             "readingTime": 3.8,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -461,6 +472,15 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "orchestrationvschoreography",
+              "title": "Orchestration and Choreography",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design"
+              ]
+            },
             "prevItem": {
               "title": "Bulding right thing right",
               "permalink": "/blog/buildrightthingright"
@@ -504,7 +524,7 @@
               }
             ],
             "readingTime": 2.985,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -514,6 +534,18 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "createC4diagrams",
+              "title": "Creating C4 diagrams",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design",
+                "diagramming",
+                "modelling",
+                "c4"
+              ]
+            },
             "prevItem": {
               "title": "Orchestration and Choreography",
               "permalink": "/blog/orchestrationvschoreography"
@@ -557,7 +589,7 @@
               }
             ],
             "readingTime": 2.245,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -567,6 +599,18 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "sequencediagramonc4",
+              "title": "Sequence on C4",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design",
+                "diagramming",
+                "modelling",
+                "c4"
+              ]
+            },
             "prevItem": {
               "title": "Creating C4 diagrams",
               "permalink": "/blog/createC4diagrams"
@@ -606,7 +650,7 @@
               }
             ],
             "readingTime": 6.6,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -616,6 +660,17 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "introductiontoc4",
+              "title": "Introduction to C4 Diagramming",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design",
+                "diagramming",
+                "modelling"
+              ]
+            },
             "prevItem": {
               "title": "Sequence on C4",
               "permalink": "/blog/sequencediagramonc4"
@@ -651,7 +706,7 @@
               }
             ],
             "readingTime": 2.79,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -661,6 +716,16 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "understandingboundaries",
+              "title": "Understanding Boundaries",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design",
+                "Domain Driven Design"
+              ]
+            },
             "prevItem": {
               "title": "Introduction to C4 Diagramming",
               "permalink": "/blog/introductiontoc4"
@@ -692,7 +757,7 @@
               }
             ],
             "readingTime": 2.755,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Nolo Mokgosi",
@@ -702,6 +767,15 @@
                 "key": "nolo"
               }
             ],
+            "frontMatter": {
+              "slug": "entanglement",
+              "title": "Entanglement",
+              "authors": "nolo",
+              "tags": [
+                "architecture",
+                "design"
+              ]
+            },
             "prevItem": {
               "title": "Understanding Boundaries",
               "permalink": "/blog/understandingboundaries"
@@ -712,31 +786,29 @@
       ],
       "blogListPaginated": [
         {
+          "items": [
+            "buildrightthingright",
+            "orchestrationvschoreography",
+            "createC4diagrams",
+            "sequencediagramonc4",
+            "introductiontoc4",
+            "understandingboundaries",
+            "entanglement"
+          ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
             "totalCount": 7,
-            "previousPage": null,
-            "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
-          },
-          "items": [
-            "buildrightthingright",
-            "orchestrationvschoreography",
-            "createC4diagrams",
-            "sequencediagramonc4",
-            "introductiontoc4",
-            "understandingboundaries",
-            "entanglement"
-          ]
+          }
         }
       ],
       "blogTags": {
         "/blog/tags/architecture": {
-          "name": "architecture",
+          "label": "architecture",
           "items": [
             "buildrightthingright",
             "orchestrationvschoreography",
@@ -746,10 +818,32 @@
             "understandingboundaries",
             "entanglement"
           ],
-          "permalink": "/blog/tags/architecture"
+          "permalink": "/blog/tags/architecture",
+          "pages": [
+            {
+              "items": [
+                "buildrightthingright",
+                "orchestrationvschoreography",
+                "createC4diagrams",
+                "sequencediagramonc4",
+                "introductiontoc4",
+                "understandingboundaries",
+                "entanglement"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/architecture",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 7,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/design": {
-          "name": "design",
+          "label": "design",
           "items": [
             "buildrightthingright",
             "orchestrationvschoreography",
@@ -759,54 +853,177 @@
             "understandingboundaries",
             "entanglement"
           ],
-          "permalink": "/blog/tags/design"
+          "permalink": "/blog/tags/design",
+          "pages": [
+            {
+              "items": [
+                "buildrightthingright",
+                "orchestrationvschoreography",
+                "createC4diagrams",
+                "sequencediagramonc4",
+                "introductiontoc4",
+                "understandingboundaries",
+                "entanglement"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/design",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 7,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/planning": {
-          "name": "planning",
+          "label": "planning",
           "items": [
             "buildrightthingright"
           ],
-          "permalink": "/blog/tags/planning"
+          "permalink": "/blog/tags/planning",
+          "pages": [
+            {
+              "items": [
+                "buildrightthingright"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/planning",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/strategy": {
-          "name": "strategy",
+          "label": "strategy",
           "items": [
             "buildrightthingright"
           ],
-          "permalink": "/blog/tags/strategy"
+          "permalink": "/blog/tags/strategy",
+          "pages": [
+            {
+              "items": [
+                "buildrightthingright"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/strategy",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/diagramming": {
-          "name": "diagramming",
+          "label": "diagramming",
           "items": [
             "createC4diagrams",
             "sequencediagramonc4",
             "introductiontoc4"
           ],
-          "permalink": "/blog/tags/diagramming"
+          "permalink": "/blog/tags/diagramming",
+          "pages": [
+            {
+              "items": [
+                "createC4diagrams",
+                "sequencediagramonc4",
+                "introductiontoc4"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/diagramming",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/modelling": {
-          "name": "modelling",
+          "label": "modelling",
           "items": [
             "createC4diagrams",
             "sequencediagramonc4",
             "introductiontoc4"
           ],
-          "permalink": "/blog/tags/modelling"
+          "permalink": "/blog/tags/modelling",
+          "pages": [
+            {
+              "items": [
+                "createC4diagrams",
+                "sequencediagramonc4",
+                "introductiontoc4"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/modelling",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/c-4": {
-          "name": "c4",
+          "label": "c4",
           "items": [
             "createC4diagrams",
             "sequencediagramonc4"
           ],
-          "permalink": "/blog/tags/c-4"
+          "permalink": "/blog/tags/c-4",
+          "pages": [
+            {
+              "items": [
+                "createC4diagrams",
+                "sequencediagramonc4"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/c-4",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         },
         "/blog/tags/domain-driven-design": {
-          "name": "Domain Driven Design",
+          "label": "Domain Driven Design",
           "items": [
             "understandingboundaries"
           ],
-          "permalink": "/blog/tags/domain-driven-design"
+          "permalink": "/blog/tags/domain-driven-design",
+          "pages": [
+            {
+              "items": [
+                "understandingboundaries"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/domain-driven-design",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
         }
       },
       "blogTagsListPath": "/blog/tags"
@@ -822,14 +1039,18 @@
       {
         "type": "mdx",
         "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md"
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
       }
     ]
   },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  }
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
 }

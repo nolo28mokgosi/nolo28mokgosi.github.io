@@ -1,13 +1,13 @@
 {
   "unversionedId": "azure/First Pipeline",
   "id": "azure/First Pipeline",
-  "isDocsHomePage": false,
   "title": "First Azure Pipeline",
   "description": "Pipeline",
   "source": "@site/docs/azure/1. First Pipeline.md",
   "sourceDirName": "azure",
   "slug": "/azure/first_azure_pipeline",
   "permalink": "/docs/azure/first_azure_pipeline",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,10 +17,6 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Intro to Nuggets",
-    "permalink": "/docs/intro"
-  },
   "next": {
     "title": "Azure Static Site",
     "permalink": "/docs/azure/azure_static_site"

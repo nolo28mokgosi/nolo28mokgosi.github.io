@@ -1,13 +1,13 @@
 {
   "unversionedId": "azure/Azure Static Site",
   "id": "azure/Azure Static Site",
-  "isDocsHomePage": false,
   "title": "Azure Static Site",
   "description": "Problem statement",
   "source": "@site/docs/azure/2. Azure Static Site.md",
   "sourceDirName": "azure",
   "slug": "/azure/azure_static_site",
   "permalink": "/docs/azure/azure_static_site",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -22,7 +22,7 @@
     "permalink": "/docs/azure/first_azure_pipeline"
   },
   "next": {
-    "title": "Introduction",
-    "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
+    "title": "Intro to Nuggets",
+    "permalink": "/docs/intro"
   }
 }

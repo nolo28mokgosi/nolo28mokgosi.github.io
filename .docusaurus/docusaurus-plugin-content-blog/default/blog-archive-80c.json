@@ -28,7 +28,7 @@
           }
         ],
         "readingTime": 4.245,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -38,6 +38,17 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "buildrightthingright",
+          "title": "Bulding right thing right",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design",
+            "planning",
+            "strategy"
+          ]
+        },
         "nextItem": {
           "title": "Orchestration and Choreography",
           "permalink": "/blog/orchestrationvschoreography"
@@ -65,7 +76,7 @@
           }
         ],
         "readingTime": 3.8,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -75,6 +86,15 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "orchestrationvschoreography",
+          "title": "Orchestration and Choreography",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design"
+          ]
+        },
         "prevItem": {
           "title": "Bulding right thing right",
           "permalink": "/blog/buildrightthingright"
@@ -118,7 +138,7 @@
           }
         ],
         "readingTime": 2.985,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -128,6 +148,18 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "createC4diagrams",
+          "title": "Creating C4 diagrams",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design",
+            "diagramming",
+            "modelling",
+            "c4"
+          ]
+        },
         "prevItem": {
           "title": "Orchestration and Choreography",
           "permalink": "/blog/orchestrationvschoreography"
@@ -171,7 +203,7 @@
           }
         ],
         "readingTime": 2.245,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -181,6 +213,18 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "sequencediagramonc4",
+          "title": "Sequence on C4",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design",
+            "diagramming",
+            "modelling",
+            "c4"
+          ]
+        },
         "prevItem": {
           "title": "Creating C4 diagrams",
           "permalink": "/blog/createC4diagrams"
@@ -220,7 +264,7 @@
           }
         ],
         "readingTime": 6.6,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -230,6 +274,17 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "introductiontoc4",
+          "title": "Introduction to C4 Diagramming",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design",
+            "diagramming",
+            "modelling"
+          ]
+        },
         "prevItem": {
           "title": "Sequence on C4",
           "permalink": "/blog/sequencediagramonc4"
@@ -265,7 +320,7 @@
           }
         ],
         "readingTime": 2.79,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -275,6 +330,16 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "understandingboundaries",
+          "title": "Understanding Boundaries",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design",
+            "Domain Driven Design"
+          ]
+        },
         "prevItem": {
           "title": "Introduction to C4 Diagramming",
           "permalink": "/blog/introductiontoc4"
@@ -306,7 +371,7 @@
           }
         ],
         "readingTime": 2.755,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Nolo Mokgosi",
@@ -316,6 +381,15 @@
             "key": "nolo"
           }
         ],
+        "frontMatter": {
+          "slug": "entanglement",
+          "title": "Entanglement",
+          "authors": "nolo",
+          "tags": [
+            "architecture",
+            "design"
+          ]
+        },
         "prevItem": {
           "title": "Understanding Boundaries",
           "permalink": "/blog/understandingboundaries"

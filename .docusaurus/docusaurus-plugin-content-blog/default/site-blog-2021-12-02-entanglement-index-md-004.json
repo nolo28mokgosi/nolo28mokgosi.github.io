@@ -16,7 +16,7 @@
     }
   ],
   "readingTime": 2.755,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Nolo Mokgosi",
@@ -26,6 +26,15 @@
       "key": "nolo"
     }
   ],
+  "frontMatter": {
+    "slug": "entanglement",
+    "title": "Entanglement",
+    "authors": "nolo",
+    "tags": [
+      "architecture",
+      "design"
+    ]
+  },
   "prevItem": {
     "title": "Understanding Boundaries",
     "permalink": "/blog/understandingboundaries"

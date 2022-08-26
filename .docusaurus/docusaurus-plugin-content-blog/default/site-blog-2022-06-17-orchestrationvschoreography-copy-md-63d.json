@@ -16,7 +16,7 @@
     }
   ],
   "readingTime": 3.8,
-  "truncated": true,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Nolo Mokgosi",
@@ -26,6 +26,15 @@
       "key": "nolo"
     }
   ],
+  "frontMatter": {
+    "slug": "orchestrationvschoreography",
+    "title": "Orchestration and Choreography",
+    "authors": "nolo",
+    "tags": [
+      "architecture",
+      "design"
+    ]
+  },
   "prevItem": {
     "title": "Bulding right thing right",
     "permalink": "/blog/buildrightthingright"

@@ -1,4 +1,11 @@
 {
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": "G-75LLZKB7VH",
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",
@@ -8,7 +15,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "azure/First Pipeline",
           "docs": [
             {
               "id": "azure/Azure Static Site",
@@ -60,9 +67,19 @@
               "path": "/docs/nuggets-design/CAP Theorem",
               "sidebar": "tutorialSidebar"
             }
-          ]
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/azure/first_azure_pipeline",
+                "label": "First Azure Pipeline"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }
