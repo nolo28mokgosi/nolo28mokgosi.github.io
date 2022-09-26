@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '918'),
+    component: ComponentCreator('/blog', '968'),
     exact: true
   },
   {
@@ -50,6 +50,16 @@ export default [
   {
     path: '/blog/buildrightthingright',
     component: ComponentCreator('/blog/buildrightthingright', '5f9'),
+    exact: true
+  },
+  {
+    path: '/blog/businesscapabilities',
+    component: ComponentCreator('/blog/businesscapabilities', 'ad8'),
+    exact: true
+  },
+  {
+    path: '/blog/businesscapabilitiesinaction',
+    component: ComponentCreator('/blog/businesscapabilitiesinaction', 'e2b'),
     exact: true
   },
   {
@@ -84,7 +94,12 @@ export default [
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture', 'bd6'),
+    component: ComponentCreator('/blog/tags/architecture', '417'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/business-architecture',
+    component: ComponentCreator('/blog/tags/business-architecture', 'e1b'),
     exact: true
   },
   {
@@ -94,7 +109,7 @@ export default [
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design', '852'),
+    component: ComponentCreator('/blog/tags/design', '02f'),
     exact: true
   },
   {
@@ -114,12 +129,12 @@ export default [
   },
   {
     path: '/blog/tags/planning',
-    component: ComponentCreator('/blog/tags/planning', '576'),
+    component: ComponentCreator('/blog/tags/planning', '902'),
     exact: true
   },
   {
     path: '/blog/tags/strategy',
-    component: ComponentCreator('/blog/tags/strategy', 'b32'),
+    component: ComponentCreator('/blog/tags/strategy', '241'),
     exact: true
   },
   {

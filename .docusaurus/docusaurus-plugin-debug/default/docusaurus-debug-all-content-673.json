@@ -387,6 +387,132 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "businesscapabilitiesinaction",
+          "metadata": {
+            "permalink": "/blog/businesscapabilitiesinaction",
+            "source": "@site/blog/2022-09-25-CapabilitiesInAction/2022-09-25-capabilitiesInAction.md",
+            "title": "Business Capabilities in action",
+            "description": "fee.org",
+            "date": "2022-09-25T00:00:00.000Z",
+            "formattedDate": "September 25, 2022",
+            "tags": [
+              {
+                "label": "business architecture",
+                "permalink": "/blog/tags/business-architecture"
+              },
+              {
+                "label": "architecture",
+                "permalink": "/blog/tags/architecture"
+              },
+              {
+                "label": "design",
+                "permalink": "/blog/tags/design"
+              },
+              {
+                "label": "planning",
+                "permalink": "/blog/tags/planning"
+              },
+              {
+                "label": "strategy",
+                "permalink": "/blog/tags/strategy"
+              }
+            ],
+            "readingTime": 2.7,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Nolo Mokgosi",
+                "title": "admin",
+                "url": "https://github.com/nolo28mokgosi",
+                "imageURL": "/img/profile.png",
+                "key": "nolo"
+              }
+            ],
+            "frontMatter": {
+              "slug": "businesscapabilitiesinaction",
+              "title": "Business Capabilities in action",
+              "authors": "nolo",
+              "tags": [
+                "business architecture",
+                "architecture",
+                "design",
+                "planning",
+                "strategy"
+              ]
+            },
+            "nextItem": {
+              "title": "Business Capabilities Map",
+              "permalink": "/blog/businesscapabilities"
+            }
+          },
+          "content": "<!-- ![rightandwrong](./bizbok-bizarch.png) -->\n<sub><sup>fee.org</sup></sub>\n\nBusiness capabilities are the foundation of other important view points and techniques that can be used to move business forward. Because different people view organisation in their own unique view points, it is a good idea to use business capabilities as the base of those view points.\n\nThis post highlights view points or techniques that uses business capabilities as foundation.\n<!--truncate-->\n\n### Heat Mapping\nHeat mapping is a technique that helps identify opportunities for business improvement and investment. It can help organisation to highlight below for each business capability\n- Maturity or strategic contribution, \n- Criticality, \n- Effectiveness or performance, \n- Value contribution or \n- Cost contribution\n\nFor example, organisation can create a maturity heat map using below color indicator\n- Green: at desired level of maturity\n- Yellow: Almost at maturity but organisation needs to work on it\n- Red: lots of improvement needed\n- Purple: capability needed by organisation but does not exist.\n\n![Heat Map](./heatmap.png)\n\n### Capability based Planning\nCapability-based planning focuses on the planning, engineering, and delivery of strategic business capabilities to the enterprise.[#3]. \n\nBelow figure highlights that for capability based planning to take place, capabilities must be defined.\n![CapabilityIncrement](./capabilityIncrement.png)\n\n### Capability/Organisation mapping\nOrganisation map is one the 4 pillars of Business architecture. \nMapping business capability to organisation highlight “Who” delivers the capability. Business capabilities executed in many different parts of the organisation can lead to inconsistent and inefficiencies. #[1]\n\nMapping capabilities to organisation can help highlight opportunity to rationalise and save costs. \n\n![Capability Organisation](./caporganisation.png)\n\n### Capability/Value Stream Mapping\nValue Stream represents sequence of activities(Value stages) to deliver on stakeholder request.[#1]. Stakeholder can be a client or internal user.\n\nBy mapping value streams to capabilities, the picture will be clear on which business capabilities are required to deliver value to the stakeholder.\n\nMapping key value streams to capabilities is important because its highlights capabilities used by multiple value streams. Once the organisation identifies those business capabilities, following questions should be asked\n- What is the level of maturity of the business capability?\n- How effective is the business capability?\n- Can we scale the business capability? At what cost?\n- Are we investing enough funds to the maturity and effectiveness to the business capability?\n\nProviding honest answers to the questions above is the contribution to some of the heat maps mentioned in the heat map section.\n\n![Value Stream](./valuestream.png)\n\n\n### Capability/Business Process Mapping\n\nThere is a grey area between Business process and Value stream. In this post, \n- business process is the process contained (Starts and ends) within business capability that is used to enable business capability. Does it needs data and operations from other capabilities? Answer is YES\n- Value Stream is the high-level  business process that delivers value in stages to the stakeholder. \n\nThe previous post suggest that business capability should be defined as per below table.\n\n![Capability Table](./capabilityTable.png)\n\nOnce capability is defined, processes within the capability should be documented. \n\n### Capability/Information Mapping\nComing Soon\n\n### Capability/Application Mapping\n\nComing Soon\n\n### Service Model\nAs defined by BIAN,Coming Soon\n\n## Conclusion\nIt is clear that business capabilities are glue in organisations. \n\n## Reference\n\n\n#1: [Business Capabilities,Version 2](https://pubs.opengroup.org/togaf-standard/business-architecture/business-capabilities.html#_Toc95135880)\n\n#2: [A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide)](https://cdn.ymaws.com/www.businessarchitectureguild.org/resource/resmgr/bizbok_8_5/bizbok_v8.5_final_part1.pdf)\n\n#3: [Togaf Standard 9.2](https://pubs.opengroup.org/architecture/togaf9-doc/m/chap28.html)"
+        },
+        {
+          "id": "businesscapabilities",
+          "metadata": {
+            "permalink": "/blog/businesscapabilities",
+            "source": "@site/blog/2022-09-18-BusinessCapabilities/2022-09-18-businesscapabilities.md",
+            "title": "Business Capabilities Map",
+            "description": "rightandwrong",
+            "date": "2022-09-18T00:00:00.000Z",
+            "formattedDate": "September 18, 2022",
+            "tags": [
+              {
+                "label": "business architecture",
+                "permalink": "/blog/tags/business-architecture"
+              },
+              {
+                "label": "architecture",
+                "permalink": "/blog/tags/architecture"
+              },
+              {
+                "label": "design",
+                "permalink": "/blog/tags/design"
+              },
+              {
+                "label": "planning",
+                "permalink": "/blog/tags/planning"
+              },
+              {
+                "label": "strategy",
+                "permalink": "/blog/tags/strategy"
+              }
+            ],
+            "readingTime": 5.145,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Nolo Mokgosi",
+                "title": "admin",
+                "url": "https://github.com/nolo28mokgosi",
+                "imageURL": "/img/profile.png",
+                "key": "nolo"
+              }
+            ],
+            "frontMatter": {
+              "slug": "businesscapabilities",
+              "title": "Business Capabilities Map",
+              "authors": "nolo",
+              "tags": [
+                "business architecture",
+                "architecture",
+                "design",
+                "planning",
+                "strategy"
+              ]
+            },
+            "prevItem": {
+              "title": "Business Capabilities in action",
+              "permalink": "/blog/businesscapabilitiesinaction"
+            },
+            "nextItem": {
+              "title": "Bulding right thing right",
+              "permalink": "/blog/buildrightthingright"
+            }
+          },
+          "content": "![rightandwrong](./bizbok-bizarch.png)\n<sub><sup>fee.org</sup></sub>\n\nIn the past 3 months my curiosity drove me to business architecture. I read multiple articles and I landed in rabbit hole which increased my curiosity. During the process, I discovered multiple frameworks addressing business architecture but I stuck with \"Guide to the Business Architecture Body of Knowledge\".[#3]. The guide outlines that there are four core elements of business Architecture which includes:\n1. Business Capability Map\n2. Value Stream map\n3. Information map\n4. Organisation Map\n\nThis post focuses on Business Capability Map. The post defines business capability, business capability map and discusses the benefits of creating a business capability map.\n<!--truncate-->\n\n\n## What is business Capability?\nBusiness capability represents the ability of a business to do something [#1]. \nIt focuses on  what the business does, not how it does it. In a nutshell, business capabilities provide the building blocks upon which organisation execute an organisation’s business model. \n\nIn order for the business capability to be defined, it is important to understand **elements that enables** a business capability which includes people, processes, information and resources.\n![Capability Elements](./capability-elements.png)\n\n#### People\nPeople represents individual actors, stakeholders, business units, or partners involved in delivering business capability. [#1]\n\n#### Processes\nBusiness capabilities may be enabled or delivered through a number of business processes [#1]. Processes clarifies how the business is done. Documenting the processes that makes up the capability can help organisation identify loop holes and improve the capability where necessary.\n\nProcesses must be self contained within the business capability to provide focus for maturing the capability [#1]. This means we should be able to separate capability processes from value streams which focuses on delivering end-to-end value to the stakeholder. \n\n#### Information\nAccording to [#1], “Information represents the business data, knowledge, and insight required or consumed by the business capability”. Capability can exchange information with other capabilities to support value streams.\n\n#### Resources\nBusiness capabilities rely on tools or assets like \n- Systems or applications\n- Physical assets like buildings and machines\n- Intangible assets like intellectual property\n\n\n## Defining Business capability\nIt is recommended that business capability is defined in noun-verb format. e.g Product Development.\nEach Business Capability needs to be accompanied by a description. It is recommended that the description should be inline of “Ability to do X” where X can be “develop product which includes all the restrictions and parameters to provide value to our clients”\n\nAccording to [William Ulrich](https://www.bainstitute.org/resources/articles/defining-business-capability-cheat-sheet), organisations can use below guide to define business capabilities.\n\n- Business capability is what is been done,  not how it’s done. Emailing or Faxing are not capabilities, they describe **how** capability is done. Capital management is the capability because it describes **what** is being done.\n- Ensure business capability is not a process or value stream. Anything that requires movement and engages in sequence of activities is a value stream or process e.g. authorising.\n- Business capabilities must be clearly defined. When we have product Management as capability, we need to clearly define the Product, and clearly define what we really mean by Management. Describing Product Management as \"Ability to manage a product\" is not ideal.\n- Business capabilities are purely business views of the business. It is important remove the IT or systems view when identifying business capabilities. It is a business capability whether is done in a manual fashion, or it’s automated using IT systems\n\nBelow table highlights how an ogranisation can choose to define a business capability.\n![Business capability example](./capabilityTable.png)\n\n## Business Capability Map\nBusiness capability Map is the representation of organisational business capabilities, at an appropriate level of decomposition, logically grouped into different categories. \n\nBusiness capability map provide self-contained view of the business. It does not represent\n- Organisational Structure\n- Business processes\n- Representation of systems or applications\n\nIf there is a request to represent other view points, it is important to tap into other pillars of business architecture like value stream map, information map or organisation map. \n\nBusiness capability map promotes common understanding of the business across different business units. \n\n### Structuring Business Capability Map\nThere are 2 ways to structure a business capability map\n- Stratification\n- Leveling\n\n#### Stratification\nIt is a process to grouping business capabilities within categories or layers.\nEach layer provides different perspective to different stakeholders. For example, an organisation \n1. Top Layer (Strategic): focuses on capabilities related to strategy and and business directions normally targeting executive or drivers of the business\n2. Middle Layer (Core): focusing on customer-facing element of business\n3. Bottom Layer(Supporting): focusing on lower level capabilities crucial to run the business but not visible to the client.\n\nBelow is the level 1 business capability model\n![Table for stratification](./stratification.png)\n\n#### Leveling\nLeveling is the process of decomposing top-level capabilities into lower level capabilities.[#1]. Different stake holders are interested in different level of capabilities. For example, executives or direction drivers might not be interested on level 3 of capabilities but engineers might be interested. \n\n![Table for levelling](./levelling.png)\n\n\n## Benefits of Business Capability Mapping\nBusiness capabilities provide and abstraction of the business reality in a way that helps to simplify the conversation between interested stakeholders[#1]\n\nSome of the key benefits of Business Capability Map includes:\n1. Providing common language regarding what the business does.\n2. Encourage relationship within the business because it highlights who is responsible to bring the capability to life.\n3. Helps organisation to highlight key capabilities to encourage focused investments.\n4. Provides a foundation to create other core business architecture elements like value organisation map, value stream map and information map.\n\n\n\n\n## Conclusion\nDocumented or undocumented, every business has building blocks(business capabilities) for executing business model. In a case where building blocks are not documents, organisation might experiences the gap between different business units or structures especially in large companies. \n\nDocumenting business capabilities and creating business capability map is the first step to bring employees close to each other. Below figure highlights that different stakeholders within the business have different roles and viewpoints. The figure shows how business capability can be the glue to bring the stakeholders together.\n\n![Business and tech View points](./cbp.png)\n\n## Reference\n\n\n#1: [Business Capabilities,Version 2](https://pubs.opengroup.org/togaf-standard/business-architecture/business-capabilities.html#_Toc95135880)\n\n#2:[William Ulrich](https://www.bainstitute.org/resources/articles/defining-business-capability-cheat-sheet)\n\n#3: [A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide)](https://cdn.ymaws.com/www.businessarchitectureguild.org/resource/resmgr/bizbok_8_5/bizbok_v8.5_final_part1.pdf)"
+        },
+        {
           "id": "buildrightthingright",
           "metadata": {
             "permalink": "/blog/buildrightthingright",
@@ -434,6 +560,10 @@
                 "planning",
                 "strategy"
               ]
+            },
+            "prevItem": {
+              "title": "Business Capabilities Map",
+              "permalink": "/blog/businesscapabilities"
             },
             "nextItem": {
               "title": "Orchestration and Choreography",
@@ -787,6 +917,8 @@
       "blogListPaginated": [
         {
           "items": [
+            "businesscapabilitiesinaction",
+            "businesscapabilities",
             "buildrightthingright",
             "orchestrationvschoreography",
             "createC4diagrams",
@@ -800,16 +932,43 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 7,
+            "totalCount": 9,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/business-architecture": {
+          "label": "business architecture",
+          "items": [
+            "businesscapabilitiesinaction",
+            "businesscapabilities"
+          ],
+          "permalink": "/blog/tags/business-architecture",
+          "pages": [
+            {
+              "items": [
+                "businesscapabilitiesinaction",
+                "businesscapabilities"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/business-architecture",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/architecture": {
           "label": "architecture",
           "items": [
+            "businesscapabilitiesinaction",
+            "businesscapabilities",
             "buildrightthingright",
             "orchestrationvschoreography",
             "createC4diagrams",
@@ -822,6 +981,8 @@
           "pages": [
             {
               "items": [
+                "businesscapabilitiesinaction",
+                "businesscapabilities",
                 "buildrightthingright",
                 "orchestrationvschoreography",
                 "createC4diagrams",
@@ -835,7 +996,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 7,
+                "totalCount": 9,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -845,6 +1006,8 @@
         "/blog/tags/design": {
           "label": "design",
           "items": [
+            "businesscapabilitiesinaction",
+            "businesscapabilities",
             "buildrightthingright",
             "orchestrationvschoreography",
             "createC4diagrams",
@@ -857,6 +1020,8 @@
           "pages": [
             {
               "items": [
+                "businesscapabilitiesinaction",
+                "businesscapabilities",
                 "buildrightthingright",
                 "orchestrationvschoreography",
                 "createC4diagrams",
@@ -870,7 +1035,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 7,
+                "totalCount": 9,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -880,12 +1045,16 @@
         "/blog/tags/planning": {
           "label": "planning",
           "items": [
+            "businesscapabilitiesinaction",
+            "businesscapabilities",
             "buildrightthingright"
           ],
           "permalink": "/blog/tags/planning",
           "pages": [
             {
               "items": [
+                "businesscapabilitiesinaction",
+                "businesscapabilities",
                 "buildrightthingright"
               ],
               "metadata": {
@@ -893,7 +1062,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 3,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -903,12 +1072,16 @@
         "/blog/tags/strategy": {
           "label": "strategy",
           "items": [
+            "businesscapabilitiesinaction",
+            "businesscapabilities",
             "buildrightthingright"
           ],
           "permalink": "/blog/tags/strategy",
           "pages": [
             {
               "items": [
+                "businesscapabilitiesinaction",
+                "businesscapabilities",
                 "buildrightthingright"
               ],
               "metadata": {
@@ -916,7 +1089,7 @@
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 3,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }

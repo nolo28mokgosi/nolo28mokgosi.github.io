@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/buildrightthingright",
-  "source": "@site/blog/2022-07-17-buldrightthingright.md",
+  "source": "@site/blog/2022-09-18-Business Capabilities/2022-07-17-buldrightthingright.md",
   "title": "Bulding right thing right",
   "description": "rightandwrong",
   "date": "2022-07-17T00:00:00.000Z",
@@ -46,8 +46,8 @@
     ]
   },
   "prevItem": {
-    "title": "Business Capabilities Map",
-    "permalink": "/blog/businesscapabilities"
+    "title": "Bulding right thing right",
+    "permalink": "/blog/buildrightthingright"
   },
   "nextItem": {
     "title": "Orchestration and Choreography",

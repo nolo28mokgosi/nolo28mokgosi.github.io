@@ -42,13 +42,19 @@
       "plugin": "plugin---docusaurus-debug-754-ccb"
     }
   },
-  "/blog-918": {
+  "/blog-968": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-48-d-654"
+      },
+      {
+        "content": "content---blogeb-4-78c"
+      },
       {
         "content": "content---bloge-7-e-679"
       },
@@ -87,6 +93,22 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-buildrightthingright-26-d-a77"
+  },
+  "/blog/businesscapabilities-ad8": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-businesscapabilitiesa-8-d-3a0"
+  },
+  "/blog/businesscapabilitiesinaction-e2b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-businesscapabilitiesinactionc-4-a-31f"
   },
   "/blog/createC4diagrams-ed2": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -136,13 +158,19 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-bd6": {
+  "/blog/tags/architecture-417": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-48-d-654"
+      },
+      {
+        "content": "content---blogeb-4-78c"
+      },
       {
         "content": "content---bloge-7-e-679"
       },
@@ -168,6 +196,23 @@
     "tag": "tag---blog-tags-architecturec-80-7ae",
     "listMetadata": "listMetadata---blog-tags-architecturec-23-d91"
   },
+  "/blog/tags/business-architecture-e1b": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-48-d-654"
+      },
+      {
+        "content": "content---blogeb-4-78c"
+      }
+    ],
+    "tag": "tag---blog-tags-business-architecture-949-a47",
+    "listMetadata": "listMetadata---blog-tags-business-architecturef-3-d-96a"
+  },
   "/blog/tags/c-4-472": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -185,13 +230,19 @@
     "tag": "tag---blog-tags-c-4034-00b",
     "listMetadata": "listMetadata---blog-tags-c-4729-b03"
   },
-  "/blog/tags/design-852": {
+  "/blog/tags/design-02f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-48-d-654"
+      },
+      {
+        "content": "content---blogeb-4-78c"
+      },
       {
         "content": "content---bloge-7-e-679"
       },
@@ -271,7 +322,7 @@
     "tag": "tag---blog-tags-modellingb-0-d-585",
     "listMetadata": "listMetadata---blog-tags-modelling-25-f-9a3"
   },
-  "/blog/tags/planning-576": {
+  "/blog/tags/planning-902": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
@@ -279,19 +330,31 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-48-d-654"
+      },
+      {
+        "content": "content---blogeb-4-78c"
+      },
+      {
         "content": "content---bloge-7-e-679"
       }
     ],
     "tag": "tag---blog-tags-planninge-92-edb",
     "listMetadata": "listMetadata---blog-tags-planningef-2-eed"
   },
-  "/blog/tags/strategy-b32": {
+  "/blog/tags/strategy-241": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-48-d-654"
+      },
+      {
+        "content": "content---blogeb-4-78c"
+      },
       {
         "content": "content---bloge-7-e-679"
       }

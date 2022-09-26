@@ -2,6 +2,14 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Business Capabilities in action",
+      "permalink": "/blog/businesscapabilitiesinaction"
+    },
+    {
+      "title": "Business Capabilities Map",
+      "permalink": "/blog/businesscapabilities"
+    },
+    {
       "title": "Bulding right thing right",
       "permalink": "/blog/buildrightthingright"
     },
@@ -12,14 +20,6 @@
     {
       "title": "Creating C4 diagrams",
       "permalink": "/blog/createC4diagrams"
-    },
-    {
-      "title": "Sequence on C4",
-      "permalink": "/blog/sequencediagramonc4"
-    },
-    {
-      "title": "Introduction to C4 Diagramming",
-      "permalink": "/blog/introductiontoc4"
     }
   ]
 }

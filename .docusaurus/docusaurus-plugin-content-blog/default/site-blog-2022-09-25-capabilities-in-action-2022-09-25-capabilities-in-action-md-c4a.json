@@ -1,11 +1,15 @@
 {
-  "permalink": "/blog/buildrightthingright",
-  "source": "@site/blog/2022-07-17-buldrightthingright.md",
-  "title": "Bulding right thing right",
-  "description": "rightandwrong",
-  "date": "2022-07-17T00:00:00.000Z",
-  "formattedDate": "July 17, 2022",
+  "permalink": "/blog/businesscapabilitiesinaction",
+  "source": "@site/blog/2022-09-25-CapabilitiesInAction/2022-09-25-capabilitiesInAction.md",
+  "title": "Business Capabilities in action",
+  "description": "fee.org",
+  "date": "2022-09-25T00:00:00.000Z",
+  "formattedDate": "September 25, 2022",
   "tags": [
+    {
+      "label": "business architecture",
+      "permalink": "/blog/tags/business-architecture"
+    },
     {
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
@@ -23,7 +27,7 @@
       "permalink": "/blog/tags/strategy"
     }
   ],
-  "readingTime": 4.245,
+  "readingTime": 2.7,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -35,22 +39,19 @@
     }
   ],
   "frontMatter": {
-    "slug": "buildrightthingright",
-    "title": "Bulding right thing right",
+    "slug": "businesscapabilitiesinaction",
+    "title": "Business Capabilities in action",
     "authors": "nolo",
     "tags": [
+      "business architecture",
       "architecture",
       "design",
       "planning",
       "strategy"
     ]
   },
-  "prevItem": {
+  "nextItem": {
     "title": "Business Capabilities Map",
     "permalink": "/blog/businesscapabilities"
-  },
-  "nextItem": {
-    "title": "Orchestration and Choreography",
-    "permalink": "/blog/orchestrationvschoreography"
   }
 }
