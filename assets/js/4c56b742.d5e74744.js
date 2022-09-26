@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[9041],{4145:s=>{s.exports=JSON.parse('{"label":"strategy","permalink":"/blog/tags/strategy","allTagsPath":"/blog/tags","count":3}')}}]);

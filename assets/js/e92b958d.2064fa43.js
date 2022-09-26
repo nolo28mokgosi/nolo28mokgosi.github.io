@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[7011],{1954:l=>{l.exports=JSON.parse('{"label":"planning","permalink":"/blog/tags/planning","allTagsPath":"/blog/tags","count":3}')}}]);
