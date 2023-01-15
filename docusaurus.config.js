@@ -62,11 +62,6 @@ const config = {
             label: 'Nuggets',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://www.youtube.com/channel/UC3AEKSd1yyYn7W3XHF1lYWA',
-            label: 'Vlog',
-            position: 'left',
-          },
          
         ],
       },

@@ -1,8 +1,8 @@
 {
   "permalink": "/blog/businesscapabilitiesinaction",
   "source": "@site/blog/2022-09-25-CapabilitiesInAction/2022-09-25-capabilitiesInAction.md",
-  "title": "Business Capabilities in action",
-  "description": "fee.org",
+  "title": "Capabilities in action",
+  "description": "capabilityatcenter",
   "date": "2022-09-25T00:00:00.000Z",
   "formattedDate": "September 25, 2022",
   "tags": [
@@ -27,7 +27,7 @@
       "permalink": "/blog/tags/strategy"
     }
   ],
-  "readingTime": 2.7,
+  "readingTime": 3.125,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -40,7 +40,7 @@
   ],
   "frontMatter": {
     "slug": "businesscapabilitiesinaction",
-    "title": "Business Capabilities in action",
+    "title": "Capabilities in action",
     "authors": "nolo",
     "tags": [
       "business architecture",

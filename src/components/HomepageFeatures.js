@@ -27,7 +27,7 @@ const FeatureList = [
     description: (
       <>
         Research and learning is one thing, getting your <code>hands dirty</code> is more exciting.
-        Excitement is recorded in Blog,Vlog and Nuggets
+        Excitement is recorded in Blog and Nuggets
       </>
     ),
   },
