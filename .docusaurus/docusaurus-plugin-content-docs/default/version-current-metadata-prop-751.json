@@ -105,6 +105,12 @@
             "label": "Expo Deployment",
             "href": "/docs/engineering/expodeployment",
             "docId": "engineering/expo-deployment"
+          },
+          {
+            "type": "link",
+            "label": "Containerised website in Azure",
+            "href": "/docs/engineering/websiteOnAzureContainerisedApps",
+            "docId": "engineering/website-on-aca"
           }
         ]
       }
@@ -144,6 +150,12 @@
     "engineering/expo-deployment": {
       "id": "engineering/expo-deployment",
       "title": "Expo Deployment",
+      "description": "Context",
+      "sidebar": "tutorialSidebar"
+    },
+    "engineering/website-on-aca": {
+      "id": "engineering/website-on-aca",
+      "title": "Containerised website in Azure",
       "description": "Context",
       "sidebar": "tutorialSidebar"
     },

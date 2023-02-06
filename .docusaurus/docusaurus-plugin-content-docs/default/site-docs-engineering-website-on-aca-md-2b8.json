@@ -1,0 +1,24 @@
+{
+  "unversionedId": "engineering/website-on-aca",
+  "id": "engineering/website-on-aca",
+  "title": "Containerised website in Azure",
+  "description": "Context",
+  "source": "@site/docs/engineering/website-on-aca.md",
+  "sourceDirName": "engineering",
+  "slug": "/engineering/websiteOnAzureContainerisedApps",
+  "permalink": "/docs/engineering/websiteOnAzureContainerisedApps",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "websiteOnAzureContainerisedApps",
+    "sidebar_label": "Containerised website in Azure",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Expo Deployment",
+    "permalink": "/docs/engineering/expodeployment"
+  }
+}

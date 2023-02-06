@@ -1,0 +1,24 @@
+{
+  "unversionedId": "engineering/Website on ACA/expo-deployment",
+  "id": "engineering/Website on ACA/expo-deployment",
+  "title": "Expo Deployment",
+  "description": "Context",
+  "source": "@site/docs/engineering/Website on ACA/expo-deployment.md",
+  "sourceDirName": "engineering/Website on ACA",
+  "slug": "/engineering/Website on ACA/expodeployment",
+  "permalink": "/docs/engineering/Website on ACA/expodeployment",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "expodeployment",
+    "sidebar_label": "Expo Deployment",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Expo Deployment",
+    "permalink": "/docs/engineering/expodeployment"
+  }
+}

@@ -20,5 +20,9 @@
   "previous": {
     "title": "Firebase Token Validation in Azure",
     "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
+  },
+  "next": {
+    "title": "Containerised website in Azure",
+    "permalink": "/docs/engineering/websiteOnAzureContainerisedApps"
   }
 }

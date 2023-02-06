@@ -149,7 +149,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ea6'),
+    component: ComponentCreator('/docs', '9c6'),
     routes: [
       {
         path: '/docs/azure/azure_static_site',
@@ -184,6 +184,12 @@ export default [
       {
         path: '/docs/engineering/jwttokenvalidationonazurefunction',
         component: ComponentCreator('/docs/engineering/jwttokenvalidationonazurefunction', '865'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/engineering/websiteOnAzureContainerisedApps',
+        component: ComponentCreator('/docs/engineering/websiteOnAzureContainerisedApps', '52b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -48,6 +48,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "engineering/website-on-aca",
+              "path": "/docs/engineering/websiteOnAzureContainerisedApps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
