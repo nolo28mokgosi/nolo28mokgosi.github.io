@@ -5,33 +5,51 @@ sidebar_position: 3
 ---
 # Expo Deployment
 ## Context
-I've been playing around with React Native for quite sometime but I have never deployed anything on iStore. Part of the learning I decided to take on the challenge.
+Expo is a framework to build React Native apps. This document explains how to deploy react native app to iStore and Google Play.
 
-## Solution
+## Deploy to iStore
 To deploy to Apple Store, you need to join [Apple Developer Program](https://developer.apple.com/programs/) where you pay $99 per year.
 
 Once registered, you need to go through below steps as documented [here](https://docs.expo.dev/build/setup/) (Provided you built your app using expo)
-1. Install the latest EAS CLI
-`npm install -g eas-cli`
-2. Log into your expo account
-`eas login`
-2. Configure the project
-`eas build:configure`
-update the build and version on 
-- app.config file
-- info.plist (IOS)
-3. To ensure you version number registers on the build, run ``
-4. Run a build. Can be for ios or android platform
-
-IOS `eas build --platform ios`
-
-Android `eas build --platform android`
 
 All platforms `eas build --platform all`
+1. Install the latest EAS CLI `npm install -g eas-cli`
+2. Log into your expo account `eas login`
+3. Ensure the build number is the correct one on app.config
+4. Prebuild the app by running `npx expo prebuild`
+5. Ensure that the build number is updated on Info.plist inside the iOS folder
+6. Build the app by running `eas build -p ios`
+7. Submit the app to applestore by running `eas submit -p ios`
 
-5. Deploy the build
+On build and submit, follow the prompts to log into apple store
+
+Should you choose to upload manually, step 7 will be replaced by following:
+7. Download transporter
+8. Download latest build from eas
+9. Upload the build using transporter
+
+## Deploy to Android
+1. Install the latest EAS CLI `npm install -g eas-cli`
+2. Log into your expo account `eas login`
+3. Ensure the build number is the correct one on app.config
+4. Prebuild the app by running `npx expo prebuild`
+5. Ensure that the build number is updated on Info.plist inside the iOS folder
+6. Build the app by running `eas build -p android`
+7. Submit the app to Google Play by running `eas submit -p android`
+
+Should you choose to upload manually, step 7 will be replaced by following:
+7. Download latest build from eas
+8. Upload in the test section of Google Play Console.
 
 ## Notes
+### Build Issues
+Should you experience build issues that takes longer to fix, follow below steps:
+1. Deleted the iOS and android folders
+2. Ran eas prebuild to recreate the folders
+3. Note: eas run:ios still complained about pods crap
+4. Ran eas build:ios to build and it worked
+5. Ran eas submit -p iOS to push to IOS and it worked.
+
 ### Project config
 In the project config, setup the following:
 - Build number
@@ -76,6 +94,9 @@ Increasing build number on app.config might not increase build number for ios.
 - Run “expo prebuild”
 
 Ensure you run expo rebuild command according to [stackoverflow](https://stackoverflow.com/questions/71411920/react-native-expo-build-number-does-not-increase)
+
+## Conclusion
+Visit [expo](https://expo.dev) for latest deployment information.
 
 
 
