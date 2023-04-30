@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Value Stream in action",
+      "permalink": "/blog/valuestreaminaction"
+    },
+    {
       "title": "Capabilities in action",
       "permalink": "/blog/businesscapabilitiesinaction"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Orchestration and Choreography",
       "permalink": "/blog/orchestrationvschoreography"
-    },
-    {
-      "title": "Creating C4 diagrams",
-      "permalink": "/blog/createC4diagrams"
     }
   ]
 }

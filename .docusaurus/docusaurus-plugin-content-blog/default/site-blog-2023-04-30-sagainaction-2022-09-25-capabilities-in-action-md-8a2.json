@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/businesscapabilitiesinaction",
-  "source": "@site/blog/2022-09-25-CapabilitiesInAction/2022-09-25-capabilitiesInAction.md",
+  "source": "@site/blog/2023-04-30-sagainaction/2022-09-25-capabilitiesInAction.md",
   "title": "Capabilities in action",
   "description": "capabilityatcenter",
   "date": "2022-09-25T00:00:00.000Z",
@@ -51,8 +51,8 @@
     ]
   },
   "prevItem": {
-    "title": "Value Stream in action",
-    "permalink": "/blog/valuestreaminaction"
+    "title": "Capabilities in action",
+    "permalink": "/blog/businesscapabilitiesinaction"
   },
   "nextItem": {
     "title": "Business Capabilities Map",

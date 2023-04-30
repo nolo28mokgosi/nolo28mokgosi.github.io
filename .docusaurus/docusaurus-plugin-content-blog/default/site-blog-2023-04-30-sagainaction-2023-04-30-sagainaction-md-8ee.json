@@ -1,10 +1,10 @@
 {
-  "permalink": "/blog/businesscapabilitiesinaction",
-  "source": "@site/blog/2022-09-25-CapabilitiesInAction/2022-09-25-capabilitiesInAction.md",
-  "title": "Capabilities in action",
+  "permalink": "/blog/valuestreaminaction",
+  "source": "@site/blog/2023-04-30-sagainaction/2023-04-30-sagainaction.md",
+  "title": "Value Stream in action",
   "description": "capabilityatcenter",
-  "date": "2022-09-25T00:00:00.000Z",
-  "formattedDate": "September 25, 2022",
+  "date": "2023-04-30T00:00:00.000Z",
+  "formattedDate": "April 30, 2023",
   "tags": [
     {
       "label": "business architecture",
@@ -27,7 +27,7 @@
       "permalink": "/blog/tags/strategy"
     }
   ],
-  "readingTime": 3.125,
+  "readingTime": 3.345,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -39,8 +39,8 @@
     }
   ],
   "frontMatter": {
-    "slug": "businesscapabilitiesinaction",
-    "title": "Capabilities in action",
+    "slug": "valuestreaminaction",
+    "title": "Value Stream in action",
     "authors": "nolo",
     "tags": [
       "business architecture",
@@ -50,12 +50,8 @@
       "strategy"
     ]
   },
-  "prevItem": {
-    "title": "Value Stream in action",
-    "permalink": "/blog/valuestreaminaction"
-  },
   "nextItem": {
-    "title": "Business Capabilities Map",
-    "permalink": "/blog/businesscapabilities"
+    "title": "Capabilities in action",
+    "permalink": "/blog/businesscapabilitiesinaction"
   }
 }

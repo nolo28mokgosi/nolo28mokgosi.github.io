@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debug-754-ccb"
     }
   },
-  "/blog-968": {
+  "/blog-a2b": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-7-c-0-0a1"
+      },
       {
         "content": "content---blog-48-d-654"
       },
@@ -158,13 +161,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-417": {
+  "/blog/tags/architecture-f10": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-7-c-0-0a1"
+      },
       {
         "content": "content---blog-48-d-654"
       },
@@ -196,13 +202,16 @@
     "tag": "tag---blog-tags-architecturec-80-7ae",
     "listMetadata": "listMetadata---blog-tags-architecturec-23-d91"
   },
-  "/blog/tags/business-architecture-e1b": {
+  "/blog/tags/business-architecture-c7f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-7-c-0-0a1"
+      },
       {
         "content": "content---blog-48-d-654"
       },
@@ -230,13 +239,16 @@
     "tag": "tag---blog-tags-c-4034-00b",
     "listMetadata": "listMetadata---blog-tags-c-4729-b03"
   },
-  "/blog/tags/design-02f": {
+  "/blog/tags/design-c15": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-7-c-0-0a1"
+      },
       {
         "content": "content---blog-48-d-654"
       },
@@ -322,13 +334,16 @@
     "tag": "tag---blog-tags-modellingb-0-d-585",
     "listMetadata": "listMetadata---blog-tags-modelling-25-f-9a3"
   },
-  "/blog/tags/planning-902": {
+  "/blog/tags/planning-8f8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-7-c-0-0a1"
+      },
       {
         "content": "content---blog-48-d-654"
       },
@@ -342,13 +357,16 @@
     "tag": "tag---blog-tags-planninge-92-edb",
     "listMetadata": "listMetadata---blog-tags-planningef-2-eed"
   },
-  "/blog/tags/strategy-241": {
+  "/blog/tags/strategy-95f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-7-c-0-0a1"
+      },
       {
         "content": "content---blog-48-d-654"
       },
@@ -369,6 +387,14 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-understandingboundaries-36-d-6ba"
+  },
+  "/blog/valuestreaminaction-fa9": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-valuestreaminaction-99-c-947"
   },
   "/markdown-page-767": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '968'),
+    component: ComponentCreator('/blog', 'a2b'),
     exact: true
   },
   {
@@ -94,12 +94,12 @@ export default [
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture', '417'),
+    component: ComponentCreator('/blog/tags/architecture', 'f10'),
     exact: true
   },
   {
     path: '/blog/tags/business-architecture',
-    component: ComponentCreator('/blog/tags/business-architecture', 'e1b'),
+    component: ComponentCreator('/blog/tags/business-architecture', 'c7f'),
     exact: true
   },
   {
@@ -109,7 +109,7 @@ export default [
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design', '02f'),
+    component: ComponentCreator('/blog/tags/design', 'c15'),
     exact: true
   },
   {
@@ -129,17 +129,22 @@ export default [
   },
   {
     path: '/blog/tags/planning',
-    component: ComponentCreator('/blog/tags/planning', '902'),
+    component: ComponentCreator('/blog/tags/planning', '8f8'),
     exact: true
   },
   {
     path: '/blog/tags/strategy',
-    component: ComponentCreator('/blog/tags/strategy', '241'),
+    component: ComponentCreator('/blog/tags/strategy', '95f'),
     exact: true
   },
   {
     path: '/blog/understandingboundaries',
     component: ComponentCreator('/blog/understandingboundaries', '4cb'),
+    exact: true
+  },
+  {
+    path: '/blog/valuestreaminaction',
+    component: ComponentCreator('/blog/valuestreaminaction', 'fa9'),
     exact: true
   },
   {
