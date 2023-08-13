@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[4261],{9147:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/architecture/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/blog/tags/architecture","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

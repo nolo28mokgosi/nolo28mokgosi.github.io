@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[6573],{9920:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/design","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/blog/tags/design/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
