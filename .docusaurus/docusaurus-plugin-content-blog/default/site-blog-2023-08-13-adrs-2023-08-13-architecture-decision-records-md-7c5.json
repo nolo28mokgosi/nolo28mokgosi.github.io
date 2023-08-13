@@ -1,0 +1,57 @@
+{
+  "permalink": "/blog/architecturedecisionrecords",
+  "source": "@site/blog/2023-08-13-adrs/2023-08-13-architectureDecisionRecords.md",
+  "title": "Architecture Decision Records",
+  "description": "capabilityatcenter",
+  "date": "2023-08-13T00:00:00.000Z",
+  "formattedDate": "August 13, 2023",
+  "tags": [
+    {
+      "label": "architecture",
+      "permalink": "/blog/tags/architecture"
+    },
+    {
+      "label": "design",
+      "permalink": "/blog/tags/design"
+    },
+    {
+      "label": "planning",
+      "permalink": "/blog/tags/planning"
+    },
+    {
+      "label": "solutions architecture",
+      "permalink": "/blog/tags/solutions-architecture"
+    },
+    {
+      "label": "adr",
+      "permalink": "/blog/tags/adr"
+    }
+  ],
+  "readingTime": 6.545,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Nolo Mokgosi",
+      "title": "admin",
+      "url": "https://github.com/nolo28mokgosi",
+      "imageURL": "/img/profile.png",
+      "key": "nolo"
+    }
+  ],
+  "frontMatter": {
+    "slug": "architecturedecisionrecords",
+    "title": "Architecture Decision Records",
+    "authors": "nolo",
+    "tags": [
+      "architecture",
+      "design",
+      "planning",
+      "solutions architecture",
+      "adr"
+    ]
+  },
+  "nextItem": {
+    "title": "Value Stream in action",
+    "permalink": "/blog/valuestreaminaction"
+  }
+}

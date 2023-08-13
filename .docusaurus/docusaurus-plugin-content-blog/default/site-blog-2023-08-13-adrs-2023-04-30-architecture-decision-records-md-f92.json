@@ -1,15 +1,11 @@
 {
-  "permalink": "/blog/valuestreaminaction",
-  "source": "@site/blog/2023-04-30-valuestreaminaction/2023-04-30-valuestreaminaction.md",
-  "title": "Value Stream in action",
+  "permalink": "/blog/architecturedecisionrecords",
+  "source": "@site/blog/2023-08-13-adrs/2023-04-30-architectureDecisionRecords.md",
+  "title": "Architecture Decision Records",
   "description": "capabilityatcenter",
   "date": "2023-04-30T00:00:00.000Z",
   "formattedDate": "April 30, 2023",
   "tags": [
-    {
-      "label": "business architecture",
-      "permalink": "/blog/tags/business-architecture"
-    },
     {
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
@@ -23,11 +19,15 @@
       "permalink": "/blog/tags/planning"
     },
     {
-      "label": "strategy",
-      "permalink": "/blog/tags/strategy"
+      "label": "solutions architecture",
+      "permalink": "/blog/tags/solutions-architecture"
+    },
+    {
+      "label": "adr",
+      "permalink": "/blog/tags/adr"
     }
   ],
-  "readingTime": 3.465,
+  "readingTime": 8.385,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -39,20 +39,20 @@
     }
   ],
   "frontMatter": {
-    "slug": "valuestreaminaction",
-    "title": "Value Stream in action",
+    "slug": "architecturedecisionrecords",
+    "title": "Architecture Decision Records",
     "authors": "nolo",
     "tags": [
-      "business architecture",
       "architecture",
       "design",
       "planning",
-      "strategy"
+      "solutions architecture",
+      "adr"
     ]
   },
   "prevItem": {
-    "title": "Architecture Decision Records",
-    "permalink": "/blog/architecturedecisionrecords"
+    "title": "Value Stream in action",
+    "permalink": "/blog/valuestreaminaction"
   },
   "nextItem": {
     "title": "Capabilities in action",

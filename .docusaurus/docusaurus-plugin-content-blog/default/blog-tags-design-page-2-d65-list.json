@@ -1,10 +1,10 @@
 {
-  "permalink": "/blog/tags/design",
-  "page": 1,
+  "permalink": "/blog/tags/design/page/2",
+  "page": 2,
   "postsPerPage": 10,
   "totalPages": 2,
   "totalCount": 11,
-  "nextPage": "/blog/tags/design/page/2",
+  "previousPage": "/blog/tags/design",
   "blogDescription": "Blog",
   "blogTitle": "Blog"
 }

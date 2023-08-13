@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debug-754-ccb"
     }
   },
-  "/blog-a2b": {
+  "/blog-74e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogad-3-393"
+      },
       {
         "content": "content---blog-7-c-0-0a1"
       },
@@ -75,12 +78,17 @@
       },
       {
         "content": "content---blog-958-e53"
-      },
-      {
-        "content": "content---blogef-6-2a3"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/architecturedecisionrecords-d61": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-architecturedecisionrecords-7-c-5-38d"
   },
   "/blog/archive-e74": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -145,6 +153,19 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-orchestrationvschoreography-63-d-247"
   },
+  "/blog/page/2-2e8": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2-ef-6-9c2"
+      }
+    ],
+    "metadata": "metadata---blog-page-28-eb-625"
+  },
   "/blog/sequencediagramonc4-629": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -161,13 +182,30 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/architecture-f10": {
+  "/blog/tags/adr-0dc": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogad-3-393"
+      }
+    ],
+    "tag": "tag---blog-tags-adr-48-d-f94",
+    "listMetadata": "listMetadata---blog-tags-adr-45-f-34a"
+  },
+  "/blog/tags/architecture-288": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogad-3-393"
+      },
       {
         "content": "content---blog-7-c-0-0a1"
       },
@@ -194,13 +232,24 @@
       },
       {
         "content": "content---blog-958-e53"
-      },
-      {
-        "content": "content---blogef-6-2a3"
       }
     ],
     "tag": "tag---blog-tags-architecturec-80-7ae",
     "listMetadata": "listMetadata---blog-tags-architecturec-23-d91"
+  },
+  "/blog/tags/architecture/page/2-d63": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2-ef-6-9c2"
+      }
+    ],
+    "tag": "tag---blog-tags-architecture-page-2-be-3-be8",
+    "listMetadata": "listMetadata---blog-tags-architecture-page-210-d-00e"
   },
   "/blog/tags/business-architecture-c7f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -239,13 +288,16 @@
     "tag": "tag---blog-tags-c-4034-00b",
     "listMetadata": "listMetadata---blog-tags-c-4729-b03"
   },
-  "/blog/tags/design-c15": {
+  "/blog/tags/design-b39": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogad-3-393"
+      },
       {
         "content": "content---blog-7-c-0-0a1"
       },
@@ -272,13 +324,24 @@
       },
       {
         "content": "content---blog-958-e53"
-      },
-      {
-        "content": "content---blogef-6-2a3"
       }
     ],
     "tag": "tag---blog-tags-designfdb-49c",
     "listMetadata": "listMetadata---blog-tags-design-9-a-9-4a5"
+  },
+  "/blog/tags/design/page/2-b1f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-2-ef-6-9c2"
+      }
+    ],
+    "tag": "tag---blog-tags-design-page-2601-695",
+    "listMetadata": "listMetadata---blog-tags-design-page-20-fe-1de"
   },
   "/blog/tags/diagramming-bff": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -334,13 +397,16 @@
     "tag": "tag---blog-tags-modellingb-0-d-585",
     "listMetadata": "listMetadata---blog-tags-modelling-25-f-9a3"
   },
-  "/blog/tags/planning-8f8": {
+  "/blog/tags/planning-c2c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---bloge-5-f-f6c"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogad-3-393"
+      },
       {
         "content": "content---blog-7-c-0-0a1"
       },
@@ -356,6 +422,20 @@
     ],
     "tag": "tag---blog-tags-planninge-92-edb",
     "listMetadata": "listMetadata---blog-tags-planningef-2-eed"
+  },
+  "/blog/tags/solutions-architecture-3ec": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bloge-5-f-f6c"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogad-3-393"
+      }
+    ],
+    "tag": "tag---blog-tags-solutions-architecture-3-e-0-b16",
+    "listMetadata": "listMetadata---blog-tags-solutions-architecturec-41-c00"
   },
   "/blog/tags/strategy-95f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a2b'),
+    component: ComponentCreator('/blog', '74e'),
+    exact: true
+  },
+  {
+    path: '/blog/architecturedecisionrecords',
+    component: ComponentCreator('/blog/architecturedecisionrecords', 'd61'),
     exact: true
   },
   {
@@ -83,6 +88,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/page/2',
+    component: ComponentCreator('/blog/page/2', '2e8'),
+    exact: true
+  },
+  {
     path: '/blog/sequencediagramonc4',
     component: ComponentCreator('/blog/sequencediagramonc4', '629'),
     exact: true
@@ -93,8 +103,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/adr',
+    component: ComponentCreator('/blog/tags/adr', '0dc'),
+    exact: true
+  },
+  {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture', 'f10'),
+    component: ComponentCreator('/blog/tags/architecture', '288'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/architecture/page/2',
+    component: ComponentCreator('/blog/tags/architecture/page/2', 'd63'),
     exact: true
   },
   {
@@ -109,7 +129,12 @@ export default [
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design', 'c15'),
+    component: ComponentCreator('/blog/tags/design', 'b39'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/design/page/2',
+    component: ComponentCreator('/blog/tags/design/page/2', 'b1f'),
     exact: true
   },
   {
@@ -129,7 +154,12 @@ export default [
   },
   {
     path: '/blog/tags/planning',
-    component: ComponentCreator('/blog/tags/planning', '8f8'),
+    component: ComponentCreator('/blog/tags/planning', 'c2c'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/solutions-architecture',
+    component: ComponentCreator('/blog/tags/solutions-architecture', '3ec'),
     exact: true
   },
   {
