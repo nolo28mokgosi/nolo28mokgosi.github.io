@@ -483,7 +483,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-9c6": {
+  "/docs-018": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsaf-4-7cc"
@@ -501,6 +501,14 @@
   "/docs/design-patterns/sidecarpattern-e15": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-design-patterns-sidecarpattern-9-cb-ba6"
+  },
+  "/docs/design/CAP Theorem-c7c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-design-cap-theorembe-8-719"
+  },
+  "/docs/design/Focus Cycle-bba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-design-focus-cycle-7-cb-9e0"
   },
   "/docs/engineering/dependencyinjectiononfunctions-d6b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -529,10 +537,6 @@
   "/docs/microsoft-azure-well-architected-framework/Reliability-61f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-microsoft-azure-well-architected-framework-reliabilityd-03-ea8"
-  },
-  "/docs/nuggets-design/CAP Theorem-a9e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-nuggets-design-cap-theorem-58-d-537"
   },
   "/-7dd": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

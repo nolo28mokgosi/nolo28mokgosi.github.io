@@ -184,7 +184,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '9c6'),
+    component: ComponentCreator('/docs', '018'),
     routes: [
       {
         path: '/docs/azure/azure_static_site',
@@ -201,6 +201,18 @@ export default [
       {
         path: '/docs/design-patterns/sidecarpattern',
         component: ComponentCreator('/docs/design-patterns/sidecarpattern', 'e15'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/design/CAP Theorem',
+        component: ComponentCreator('/docs/design/CAP Theorem', 'c7c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/design/Focus Cycle',
+        component: ComponentCreator('/docs/design/Focus Cycle', 'bba'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -243,12 +255,6 @@ export default [
       {
         path: '/docs/microsoft-azure-well-architected-framework/Reliability',
         component: ComponentCreator('/docs/microsoft-azure-well-architected-framework/Reliability', '61f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/nuggets-design/CAP Theorem',
-        component: ComponentCreator('/docs/nuggets-design/CAP Theorem', 'a9e'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

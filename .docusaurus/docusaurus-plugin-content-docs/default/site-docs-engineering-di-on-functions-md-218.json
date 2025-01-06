@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "CAP Theorem",
-    "permalink": "/docs/nuggets-design/CAP Theorem"
+    "title": "Focus Cycle",
+    "permalink": "/docs/design/Focus Cycle"
   },
   "next": {
     "title": "Firebase Token Validation in Azure",

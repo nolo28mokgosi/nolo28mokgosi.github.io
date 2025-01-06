@@ -1,0 +1,27 @@
+{
+  "unversionedId": "design/CAP Theorem",
+  "id": "design/CAP Theorem",
+  "title": "CAP Theorem",
+  "description": "Coming soon",
+  "source": "@site/docs/design/1. CAP Theorem.md",
+  "sourceDirName": "design",
+  "slug": "/design/CAP Theorem",
+  "permalink": "/docs/design/CAP Theorem",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "CAP Theorem",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sidecar",
+    "permalink": "/docs/design-patterns/sidecarpattern"
+  },
+  "next": {
+    "title": "Focus Cycle",
+    "permalink": "/docs/design/Focus Cycle"
+  }
+}

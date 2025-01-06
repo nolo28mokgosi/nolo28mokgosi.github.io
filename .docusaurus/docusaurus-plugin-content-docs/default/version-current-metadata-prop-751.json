@@ -70,15 +70,21 @@
       },
       {
         "type": "category",
-        "label": "Designs",
+        "label": "Design",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "CAP Theorem",
-            "href": "/docs/nuggets-design/CAP Theorem",
-            "docId": "nuggets-design/CAP Theorem"
+            "href": "/docs/design/CAP Theorem",
+            "docId": "design/CAP Theorem"
+          },
+          {
+            "type": "link",
+            "label": "Focus Cycle",
+            "href": "/docs/design/Focus Cycle",
+            "docId": "design/Focus Cycle"
           }
         ]
       },
@@ -135,6 +141,18 @@
       "description": "Sidecar",
       "sidebar": "tutorialSidebar"
     },
+    "design/CAP Theorem": {
+      "id": "design/CAP Theorem",
+      "title": "CAP Theorem",
+      "description": "Coming soon",
+      "sidebar": "tutorialSidebar"
+    },
+    "design/Focus Cycle": {
+      "id": "design/Focus Cycle",
+      "title": "Focus Cycle",
+      "description": "In today's rapidly evolving digital landscape, the role of the Architecture has become increasingly critical. As organizations strive to leverage technology to drive business growth and remain competitive, the need for a well-defined and aligned architecture has never been greater.",
+      "sidebar": "tutorialSidebar"
+    },
     "engineering/azurefunction-firebase-auth": {
       "id": "engineering/azurefunction-firebase-auth",
       "title": "Firebase Token Validation in Azure",
@@ -175,12 +193,6 @@
       "id": "microsoft-azure-well-architected-framework/Reliability",
       "title": "Reliability",
       "description": "Reliability covers both resiliency and availability.",
-      "sidebar": "tutorialSidebar"
-    },
-    "nuggets-design/CAP Theorem": {
-      "id": "nuggets-design/CAP Theorem",
-      "title": "CAP Theorem",
-      "description": "Coming soon",
       "sidebar": "tutorialSidebar"
     }
   }

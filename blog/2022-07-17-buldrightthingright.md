@@ -6,7 +6,7 @@ tags: [architecture, design, planning, strategy]
 
 ---
 
-![rightandwrong](/img/blog/ai_woman_code.jpg)
+![rightandwrong](/img/blog/blackbrown.jpg)
 <sub><sup>Geralt on pixabay</sup></sub>
 
 I recently listened to InfoQ podcast where Susanne Kaiser spoke about DDD, Wardley Mapping & Team topologies. Responding to one of the questions she said, “when we are building systems in general, we are faced with challenges of building the right thing and building the thing right.”
@@ -17,15 +17,15 @@ I was fascinated by how swapping two words, “wrong” and “right,” makes s
 
 ## Introduction
 This post unpacks the following:
-- Building the right thing. 
-- Building the thing right.
-- Building the right thing wrong.
-- Building the wrong thing right.
+- Building the right thing (serving the users). 
+- Building the thing right (serving the developers).
+- Building the right thing wrong (serving the users, excluding developers).
+- Building the wrong thing right(serving the developers, excluding users).
 
 
 
 ### Building the right thing
-According to Susanne, building the right thing raises questions such as:
+According to Susanne, building the right thing (serving the users) raises questions such as:
 - How aligned is our solution with the users' needs?
 - How aligned is our solution with the business need?
 - Is the thing we are building valuable for our clients?
@@ -33,7 +33,7 @@ According to Susanne, building the right thing raises questions such as:
 
 
 ### Building the thing right 
-Building the right thing focuses on the qualities of the thing we are building. Some call them non-functional requirements, or the “ilities” of the software, such as scalability, reliability, maintainability, security etc. It also focuses on regulation and organisational governance processes.
+Building the thing right (serving the developers) focuses on the qualities of the thing we are building. Some call them non-functional requirements, or the “ilities” of the software, such as scalability, reliability, maintainability, security etc. It also focuses on regulation and organisational governance processes.
 
 According to Susanne, building the thing right addresses the following:
 - Efficiency of engineering practices e.g. CI-CD, Automated testing.
@@ -44,7 +44,7 @@ In one of his podcast, Dave Furley said, "The quality of the software we build i
 
 
 ## Building the right thing wrong
-Building the right thing wrong happens when we care and invest in the output, not how the thing is built. We focus on the deadline, ignoring the advice and recommendations from our technical team. We focus on popping champagne and giving great speeches on go-live day, forgetting that we need to build feature 2,3, 100 and more.
+Building the right thing wrong (serving the users, excluding developers) happens when we care and invest in the output, not how the thing is built. We focus on the deadline, ignoring the advice and recommendations from our technical team. We focus on popping champagne and giving great speeches on go-live day, forgetting that we need to build feature 2,3, 100 and more.
 
 It is similar to building a house with wrong foundation. When the builder hands over the keys to the house owner (client), family and the builder pops champagne and upload pictures on Instagram. 2 years later, after few rainfalls, the lack of quality becomes evident, and house starts cracking. 
 ![wrongfoundation](/img/blog/wrongfoundation.webp)
@@ -52,7 +52,7 @@ It is similar to building a house with wrong foundation. When the builder hands 
 
 
 ## Building the wrong thing right
-Building the wrong thing right is same as building the house adhering to all building qualities, but being impractical to live in.
+Building the wrong thing right (serving the developers, excluding users) is same as building the house adhering to all building qualities, but being impractical to live in.
  
 When the builder hand over the key to the client, no one is popping champagne. The two parties engage in heated arguments.
 - Client: "What type of house is this? I mean how do you expect me to get my car in the garage?"
@@ -105,7 +105,7 @@ Building the thing wrong should not be confused with technical debt or transitio
 Technical debt and transitional architecture are normally driven by different constraints or forces like budget, cost or timelines.
 
 #### Building right thing right
-We always strive to build right thing right. It's our wish to build the right thing right however, experience and reality says otherwise. Constraints like cost, timelines can be the deciding factor. 
+We always strive to build right thing right(serve both users and developers). It's our wish to build the right thing right however, experience and reality says otherwise. Constraints like cost, timelines can be the deciding factor. 
 
 When we are faced with such constraints, the best approach is to avoid “Building the **whole** thing right”. Let's divide the **whole** thing into smaller deliveries and mode forward.
 

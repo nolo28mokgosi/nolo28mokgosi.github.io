@@ -1,0 +1,27 @@
+{
+  "unversionedId": "design/Focus Cycle",
+  "id": "design/Focus Cycle",
+  "title": "Focus Cycle",
+  "description": "In today's rapidly evolving digital landscape, the role of the Architecture has become increasingly critical. As organizations strive to leverage technology to drive business growth and remain competitive, the need for a well-defined and aligned architecture has never been greater.",
+  "source": "@site/docs/design/2.Focus Cycle.md",
+  "sourceDirName": "design",
+  "slug": "/design/Focus Cycle",
+  "permalink": "/docs/design/Focus Cycle",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Focus Cycle",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/design/CAP Theorem"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+  }
+}

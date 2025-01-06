@@ -1,0 +1,27 @@
+{
+  "unversionedId": "design/Focus Cycle",
+  "id": "design/Focus Cycle",
+  "title": "Focus Cycle",
+  "description": "Sidecar",
+  "source": "@site/docs/design/Focus Cycle.md",
+  "sourceDirName": "design",
+  "slug": "/design/Focus Cycle",
+  "permalink": "/docs/design/Focus Cycle",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Whole Picture",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/design/CAP Theorem"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+  }
+}
