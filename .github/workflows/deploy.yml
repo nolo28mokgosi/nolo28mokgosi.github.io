@@ -35,8 +35,9 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           USE_SSH: true
+          GIT_USER: git  # Use 'git' instead of 'myusername'
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
           yarn install --frozen-lockfile
-          GIT_USER=nolo28mokgosi yarn deploy
+          GIT_USER=git yarn deploy
