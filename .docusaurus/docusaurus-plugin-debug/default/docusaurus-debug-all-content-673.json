@@ -92,8 +92,8 @@
                 "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
               },
               "next": {
-                "title": "CAP Theorem",
-                "permalink": "/docs/design/CAP Theorem"
+                "title": "Focus Cycle",
+                "permalink": "/docs/design/Focus Cycle"
               }
             },
             {
@@ -115,12 +115,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Sidecar",
-                "permalink": "/docs/design-patterns/sidecarpattern"
-              },
-              "next": {
                 "title": "Focus Cycle",
                 "permalink": "/docs/design/Focus Cycle"
+              },
+              "next": {
+                "title": "DI on function",
+                "permalink": "/docs/engineering/dependencyinjectiononfunctions"
               }
             },
             {
@@ -135,19 +135,19 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_label": "Focus Cycle",
-                "sidebar_position": 2
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "CAP Theorem",
-                "permalink": "/docs/design/CAP Theorem"
+                "title": "Sidecar",
+                "permalink": "/docs/design-patterns/sidecarpattern"
               },
               "next": {
-                "title": "DI on function",
-                "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+                "title": "CAP Theorem",
+                "permalink": "/docs/design/CAP Theorem"
               }
             },
             {
@@ -198,8 +198,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Focus Cycle",
-                "permalink": "/docs/design/Focus Cycle"
+                "title": "CAP Theorem",
+                "permalink": "/docs/design/CAP Theorem"
               },
               "next": {
                 "title": "Firebase Token Validation in Azure",
@@ -403,13 +403,13 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "design/CAP Theorem",
-                    "label": "CAP Theorem"
+                    "id": "design/Focus Cycle",
+                    "label": "Focus Cycle"
                   },
                   {
                     "type": "doc",
-                    "id": "design/Focus Cycle",
-                    "label": "Focus Cycle"
+                    "id": "design/CAP Theorem",
+                    "label": "CAP Theorem"
                   }
                 ]
               },

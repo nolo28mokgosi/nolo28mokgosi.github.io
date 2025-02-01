@@ -10,18 +10,18 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_label": "Focus Cycle",
-    "sidebar_position": 2
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "CAP Theorem",
-    "permalink": "/docs/design/CAP Theorem"
+    "title": "Sidecar",
+    "permalink": "/docs/design-patterns/sidecarpattern"
   },
   "next": {
-    "title": "DI on function",
-    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+    "title": "CAP Theorem",
+    "permalink": "/docs/design/CAP Theorem"
   }
 }

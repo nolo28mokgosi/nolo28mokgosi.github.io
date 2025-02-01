@@ -37,7 +37,7 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Nuggets"
+          "label": "Toolbox"
         },
         {
           "to": "/blog",
@@ -54,7 +54,7 @@ export default {
           "title": "Mini Docs",
           "items": [
             {
-              "label": "Nuggets",
+              "label": "Toolbox",
               "to": "/docs/intro"
             }
           ]

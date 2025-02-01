@@ -8,6 +8,13 @@
   "isLast": true,
   "docsSidebars": {
     "tutorialSidebar": [
+     
+      {
+        "type": "link",
+        "label": "Intro to Toolbox",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
       {
         "type": "category",
         "label": "Azure Notes",
@@ -27,12 +34,6 @@
             "docId": "azure/Azure Static Site"
           }
         ]
-      },
-      {
-        "type": "link",
-        "label": "Intro to Nuggets",
-        "href": "/docs/intro",
-        "docId": "intro"
       },
       {
         "type": "category",
@@ -76,15 +77,15 @@
         "items": [
           {
             "type": "link",
-            "label": "CAP Theorem",
-            "href": "/docs/design/CAP Theorem",
-            "docId": "design/CAP Theorem"
-          },
-          {
-            "type": "link",
             "label": "Focus Cycle",
             "href": "/docs/design/Focus Cycle",
             "docId": "design/Focus Cycle"
+          },
+          {
+            "type": "link",
+            "label": "CAP Theorem",
+            "href": "/docs/design/CAP Theorem",
+            "docId": "design/CAP Theorem"
           }
         ]
       },

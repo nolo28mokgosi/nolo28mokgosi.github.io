@@ -59,7 +59,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Nuggets',
+            label: 'Toolbox',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
          
@@ -72,7 +72,7 @@ const config = {
             title: 'Mini Docs',
             items: [
               {
-                label: 'Nuggets',
+                label: 'Toolbox',
                 to: '/docs/intro',
               },
             ],

@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Sidecar",
-    "permalink": "/docs/design-patterns/sidecarpattern"
-  },
-  "next": {
     "title": "Focus Cycle",
     "permalink": "/docs/design/Focus Cycle"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
   }
 }

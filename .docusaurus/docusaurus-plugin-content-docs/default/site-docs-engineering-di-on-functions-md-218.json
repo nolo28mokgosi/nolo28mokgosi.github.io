@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Focus Cycle",
-    "permalink": "/docs/design/Focus Cycle"
+    "title": "CAP Theorem",
+    "permalink": "/docs/design/CAP Theorem"
   },
   "next": {
     "title": "Firebase Token Validation in Azure",
