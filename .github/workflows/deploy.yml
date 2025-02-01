@@ -38,6 +38,8 @@ jobs:
           git config --global user.name "gh-actions"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
       - name: Deploy to GitHub Pages
+        env:
+          GIT_USER: "github-actions"  # Explicitly setting GIT_USER to fix the error
         run: |
           yarn install --frozen-lockfile
           yarn deploy
