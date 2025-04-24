@@ -33,6 +33,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "design/AI Agents",
+              "path": "/docs/design/AI Agents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "design/CAP Theorem",
               "path": "/docs/design/CAP Theorem",
               "sidebar": "tutorialSidebar"

@@ -8,13 +8,6 @@
   "isLast": true,
   "docsSidebars": {
     "tutorialSidebar": [
-     
-      {
-        "type": "link",
-        "label": "Intro to Toolbox",
-        "href": "/docs/intro",
-        "docId": "intro"
-      },
       {
         "type": "category",
         "label": "Azure Notes",
@@ -34,6 +27,12 @@
             "docId": "azure/Azure Static Site"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Intro to Toolbox",
+        "href": "/docs/intro",
+        "docId": "intro"
       },
       {
         "type": "category",
@@ -71,7 +70,7 @@
       },
       {
         "type": "category",
-        "label": "Design",
+        "label": "Architecture",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -86,6 +85,12 @@
             "label": "CAP Theorem",
             "href": "/docs/design/CAP Theorem",
             "docId": "design/CAP Theorem"
+          },
+          {
+            "type": "link",
+            "label": "AI Agents, digital coworkers",
+            "href": "/docs/design/AI Agents",
+            "docId": "design/AI Agents"
           }
         ]
       },
@@ -142,6 +147,12 @@
       "description": "Sidecar",
       "sidebar": "tutorialSidebar"
     },
+    "design/AI Agents": {
+      "id": "design/AI Agents",
+      "title": "AI Agents, digital coworkers",
+      "description": "Context",
+      "sidebar": "tutorialSidebar"
+    },
     "design/CAP Theorem": {
       "id": "design/CAP Theorem",
       "title": "CAP Theorem",
@@ -180,7 +191,7 @@
     },
     "intro": {
       "id": "intro",
-      "title": "Intro to Nuggets",
+      "title": "Intro to Toolbox",
       "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
       "sidebar": "tutorialSidebar"
     },

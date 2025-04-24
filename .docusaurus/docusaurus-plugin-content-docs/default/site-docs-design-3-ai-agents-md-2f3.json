@@ -1,0 +1,24 @@
+{
+  "unversionedId": "design/AI Agents",
+  "id": "design/AI Agents",
+  "title": "AI Agents, digital coworkers",
+  "description": "Context",
+  "source": "@site/docs/design/3. AI Agents.md",
+  "sourceDirName": "design",
+  "slug": "/design/AI Agents",
+  "permalink": "/docs/design/AI Agents",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CAP Theorem",
+    "permalink": "/docs/design/CAP Theorem"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+  }
+}

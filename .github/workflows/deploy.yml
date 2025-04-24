@@ -44,6 +44,7 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GIT_USER: ${{ secrets.GH_PAT }}  # Ensure Docusaurus uses the PAT
+          USE_SSH: false
         run: |
           yarn install --frozen-lockfile
           GIT_USER="${{ secrets.GH_PAT }}" yarn deploy

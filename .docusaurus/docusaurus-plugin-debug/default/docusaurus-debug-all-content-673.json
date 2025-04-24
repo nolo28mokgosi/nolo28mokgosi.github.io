@@ -40,7 +40,7 @@
                 "permalink": "/docs/azure/first_azure_pipeline"
               },
               "next": {
-                "title": "Intro to Nuggets",
+                "title": "Intro to Toolbox",
                 "permalink": "/docs/intro"
               }
             },
@@ -97,6 +97,30 @@
               }
             },
             {
+              "unversionedId": "design/AI Agents",
+              "id": "design/AI Agents",
+              "title": "AI Agents, digital coworkers",
+              "description": "Context",
+              "source": "@site/docs/design/3. AI Agents.md",
+              "sourceDirName": "design",
+              "slug": "/design/AI Agents",
+              "permalink": "/docs/design/AI Agents",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CAP Theorem",
+                "permalink": "/docs/design/CAP Theorem"
+              },
+              "next": {
+                "title": "DI on function",
+                "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+              }
+            },
+            {
               "unversionedId": "design/CAP Theorem",
               "id": "design/CAP Theorem",
               "title": "CAP Theorem",
@@ -119,8 +143,8 @@
                 "permalink": "/docs/design/Focus Cycle"
               },
               "next": {
-                "title": "DI on function",
-                "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+                "title": "AI Agents, digital coworkers",
+                "permalink": "/docs/design/AI Agents"
               }
             },
             {
@@ -198,8 +222,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "CAP Theorem",
-                "permalink": "/docs/design/CAP Theorem"
+                "title": "AI Agents, digital coworkers",
+                "permalink": "/docs/design/AI Agents"
               },
               "next": {
                 "title": "Firebase Token Validation in Azure",
@@ -261,7 +285,7 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Intro to Nuggets",
+              "title": "Intro to Toolbox",
               "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -303,7 +327,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro to Nuggets",
+                "title": "Intro to Toolbox",
                 "permalink": "/docs/intro"
               },
               "next": {
@@ -397,7 +421,7 @@
               },
               {
                 "type": "category",
-                "label": "Design",
+                "label": "Architecture",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -410,6 +434,10 @@
                     "type": "doc",
                     "id": "design/CAP Theorem",
                     "label": "CAP Theorem"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "design/AI Agents"
                   }
                 ]
               },

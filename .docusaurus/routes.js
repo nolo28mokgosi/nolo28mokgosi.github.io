@@ -184,7 +184,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '018'),
+    component: ComponentCreator('/docs', '6f3'),
     routes: [
       {
         path: '/docs/azure/azure_static_site',
@@ -201,6 +201,12 @@ export default [
       {
         path: '/docs/design-patterns/sidecarpattern',
         component: ComponentCreator('/docs/design-patterns/sidecarpattern', 'e15'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/design/AI Agents',
+        component: ComponentCreator('/docs/design/AI Agents', '835'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

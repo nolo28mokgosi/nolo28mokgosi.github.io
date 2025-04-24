@@ -1,7 +1,7 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Intro to Nuggets",
+  "title": "Intro to Toolbox",
   "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",

@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "CAP Theorem",
-    "permalink": "/docs/design/CAP Theorem"
+    "title": "AI Agents, digital coworkers",
+    "permalink": "/docs/design/AI Agents"
   },
   "next": {
     "title": "Firebase Token Validation in Azure",
