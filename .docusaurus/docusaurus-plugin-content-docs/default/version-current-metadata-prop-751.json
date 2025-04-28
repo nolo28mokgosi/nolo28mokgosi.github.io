@@ -88,7 +88,7 @@
           },
           {
             "type": "link",
-            "label": "AI Agents, digital coworkers",
+            "label": "AI Agents (aka Digital Coworkers)",
             "href": "/docs/design/AI Agents",
             "docId": "design/AI Agents"
           }
@@ -149,7 +149,7 @@
     },
     "design/AI Agents": {
       "id": "design/AI Agents",
-      "title": "AI Agents, digital coworkers",
+      "title": "AI Agents (aka Digital Coworkers)",
       "description": "Context",
       "sidebar": "tutorialSidebar"
     },
