@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "AI Agents (aka Digital Coworkers)",
-    "permalink": "/docs/design/AI Agents"
+    "title": "Enterprise Architecture 101",
+    "permalink": "/docs/design/Enterprise Architecture 101"
   },
   "next": {
     "title": "Firebase Token Validation in Azure",

@@ -4,245 +4,271 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'f93'),
+    component: ComponentCreator('/__docusaurus/debug', '5db'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '307'),
+    component: ComponentCreator('/__docusaurus/debug/config', '020'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '199'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a9d'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'd45'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '49b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'd1b'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ff4'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'c49'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '9ac'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'b2e'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'ab1'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '74e'),
+    component: ComponentCreator('/blog', '186'),
     exact: true
   },
   {
     path: '/blog/architecturedecisionrecords',
-    component: ComponentCreator('/blog/architecturedecisionrecords', 'd61'),
+    component: ComponentCreator('/blog/architecturedecisionrecords', 'd7d'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'e74'),
+    component: ComponentCreator('/blog/archive', 'b28'),
     exact: true
   },
   {
     path: '/blog/buildrightthingright',
-    component: ComponentCreator('/blog/buildrightthingright', '5f9'),
+    component: ComponentCreator('/blog/buildrightthingright', 'c78'),
     exact: true
   },
   {
     path: '/blog/businesscapabilities',
-    component: ComponentCreator('/blog/businesscapabilities', 'ad8'),
+    component: ComponentCreator('/blog/businesscapabilities', '8aa'),
     exact: true
   },
   {
     path: '/blog/businesscapabilitiesinaction',
-    component: ComponentCreator('/blog/businesscapabilitiesinaction', 'e2b'),
+    component: ComponentCreator('/blog/businesscapabilitiesinaction', '7a1'),
     exact: true
   },
   {
     path: '/blog/createC4diagrams',
-    component: ComponentCreator('/blog/createC4diagrams', 'ed2'),
+    component: ComponentCreator('/blog/createC4diagrams', 'fa8'),
     exact: true
   },
   {
     path: '/blog/entanglement',
-    component: ComponentCreator('/blog/entanglement', '089'),
+    component: ComponentCreator('/blog/entanglement', '2a0'),
     exact: true
   },
   {
     path: '/blog/introductiontoc4',
-    component: ComponentCreator('/blog/introductiontoc4', '046'),
+    component: ComponentCreator('/blog/introductiontoc4', '7bf'),
     exact: true
   },
   {
     path: '/blog/orchestrationvschoreography',
-    component: ComponentCreator('/blog/orchestrationvschoreography', '899'),
+    component: ComponentCreator('/blog/orchestrationvschoreography', '262'),
     exact: true
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '2e8'),
+    component: ComponentCreator('/blog/page/2', '9bf'),
     exact: true
   },
   {
     path: '/blog/sequencediagramonc4',
-    component: ComponentCreator('/blog/sequencediagramonc4', '629'),
+    component: ComponentCreator('/blog/sequencediagramonc4', '754'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '77e'),
+    component: ComponentCreator('/blog/tags', '3b0'),
     exact: true
   },
   {
     path: '/blog/tags/adr',
-    component: ComponentCreator('/blog/tags/adr', '0dc'),
+    component: ComponentCreator('/blog/tags/adr', '5c9'),
     exact: true
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture', '288'),
+    component: ComponentCreator('/blog/tags/architecture', 'c89'),
     exact: true
   },
   {
     path: '/blog/tags/architecture/page/2',
-    component: ComponentCreator('/blog/tags/architecture/page/2', 'd63'),
+    component: ComponentCreator('/blog/tags/architecture/page/2', '47e'),
     exact: true
   },
   {
     path: '/blog/tags/business-architecture',
-    component: ComponentCreator('/blog/tags/business-architecture', 'c7f'),
+    component: ComponentCreator('/blog/tags/business-architecture', 'b4d'),
     exact: true
   },
   {
     path: '/blog/tags/c-4',
-    component: ComponentCreator('/blog/tags/c-4', '472'),
+    component: ComponentCreator('/blog/tags/c-4', 'f8f'),
     exact: true
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design', 'b39'),
+    component: ComponentCreator('/blog/tags/design', 'ad7'),
     exact: true
   },
   {
     path: '/blog/tags/design/page/2',
-    component: ComponentCreator('/blog/tags/design/page/2', 'b1f'),
+    component: ComponentCreator('/blog/tags/design/page/2', '9ff'),
     exact: true
   },
   {
     path: '/blog/tags/diagramming',
-    component: ComponentCreator('/blog/tags/diagramming', 'bff'),
+    component: ComponentCreator('/blog/tags/diagramming', 'bf0'),
     exact: true
   },
   {
     path: '/blog/tags/domain-driven-design',
-    component: ComponentCreator('/blog/tags/domain-driven-design', 'a83'),
+    component: ComponentCreator('/blog/tags/domain-driven-design', '5a5'),
     exact: true
   },
   {
     path: '/blog/tags/modelling',
-    component: ComponentCreator('/blog/tags/modelling', '9d5'),
+    component: ComponentCreator('/blog/tags/modelling', 'a1b'),
     exact: true
   },
   {
     path: '/blog/tags/planning',
-    component: ComponentCreator('/blog/tags/planning', 'c2c'),
+    component: ComponentCreator('/blog/tags/planning', '2cf'),
     exact: true
   },
   {
     path: '/blog/tags/solutions-architecture',
-    component: ComponentCreator('/blog/tags/solutions-architecture', '3ec'),
+    component: ComponentCreator('/blog/tags/solutions-architecture', '40b'),
     exact: true
   },
   {
     path: '/blog/tags/strategy',
-    component: ComponentCreator('/blog/tags/strategy', '95f'),
+    component: ComponentCreator('/blog/tags/strategy', 'e6a'),
     exact: true
   },
   {
     path: '/blog/understandingboundaries',
-    component: ComponentCreator('/blog/understandingboundaries', '4cb'),
+    component: ComponentCreator('/blog/understandingboundaries', '346'),
     exact: true
   },
   {
     path: '/blog/valuestreaminaction',
-    component: ComponentCreator('/blog/valuestreaminaction', 'fa9'),
+    component: ComponentCreator('/blog/valuestreaminaction', 'cc2'),
+    exact: true
+  },
+  {
+    path: '/docs/tags',
+    component: ComponentCreator('/docs/tags', '1be'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/enterprise-architecture',
+    component: ComponentCreator('/docs/tags/enterprise-architecture', '2a0'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/solution-architecture',
+    component: ComponentCreator('/docs/tags/solution-architecture', '4e5'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/technology-strategy',
+    component: ComponentCreator('/docs/tags/technology-strategy', 'c7a'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '767'),
+    component: ComponentCreator('/markdown-page', 'a0d'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6f3'),
+    component: ComponentCreator('/docs', 'b02'),
     routes: [
       {
-        path: '/docs/azure/azure_static_site',
-        component: ComponentCreator('/docs/azure/azure_static_site', 'd43'),
+        path: '/docs/architecture/AI Agents',
+        component: ComponentCreator('/docs/architecture/AI Agents', '284'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/azure/first_azure_pipeline',
-        component: ComponentCreator('/docs/azure/first_azure_pipeline', 'c3d'),
+        path: '/docs/architecture/design-patterns/sidecarpattern',
+        component: ComponentCreator('/docs/architecture/design-patterns/sidecarpattern', '211'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/design-patterns/sidecarpattern',
-        component: ComponentCreator('/docs/design-patterns/sidecarpattern', 'e15'),
+        path: '/docs/architecture/Enterprise Architecture 101',
+        component: ComponentCreator('/docs/architecture/Enterprise Architecture 101', 'e9a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/design/AI Agents',
-        component: ComponentCreator('/docs/design/AI Agents', '835'),
+        path: '/docs/architecture/Focus Cycle',
+        component: ComponentCreator('/docs/architecture/Focus Cycle', '884'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/design/CAP Theorem',
-        component: ComponentCreator('/docs/design/CAP Theorem', 'c7c'),
+        path: '/docs/development/aicontextcompression',
+        component: ComponentCreator('/docs/development/aicontextcompression', 'c70'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/design/Focus Cycle',
-        component: ComponentCreator('/docs/design/Focus Cycle', 'bba'),
+        path: '/docs/development/azure/azure_static_site',
+        component: ComponentCreator('/docs/development/azure/azure_static_site', '5eb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/engineering/dependencyinjectiononfunctions',
-        component: ComponentCreator('/docs/engineering/dependencyinjectiononfunctions', 'd6b'),
+        path: '/docs/development/azure/first_azure_pipeline',
+        component: ComponentCreator('/docs/development/azure/first_azure_pipeline', '9d7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/engineering/expodeployment',
-        component: ComponentCreator('/docs/engineering/expodeployment', '385'),
+        path: '/docs/development/azure/jwttokenvalidationonazurefunction',
+        component: ComponentCreator('/docs/development/azure/jwttokenvalidationonazurefunction', '081'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/engineering/jwttokenvalidationonazurefunction',
-        component: ComponentCreator('/docs/engineering/jwttokenvalidationonazurefunction', '865'),
+        path: '/docs/development/azure/websiteOnAzureContainerisedApps',
+        component: ComponentCreator('/docs/development/azure/websiteOnAzureContainerisedApps', 'c5b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/engineering/websiteOnAzureContainerisedApps',
-        component: ComponentCreator('/docs/engineering/websiteOnAzureContainerisedApps', '52b'),
+        path: '/docs/development/dependencyinjectiononfunctions',
+        component: ComponentCreator('/docs/development/dependencyinjectiononfunctions', '379'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/development/react native/expodeployment',
+        component: ComponentCreator('/docs/development/react native/expodeployment', '95c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -251,24 +277,12 @@ export default [
         component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
         sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/microsoft-azure-well-architected-framework/introduction',
-        component: ComponentCreator('/docs/microsoft-azure-well-architected-framework/introduction', 'd0f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/microsoft-azure-well-architected-framework/Reliability',
-        component: ComponentCreator('/docs/microsoft-azure-well-architected-framework/Reliability', '61f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
       }
     ]
   },
   {
     path: '/',
-    component: ComponentCreator('/', '7dd'),
+    component: ComponentCreator('/', '200'),
     exact: true
   },
   {

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/azure/Azure Static Site",
+  "id": "development/azure/Azure Static Site",
+  "title": "Azure Static Site",
+  "description": "Problem statement",
+  "source": "@site/docs/development/azure/2. Azure Static Site.md",
+  "sourceDirName": "development/azure",
+  "slug": "/development/azure/azure_static_site",
+  "permalink": "/docs/development/azure/azure_static_site",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Azure Static Site",
+    "slug": "azure_static_site",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Firebase Token Validation in Azure",
+    "permalink": "/docs/development/azure/jwttokenvalidationonazurefunction"
+  },
+  "next": {
+    "title": "Containerised website in Azure",
+    "permalink": "/docs/development/azure/websiteOnAzureContainerisedApps"
+  }
+}

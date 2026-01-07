@@ -1,7 +1,7 @@
 ---
 slug: dependencyinjectiononfunctions
 sidebar_label: 'DI on function'
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 

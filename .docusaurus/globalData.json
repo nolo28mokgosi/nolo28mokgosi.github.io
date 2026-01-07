@@ -1,7 +1,9 @@
 {
   "docusaurus-plugin-google-gtag": {
     "default": {
-      "trackingID": "G-75LLZKB7VH",
+      "trackingID": [
+        "G-75LLZKB7VH"
+      ],
       "anonymizeIP": true,
       "id": "default"
     }
@@ -15,71 +17,66 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "azure/First Pipeline",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "azure/Azure Static Site",
-              "path": "/docs/azure/azure_static_site",
+              "id": "architecture/AI Agents",
+              "path": "/docs/architecture/AI Agents",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "azure/First Pipeline",
-              "path": "/docs/azure/first_azure_pipeline",
+              "id": "architecture/design-patterns/sidecar-pattern",
+              "path": "/docs/architecture/design-patterns/sidecarpattern",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design-patterns/sidecar-pattern",
-              "path": "/docs/design-patterns/sidecarpattern",
+              "id": "architecture/Enterprise Architecture 101",
+              "path": "/docs/architecture/Enterprise Architecture 101",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design/AI Agents",
-              "path": "/docs/design/AI Agents",
+              "id": "architecture/Focus Cycle",
+              "path": "/docs/architecture/Focus Cycle",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design/CAP Theorem",
-              "path": "/docs/design/CAP Theorem",
+              "id": "development/ai-context-compression",
+              "path": "/docs/development/aicontextcompression",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design/Focus Cycle",
-              "path": "/docs/design/Focus Cycle",
+              "id": "development/azure/Azure Static Site",
+              "path": "/docs/development/azure/azure_static_site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "engineering/azurefunction-firebase-auth",
-              "path": "/docs/engineering/jwttokenvalidationonazurefunction",
+              "id": "development/azure/azurefunction-firebase-auth",
+              "path": "/docs/development/azure/jwttokenvalidationonazurefunction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "engineering/DI-on-functions",
-              "path": "/docs/engineering/dependencyinjectiononfunctions",
+              "id": "development/azure/First Pipeline",
+              "path": "/docs/development/azure/first_azure_pipeline",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "engineering/expo-deployment",
-              "path": "/docs/engineering/expodeployment",
+              "id": "development/azure/website-on-aca",
+              "path": "/docs/development/azure/websiteOnAzureContainerisedApps",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "engineering/website-on-aca",
-              "path": "/docs/engineering/websiteOnAzureContainerisedApps",
+              "id": "development/DI-on-functions",
+              "path": "/docs/development/dependencyinjectiononfunctions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "development/react native/expo-deployment",
+              "path": "/docs/development/react native/expodeployment",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "microsoft-azure-well-architected-framework/introduction",
-              "path": "/docs/microsoft-azure-well-architected-framework/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "microsoft-azure-well-architected-framework/Reliability",
-              "path": "/docs/microsoft-azure-well-architected-framework/Reliability",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -87,8 +84,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/azure/first_azure_pipeline",
-                "label": "First Azure Pipeline"
+                "path": "/docs/intro",
+                "label": "intro"
               }
             }
           }

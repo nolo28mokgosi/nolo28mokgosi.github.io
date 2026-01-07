@@ -1,0 +1,14 @@
+{
+  "label": "technology-strategy",
+  "permalink": "/docs/tags/technology-strategy",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "architecture/Enterprise Architecture 101",
+      "title": "Enterprise Architecture 101",
+      "description": "Understanding Enterprise Architecture and how it differs from Solution Architecture",
+      "permalink": "/docs/architecture/Enterprise Architecture 101"
+    }
+  ]
+}

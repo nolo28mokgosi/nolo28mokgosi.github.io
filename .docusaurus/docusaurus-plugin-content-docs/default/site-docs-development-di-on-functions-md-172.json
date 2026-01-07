@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/DI-on-functions",
+  "id": "development/DI-on-functions",
+  "title": "Dependency injection on azure functions",
+  "description": "di",
+  "source": "@site/docs/development/DI-on-functions.md",
+  "sourceDirName": "development",
+  "slug": "/development/dependencyinjectiononfunctions",
+  "permalink": "/docs/development/dependencyinjectiononfunctions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "dependencyinjectiononfunctions",
+    "sidebar_label": "DI on function",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Expo Deployment",
+    "permalink": "/docs/development/react native/expodeployment"
+  },
+  "next": {
+    "title": "AI Context Compression",
+    "permalink": "/docs/development/aicontextcompression"
+  }
+}

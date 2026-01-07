@@ -7,76 +7,49 @@
           "label": "Next",
           "banner": null,
           "badge": false,
+          "noIndex": false,
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js",
-          "contentPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/docs",
-          "contentPathLocalized": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/sidebars.js",
+          "contentPath": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/docs",
+          "contentPathLocalized": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "azure/Azure Static Site",
-              "id": "azure/Azure Static Site",
-              "title": "Azure Static Site",
-              "description": "Problem statement",
-              "source": "@site/docs/azure/2. Azure Static Site.md",
-              "sourceDirName": "azure",
-              "slug": "/azure/azure_static_site",
-              "permalink": "/docs/azure/azure_static_site",
+              "unversionedId": "architecture/AI Agents",
+              "id": "architecture/AI Agents",
+              "title": "AI Agents (aka Digital Coworkers)",
+              "description": "Context",
+              "source": "@site/docs/architecture/3. AI Agents.md",
+              "sourceDirName": "architecture",
+              "slug": "/architecture/AI Agents",
+              "permalink": "/docs/architecture/AI Agents",
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "Azure Static Site",
-                "slug": "azure_static_site",
-                "sidebar_position": 2
-              },
+              "sidebarPosition": 3,
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "First Azure Pipeline",
-                "permalink": "/docs/azure/first_azure_pipeline"
+                "title": "Strat to Execution",
+                "permalink": "/docs/architecture/Focus Cycle"
               },
               "next": {
-                "title": "Intro to Toolbox",
-                "permalink": "/docs/intro"
+                "title": "Sidecar",
+                "permalink": "/docs/architecture/design-patterns/sidecarpattern"
               }
             },
             {
-              "unversionedId": "azure/First Pipeline",
-              "id": "azure/First Pipeline",
-              "title": "First Azure Pipeline",
-              "description": "Pipeline",
-              "source": "@site/docs/azure/1. First Pipeline.md",
-              "sourceDirName": "azure",
-              "slug": "/azure/first_azure_pipeline",
-              "permalink": "/docs/azure/first_azure_pipeline",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_label": "First Azure Pipeline",
-                "slug": "first_azure_pipeline",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Azure Static Site",
-                "permalink": "/docs/azure/azure_static_site"
-              }
-            },
-            {
-              "unversionedId": "design-patterns/sidecar-pattern",
-              "id": "design-patterns/sidecar-pattern",
+              "unversionedId": "architecture/design-patterns/sidecar-pattern",
+              "id": "architecture/design-patterns/sidecar-pattern",
               "title": "Sidecar Pattern",
               "description": "Sidecar",
-              "source": "@site/docs/design-patterns/sidecar-pattern.md",
-              "sourceDirName": "design-patterns",
-              "slug": "/design-patterns/sidecarpattern",
-              "permalink": "/docs/design-patterns/sidecarpattern",
+              "source": "@site/docs/architecture/design-patterns/sidecar-pattern.md",
+              "sourceDirName": "architecture/design-patterns",
+              "slug": "/architecture/design-patterns/sidecarpattern",
+              "permalink": "/docs/architecture/design-patterns/sidecarpattern",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -88,101 +61,153 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Reliability",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
-              },
-              "next": {
-                "title": "Focus Cycle",
-                "permalink": "/docs/design/Focus Cycle"
-              }
-            },
-            {
-              "unversionedId": "design/AI Agents",
-              "id": "design/AI Agents",
-              "title": "AI Agents (aka Digital Coworkers)",
-              "description": "Context",
-              "source": "@site/docs/design/3. AI Agents.md",
-              "sourceDirName": "design",
-              "slug": "/design/AI Agents",
-              "permalink": "/docs/design/AI Agents",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "CAP Theorem",
-                "permalink": "/docs/design/CAP Theorem"
-              },
-              "next": {
-                "title": "DI on function",
-                "permalink": "/docs/engineering/dependencyinjectiononfunctions"
-              }
-            },
-            {
-              "unversionedId": "design/CAP Theorem",
-              "id": "design/CAP Theorem",
-              "title": "CAP Theorem",
-              "description": "Coming soon",
-              "source": "@site/docs/design/1. CAP Theorem.md",
-              "sourceDirName": "design",
-              "slug": "/design/CAP Theorem",
-              "permalink": "/docs/design/CAP Theorem",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "CAP Theorem",
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Focus Cycle",
-                "permalink": "/docs/design/Focus Cycle"
-              },
-              "next": {
                 "title": "AI Agents (aka Digital Coworkers)",
-                "permalink": "/docs/design/AI Agents"
+                "permalink": "/docs/architecture/AI Agents"
+              },
+              "next": {
+                "title": "Enterprise Architecture 101",
+                "permalink": "/docs/architecture/Enterprise Architecture 101"
               }
             },
             {
-              "unversionedId": "design/Focus Cycle",
-              "id": "design/Focus Cycle",
-              "title": "Focus Cycle",
+              "unversionedId": "architecture/Enterprise Architecture 101",
+              "id": "architecture/Enterprise Architecture 101",
+              "title": "Enterprise Architecture 101",
+              "description": "Understanding Enterprise Architecture and how it differs from Solution Architecture",
+              "source": "@site/docs/architecture/4. Enterprise Architecture 101.md",
+              "sourceDirName": "architecture",
+              "slug": "/architecture/Enterprise Architecture 101",
+              "permalink": "/docs/architecture/Enterprise Architecture 101",
+              "draft": false,
+              "tags": [
+                {
+                  "label": "enterprise-architecture",
+                  "permalink": "/docs/tags/enterprise-architecture"
+                },
+                {
+                  "label": "solution-architecture",
+                  "permalink": "/docs/tags/solution-architecture"
+                },
+                {
+                  "label": "technology-strategy",
+                  "permalink": "/docs/tags/technology-strategy"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Enterprise Architecture 101",
+                "description": "Understanding Enterprise Architecture and how it differs from Solution Architecture",
+                "authors": [
+                  "your-name"
+                ],
+                "tags": [
+                  "enterprise-architecture",
+                  "solution-architecture",
+                  "technology-strategy"
+                ],
+                "date": "2026-01-07T00:00:00.000Z"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sidecar",
+                "permalink": "/docs/architecture/design-patterns/sidecarpattern"
+              },
+              "next": {
+                "title": "First Azure Pipeline",
+                "permalink": "/docs/development/azure/first_azure_pipeline"
+              }
+            },
+            {
+              "unversionedId": "architecture/Focus Cycle",
+              "id": "architecture/Focus Cycle",
+              "title": "Strat to Execution",
               "description": "In today's rapidly evolving digital landscape, the role of the Architecture has become increasingly critical. As organizations strive to leverage technology to drive business growth and remain competitive, the need for a well-defined and aligned architecture has never been greater.",
-              "source": "@site/docs/design/2.Focus Cycle.md",
-              "sourceDirName": "design",
-              "slug": "/design/Focus Cycle",
-              "permalink": "/docs/design/Focus Cycle",
+              "source": "@site/docs/architecture/2.Focus Cycle.md",
+              "sourceDirName": "architecture",
+              "slug": "/architecture/Focus Cycle",
+              "permalink": "/docs/architecture/Focus Cycle",
               "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_label": "Focus Cycle",
+                "sidebar_label": "Strat to Execution",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Sidecar",
-                "permalink": "/docs/design-patterns/sidecarpattern"
+                "title": "Intro to Toolbox",
+                "permalink": "/docs/intro"
               },
               "next": {
-                "title": "CAP Theorem",
-                "permalink": "/docs/design/CAP Theorem"
+                "title": "AI Agents (aka Digital Coworkers)",
+                "permalink": "/docs/architecture/AI Agents"
               }
             },
             {
-              "unversionedId": "engineering/azurefunction-firebase-auth",
-              "id": "engineering/azurefunction-firebase-auth",
+              "unversionedId": "development/ai-context-compression",
+              "id": "development/ai-context-compression",
+              "title": "AI Context Compression",
+              "description": "Exploring the difference between simple and easy code, and why context compression matters when using AI for development",
+              "source": "@site/docs/development/ai-context-compression.md",
+              "sourceDirName": "development",
+              "slug": "/development/aicontextcompression",
+              "permalink": "/docs/development/aicontextcompression",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "slug": "aicontextcompression",
+                "title": "AI Context Compression",
+                "sidebar_label": "AI Context Compression",
+                "description": "Exploring the difference between simple and easy code, and why context compression matters when using AI for development",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DI on function",
+                "permalink": "/docs/development/dependencyinjectiononfunctions"
+              }
+            },
+            {
+              "unversionedId": "development/azure/Azure Static Site",
+              "id": "development/azure/Azure Static Site",
+              "title": "Azure Static Site",
+              "description": "Problem statement",
+              "source": "@site/docs/development/azure/2. Azure Static Site.md",
+              "sourceDirName": "development/azure",
+              "slug": "/development/azure/azure_static_site",
+              "permalink": "/docs/development/azure/azure_static_site",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Azure Static Site",
+                "slug": "azure_static_site",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Firebase Token Validation in Azure",
+                "permalink": "/docs/development/azure/jwttokenvalidationonazurefunction"
+              },
+              "next": {
+                "title": "Containerised website in Azure",
+                "permalink": "/docs/development/azure/websiteOnAzureContainerisedApps"
+              }
+            },
+            {
+              "unversionedId": "development/azure/azurefunction-firebase-auth",
+              "id": "development/azure/azurefunction-firebase-auth",
               "title": "Firebase Token Validation in Azure",
               "description": "This note documents a case where Firebase is used as Auth Server and Azure Function as the backend of the mobile application.",
-              "source": "@site/docs/engineering/azurefunction-firebase-auth.md",
-              "sourceDirName": "engineering",
-              "slug": "/engineering/jwttokenvalidationonazurefunction",
-              "permalink": "/docs/engineering/jwttokenvalidationonazurefunction",
+              "source": "@site/docs/development/azure/azurefunction-firebase-auth.md",
+              "sourceDirName": "development/azure",
+              "slug": "/development/azure/jwttokenvalidationonazurefunction",
+              "permalink": "/docs/development/azure/jwttokenvalidationonazurefunction",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -194,79 +219,51 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "DI on function",
-                "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+                "title": "First Azure Pipeline",
+                "permalink": "/docs/development/azure/first_azure_pipeline"
               },
               "next": {
-                "title": "Expo Deployment",
-                "permalink": "/docs/engineering/expodeployment"
+                "title": "Azure Static Site",
+                "permalink": "/docs/development/azure/azure_static_site"
               }
             },
             {
-              "unversionedId": "engineering/DI-on-functions",
-              "id": "engineering/DI-on-functions",
-              "title": "Dependency injection on azure functions",
-              "description": "di",
-              "source": "@site/docs/engineering/DI-on-functions.md",
-              "sourceDirName": "engineering",
-              "slug": "/engineering/dependencyinjectiononfunctions",
-              "permalink": "/docs/engineering/dependencyinjectiononfunctions",
+              "unversionedId": "development/azure/First Pipeline",
+              "id": "development/azure/First Pipeline",
+              "title": "First Azure Pipeline",
+              "description": "Pipeline",
+              "source": "@site/docs/development/azure/1. First Pipeline.md",
+              "sourceDirName": "development/azure",
+              "slug": "/development/azure/first_azure_pipeline",
+              "permalink": "/docs/development/azure/first_azure_pipeline",
               "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "slug": "dependencyinjectiononfunctions",
-                "sidebar_label": "DI on function",
+                "sidebar_label": "First Azure Pipeline",
+                "slug": "first_azure_pipeline",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "AI Agents (aka Digital Coworkers)",
-                "permalink": "/docs/design/AI Agents"
+                "title": "Enterprise Architecture 101",
+                "permalink": "/docs/architecture/Enterprise Architecture 101"
               },
               "next": {
                 "title": "Firebase Token Validation in Azure",
-                "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
+                "permalink": "/docs/development/azure/jwttokenvalidationonazurefunction"
               }
             },
             {
-              "unversionedId": "engineering/expo-deployment",
-              "id": "engineering/expo-deployment",
-              "title": "Expo Deployment",
-              "description": "Context",
-              "source": "@site/docs/engineering/expo-deployment.md",
-              "sourceDirName": "engineering",
-              "slug": "/engineering/expodeployment",
-              "permalink": "/docs/engineering/expodeployment",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "slug": "expodeployment",
-                "sidebar_label": "Expo Deployment",
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Firebase Token Validation in Azure",
-                "permalink": "/docs/engineering/jwttokenvalidationonazurefunction"
-              },
-              "next": {
-                "title": "Containerised website in Azure",
-                "permalink": "/docs/engineering/websiteOnAzureContainerisedApps"
-              }
-            },
-            {
-              "unversionedId": "engineering/website-on-aca",
-              "id": "engineering/website-on-aca",
+              "unversionedId": "development/azure/website-on-aca",
+              "id": "development/azure/website-on-aca",
               "title": "Containerised website in Azure",
               "description": "Context",
-              "source": "@site/docs/engineering/website-on-aca.md",
-              "sourceDirName": "engineering",
-              "slug": "/engineering/websiteOnAzureContainerisedApps",
-              "permalink": "/docs/engineering/websiteOnAzureContainerisedApps",
+              "source": "@site/docs/development/azure/website-on-aca.md",
+              "sourceDirName": "development/azure",
+              "slug": "/development/azure/websiteOnAzureContainerisedApps",
+              "permalink": "/docs/development/azure/websiteOnAzureContainerisedApps",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -278,15 +275,75 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Azure Static Site",
+                "permalink": "/docs/development/azure/azure_static_site"
+              },
+              "next": {
                 "title": "Expo Deployment",
-                "permalink": "/docs/engineering/expodeployment"
+                "permalink": "/docs/development/react native/expodeployment"
+              }
+            },
+            {
+              "unversionedId": "development/DI-on-functions",
+              "id": "development/DI-on-functions",
+              "title": "Dependency injection on azure functions",
+              "description": "di",
+              "source": "@site/docs/development/DI-on-functions.md",
+              "sourceDirName": "development",
+              "slug": "/development/dependencyinjectiononfunctions",
+              "permalink": "/docs/development/dependencyinjectiononfunctions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "slug": "dependencyinjectiononfunctions",
+                "sidebar_label": "DI on function",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Expo Deployment",
+                "permalink": "/docs/development/react native/expodeployment"
+              },
+              "next": {
+                "title": "AI Context Compression",
+                "permalink": "/docs/development/aicontextcompression"
+              }
+            },
+            {
+              "unversionedId": "development/react native/expo-deployment",
+              "id": "development/react native/expo-deployment",
+              "title": "Expo Deployment",
+              "description": "Context",
+              "source": "@site/docs/development/react native/expo-deployment.md",
+              "sourceDirName": "development/react native",
+              "slug": "/development/react native/expodeployment",
+              "permalink": "/docs/development/react native/expodeployment",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "slug": "expodeployment",
+                "sidebar_label": "Expo Deployment",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Containerised website in Azure",
+                "permalink": "/docs/development/azure/websiteOnAzureContainerisedApps"
+              },
+              "next": {
+                "title": "DI on function",
+                "permalink": "/docs/development/dependencyinjectiononfunctions"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Intro to Toolbox",
-              "description": "I've been documenting/writing some tips and techniques in notebooks. Nuggets is a space where I",
+              "description": "Toolbox is a personal collection of notes I’ve built up while learning, experimenting, and working across software development, engineering, and architecture. It’s a place where I capture things I don’t want to forget — ideas that clicked, patterns I’ve noticed, and lessons picked up along the way. Some notes are practical and hands-on, others are more reflective, but together they help me think more clearly about systems and how I build them.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -299,67 +356,9 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Azure Static Site",
-                "permalink": "/docs/azure/azure_static_site"
-              },
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
-              }
-            },
-            {
-              "unversionedId": "microsoft-azure-well-architected-framework/introduction",
-              "id": "microsoft-azure-well-architected-framework/introduction",
-              "title": "Introduction",
-              "description": "According to Microsoft, Azure Well-Architected Framework is \"a set of guiding tenets that can be used to improve quality of worklload\".",
-              "source": "@site/docs/microsoft-azure-well-architected-framework/1.introduction.md",
-              "sourceDirName": "microsoft-azure-well-architected-framework",
-              "slug": "/microsoft-azure-well-architected-framework/introduction",
-              "permalink": "/docs/microsoft-azure-well-architected-framework/introduction",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_label": "Introduction",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Intro to Toolbox",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Reliability",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability"
-              }
-            },
-            {
-              "unversionedId": "microsoft-azure-well-architected-framework/Reliability",
-              "id": "microsoft-azure-well-architected-framework/Reliability",
-              "title": "Reliability",
-              "description": "Reliability covers both resiliency and availability.",
-              "source": "@site/docs/microsoft-azure-well-architected-framework/2. Reliability.md",
-              "sourceDirName": "microsoft-azure-well-architected-framework",
-              "slug": "/microsoft-azure-well-architected-framework/Reliability",
-              "permalink": "/docs/microsoft-azure-well-architected-framework/Reliability",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_label": "Reliability",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
-              },
-              "next": {
-                "title": "Sidecar",
-                "permalink": "/docs/design-patterns/sidecarpattern"
+                "title": "Strat to Execution",
+                "permalink": "/docs/architecture/Focus Cycle"
               }
             }
           ],
@@ -367,57 +366,8 @@
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "category",
-                "label": "Azure Notes",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "azure/First Pipeline",
-                    "label": "First Azure Pipeline"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "azure/Azure Static Site",
-                    "label": "Azure Static Site"
-                  }
-                ]
-              },
-              {
                 "type": "doc",
                 "id": "intro"
-              },
-              {
-                "type": "category",
-                "label": "Ms Az Well-Architected",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "microsoft-azure-well-architected-framework/introduction",
-                    "label": "Introduction"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "microsoft-azure-well-architected-framework/Reliability",
-                    "label": "Reliability"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Design Patterns",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "design-patterns/sidecar-pattern",
-                    "label": "Sidecar"
-                  }
-                ]
               },
               {
                 "type": "category",
@@ -427,45 +377,88 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "design/Focus Cycle",
-                    "label": "Focus Cycle"
+                    "id": "architecture/Focus Cycle",
+                    "label": "Strat to Execution"
                   },
                   {
                     "type": "doc",
-                    "id": "design/CAP Theorem",
-                    "label": "CAP Theorem"
+                    "id": "architecture/AI Agents"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Design Patterns",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "architecture/design-patterns/sidecar-pattern",
+                        "label": "Sidecar"
+                      }
+                    ]
                   },
                   {
                     "type": "doc",
-                    "id": "design/AI Agents"
+                    "id": "architecture/Enterprise Architecture 101"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Engineering",
+                "label": "Development",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
+                    "type": "category",
+                    "label": "Azure Notes",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "development/azure/First Pipeline",
+                        "label": "First Azure Pipeline"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/azure/azurefunction-firebase-auth",
+                        "label": "Firebase Token Validation in Azure"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/azure/Azure Static Site",
+                        "label": "Azure Static Site"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/azure/website-on-aca",
+                        "label": "Containerised website in Azure"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "React Native",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "development/react native/expo-deployment",
+                        "label": "Expo Deployment"
+                      }
+                    ]
+                  },
+                  {
                     "type": "doc",
-                    "id": "engineering/DI-on-functions",
+                    "id": "development/DI-on-functions",
                     "label": "DI on function"
                   },
                   {
                     "type": "doc",
-                    "id": "engineering/azurefunction-firebase-auth",
-                    "label": "Firebase Token Validation in Azure"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "engineering/expo-deployment",
-                    "label": "Expo Deployment"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "engineering/website-on-aca",
-                    "label": "Containerised website in Azure"
+                    "id": "development/ai-context-compression",
+                    "label": "AI Context Compression"
                   }
                 ]
               }

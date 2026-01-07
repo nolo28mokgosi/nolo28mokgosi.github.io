@@ -1,0 +1,24 @@
+{
+  "unversionedId": "architecture/AI Agents",
+  "id": "architecture/AI Agents",
+  "title": "AI Agents (aka Digital Coworkers)",
+  "description": "Context",
+  "source": "@site/docs/architecture/3. AI Agents.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/AI Agents",
+  "permalink": "/docs/architecture/AI Agents",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Strat to Execution",
+    "permalink": "/docs/architecture/Focus Cycle"
+  },
+  "next": {
+    "title": "Sidecar",
+    "permalink": "/docs/architecture/design-patterns/sidecarpattern"
+  }
+}

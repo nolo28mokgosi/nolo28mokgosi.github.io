@@ -21,7 +21,7 @@
     "permalink": "/docs/microsoft-azure-well-architected-framework/introduction"
   },
   "next": {
-    "title": "Sidecar",
-    "permalink": "/docs/design-patterns/sidecarpattern"
+    "title": "Focus Cycle",
+    "permalink": "/docs/architecture/Focus Cycle"
   }
 }

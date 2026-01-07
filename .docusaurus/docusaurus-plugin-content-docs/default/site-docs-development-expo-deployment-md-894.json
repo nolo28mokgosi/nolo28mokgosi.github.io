@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/expo-deployment",
+  "id": "development/expo-deployment",
+  "title": "Expo Deployment",
+  "description": "Context",
+  "source": "@site/docs/development/expo-deployment.md",
+  "sourceDirName": "development",
+  "slug": "/development/expodeployment",
+  "permalink": "/docs/development/expodeployment",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "expodeployment",
+    "sidebar_label": "Expo Deployment",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Static Site",
+    "permalink": "/docs/development/azure_static_site"
+  },
+  "next": {
+    "title": "Containerised website in Azure",
+    "permalink": "/docs/development/websiteOnAzureContainerisedApps"
+  }
+}

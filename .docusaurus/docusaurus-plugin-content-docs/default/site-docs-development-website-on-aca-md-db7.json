@@ -1,12 +1,12 @@
 {
-  "unversionedId": "engineering/website-on-aca",
-  "id": "engineering/website-on-aca",
+  "unversionedId": "development/website-on-aca",
+  "id": "development/website-on-aca",
   "title": "Containerised website in Azure",
   "description": "Context",
-  "source": "@site/docs/engineering/website-on-aca.md",
-  "sourceDirName": "engineering",
-  "slug": "/engineering/websiteOnAzureContainerisedApps",
-  "permalink": "/docs/engineering/websiteOnAzureContainerisedApps",
+  "source": "@site/docs/development/website-on-aca.md",
+  "sourceDirName": "development",
+  "slug": "/development/websiteOnAzureContainerisedApps",
+  "permalink": "/docs/development/websiteOnAzureContainerisedApps",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Expo Deployment",
-    "permalink": "/docs/engineering/expodeployment"
+    "permalink": "/docs/development/expodeployment"
   },
   "next": {
     "title": "AI Context Compression",
-    "permalink": "/docs/engineering/aicontextcompression"
+    "permalink": "/docs/development/aicontextcompression"
   }
 }

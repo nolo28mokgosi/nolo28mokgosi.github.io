@@ -1,0 +1,28 @@
+{
+  "unversionedId": "architecture/design-patterns/sidecar-pattern",
+  "id": "architecture/design-patterns/sidecar-pattern",
+  "title": "Sidecar Pattern",
+  "description": "Sidecar",
+  "source": "@site/docs/architecture/design-patterns/sidecar-pattern.md",
+  "sourceDirName": "architecture/design-patterns",
+  "slug": "/architecture/design-patterns/sidecarpattern",
+  "permalink": "/docs/architecture/design-patterns/sidecarpattern",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "slug": "sidecarpattern",
+    "sidebar_label": "Sidecar",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Agents (aka Digital Coworkers)",
+    "permalink": "/docs/architecture/AI Agents"
+  },
+  "next": {
+    "title": "Enterprise Architecture 101",
+    "permalink": "/docs/architecture/Enterprise Architecture 101"
+  }
+}

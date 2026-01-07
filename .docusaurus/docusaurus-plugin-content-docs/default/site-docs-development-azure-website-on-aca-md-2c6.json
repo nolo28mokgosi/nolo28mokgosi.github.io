@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/azure/website-on-aca",
+  "id": "development/azure/website-on-aca",
+  "title": "Containerised website in Azure",
+  "description": "Context",
+  "source": "@site/docs/development/azure/website-on-aca.md",
+  "sourceDirName": "development/azure",
+  "slug": "/development/azure/websiteOnAzureContainerisedApps",
+  "permalink": "/docs/development/azure/websiteOnAzureContainerisedApps",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "websiteOnAzureContainerisedApps",
+    "sidebar_label": "Containerised website in Azure",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Static Site",
+    "permalink": "/docs/development/azure/azure_static_site"
+  },
+  "next": {
+    "title": "Expo Deployment",
+    "permalink": "/docs/development/react native/expodeployment"
+  }
+}

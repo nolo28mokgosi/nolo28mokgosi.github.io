@@ -1,0 +1,27 @@
+{
+  "unversionedId": "architecture/CAP Theorem",
+  "id": "architecture/CAP Theorem",
+  "title": "CAP Theorem",
+  "description": "Coming soon",
+  "source": "@site/docs/architecture/1. CAP Theorem.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/CAP Theorem",
+  "permalink": "/docs/architecture/CAP Theorem",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "CAP Theorem",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Focus Cycle",
+    "permalink": "/docs/architecture/Focus Cycle"
+  },
+  "next": {
+    "title": "AI Agents (aka Digital Coworkers)",
+    "permalink": "/docs/architecture/AI Agents"
+  }
+}

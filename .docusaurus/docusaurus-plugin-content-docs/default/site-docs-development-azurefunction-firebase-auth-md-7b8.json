@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/azurefunction-firebase-auth",
+  "id": "development/azurefunction-firebase-auth",
+  "title": "Firebase Token Validation in Azure",
+  "description": "This note documents a case where Firebase is used as Auth Server and Azure Function as the backend of the mobile application.",
+  "source": "@site/docs/development/azurefunction-firebase-auth.md",
+  "sourceDirName": "development",
+  "slug": "/development/jwttokenvalidationonazurefunction",
+  "permalink": "/docs/development/jwttokenvalidationonazurefunction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "slug": "jwttokenvalidationonazurefunction",
+    "sidebar_label": "Firebase Token Validation in Azure",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DI on function",
+    "permalink": "/docs/development/dependencyinjectiononfunctions"
+  },
+  "next": {
+    "title": "Azure Static Site",
+    "permalink": "/docs/development/azure_static_site"
+  }
+}

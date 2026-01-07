@@ -1,0 +1,24 @@
+{
+  "unversionedId": "azure/design-patterns/sidecar-pattern",
+  "id": "azure/design-patterns/sidecar-pattern",
+  "title": "Sidecar Pattern",
+  "description": "Sidecar",
+  "source": "@site/docs/azure/design-patterns/sidecar-pattern.md",
+  "sourceDirName": "azure/design-patterns",
+  "slug": "/azure/design-patterns/sidecarpattern",
+  "permalink": "/docs/azure/design-patterns/sidecarpattern",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "slug": "sidecarpattern",
+    "sidebar_label": "Sidecar",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Intro to Toolbox",
+    "permalink": "/docs/intro"
+  }
+}

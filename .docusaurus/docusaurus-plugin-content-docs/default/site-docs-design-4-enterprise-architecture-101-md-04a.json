@@ -1,0 +1,49 @@
+{
+  "unversionedId": "design/Enterprise Architecture 101",
+  "id": "design/Enterprise Architecture 101",
+  "title": "Enterprise Architecture 101",
+  "description": "Understanding Enterprise Architecture and how it differs from Solution Architecture",
+  "source": "@site/docs/design/4. Enterprise Architecture 101.md",
+  "sourceDirName": "design",
+  "slug": "/design/Enterprise Architecture 101",
+  "permalink": "/docs/design/Enterprise Architecture 101",
+  "draft": false,
+  "tags": [
+    {
+      "label": "enterprise-architecture",
+      "permalink": "/docs/tags/enterprise-architecture"
+    },
+    {
+      "label": "solution-architecture",
+      "permalink": "/docs/tags/solution-architecture"
+    },
+    {
+      "label": "technology-strategy",
+      "permalink": "/docs/tags/technology-strategy"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Enterprise Architecture 101",
+    "description": "Understanding Enterprise Architecture and how it differs from Solution Architecture",
+    "authors": [
+      "your-name"
+    ],
+    "tags": [
+      "enterprise-architecture",
+      "solution-architecture",
+      "technology-strategy"
+    ],
+    "date": "2026-01-07T00:00:00.000Z"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Agents (aka Digital Coworkers)",
+    "permalink": "/docs/design/AI Agents"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/engineering/dependencyinjectiononfunctions"
+  }
+}

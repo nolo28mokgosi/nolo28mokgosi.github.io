@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/react native/expo-deployment",
+  "id": "development/react native/expo-deployment",
+  "title": "Expo Deployment",
+  "description": "Context",
+  "source": "@site/docs/development/react native/expo-deployment.md",
+  "sourceDirName": "development/react native",
+  "slug": "/development/react native/expodeployment",
+  "permalink": "/docs/development/react native/expodeployment",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "slug": "expodeployment",
+    "sidebar_label": "Expo Deployment",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Containerised website in Azure",
+    "permalink": "/docs/development/azure/websiteOnAzureContainerisedApps"
+  },
+  "next": {
+    "title": "DI on function",
+    "permalink": "/docs/development/dependencyinjectiononfunctions"
+  }
+}

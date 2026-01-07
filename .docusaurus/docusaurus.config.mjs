@@ -23,13 +23,13 @@ export default {
           "anonymizeIP": true
         },
         "docs": {
-          "sidebarPath": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/sidebars.js"
+          "sidebarPath": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/nolomokgosi/Development/git-source-repo/nolo28mokgosi.github.io/src/css/custom.css"
+          "customCss": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/src/css/custom.css"
         }
       }
     ]
@@ -87,7 +87,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Built with Docusaurus."
+      "copyright": "Copyright © 2026 Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -328,8 +328,12 @@ export default {
   "plugins": [],
   "themes": [],
   "scripts": [],
+  "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false
+  "noIndex": false,
+  "markdown": {
+    "mermaid": false
+  }
 };

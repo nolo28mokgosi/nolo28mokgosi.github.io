@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/azure/First Pipeline",
+  "id": "development/azure/First Pipeline",
+  "title": "First Azure Pipeline",
+  "description": "Pipeline",
+  "source": "@site/docs/development/azure/1. First Pipeline.md",
+  "sourceDirName": "development/azure",
+  "slug": "/development/azure/first_azure_pipeline",
+  "permalink": "/docs/development/azure/first_azure_pipeline",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "First Azure Pipeline",
+    "slug": "first_azure_pipeline",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Enterprise Architecture 101",
+    "permalink": "/docs/architecture/Enterprise Architecture 101"
+  },
+  "next": {
+    "title": "Firebase Token Validation in Azure",
+    "permalink": "/docs/development/azure/jwttokenvalidationonazurefunction"
+  }
+}

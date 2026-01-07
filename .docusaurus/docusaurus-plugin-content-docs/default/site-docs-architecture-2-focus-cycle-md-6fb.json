@@ -1,0 +1,27 @@
+{
+  "unversionedId": "architecture/Focus Cycle",
+  "id": "architecture/Focus Cycle",
+  "title": "Strat to Execution",
+  "description": "In today's rapidly evolving digital landscape, the role of the Architecture has become increasingly critical. As organizations strive to leverage technology to drive business growth and remain competitive, the need for a well-defined and aligned architecture has never been greater.",
+  "source": "@site/docs/architecture/2.Focus Cycle.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/Focus Cycle",
+  "permalink": "/docs/architecture/Focus Cycle",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Strat to Execution",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro to Toolbox",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "AI Agents (aka Digital Coworkers)",
+    "permalink": "/docs/architecture/AI Agents"
+  }
+}

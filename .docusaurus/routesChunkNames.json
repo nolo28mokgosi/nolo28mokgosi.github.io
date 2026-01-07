@@ -1,51 +1,51 @@
 {
-  "/__docusaurus/debug-f93": {
+  "/__docusaurus/debug-5db": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     }
   },
-  "/__docusaurus/debug/config-307": {
+  "/__docusaurus/debug/config-020": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     }
   },
-  "/__docusaurus/debug/content-199": {
+  "/__docusaurus/debug/content-a9d": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-d45": {
+  "/__docusaurus/debug/globalData-49b": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     }
   },
-  "/__docusaurus/debug/metadata-d1b": {
+  "/__docusaurus/debug/metadata-ff4": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     }
   },
-  "/__docusaurus/debug/registry-c49": {
+  "/__docusaurus/debug/registry-9ac": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     }
   },
-  "/__docusaurus/debug/routes-b2e": {
+  "/__docusaurus/debug/routes-ab1": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-754-ccb"
+      "plugin": "plugin---docusaurus-debug-2-fe-849"
     }
   },
-  "/blog-74e": {
+  "/blog-186": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -82,81 +82,81 @@
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/architecturedecisionrecords-d61": {
+  "/blog/architecturedecisionrecords-d7d": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-architecturedecisionrecords-7-c-5-38d"
   },
-  "/blog/archive-e74": {
+  "/blog/archive-b28": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/buildrightthingright-5f9": {
+  "/blog/buildrightthingright-c78": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-buildrightthingright-26-d-a77"
   },
-  "/blog/businesscapabilities-ad8": {
+  "/blog/businesscapabilities-8aa": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-businesscapabilitiesa-8-d-3a0"
   },
-  "/blog/businesscapabilitiesinaction-e2b": {
+  "/blog/businesscapabilitiesinaction-7a1": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-businesscapabilitiesinactionc-4-a-31f"
   },
-  "/blog/createC4diagrams-ed2": {
+  "/blog/createC4diagrams-fa8": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-create-c-4-diagrams-492-7b9"
   },
-  "/blog/entanglement-089": {
+  "/blog/entanglement-2a0": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-entanglement-004-aa9"
   },
-  "/blog/introductiontoc4-046": {
+  "/blog/introductiontoc4-7bf": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-introductiontoc-4-e-39-684"
   },
-  "/blog/orchestrationvschoreography-899": {
+  "/blog/orchestrationvschoreography-262": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-orchestrationvschoreography-63-d-247"
   },
-  "/blog/page/2-2e8": {
+  "/blog/page/2-9bf": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -166,26 +166,26 @@
     ],
     "metadata": "metadata---blog-page-28-eb-625"
   },
-  "/blog/sequencediagramonc4-629": {
+  "/blog/sequencediagramonc4-754": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-sequencediagramonc-4-a-63-178"
   },
-  "/blog/tags-77e": {
+  "/blog/tags-3b0": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/adr-0dc": {
+  "/blog/tags/adr-5c9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -196,10 +196,10 @@
     "tag": "tag---blog-tags-adr-48-d-f94",
     "listMetadata": "listMetadata---blog-tags-adr-45-f-34a"
   },
-  "/blog/tags/architecture-288": {
+  "/blog/tags/architecture-c89": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -237,10 +237,10 @@
     "tag": "tag---blog-tags-architecturec-80-7ae",
     "listMetadata": "listMetadata---blog-tags-architecturec-23-d91"
   },
-  "/blog/tags/architecture/page/2-d63": {
+  "/blog/tags/architecture/page/2-47e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -251,10 +251,10 @@
     "tag": "tag---blog-tags-architecture-page-2-be-3-be8",
     "listMetadata": "listMetadata---blog-tags-architecture-page-210-d-00e"
   },
-  "/blog/tags/business-architecture-c7f": {
+  "/blog/tags/business-architecture-b4d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -271,10 +271,10 @@
     "tag": "tag---blog-tags-business-architecture-949-a47",
     "listMetadata": "listMetadata---blog-tags-business-architecturef-3-d-96a"
   },
-  "/blog/tags/c-4-472": {
+  "/blog/tags/c-4-f8f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -288,10 +288,10 @@
     "tag": "tag---blog-tags-c-4034-00b",
     "listMetadata": "listMetadata---blog-tags-c-4729-b03"
   },
-  "/blog/tags/design-b39": {
+  "/blog/tags/design-ad7": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -329,10 +329,10 @@
     "tag": "tag---blog-tags-designfdb-49c",
     "listMetadata": "listMetadata---blog-tags-design-9-a-9-4a5"
   },
-  "/blog/tags/design/page/2-b1f": {
+  "/blog/tags/design/page/2-9ff": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -343,10 +343,10 @@
     "tag": "tag---blog-tags-design-page-2601-695",
     "listMetadata": "listMetadata---blog-tags-design-page-20-fe-1de"
   },
-  "/blog/tags/diagramming-bff": {
+  "/blog/tags/diagramming-bf0": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -363,10 +363,10 @@
     "tag": "tag---blog-tags-diagramming-417-dbc",
     "listMetadata": "listMetadata---blog-tags-diagrammingc-78-447"
   },
-  "/blog/tags/domain-driven-design-a83": {
+  "/blog/tags/domain-driven-design-5a5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -377,10 +377,10 @@
     "tag": "tag---blog-tags-domain-driven-design-002-4fa",
     "listMetadata": "listMetadata---blog-tags-domain-driven-design-84-c-2fd"
   },
-  "/blog/tags/modelling-9d5": {
+  "/blog/tags/modelling-a1b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -397,10 +397,10 @@
     "tag": "tag---blog-tags-modellingb-0-d-585",
     "listMetadata": "listMetadata---blog-tags-modelling-25-f-9a3"
   },
-  "/blog/tags/planning-c2c": {
+  "/blog/tags/planning-2cf": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -423,10 +423,10 @@
     "tag": "tag---blog-tags-planninge-92-edb",
     "listMetadata": "listMetadata---blog-tags-planningef-2-eed"
   },
-  "/blog/tags/solutions-architecture-3ec": {
+  "/blog/tags/solutions-architecture-40b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -437,10 +437,10 @@
     "tag": "tag---blog-tags-solutions-architecture-3-e-0-b16",
     "listMetadata": "listMetadata---blog-tags-solutions-architecturec-41-c00"
   },
-  "/blog/tags/strategy-95f": {
+  "/blog/tags/strategy-e6a": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -460,92 +460,116 @@
     "tag": "tag---blog-tags-strategy-4-c-5-380",
     "listMetadata": "listMetadata---blog-tags-strategy-209-ad3"
   },
-  "/blog/understandingboundaries-4cb": {
+  "/blog/understandingboundaries-346": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-understandingboundaries-36-d-6ba"
   },
-  "/blog/valuestreaminaction-fa9": {
+  "/blog/valuestreaminaction-cc2": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---bloge-5-f-f6c"
+      "plugin": "plugin---blog-7-eb-0a1"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-valuestreaminaction-99-c-947"
   },
-  "/markdown-page-767": {
+  "/docs/tags-1be": {
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__context": {
+      "plugin": "plugin---docs-tagsfa-1-c41"
+    },
+    "tags": "tags---docs-tags-559-5e5"
+  },
+  "/docs/tags/enterprise-architecture-2a0": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---docs-tagsfa-1-c41"
+    },
+    "tag": "tag---docs-tags-enterprise-architecture-6-e-0-07b"
+  },
+  "/docs/tags/solution-architecture-4e5": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---docs-tagsfa-1-c41"
+    },
+    "tag": "tag---docs-tags-solution-architecturea-68-ff6"
+  },
+  "/docs/tags/technology-strategy-c7a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---docs-tagsfa-1-c41"
+    },
+    "tag": "tag---docs-tags-technology-strategy-5-ab-ca7"
+  },
+  "/markdown-page-a0d": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-page-4-f-9-bdb"
+      "plugin": "plugin---markdown-page-4-a-0-c9a"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-6f3": {
+  "/docs-b02": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docsaf-4-7cc"
+      "plugin": "plugin---docs-tagsfa-1-c41"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/azure/azure_static_site-d43": {
+  "/docs/architecture/AI Agents-284": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-azure-azure-static-site-89-e-854"
+    "content": "content---docs-architecture-ai-agents-8-eb-1ce"
   },
-  "/docs/azure/first_azure_pipeline-c3d": {
+  "/docs/architecture/design-patterns/sidecarpattern-211": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-azure-first-azure-pipeline-876-d50"
+    "content": "content---docs-architecture-design-patterns-sidecarpattern-3-da-696"
   },
-  "/docs/design-patterns/sidecarpattern-e15": {
+  "/docs/architecture/Enterprise Architecture 101-e9a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-design-patterns-sidecarpattern-9-cb-ba6"
+    "content": "content---docs-architecture-enterprise-architecture-101237-38a"
   },
-  "/docs/design/AI Agents-835": {
+  "/docs/architecture/Focus Cycle-884": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-design-ai-agents-2-f-3-6b4"
+    "content": "content---docs-architecture-focus-cycle-6-fb-f50"
   },
-  "/docs/design/CAP Theorem-c7c": {
+  "/docs/development/aicontextcompression-c70": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-design-cap-theorembe-8-719"
+    "content": "content---docs-development-aicontextcompression-7-b-5-7a1"
   },
-  "/docs/design/Focus Cycle-bba": {
+  "/docs/development/azure/azure_static_site-5eb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-design-focus-cycle-7-cb-9e0"
+    "content": "content---docs-development-azure-azure-static-site-6-dc-562"
   },
-  "/docs/engineering/dependencyinjectiononfunctions-d6b": {
+  "/docs/development/azure/first_azure_pipeline-9d7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-engineering-dependencyinjectiononfunctions-218-f8b"
+    "content": "content---docs-development-azure-first-azure-pipelineee-6-cf0"
   },
-  "/docs/engineering/expodeployment-385": {
+  "/docs/development/azure/jwttokenvalidationonazurefunction-081": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-engineering-expodeploymentdb-2-223"
+    "content": "content---docs-development-azure-jwttokenvalidationonazurefunction-44-f-9f8"
   },
-  "/docs/engineering/jwttokenvalidationonazurefunction-865": {
+  "/docs/development/azure/websiteOnAzureContainerisedApps-c5b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-engineering-jwttokenvalidationonazurefunctioncf-1-84c"
+    "content": "content---docs-development-azure-website-on-azure-containerised-apps-2-c-6-32c"
   },
-  "/docs/engineering/websiteOnAzureContainerisedApps-52b": {
+  "/docs/development/dependencyinjectiononfunctions-379": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-engineering-website-on-azure-containerised-apps-2-b-8-477"
+    "content": "content---docs-development-dependencyinjectiononfunctions-172-75f"
+  },
+  "/docs/development/react native/expodeployment-95c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-react-native-expodeploymentea-1-04d"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/microsoft-azure-well-architected-framework/introduction-d0f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-microsoft-azure-well-architected-framework-introduction-179-f19"
-  },
-  "/docs/microsoft-azure-well-architected-framework/Reliability-61f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-microsoft-azure-well-architected-framework-reliabilityd-03-ea8"
-  },
-  "/-7dd": {
+  "/-200": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-page-4-f-9-bdb"
+      "plugin": "plugin---markdown-page-4-a-0-c9a"
     },
     "config": "config---5-e-9-4f3"
   }

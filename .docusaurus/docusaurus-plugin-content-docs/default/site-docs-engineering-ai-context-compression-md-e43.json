@@ -1,0 +1,26 @@
+{
+  "unversionedId": "engineering/ai-context-compression",
+  "id": "engineering/ai-context-compression",
+  "title": "AI Context Compression",
+  "description": "Exploring the difference between simple and easy code, and why context compression matters when using AI for development",
+  "source": "@site/docs/engineering/ai-context-compression.md",
+  "sourceDirName": "engineering",
+  "slug": "/engineering/aicontextcompression",
+  "permalink": "/docs/engineering/aicontextcompression",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "slug": "aicontextcompression",
+    "title": "AI Context Compression",
+    "sidebar_label": "AI Context Compression",
+    "description": "Exploring the difference between simple and easy code, and why context compression matters when using AI for development",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Containerised website in Azure",
+    "permalink": "/docs/engineering/websiteOnAzureContainerisedApps"
+  }
+}
