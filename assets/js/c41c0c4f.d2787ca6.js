@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[9239],{9509:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/solutions-architecture","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

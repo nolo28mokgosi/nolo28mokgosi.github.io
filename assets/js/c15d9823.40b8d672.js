@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknolo_28_mokgosi=globalThis.webpackChunknolo_28_mokgosi||[]).push([[8146],{9328(o){o.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

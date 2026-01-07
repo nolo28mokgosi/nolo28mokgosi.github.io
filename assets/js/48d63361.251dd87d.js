@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[2379],{121:a=>{a.exports=JSON.parse('{"label":"adr","permalink":"/blog/tags/adr","allTagsPath":"/blog/tags","count":1}')}}]);

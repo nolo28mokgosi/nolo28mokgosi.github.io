@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[5159],{7306:o=>{o.exports=JSON.parse('{"label":"c4","permalink":"/blog/tags/c-4","allTagsPath":"/blog/tags","count":2}')}}]);

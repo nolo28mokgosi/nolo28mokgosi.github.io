@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknolo_28_mokgosi=globalThis.webpackChunknolo_28_mokgosi||[]).push([[8947],{6600(o){o.exports=JSON.parse('{"authors":[{"name":"Nolo Mokgosi","title":"admin","url":"https://github.com/nolo28mokgosi","imageURL":"/img/profile.png","key":"nolo","page":null,"count":11}]}')}}]);

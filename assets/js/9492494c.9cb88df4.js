@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[5187],{4495:s=>{s.exports=JSON.parse('{"label":"business architecture","permalink":"/blog/tags/business-architecture","allTagsPath":"/blog/tags","count":3}')}}]);

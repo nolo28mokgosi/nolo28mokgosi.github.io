@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknolo_28_mokgosi=self.webpackChunknolo_28_mokgosi||[]).push([[1506],{4679:o=>{o.exports=JSON.parse('{"label":"solutions architecture","permalink":"/blog/tags/solutions-architecture","allTagsPath":"/blog/tags","count":1}')}}]);
