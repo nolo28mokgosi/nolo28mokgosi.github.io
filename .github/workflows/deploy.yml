@@ -4,25 +4,25 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [main]
+    branches:  [main]
 
 jobs:
   test-deploy:
-    if: github.event_name != 'push'
-    runs-on: ubuntu-latest
-    steps:
+    if:  github.event_name != 'push'
+    runs-on:  ubuntu-latest
+    steps: 
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_PAT }}  # Use the PAT for authentication
+          token: ${{ secrets.GH_PAT }}
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: yarn
+          cache: npm
       - name: Test deployment
         run: |
-          yarn install --frozen-lockfile
-          yarn build
+          npm ci
+          npm run build
   deploy:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -30,21 +30,21 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_PAT }}  # Use the PAT for authentication
-      - uses: actions/setup-node@v3
+          token: ${{ secrets.GH_PAT }}
+      - uses:  actions/setup-node@v3
         with:
           node-version: 20.x
-          cache: yarn
-      - name: Set up Git credentials
-        run: |
+          cache: npm
+      - name:  Set up Git credentials
+        run:  |
           git config --global user.email "actions@github.com"
           git config --global user.name "github-actions"
           git remote set-url origin https://${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
 
       - name: Deploy to GitHub Pages
         env:
-          GIT_USER: ${{ secrets.GH_PAT }}  # Ensure Docusaurus uses the PAT
+          GIT_USER: ${{ secrets.GH_PAT }}
           USE_SSH: false
         run: |
-          yarn install --frozen-lockfile
-          GIT_USER="${{ secrets.GH_PAT }}" yarn deploy
+          npm ci
+          GIT_USER="${{ secrets.GH_PAT }}" npm run deploy
