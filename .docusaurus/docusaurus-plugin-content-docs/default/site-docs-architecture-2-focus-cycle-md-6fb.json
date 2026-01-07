@@ -1,5 +1,4 @@
 {
-  "unversionedId": "architecture/Focus Cycle",
   "id": "architecture/Focus Cycle",
   "title": "Strat to Execution",
   "description": "In today's rapidly evolving digital landscape, the role of the Architecture has become increasingly critical. As organizations strive to leverage technology to drive business growth and remain competitive, the need for a well-defined and aligned architecture has never been greater.",
@@ -8,6 +7,7 @@
   "slug": "/architecture/Focus Cycle",
   "permalink": "/docs/architecture/Focus Cycle",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,

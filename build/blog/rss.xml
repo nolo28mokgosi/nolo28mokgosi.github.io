@@ -1,44 +1,866 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Design &amp; Azure Basix Blog</title>
+        <title>back 2 basix Blog</title>
         <link>https://nolo28mokgosi@github.io/blog</link>
-        <description>Design &amp; Azure Basix Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <description>back 2 basix Blog</description>
+        <lastBuildDate>Sun, 13 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://nolo28mokgosi@github.io/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img src="./docusaurus-plushie-banner.jpeg" alt="Docusaurus Plushie"/></p><p>The blog supports tags as well!</p><p><strong>And if you don&#x27;t want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
+            <title><![CDATA[Architecture Decision Records]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/architecturedecisionrecords</link>
+            <guid>https://nolo28mokgosi@github.io/blog/architecturedecisionrecords</guid>
+            <pubDate>Sun, 13 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[capabilityatcenter]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="capabilityatcenter" src="https://nolo28mokgosi@github.io/assets/images/camera-9d5ea7d658a4a73fea4709b7fdd663c8.jpg" width="640" height="424" class="img_ev3q">
+<sub><sup>congerdesign</sup></sub></p>
+<p>Have you ever looked back on something you did and wondered, "What was I thinking?" For me, it's when I see photos from my teenage years. Every time I go through them, I ask myself, "Why did I choose that hairstyle? Did I really think this was cool?".</p>
+<p>The fact is, at that time, it was cool. I liked the hairstyle of my favorite soccer player, and because of that, many kids in my school also had the same hairstyle. Therefore given the information and context I had, I made decisions that made sense. When others see the picture in my absence they might not understand the context because it's in my head.</p>
+<p>In summary, some decisions are sensible if you understand the context. Context is KING.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>In the world of technology, specifically in architecture, decisions are an everyday occurrence. These decisions happen in meetings, around coffee machines, and sometimes even in offsite locations. We discuss the context of the decisions with groups of people, but we often neglect to document both the decisions and the reasoning behind them. Few years later, and we find ourselves looking at the architecture, wondering, "Why did we design it this way? What were they thinking?"</p>
+<p>In those moments, if we're fortunate enough to have someone who was part of the decision-making process in the room, they can share the story which includes the constraints they faced at that time, such as time, cost, and resources. After that brief story, we then say, "Oh, that makes sense." Without someone who has the context, that understanding is lost.</p>
+<p>To address this challenge of missing context, the solution is to document our decisions. You might be thinking, "Another document? No one reads documentation." Please give me just five minutes to explain how this approach could work for you and your organization.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-decision-record-adr">Architecture Decision Record (ADR)<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#architecture-decision-record-adr" class="hash-link" aria-label="Direct link to Architecture Decision Record (ADR)" title="Direct link to Architecture Decision Record (ADR)" translate="no">​</a></h2>
+<p>An Architecture Decision Record (ADR) is a point-in-time document that records architectural decisions and the reasoning behind them.</p>
+<p>Think of it as a snapshot that says, "On this date, given the context, drivers, and information we had, we made a decision to go with Option Z. We considered Options X, Y, and Z."</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="structure-of-an-adr">Structure of an ADR<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#structure-of-an-adr" class="hash-link" aria-label="Direct link to Structure of an ADR" title="Direct link to Structure of an ADR" translate="no">​</a></h2>
+<p>According to Michael Nygard on #1, an ADR should include the title, status, context, decision, and consequences. Additionally, I suggest adding the decision maker(s) and stakeholders.</p>
+<p><strong>Title</strong>: A brief document title, e.g., "001: Decision to Choose a Cloud Provider for Data Project."</p>
+<p><strong>Created By</strong>: Indicate the creator if the wiki doesn't provide details.</p>
+<p><strong>Date</strong>: The creation date of the ADR.</p>
+<p><strong>Decision Maker</strong>: The person(s) responsible for making the decision.</p>
+<p><strong>Stakeholders</strong>: Those offering advice and those affected by the decision.</p>
+<p><strong>Status</strong>: The status of the ADR (Draft, Accepted, Rejected, Deprecated by YYY, Supersedes XXX).</p>
+<p><strong>Context</strong>: This section highlights the problem statement, drivers (functional and non-functional), and options considered.</p>
+<p><strong>Decision</strong>: Document the chosen decision and its rationale.</p>
+<p><strong>Consequences</strong>: Detail the resulting context or state after implementing the decision, including trade-offs.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-create-adr">How to create ADR<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#how-to-create-adr" class="hash-link" aria-label="Direct link to How to create ADR" title="Direct link to How to create ADR" translate="no">​</a></h2>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-identify-the-need-for-an-adr">1: Identify the need for an ADR<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#1-identify-the-need-for-an-adr" class="hash-link" aria-label="Direct link to 1: Identify the need for an ADR" title="Direct link to 1: Identify the need for an ADR" translate="no">​</a></h4>
+<p>Before you start creating an ADR, ensure that the decision is significant enough to warrant documentation. Consider decisions that have a lasting impact on the architecture, technology choices, or design principles. Once need is identified, create ADR in “Draft” status on a standard organisation or team template. ADR should include</p>
+<ul>
+<li class="">Decision Maker(s)</li>
+<li class="">Stakeholders</li>
+<li class="">Problem Statement (In Context Section)</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-define-the-problem">2: Define the Problem<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#2-define-the-problem" class="hash-link" aria-label="Direct link to 2: Define the Problem" title="Direct link to 2: Define the Problem" translate="no">​</a></h4>
+<p>Clearly articulate the problem or challenge that the architectural decision aims to address. This sets the context for the decision and helps others understand why it's being made.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-describe-other-options">3: Describe other options<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#3-describe-other-options" class="hash-link" aria-label="Direct link to 3: Describe other options" title="Direct link to 3: Describe other options" translate="no">​</a></h4>
+<p>List and describe the alternative solutions or approaches considered to solve the problem. Include both the pros and cons of each alternative. This provides a comprehensive view of the decision-making process.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-collaborate">4: Collaborate<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#4-collaborate" class="hash-link" aria-label="Direct link to 4: Collaborate" title="Direct link to 4: Collaborate" translate="no">​</a></h4>
+<p>Engage listed decision makers to work on problem statement. Discuss all options and choose the winning solutions. Once all decision makers are aligned, engage stakeholders and expertise on the decision for review and approval (I call it a sales process). It's essential to engage stakeholders early because there might bring missing context which could changed your winning solution.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-record-the-decision">5: Record the Decision<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#5-record-the-decision" class="hash-link" aria-label="Direct link to 5: Record the Decision" title="Direct link to 5: Record the Decision" translate="no">​</a></h4>
+<p>Once you have all the green lights, change the status to decided. Document the chosen solution or approach as the decision and the rationale behind the decision. Highlight the reasons, benefits, and trade-offs associated with the decision.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-consequences">6: Consequences<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#6-consequences" class="hash-link" aria-label="Direct link to 6: Consequences" title="Direct link to 6: Consequences" translate="no">​</a></h4>
+<p>Outline the expected consequences of the decision. This includes both the positive outcomes and potential drawbacks. Consider technical, operational, and business impacts.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-maintain-and-update">7: Maintain and Update<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#7-maintain-and-update" class="hash-link" aria-label="Direct link to 7: Maintain and Update" title="Direct link to 7: Maintain and Update" translate="no">​</a></h4>
+<p>If a decision changes due to new information or evolving requirements, update the ADR to reflect the current state. Change the status of the current ADR to ”Deprecated by YYY” and ”Create a new one with status “Superseded by XXX”</p>
+<p>By following these steps, teams will be able to create well-structured, informative, and valuable Architecture Decision Records. These records will contribute to better communication, knowledge sharing, and informed decision-making within the team and across the organization.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="adr-example">ADR Example<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#adr-example" class="hash-link" aria-label="Direct link to ADR Example" title="Direct link to ADR Example" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="ADR Example" src="https://nolo28mokgosi@github.io/assets/images/adr_example-f5b9c225f84b79955df47a0aa6da2756.png" width="722" height="731" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="benefits-of-adr">Benefits of ADR<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#benefits-of-adr" class="hash-link" aria-label="Direct link to Benefits of ADR" title="Direct link to Benefits of ADR" translate="no">​</a></h2>
+<table><thead><tr><th>Benefit</th><th>Description</th></tr></thead><tbody><tr><td><strong>Time and Cost saving</strong></td><td>Without documentation, decisions are revisited more often. ADRs brings new members of the team or organisation  up to speed on decisions made and the reason why they were made</td></tr><tr><td><strong>Distributed Decision Making</strong></td><td>ADRs helps teams to make informed decision and reach consensus more efficiently. They allow anyone in team to own or run with the decision making while ensuring that right stakeholders are involved</td></tr><tr><td><strong>Transparency</strong></td><td>Decisions made are not locked in meeting minutes or archive folder in document server. The collection of ADRs are accessebile and they can help in communication.</td></tr><tr><td><strong>Knowledge Sharing</strong></td><td>ADRs captures and preserves institutional knowledge by documenting insights, trade-offs, and lessons learned from past decisions. Because of individuals listed on the ADR, anyone can choose to have further conversations with those individuals</td></tr><tr><td><strong>Accountability</strong></td><td>Each decision is tied to specific individuals or groups, fostering accountability and ensuring that decisions align with the team or organisational goals and constraints.</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Architecture Decision Records (ADRs) are commonly used in software design, but their benefits extend to various architectural domains such as Business, Data, Technology, and Application.
+We should give equal importance to <strong>"documenting decisions"</strong> as we do to creating diagrams and models, as decisions shape the context of both current and future designs.</p>
+<p>It's essential to understand the purpose and scope of ADRs:</p>
+<ul>
+<li class="">ADR serves as a communication tool, enabling teams and stakeholders to grasp the reasoning behind decisions.
+It acts as a decision tracking tool, helping us trace why decisions were made, especially when initial drivers evolve.</li>
+<li class="">ADRs are concise, usually one or two pages long.They should be readable within an average of 5 minutes, catering to both technical and non-technical audiences.</li>
+<li class="">ADRs are immutable; if revisiting a decision, update the existing ADR's status to "Superseded by XXX" and create a new ADR.</li>
+</ul>
+<p>However, it's crucial to recognize what ADRs <strong>are not</strong>:</p>
+<ul>
+<li class="">ADRs are not long-running documents (e.g. user requirements document). They capture a snapshot at a specific point in time, and decisions should be reached in a manageable timeframe.</li>
+<li class="">ADRs don't replace conversations and collaborations. They document the outcomes of discussions.</li>
+<li class="">ADRs aren't limited to complex decisions. Simple decisions with long-term effects should be documented.</li>
+</ul>
+<p>By understanding these distinctions, embracing ADRs across architectural domains, and valuing the practice of documenting decisions, we empower ourselves to make informed choices and build well-documented application.We will hardly get to the point were we say <strong>"What were we thinking?"</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/architecturedecisionrecords#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>#1 <a href="https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions" target="_blank" rel="noopener noreferrer" class="">DOCUMENTING ARCHITECTURE DECISIONS</a></p>
+<p>#2 <a href="https://www.infoq.com/podcasts/architecture-advice-process/" target="_blank" rel="noopener noreferrer" class="">The Architecture Advice Process with Andrew Harmel-Law</a></p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+            <category>planning</category>
+            <category>solutions architecture</category>
+            <category>adr</category>
         </item>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://nolo28mokgosi@github.io/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p><p>:::tip</p><p>Use the power of React to create interactive blog posts.</p><pre><code class="language-js">&lt;button onClick={() =&gt; alert(&#x27;button clicked!&#x27;)}&gt;Click me!&lt;/button&gt;
-</code></pre><button>Click me!</button><p>:::</p>]]></content:encoded>
+            <title><![CDATA[Value Stream in action]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/valuestreaminaction</link>
+            <guid>https://nolo28mokgosi@github.io/blog/valuestreaminaction</guid>
+            <pubDate>Sun, 30 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[capabilityatcenter]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="capabilityatcenter" src="https://nolo28mokgosi@github.io/assets/images/burgerstore-1984-c0e171abe0efcd63abc45c106254f9d9.png" width="618" height="295" class="img_ev3q">
+<sub><sup>flickr.com</sup></sub></p>
+<p>This article explains how to combine various applications to bring value to the client. It starts with a real-world example of a burger business and demonstrates how to use the saga pattern to construct a value stream integrating numerous applications.</p>
+<ul>
+<li class="">Value stream is a sequence of activities that creates value for the client. From the viewpoint of the client, it represents a higher-level abstraction of the process.</li>
+<li class="">Saga is a sequence of local transactions. In this context, the saga pattern is used to implement value streams or processes.</li>
+</ul>
+<p>Saga can be coordinated using <strong>orchestration</strong> pattern or <strong>choreography</strong> pattern as highlighted in <a href="https://nolomokgosi.com/blog/orchestrationvschoreography" target="_blank" rel="noopener noreferrer" class="">this post</a>. The orchestration pattern is the main topic of this article.</p>
+<p>The article outlines the roles of three participants in the value stream</p>
+<ol>
+<li class="">Main Orchestrator</li>
+<li class="">Mini Orchestrator</li>
+<li class="">After-Effect</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="story-line">Story Line<a href="https://nolo28mokgosi@github.io/blog/valuestreaminaction#story-line" class="hash-link" aria-label="Direct link to Story Line" title="Direct link to Story Line" translate="no">​</a></h2>
+<p>Mr. and Mrs. King decided to open a burger restaurant after retiring. They decided that Mrs. King would manage the counter once the shop opened, George, their son, would handle the accounting, and Mr. King would handle the burger-making and other back-office duties.</p>
+<p>Their first client entered the store when it was first opened on May 28, 1984.</p>
+<ol>
+<li class="">Client ordered a burger, chips, and a can of Diet Coke and gave Mrs King £20.</li>
+<li class="">Mrs King took £20 and gave client £5.</li>
+<li class="">Mrs. King shouted “Cheeseburger please”</li>
+<li class="">Mr. King shouted back “Roger that”.</li>
+<li class="">Mr. King fried the burger patty, took cheese from the fridge, and assembled a burger.</li>
+<li class="">After 5 minutes Mr King puts the burger and chips on the counter</li>
+<li class="">Mrs King walked to the Burger counter to collect burger and chips</li>
+<li class="">She then walked to the freezer and took a can of Coke</li>
+<li class="">Mrs. King packaged the order and gave it to the client &amp; client walked away</li>
+</ol>
+<p>At the end of the day, Mrs. King would take the order book and cash to George so he can perform his bookkeeping duties.</p>
+<p>In this process, one can tell that:</p>
+<ul>
+<li class="">Value Stream input is “Place Order” and output is “Receive Goods”.</li>
+<li class="">Mrs. King is the Main Orchestrator</li>
+<li class="">Mr. King is the Mini Orchestrator (a detailed process that forms part of a value stream)</li>
+<li class="">George plays the after-effect role. The role is important but does not affect the defined value stream.</li>
+</ul>
+<p>The below diagram visualises the above-mentioned flow.</p>
+<p><img decoding="async" loading="lazy" alt="Burger-Store" src="https://nolo28mokgosi@github.io/assets/images/burger-store-dc5ba74060c00a367e34d967fd80e228.png" width="901" height="506" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="solution-design">Solution Design<a href="https://nolo28mokgosi@github.io/blog/valuestreaminaction#solution-design" class="hash-link" aria-label="Direct link to Solution Design" title="Direct link to Solution Design" translate="no">​</a></h2>
+<p>Imagine we are tasked to create a solution based on the above-mentioned use case. We would begin by creating bounded-context platforms that include client-facing, burger, cold-store, and administration.</p>
+<p>In our solution,</p>
+<ol>
+<li class="">Mrs. King &amp; Counter would be applications within a client-facing platform. As “Main Orchestrator”, Mrs. King would be responsible for the client-related value streams &amp; client experience.</li>
+<li class="">Mr. King would be an application and orchestrator with a platform called Burger Platform. As the participant in out value stream, Mr. King would play the “Mini Orchestrator” role.</li>
+<li class="">Fridge is an application within the Cold-Store platform. This application would be used in a synchronous fashion.</li>
+<li class="">George would operate in the Administration Platform.</li>
+</ol>
+<p>Below diagram would represent our solution design. Note the sync and async calls during the process.</p>
+<p><img decoding="async" loading="lazy" alt="Burger App" src="https://nolo28mokgosi@github.io/assets/images/burger-app-70c38136c5c80e0258fad550819bf303.png" width="821" height="501" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/valuestreaminaction#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Creating value streams or business processes in a large organisation can be a challenging task. The ability to identify participants and the role they play requires effort &amp; alignment across multiple teams.</p>
+<p>To make things simpler, I recommend the following:</p>
+<ol>
+<li class="">Identify and design the value stream where the client, input &amp; output is well defined (Input: Client buys a burger, Output: Client gets burger &amp; diet coke).</li>
+<li class="">Based on the value stream, create your saga (sequence of transactions).</li>
+<li class="">List the participants in each transaction. When necessary, follow domain-driven design guidelines.</li>
+<li class="">Choose between the orchestrations-based saga and choreography-based saga. More info on this <a href="https://nolomokgosi.com/blog/orchestrationvschoreography" target="_blank" rel="noopener noreferrer" class="">blog post</a></li>
+<li class="">Identify after-effects participants. These are important participants but they are not involved in the defined value stream (banking cash &amp; filing orders).</li>
+<li class="">Design your solution based on above</li>
+</ol>
+<p>By following the recommended approach, organisations can achieve greater efficiency and improve client experiences.</p>]]></content:encoded>
+            <category>business architecture</category>
+            <category>architecture</category>
+            <category>design</category>
+            <category>planning</category>
+            <category>strategy</category>
         </item>
         <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://nolo28mokgosi@github.io/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <title><![CDATA[Capabilities in action]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction</link>
+            <guid>https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction</guid>
+            <pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[capabilityatcenter]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="capabilityatcenter" src="https://nolo28mokgosi@github.io/assets/images/capabilityAtCenter-22c5caa29da812e245e7c044155ae8c8.png" width="600" height="322" class="img_ev3q">
+<sub><sup>businessarchitectureguild.org</sup></sub></p>
+<p>Capabilities are the foundation of other important viewpoints and techniques that can be used to move the business forward.</p>
+<p>This post highlights how business capabilities can be used in other core domains of business architecture.
+Furthermore, the post highlights how capabilities can be used in techniques like heat mapping and planning.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="organisation-mapping">Organisation mapping<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#organisation-mapping" class="hash-link" aria-label="Direct link to Organisation mapping" title="Direct link to Organisation mapping" translate="no">​</a></h3>
+<p>Organization map is one of the 4 pillars of Business architecture.
+Mapping business capability to organization highlight “Who” delivers the capability. Business capabilities executed in many different parts of the organization can lead to inconsistencies and inefficiencies. #[1]</p>
+<p>Mapping capabilities to an organization can help highlight an opportunity to rationalize and save costs.</p>
+<p><img decoding="async" loading="lazy" alt="Capability Organisation" src="https://nolo28mokgosi@github.io/assets/images/caporganisation-8ed1fdc4ca6fc870ff70fd33639cc97c.png" width="941" height="298" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="information-mapping">Information Mapping<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#information-mapping" class="hash-link" aria-label="Direct link to Information Mapping" title="Direct link to Information Mapping" translate="no">​</a></h3>
+<p>Information map is a collection of information concepts and their relationship to one another.[#4]</p>
+<p>Information Mapping provides the means to articulate and visually represent information that is critical to the business.</p>
+<p><img decoding="async" loading="lazy" alt="Capability Table" src="https://nolo28mokgosi@github.io/assets/images/informationMap-08f8fc4d5d193c9227f149125e93f08a.png" width="575" height="206" class="img_ev3q"></p>
+<p>Once information Map is established, it can be linked to business capabilities. Business capabilities require and update information concepts.</p>
+<p><img decoding="async" loading="lazy" alt="Capability Table" src="https://nolo28mokgosi@github.io/assets/images/infoCapabilityMap-9a17255402475920400d89c231333a00.png" width="472" height="305" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="value-stream-mapping">Value Stream Mapping<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#value-stream-mapping" class="hash-link" aria-label="Direct link to Value Stream Mapping" title="Direct link to Value Stream Mapping" translate="no">​</a></h3>
+<p>Value Stream represents the sequence of activities(Value stages) to deliver on stakeholder requests.[#1]. A stakeholder can be a client or an internal user.</p>
+<p>By mapping value streams to capabilities, the picture will be clear on which business capabilities are required to deliver value to the stakeholder.</p>
+<p>Mapping key value stream to capabilities is important because its highlights capabilities used by multiple value streams. Once the organization identifies those business capabilities, the following questions should be asked</p>
+<ul>
+<li class="">What is the level of maturity of the business capability?</li>
+<li class="">How effective is the business capability?</li>
+<li class="">Can we scale the business capability? At what cost?</li>
+<li class="">Are we investing enough funds to the maturity and effectiveness of the business capability?</li>
+</ul>
+<p>Providing honest answers to the questions above is the contribution to some of the heat maps mentioned in the heat map section.</p>
+<p><img decoding="async" loading="lazy" alt="Value Stream" src="https://nolo28mokgosi@github.io/assets/images/valuestream-e82d1e8d6410f00a32a366c53ed4a14e.png" width="599" height="395" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="capabilities-in-business-process-mapping">Capabilities in Business Process Mapping<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#capabilities-in-business-process-mapping" class="hash-link" aria-label="Direct link to Capabilities in Business Process Mapping" title="Direct link to Capabilities in Business Process Mapping" translate="no">​</a></h4>
+<p>There is a grey area between business processes and value streams. In this post,</p>
+<ul>
+<li class="">Business process is the process contained (Starts and ends) within business capability that is used to enable business capability. Does it need data and operations from other capabilities? Answer is YES</li>
+<li class="">Value Stream is the high-level business process that delivers value in stages to the stakeholder.</li>
+</ul>
+<p>The previous post suggests that business capability should be defined as per the below table.</p>
+<p><img decoding="async" loading="lazy" alt="Capability Table" src="https://nolo28mokgosi@github.io/assets/images/capabilityTable-b275f191c58916c68d684570f4b4cceb.png" width="362" height="301" class="img_ev3q"></p>
+<p>Once the capability is defined, processes within the capability should be documented.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="heat-mapping">Heat Mapping<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#heat-mapping" class="hash-link" aria-label="Direct link to Heat Mapping" title="Direct link to Heat Mapping" translate="no">​</a></h3>
+<p>Heat mapping is a technique that helps identify opportunities for business improvement and investment. It can help an organization to highlight below for each business capability</p>
+<ul>
+<li class="">Maturity or strategic contribution,</li>
+<li class="">Criticality,</li>
+<li class="">Effectiveness or performance,</li>
+<li class="">Value contribution or</li>
+<li class="">Cost contribution</li>
+</ul>
+<p>For example, an organization can create a maturity heat map using below color indicator</p>
+<ul>
+<li class="">Green: the desired level of maturity</li>
+<li class="">Yellow: Almost at maturity but the organization needs to work on it</li>
+<li class="">Red: lots of improvement needed</li>
+<li class="">Purple: capability needed by the organization but does not exist.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Heat Map" src="https://nolo28mokgosi@github.io/assets/images/heatmap-139a6d5f28d6e7dbb357c2bf23bde444.png" width="930" height="451" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="capability-based-planning">Capability based planning<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#capability-based-planning" class="hash-link" aria-label="Direct link to Capability based planning" title="Direct link to Capability based planning" translate="no">​</a></h3>
+<p>Capability-based planning focuses on the planning, engineering, and delivery of strategic business capabilities to the enterprise.[#3].</p>
+<p>The below figure highlights that for capability-based planning to take place, capabilities must be defined.
+<img decoding="async" loading="lazy" alt="CapabilityIncrement" src="https://nolo28mokgosi@github.io/assets/images/capabilityIncrement-69d9bc02de81e5af619f1719c37b5807.png" width="893" height="460" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Capabilities, Value Stream, Information, and Organisation are the core domains of business architecture. This post made it clear that capabilities are the center or focal point of business architecture. Capabilities are the key that allows us to relate value streams, information, and organization</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/businesscapabilitiesinaction#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>#1: <a href="https://pubs.opengroup.org/togaf-standard/business-architecture/business-capabilities.html#_Toc95135880" target="_blank" rel="noopener noreferrer" class="">Business Capabilities, Version 2</a></p>
+<p>#2: <a href="https://cdn.ymaws.com/www.businessarchitectureguild.org/resource/resmgr/bizbok_8_5/bizbok_v8.5_final_part1.pdf" target="_blank" rel="noopener noreferrer" class="">A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide)</a></p>
+<p>#3: <a href="https://pubs.opengroup.org/architecture/togaf9-doc/m/chap28.html" target="_blank" rel="noopener noreferrer" class="">Togaf Standard 9.2</a></p>
+<p>#4: <a href="https://pubs.opengroup.org/togaf-standard/business-architecture/information-mapping.html" target="_blank" rel="noopener noreferrer" class="">Information Mapping</a></p>
+<p>#5: <a href="https://cdn.ymaws.com/www.businessarchitectureguild.org/resource/resmgr/public_resources/Business_Architecture_Metamo.pdf" target="_blank" rel="noopener noreferrer" class="">Business Architecture Metamodel Guide</a></p>]]></content:encoded>
+            <category>business architecture</category>
+            <category>architecture</category>
+            <category>design</category>
+            <category>planning</category>
+            <category>strategy</category>
         </item>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://nolo28mokgosi@github.io/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <title><![CDATA[Business Capabilities Map]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/businesscapabilities</link>
+            <guid>https://nolo28mokgosi@github.io/blog/businesscapabilities</guid>
+            <pubDate>Sun, 18 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[rightandwrong]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="rightandwrong" src="https://nolo28mokgosi@github.io/assets/images/bizbok-bizarch-e0e73f52369181e4733fb2973c0dd65f.png" width="811" height="405" class="img_ev3q">
+<sub><sup>fee.org</sup></sub></p>
+<p>In the past 3 months my curiosity drove me to business architecture. I read multiple articles and I landed in rabbit hole which increased my curiosity. During the process, I discovered multiple frameworks addressing business architecture but I stuck with "Guide to the Business Architecture Body of Knowledge".[#3]. The guide outlines that there are four core elements of business Architecture which includes:</p>
+<ol>
+<li class="">Business Capability Map</li>
+<li class="">Value Stream map</li>
+<li class="">Information map</li>
+<li class="">Organisation Map</li>
+</ol>
+<p>This post focuses on Business Capability Map. The post defines business capability, business capability map and discusses the benefits of creating a business capability map.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-business-capability">What is business Capability?<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#what-is-business-capability" class="hash-link" aria-label="Direct link to What is business Capability?" title="Direct link to What is business Capability?" translate="no">​</a></h2>
+<p>Business capability represents the ability of a business to do something [#1].
+It focuses on  what the business does, not how it does it. In a nutshell, business capabilities provide the building blocks upon which organisation execute an organisation’s business model.</p>
+<p>In order for the business capability to be defined, it is important to understand <strong>elements that enables</strong> a business capability which includes people, processes, information and resources.
+<img decoding="async" loading="lazy" alt="Capability Elements" src="https://nolo28mokgosi@github.io/assets/images/capability-elements-1591c5438eacbb1a6028463f127f7389.png" width="471" height="222" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="people">People<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#people" class="hash-link" aria-label="Direct link to People" title="Direct link to People" translate="no">​</a></h4>
+<p>People represents individual actors, stakeholders, business units, or partners involved in delivering business capability. [#1]</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="processes">Processes<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#processes" class="hash-link" aria-label="Direct link to Processes" title="Direct link to Processes" translate="no">​</a></h4>
+<p>Business capabilities may be enabled or delivered through a number of business processes [#1]. Processes clarifies how the business is done. Documenting the processes that makes up the capability can help organisation identify loop holes and improve the capability where necessary.</p>
+<p>Processes must be self contained within the business capability to provide focus for maturing the capability [#1]. This means we should be able to separate capability processes from value streams which focuses on delivering end-to-end value to the stakeholder.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="information">Information<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#information" class="hash-link" aria-label="Direct link to Information" title="Direct link to Information" translate="no">​</a></h4>
+<p>According to [#1], “Information represents the business data, knowledge, and insight required or consumed by the business capability”. Capability can exchange information with other capabilities to support value streams.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="resources">Resources<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources" translate="no">​</a></h4>
+<p>Business capabilities rely on tools or assets like</p>
+<ul>
+<li class="">Systems or applications</li>
+<li class="">Physical assets like buildings and machines</li>
+<li class="">Intangible assets like intellectual property</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="defining-business-capability">Defining Business capability<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#defining-business-capability" class="hash-link" aria-label="Direct link to Defining Business capability" title="Direct link to Defining Business capability" translate="no">​</a></h2>
+<p>It is recommended that business capability is defined in noun-verb format. e.g Product Development.
+Each Business Capability needs to be accompanied by a description. It is recommended that the description should be inline of “Ability to do X” where X can be “develop product which includes all the restrictions and parameters to provide value to our clients”</p>
+<p>According to <a href="https://www.bainstitute.org/resources/articles/defining-business-capability-cheat-sheet" target="_blank" rel="noopener noreferrer" class="">William Ulrich</a>, organisations can use below guide to define business capabilities.</p>
+<ul>
+<li class="">Business capability is what is been done,  not how it’s done. Emailing or Faxing are not capabilities, they describe <strong>how</strong> capability is done. Capital management is the capability because it describes <strong>what</strong> is being done.</li>
+<li class="">Ensure business capability is not a process or value stream. Anything that requires movement and engages in sequence of activities is a value stream or process e.g. authorising.</li>
+<li class="">Business capabilities must be clearly defined. When we have product Management as capability, we need to clearly define the Product, and clearly define what we really mean by Management. Describing Product Management as "Ability to manage a product" is not ideal.</li>
+<li class="">Business capabilities are purely business views of the business. It is important remove the IT or systems view when identifying business capabilities. It is a business capability whether is done in a manual fashion, or it’s automated using IT systems</li>
+</ul>
+<p>Below table highlights how an ogranisation can choose to define a business capability.
+<img decoding="async" loading="lazy" alt="Business capability example" src="https://nolo28mokgosi@github.io/assets/images/capabilityTable-b275f191c58916c68d684570f4b4cceb.png" width="362" height="301" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="business-capability-map">Business Capability Map<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#business-capability-map" class="hash-link" aria-label="Direct link to Business Capability Map" title="Direct link to Business Capability Map" translate="no">​</a></h2>
+<p>Business capability Map is the representation of organisational business capabilities, at an appropriate level of decomposition, logically grouped into different categories.</p>
+<p>Business capability map provide self-contained view of the business. It does not represent</p>
+<ul>
+<li class="">Organisational Structure</li>
+<li class="">Business processes</li>
+<li class="">Representation of systems or applications</li>
+</ul>
+<p>If there is a request to represent other view points, it is important to tap into other pillars of business architecture like value stream map, information map or organisation map.</p>
+<p>Business capability map promotes common understanding of the business across different business units.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="structuring-business-capability-map">Structuring Business Capability Map<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#structuring-business-capability-map" class="hash-link" aria-label="Direct link to Structuring Business Capability Map" title="Direct link to Structuring Business Capability Map" translate="no">​</a></h3>
+<p>There are 2 ways to structure a business capability map</p>
+<ul>
+<li class="">Stratification</li>
+<li class="">Leveling</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="stratification">Stratification<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#stratification" class="hash-link" aria-label="Direct link to Stratification" title="Direct link to Stratification" translate="no">​</a></h4>
+<p>It is a process to grouping business capabilities within categories or layers.
+Each layer provides different perspective to different stakeholders. For example, an organisation</p>
+<ol>
+<li class="">Top Layer (Strategic): focuses on capabilities related to strategy and and business directions normally targeting executive or drivers of the business</li>
+<li class="">Middle Layer (Core): focusing on customer-facing element of business</li>
+<li class="">Bottom Layer(Supporting): focusing on lower level capabilities crucial to run the business but not visible to the client.</li>
+</ol>
+<p>Below is the level 1 business capability model
+<img decoding="async" loading="lazy" alt="Table for stratification" src="https://nolo28mokgosi@github.io/assets/images/stratification-6b66e4c649289da6961bba6a24842d2c.png" width="716" height="351" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="leveling">Leveling<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#leveling" class="hash-link" aria-label="Direct link to Leveling" title="Direct link to Leveling" translate="no">​</a></h4>
+<p>Leveling is the process of decomposing top-level capabilities into lower level capabilities.[#1]. Different stake holders are interested in different level of capabilities. For example, executives or direction drivers might not be interested on level 3 of capabilities but engineers might be interested.</p>
+<p><img decoding="async" loading="lazy" alt="Table for levelling" src="https://nolo28mokgosi@github.io/assets/images/levelling-aa3fc739d543e8d4577814c218b933a4.png" width="378" height="427" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="benefits-of-business-capability-mapping">Benefits of Business Capability Mapping<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#benefits-of-business-capability-mapping" class="hash-link" aria-label="Direct link to Benefits of Business Capability Mapping" title="Direct link to Benefits of Business Capability Mapping" translate="no">​</a></h2>
+<p>Business capabilities provide and abstraction of the business reality in a way that helps to simplify the conversation between interested stakeholders[#1]</p>
+<p>Some of the key benefits of Business Capability Map includes:</p>
+<ol>
+<li class="">Providing common language regarding what the business does.</li>
+<li class="">Encourage relationship within the business because it highlights who is responsible to bring the capability to life.</li>
+<li class="">Helps organisation to highlight key capabilities to encourage focused investments.</li>
+<li class="">Provides a foundation to create other core business architecture elements like value organisation map, value stream map and information map.</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Documented or undocumented, every business has building blocks(business capabilities) for executing business model. In a case where building blocks are not documents, organisation might experiences the gap between different business units or structures especially in large companies.</p>
+<p>Documenting business capabilities and creating business capability map is the first step to bring employees close to each other. Below figure highlights that different stakeholders within the business have different roles and viewpoints. The figure shows how business capability can be the glue to bring the stakeholders together.</p>
+<p><img decoding="async" loading="lazy" alt="Business and tech View points" src="https://nolo28mokgosi@github.io/assets/images/cbp-ac951c490234e188ed90e28b353b6e18.png" width="521" height="391" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/businesscapabilities#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>#1: <a href="https://pubs.opengroup.org/togaf-standard/business-architecture/business-capabilities.html#_Toc95135880" target="_blank" rel="noopener noreferrer" class="">Business Capabilities,Version 2</a></p>
+<p>#2:<a href="https://www.bainstitute.org/resources/articles/defining-business-capability-cheat-sheet" target="_blank" rel="noopener noreferrer" class="">William Ulrich</a></p>
+<p>#3: <a href="https://cdn.ymaws.com/www.businessarchitectureguild.org/resource/resmgr/bizbok_8_5/bizbok_v8.5_final_part1.pdf" target="_blank" rel="noopener noreferrer" class="">A Guide to the Business Architecture Body of Knowledge® (BIZBOK® Guide)</a></p>]]></content:encoded>
+            <category>business architecture</category>
+            <category>architecture</category>
+            <category>design</category>
+            <category>planning</category>
+            <category>strategy</category>
+        </item>
+        <item>
+            <title><![CDATA[Software that serves users and developers]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/buildrightthingright</link>
+            <guid>https://nolo28mokgosi@github.io/blog/buildrightthingright</guid>
+            <pubDate>Sun, 17 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[rightandwrong]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="rightandwrong" src="https://nolo28mokgosi@github.io/assets/images/blackbrown-ac76ae17fd0ed91618c155cb0fb94682.jpg" width="640" height="427" class="img_ev3q">
+<sub><sup>Geralt on pixabay</sup></sub></p>
+<p>I recently listened to InfoQ podcast where Susanne Kaiser spoke about DDD, Wardley Mapping &amp; Team topologies. Responding to one of the questions she said, “when we are building systems in general, we are faced with challenges of building the right thing and building the thing right.”</p>
+<p>I was fascinated by how swapping two words, “wrong” and “right,” makes such a huge difference, and I decided to dig deep.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>This post unpacks the following:</p>
+<ul>
+<li class="">Building the right thing (serving the users).</li>
+<li class="">Building the thing right (serving the developers).</li>
+<li class="">Building the right thing wrong (serving the users, excluding developers).</li>
+<li class="">Building the wrong thing right(serving the developers, excluding users).</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-the-right-thing">Building the right thing<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-the-right-thing" class="hash-link" aria-label="Direct link to Building the right thing" title="Direct link to Building the right thing" translate="no">​</a></h3>
+<p>According to Susanne, building the right thing (serving the users) raises questions such as:</p>
+<ul>
+<li class="">How aligned is our solution with the users' needs?</li>
+<li class="">How aligned is our solution with the business need?</li>
+<li class="">Is the thing we are building valuable for our clients?</li>
+<li class="">Do we have understand the problem, and do we share common understanding with all stakeholders?</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-the-thing-right">Building the thing right<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-the-thing-right" class="hash-link" aria-label="Direct link to Building the thing right" title="Direct link to Building the thing right" translate="no">​</a></h3>
+<p>Building the thing right (serving the developers) focuses on the qualities of the thing we are building. Some call them non-functional requirements, or the “ilities” of the software, such as scalability, reliability, maintainability, security etc. It also focuses on regulation and organisational governance processes.</p>
+<p>According to Susanne, building the thing right addresses the following:</p>
+<ul>
+<li class="">Efficiency of engineering practices e.g. CI-CD, Automated testing.</li>
+<li class="">Efficiency to deliver value.</li>
+<li class="">How fast and easy can we deliver the changes.</li>
+</ul>
+<p>In one of his podcast, Dave Furley said, "The quality of the software we build is defined by our ability to change the system."</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-the-right-thing-wrong">Building the right thing wrong<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-the-right-thing-wrong" class="hash-link" aria-label="Direct link to Building the right thing wrong" title="Direct link to Building the right thing wrong" translate="no">​</a></h2>
+<p>Building the right thing wrong (serving the users, excluding developers) happens when we care and invest in the output, not how the thing is built. We focus on the deadline, ignoring the advice and recommendations from our technical team. We focus on popping champagne and giving great speeches on go-live day, forgetting that we need to build feature 2,3, 100 and more.</p>
+<p>It is similar to building a house with wrong foundation. When the builder hands over the keys to the house owner (client), family and the builder pops champagne and upload pictures on Instagram. 2 years later, after few rainfalls, the lack of quality becomes evident, and house starts cracking.
+<img decoding="async" loading="lazy" alt="wrongfoundation" src="https://nolo28mokgosi@github.io/assets/images/wrongfoundation-29aadd2de4ae8117ac0923c25d7f1f6f.webp" width="1024" height="724" class="img_ev3q">
+<sub><sup>dryprosystems.com</sup></sub></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-the-wrong-thing-right">Building the wrong thing right<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-the-wrong-thing-right" class="hash-link" aria-label="Direct link to Building the wrong thing right" title="Direct link to Building the wrong thing right" translate="no">​</a></h2>
+<p>Building the wrong thing right (serving the developers, excluding users) is same as building the house adhering to all building qualities, but being impractical to live in.</p>
+<p>When the builder hand over the key to the client, no one is popping champagne. The two parties engage in heated arguments.</p>
+<ul>
+<li class="">Client: "What type of house is this? I mean how do you expect me to get my car in the garage?"</li>
+<li class="">Builder: "You wanted a garage with the ramp right? I built it to your specification. Exactly what you wanted and the foundation is very strong."</li>
+<li class="">Client: "Huuuuuusaaaaaa!"</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="goodfoundation" src="https://nolo28mokgosi@github.io/assets/images/goodfoundation-df2c0af2e8eab2c4256e9f2e957104ee.jpg" width="609" height="500" class="img_ev3q">
+<sub><sup>imgflip.com</sup></sub></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reality">Reality<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#reality" class="hash-link" aria-label="Direct link to Reality" title="Direct link to Reality" translate="no">​</a></h2>
+<p>Most organisations strive to build the right thing right. Reality is there are forces in play that disrupt the main objective.</p>
+<p>Some of this forces are created by the structure or divisions in the organisation. For example, consider an organisation with a sales team and technology team. In a case where by there's huge walls between this teams and both team are not interested on what other teams do and why, you end up with the following:</p>
+<ul>
+<li class="">Sales team cares about "building the thing right."</li>
+<li class="">Technology team cares about "building the right thing.</li>
+</ul>
+<p>Due to these huge walls and 2 teams pulling opposite directions, you end up with one of the following:</p>
+<ol>
+<li class="">Wrong thing built right (House with a weird garage ramp)</li>
+<li class="">Right thing built wrong (House with the wrong foundation)</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="disagreement" src="https://nolo28mokgosi@github.io/assets/images/disagreement-14dcd9cf30785c885e19bc52158e3f15.webp" width="800" height="593" class="img_ev3q">
+<sub><sup>time.com</sup></sub></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="solution">Solution<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#solution" class="hash-link" aria-label="Direct link to Solution" title="Direct link to Solution" translate="no">​</a></h4>
+<p>There are multiple solutions to this problem, with many case studies and books written on the topic. Some solution items include:</p>
+<ul>
+<li class="">Breaking down the silos, or closing the gap between sales and technology teams.</li>
+<li class="">T shaped individuals within the organisation.<!-- -->
+<ul>
+<li class="">Sales teams understand the basics of what Technology team does.</li>
+<li class="">Techonology team understand the basics of what Sales team does.</li>
+</ul>
+</li>
+<li class="">Alignment and common understanding of the problem the organisation is trying to solve.</li>
+<li class="">Teams in the organisation working towards common goal.</li>
+</ul>
+<p>In summary, this is what most startups got right and big organisation are still struggling to get right.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-wrong-thing-right">Building wrong thing right<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-wrong-thing-right" class="hash-link" aria-label="Direct link to Building wrong thing right" title="Direct link to Building wrong thing right" translate="no">​</a></h4>
+<p>Building wrong thing right means we are building something with no business value or benefits. We are showcasing our amazing technological skills, but the results are not relevant and might not be used by our clients.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-right-thing-wrong">Building right thing wrong<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-right-thing-wrong" class="hash-link" aria-label="Direct link to Building right thing wrong" title="Direct link to Building right thing wrong" translate="no">​</a></h4>
+<p>Building right thing wrong means we will end up with inflexible software with maintenance,scalability and adaptability issues. The minute it take long time to add small features to the system, we need to question if we built the thing wrong.</p>
+<p>Building the thing wrong should not be confused with technical debt or transitional architecture.</p>
+<ul>
+<li class="">Technical debt is something we are aware of and leave a room to refactor as we add more features.</li>
+<li class="">Transitional architecture is delivery 1 of many deliverables.</li>
+</ul>
+<p>Technical debt and transitional architecture are normally driven by different constraints or forces like budget, cost or timelines.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="building-right-thing-right">Building right thing right<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#building-right-thing-right" class="hash-link" aria-label="Direct link to Building right thing right" title="Direct link to Building right thing right" translate="no">​</a></h4>
+<p>We always strive to build right thing right(serve both users and developers). It's our wish to build the right thing right however, experience and reality says otherwise. Constraints like cost, timelines can be the deciding factor.</p>
+<p>When we are faced with such constraints, the best approach is to avoid “Building the <strong>whole</strong> thing right”. Let's divide the <strong>whole</strong> thing into smaller deliveries and mode forward.</p>
+<p>"The ultimate purpose of software is to serve users. But first, that same software should serve developers"~Eric Evans</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/buildrightthingright#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>#1: <a href="https://www.infoq.com/podcasts/ddd-wardley-mapping-team-topologies/" target="_blank" rel="noopener noreferrer" class="">DDD, Wardley Mapping &amp; Team topologies</a></p>
+<p>#2: <a href="https://www.geeksforgeeks.org/non-functional-requirements-in-software-engineering/" target="_blank" rel="noopener noreferrer" class="">Non-functional requirements in software engineering</a></p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+            <category>planning</category>
+            <category>strategy</category>
+        </item>
+        <item>
+            <title><![CDATA[Orchestration and Choreography]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/orchestrationvschoreography</link>
+            <guid>https://nolo28mokgosi@github.io/blog/orchestrationvschoreography</guid>
+            <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>I have been involved in multiple orchestration vs choreography conversation. Conversation are normally about which one is better. At the end of most conversations, there’s no common ground, all goes down to preference.</p>
+<p>One Friday morning on my way to work I listened to <a href="https://www.infoq.com/podcasts/design-time-coupling-microservices/" target="_blank" rel="noopener noreferrer" class="">Design time coupling in microservices</a> podcast and Chris Richardson touched on this subject. When the host asked him to talk about orchestration and choreography he said “I use those terms in the context of a saga pattern”.
+That’s when the penny dropped and I thought...this makes sense.</p>
+<p>In this post I will define these concepts and explain the relation between saga,orchestration and choreography.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="saga-pattern">Saga Pattern<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#saga-pattern" class="hash-link" aria-label="Direct link to Saga Pattern" title="Direct link to Saga Pattern" translate="no">​</a></h2>
+<p>Saga is a sequence of transactions that updates services. Each service publishes a message or event to trigger the next transaction in the saga [#2].
+Saga provides transaction management using sequence of local transactions [#3].</p>
+<p>Transaction is single unit of logic or work. Transaction can have one or more operations which we’ll refer to as local transactions in this post.</p>
+<p>Let’s take an example where a user books a holiday via a web portal. Booking process will include:</p>
+<ol>
+<li class="">Request booking</li>
+<li class="">Making payment</li>
+<li class="">Send confirmation email</li>
+</ol>
+<p>There are 2 ways to design the system:</p>
+<ol>
+<li class="">Single service that perform all operations at once. Example, 2 phase commit (2PC) type of transaction where all services in the transaction are required to commit or rollback before transaction can commit.</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="2pc transaction" src="https://nolo28mokgosi@github.io/assets/images/transaction-2pc-0bcec117097334fb9b70a392f8b8191f.png" width="471" height="291" class="img_ev3q"></p>
+<ol start="2">
+<li class="">Multiple services performing local transactions (Saga Pattern).</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="2pc transaction" src="https://nolo28mokgosi@github.io/assets/images/transaction-saga-5dd5563f7ef99ca3d2cfcda9ef58ef6e.png" width="511" height="281" class="img_ev3q"></p>
+<p>There are 2 ways to implement a saga pattern, orchestration-based and choreography-based.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="orchestration">Orchestration<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#orchestration" class="hash-link" aria-label="Direct link to Orchestration" title="Direct link to Orchestration" translate="no">​</a></h2>
+<p>According to Cambridge dictionary, orchestration is “an arrangement of a piece of music to be played by an orchestra”.</p>
+<p>When I think of orchestration, I see a group of musicians with their different instruments, playing a melodic tune that touches the heart. I also see a conductor, someone who directs the orchestra with a conducting baton.
+<img decoding="async" loading="lazy" alt="ochestraonstrage" src="https://nolo28mokgosi@github.io/assets/images/orchestra-22ce6b634bb73ae227184ef61fcb2ce7.jpg" width="1140" height="626" class="img_ev3q">
+<sub><sup>sso.org</sup></sub></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="orchestration-based-saga">Orchestration-based Saga<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#orchestration-based-saga" class="hash-link" aria-label="Direct link to Orchestration-based Saga" title="Direct link to Orchestration-based Saga" translate="no">​</a></h3>
+<p>In orchestration-based saga, a centralised controller(orchestrator) tells services(saga participants) what local transactions to execute [#3]. The orchestrator then interprets state of each operation based on the feedback from the participant.</p>
+<p><img decoding="async" loading="lazy" alt="choreographysaga" src="https://nolo28mokgosi@github.io/assets/images/orchestration-design-3fc27697d51395c6000d754c165105d2.png" width="665" height="398" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="advantages">Advantages<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#advantages" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages" translate="no">​</a></h4>
+<ol>
+<li class="">Great for complex workflows with multiple services including long running local transactions.</li>
+<li class="">Services participating in a workflow don't need to know about commands from other participants.</li>
+<li class="">Single point to track the saga workflow</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="disadvantages">Disadvantages<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#disadvantages" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages" translate="no">​</a></h4>
+<ol>
+<li class="">Centralised coordinator adds another point of failure in the system</li>
+<li class="">New coordinated design requires additional centralised service.</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="choreography">Choreography<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#choreography" class="hash-link" aria-label="Direct link to Choreography" title="Direct link to Choreography" translate="no">​</a></h2>
+<p>According to Cambridge dictionary, choreography is “the skill of combining movements into dances to be performed”.
+When I think of choreography I see group of dancers on stage, dancing to music in a well coordinated manner. Each dancer on the stage knows what to do. There is no central point to drive or command.</p>
+<p><img decoding="async" loading="lazy" alt="choreographers" src="https://nolo28mokgosi@github.io/assets/images/choreographers-eefe7c6ec7a10dbcbf4c61b4567c243e.jpg" width="2400" height="1600" class="img_ev3q">
+<sub><sup>countrytimes.co.uk</sup></sub></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="choreography-based-saga">Choreography based saga<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#choreography-based-saga" class="hash-link" aria-label="Direct link to Choreography based saga" title="Direct link to Choreography based saga" translate="no">​</a></h3>
+<p>In choreography-based saga, services(saga participants) exchange messages or events without a centralised point of control. Each service publishes events that triggers activities in other services.<strong>Note</strong> Published event can trigger acitivities in multiple services.</p>
+<p><img decoding="async" loading="lazy" alt="choreographysaga" src="https://nolo28mokgosi@github.io/assets/images/choreography-design-8ee98b6472352b991d83d35c5e1a250a.png" width="791" height="280" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="advantages-1">Advantages<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#advantages-1" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages" translate="no">​</a></h4>
+<ol>
+<li class="">Good for workflows that do not need  coordination logic.</li>
+<li class="">Unlike orchestrations-based, it does not require additional additional service implementation.</li>
+<li class="">Responsibilities are distributed across services participating in the saga therefore .</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="disadvantages-1">Disadvantages<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#disadvantages-1" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages" translate="no">​</a></h4>
+<ol>
+<li class="">It can be difficult to track which services listen to which commands.</li>
+<li class="">Confusion when adding new services in the workflow.</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>It is a good idea to look at orchestration and choreography as descendants of a saga pattern. This way it forces us to ask ourselves questions like:</p>
+<ol>
+<li class="">What process/workflow are trying to create?</li>
+<li class="">What activities do we want to trigger when "X" happens?</li>
+</ol>
+<p>There's slight difference in terms of type of messages being exchanged between the patterns.
+Orchestration-based saga utilised commands more and choreography-based saga can operate on events only.</p>
+<p>There’s no right or wrong in both orchestration and choreography. Both approaches works but it’s important to look at pros &amp; cons for both. It’s also important to consider factors around implementing a saga pattern including:</p>
+<ol>
+<li class="">Data consistency for processes spanning multiple services [#3].</li>
+<li class="">Maintainability and ability to debug as more services are added in the process.</li>
+<li class="">Idempotence to ensure data consistency and reduce side-effects.</li>
+<li class="">Observability implementation is key.</li>
+<li class="">Ability to track workflows.</li>
+<li class="">Compensating transactions to undo changes that were made by other transactions.</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/orchestrationvschoreography#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>#1 InfoQ's <a href="https://www.infoq.com/podcasts/design-time-coupling-microservices/" target="_blank" rel="noopener noreferrer" class="">Chris Richardson on Design-Time Coupling in Microservices</a></p>
+<p>#2  <a href="https://microservices.io/patterns/data/saga.html" target="_blank" rel="noopener noreferrer" class="">Patterns: Saga</a> by miroservices.io</p>
+<p>#3 Microsoft's <a href="https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga" target="_blank" rel="noopener noreferrer" class="">Saga distributed transactions pattern</a></p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+        </item>
+        <item>
+            <title><![CDATA[Creating C4 diagrams]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/createC4diagrams</link>
+            <guid>https://nolo28mokgosi@github.io/blog/createC4diagrams</guid>
+            <pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>When I was introduced to C4 in 2019 there were few tools that supported it. Today there's multiple and I'll go through few tools in this post.</p>
+<p>It is ok to create c4 in a tool of your choice. The most important part of creating C4 diagrams is to follow notation and recommended guidelines.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="notation">Notation<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#notation" class="hash-link" aria-label="Direct link to Notation" title="Direct link to Notation" translate="no">​</a></h3>
+<p>It is recommended that every element in the diagrams includes</p>
+<ul>
+<li class="">Name</li>
+<li class="">Type (Person, system, container)</li>
+<li class="">Descriptive text</li>
+<li class="">Technology choice where appropriate (e.g. on a container)
+<img decoding="async" loading="lazy" alt="notation" src="https://nolo28mokgosi@github.io/assets/images/c4notation-db7c287cd171c22cf3cbb75d6b920d44.jpeg" width="1200" height="480" class="img_ev3q">
+<sub><sup>#1 infoQ.com</sup></sub></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="guidelines">Guidelines<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#guidelines" class="hash-link" aria-label="Direct link to Guidelines" title="Direct link to Guidelines" translate="no">​</a></h3>
+<p>As illustrated in my <a href="https://nolomokgosi.com/blog/introductiontoc4" target="_blank" rel="noopener noreferrer" class="">previous blog post</a>,</p>
+<ul>
+<li class="">Each diagram should have title describing diagram type and scope (e.g. Context diagram of Travel Sko).</li>
+<li class="">Each diagram should have a legend.</li>
+<li class="">Acronyms and abbreviations should be understandable, otherwise avoid them.</li>
+<li class="">Every container should have technology explicitly specified. (e.g Azure function, React Web app)</li>
+<li class="">Every relationship should be label with direction and intent</li>
+<li class="">Diagrams should not be stale. I prefer to only create Context and Container diagram because their rate of change is very low and easy to keep them fresh.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tools">Tools<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#tools" class="hash-link" aria-label="Direct link to Tools" title="Direct link to Tools" translate="no">​</a></h2>
+<p>This sections outlines tools that can be used to create C4 diagrams.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="gliffy-drawio-ms-visio">Gliffy, Draw.io, Ms Visio<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#gliffy-drawio-ms-visio" class="hash-link" aria-label="Direct link to Gliffy, Draw.io, Ms Visio" title="Direct link to Gliffy, Draw.io, Ms Visio" translate="no">​</a></h3>
+<p>Gliffy, Draw.io, Ms Visio are all in the same category. You can draw elements as illustrated in the notation, or you can search for c4 plugin of the tool and start creating c4 diagrams, nothing complex.</p>
+<p>Gliffy documented how to create c4 on <a href="https://www.gliffy.com/blog/c4-model" target="_blank" rel="noopener noreferrer" class="">this blog post</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="archimate">Archimate<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#archimate" class="hash-link" aria-label="Direct link to Archimate" title="Direct link to Archimate" translate="no">​</a></h3>
+<p>On <a href="https://www.archimatetool.com/blog/2020/04/18/c4-model-architecture-viewpoint-and-archi-4-7/" target="_blank" rel="noopener noreferrer" class="">archimatetool.com</a> post, Jean-Baptiste Sarrodie explains how to create C4 diagrams using archimate.
+He further highlights that c4 diagrams can be created by mapping c4 elements to archimate elements as outlined below:</p>
+<ul>
+<li class="">Person = Business Actor</li>
+<li class="">Software System or Container = Application Component</li>
+<li class="">Component = Application function</li>
+<li class="">Code Element = Application function</li>
+<li class="">Relationship = Triggering Relationship</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="structurizr">Structurizr<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#structurizr" class="hash-link" aria-label="Direct link to Structurizr" title="Direct link to Structurizr" translate="no">​</a></h3>
+<p>Structurizr is a "Diagram as Code" tool that allows you to create architecture diagrams, focusing mainly on C4.
+According to <a href="https://structurizr.com/" target="_blank" rel="noopener noreferrer" class="">structurizr</a>structurizr allows you to create multiple diagrams from single model. The tool was designed to support C4.</p>
+<p>For example, this code creates the design below the code</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">workspace {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    model {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        user = person "User"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        softwareSystem = softwareSystem "Software System" {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            webapp = container "Web Application" {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                user -&gt; this "Uses"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            container "Database" {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                webapp -&gt; this "Reads from and writes to"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    views {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        systemContext softwareSystem {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            include *</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            autolayout lr</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        theme default</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div>
+<p><img decoding="async" loading="lazy" alt="structurizr" src="https://nolo28mokgosi@github.io/assets/images/structuruzrSample-9dae9f444a6dea71b1014c6c33dd66d0.png" width="626" height="325" class="img_ev3q"></p>
+<p>Structurizr support other architecture artifacts including ADR as illustrated on <a href="https://structurizr.com/share/39459/decisions/adr-tools" target="_blank" rel="noopener noreferrer" class="">structurizr</a>.</p>
+<p>The tool is not free, check out <a href="https://structurizr.com/pricing" target="_blank" rel="noopener noreferrer" class="">pricing</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="plant-uml">Plant UML<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#plant-uml" class="hash-link" aria-label="Direct link to Plant UML" title="Direct link to Plant UML" translate="no">​</a></h3>
+<p>PlantUML is an open-source tool that allows users to create diagrams as code.
+<a href="https://github.com/plantuml-stdlib/C4-PlantUML" target="_blank" rel="noopener noreferrer" class="">C4-PlantUml</a> package brings C4 into plantuml.</p>
+<p>This code creates the picture below the code.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">@startuml C4_Elements</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Person(personAlias, "Label", "Optional Description")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Container(containerAlias, "Label", "Technology", "Optional Description")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">System(systemAlias, "Label", "Optional Description")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Rel(personAlias, containerAlias, "Label", "Optional Technology")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">@enduml</span><br></span></code></pre></div></div>
+<p><img decoding="async" loading="lazy" alt="plantUmlSample" src="https://nolo28mokgosi@github.io/assets/images/plantUmlSample-efb2c0dd0b9e5d5030756137c1cc8150.png" width="391" height="327" class="img_ev3q"></p>
+<p>More information on <a href="https://github.com/plantuml-stdlib/C4-PlantUML" target="_blank" rel="noopener noreferrer" class="">Github</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>C4 diagrams can be created using any tool. The most important thing is to follow the notation. I use Gliffy or DrawIO for diagrams with short life span or for clarificaiton in a workshop session.</p>
+<p>I'm currently using C4-PlatUml which allows me to define all components (System, persons, containers) in a a base file and reuse them in multiple diagrams.
+Reuse is very important because components has descriptions that changes as I get clarifications. Changing description in one place and getting to reflect in multiple diagrams is cool.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/createC4diagrams#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>#1: <a href="https://www.infoq.com/articles/C4-architecture-model/" target="_blank" rel="noopener noreferrer" class="">https://www.infoq.com/articles/C4-architecture-model/</a></p>
+<p>#2: <a href="https://www.archimatetool.com/blog/2020/04/18/c4-model-architecture-viewpoint-and-archi-4-7/" target="_blank" rel="noopener noreferrer" class="">https://www.archimatetool.com/blog/2020/04/18/c4-model-architecture-viewpoint-and-archi-4-7/</a></p>
+<p>#3: <a href="https://github.com/plantuml-stdlib/C4-PlantUML" target="_blank" rel="noopener noreferrer" class="">https://github.com/plantuml-stdlib/C4-PlantUML</a></p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+            <category>diagramming</category>
+            <category>modelling</category>
+            <category>c4</category>
+        </item>
+        <item>
+            <title><![CDATA[Sequence on C4]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/sequencediagramonc4</link>
+            <guid>https://nolo28mokgosi@github.io/blog/sequencediagramonc4</guid>
+            <pubDate>Sat, 09 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction">Introduction<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" translate="no">​</a></h2>
+<p>"Architects ride the Architect Elevator from the penthouse, where the business strategy is set, to the engine room, where the enabling technologies are implemented" ~ Gregor Hohpe</p>
+<p><img decoding="async" loading="lazy" alt="Penthouse Elevator" src="https://nolo28mokgosi@github.io/assets/images/elevator-b81dfc9be5054c7c39871fac5781e2e7.jpeg" width="634" height="500" class="img_ev3q">
+<sub><sup>Credit roysrise.com</sup></sub></p>
+<p>C4 diagrams are some of the best artefacts to carry in your briefcase while riding the elevator up and down. Amongst other artefacts like conceptual design and business capability map, C4 context and container diagrams are perfect for the pent house discussion.</p>
+<p>The discussions with the engineers &amp; analysts in the engine room needs a full story, from the top to the lower details. This is where we need artefacts that connects user journeys to technology components. The connection is established by creating communication diagram or sequence diagram.</p>
+<p>This posts outlines how to create sequence diagram that aligns with a container diagram.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="creating-a-sequence-diagram">Creating a Sequence diagram<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#creating-a-sequence-diagram" class="hash-link" aria-label="Direct link to Creating a Sequence diagram" title="Direct link to Creating a Sequence diagram" translate="no">​</a></h2>
+<p>In this section we'll create a sequence diagram for a registration process. We'll use and application called TravelSko with allows clients to manage their travel goals and calculates travel score from those records.</p>
+<p>Before creating sequence diagram, we create context and container diagram to highlight the connection between 3 diagrams.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="context-diagram">Context Diagram<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#context-diagram" class="hash-link" aria-label="Direct link to Context Diagram" title="Direct link to Context Diagram" translate="no">​</a></h2>
+<p>Application is simple and context diagram is self explanatory. Check out <a href="https://nolomokgosi.com/blog/introductiontoc4" target="_blank" rel="noopener noreferrer" class="">previous post</a> if you would like to know more about context diagram
+<img decoding="async" loading="lazy" alt="Context Diagram" src="https://nolo28mokgosi@github.io/assets/images/tskoContext-40c7229ab71366a6668282c988b6924f.png" width="676" height="351" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="container-diagram">Container Diagram<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#container-diagram" class="hash-link" aria-label="Direct link to Container Diagram" title="Direct link to Container Diagram" translate="no">​</a></h2>
+<p>Check out <a href="https://nolomokgosi.com/blog/introductiontoc4" target="_blank" rel="noopener noreferrer" class="">previous post</a> if you would like to know more about container diagram</p>
+<p><img decoding="async" loading="lazy" alt="Context Diagram" src="https://nolo28mokgosi@github.io/assets/images/tskoContainer-21434f898806f9633a6df70abe2023c8.png" width="1066" height="681" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sequence-diagram">Sequence diagram<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#sequence-diagram" class="hash-link" aria-label="Direct link to Sequence diagram" title="Direct link to Sequence diagram" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Sequence Diagram" src="https://nolo28mokgosi@github.io/assets/images/tskoRegSequence-0bf2c2a5be1f29d386f3e2882018a3ba.png" width="1272" height="511" class="img_ev3q"></p>
+<p>To ensure that sequence diagram aligns we container diagram, we need to:</p>
+<ul>
+<li class="">Ensure all the containers in sequence diagram are in container diagram</li>
+<li class="">Box the containers in the application name if the sequence diagram includes more than one application</li>
+<li class="">Follow C4 colour concepts. External system should also be grey and keep containers blue</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="plant-uml-code-for-the-sequence-diagram">Plant UML Code for the sequence diagram<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#plant-uml-code-for-the-sequence-diagram" class="hash-link" aria-label="Direct link to Plant UML Code for the sequence diagram" title="Direct link to Plant UML Code for the sequence diagram" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">@startuml</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">actor TSKO_Client</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">autonumber</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">title Registration Process</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">box "TravelSko Application" #FFFFFF</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">participant Mobile_App #66B2FF</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">participant Profile_Service #66B2FF</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">participant Database #66B2FF</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">participant Internal_Event_Stream #66B2FF</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">participant Communication_Handler #66B2FF</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">end box</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">participant Communication_Application #CCC</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">TSKO_Client -&gt; Mobile_App: Create Account</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Mobile_App -&gt; Profile_Service: Send create account command</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Profile_Service -&gt; Database: Save account details</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Profile_Service -&gt; Internal_Event_Stream: Publish "AccountCreated" event</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Internal_Event_Stream -&gt; Communication_Handler: Publish "AccountCreated" event</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Communication_Handler -&gt; Communication_Handler: Create email from template</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Communication_Handler -&gt; Communication_Application: Send verification email</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Communication_Application --&gt; Communication_Handler: Send email response</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Communication_Handler -&gt; Database: Save communication response</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">@enduml</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/sequencediagramonc4#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Years ago if I had to choose between a sequence and communication diagram I always chose communication diagram. Since I started C4 I found it easy to create simple sequence diagrams derived from container diagram as highlighted in the previous session.</p>
+<p>I prefer creating communication diagram at high-level interaction between applications.</p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+            <category>diagramming</category>
+            <category>modelling</category>
+            <category>c4</category>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to C4 Diagramming]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/introductiontoc4</link>
+            <guid>https://nolo28mokgosi@github.io/blog/introductiontoc4</guid>
+            <pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Scenarios]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="scenarios">Scenarios<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#scenarios" class="hash-link" aria-label="Direct link to Scenarios" title="Direct link to Scenarios" translate="no">​</a></h2>
+<p>Scenario 1: Imagine you are at the airport in a <strong>foreign country</strong> and about to fly to your home country.A stranger sits next to you, greets you and ask you where are you from. What will be your response?</p>
+<p>Scenario 2: Imagine you are at the domestic terminal in your <strong>home country</strong>, and you are about to fly to another city. A stranger greets you and ask you where are you from. What will be your response?</p>
+<p>Scenario 3: You are in a coffee shop at local shopping centre and stranger asks you where are you from, what will be your response?</p>
+<p>Do you have different answers in the 3 scenarios? If so why?</p>
+<p><img decoding="async" loading="lazy" alt="Airport wait" src="https://nolo28mokgosi@github.io/assets/images/airport-feceb0a1fe16e8e2001c08832c4ed9d8.png" width="597" height="326" class="img_ev3q">
+<sub><sup>Credit rgbstock</sup></sub></p>
+<p><strong>If I had to respond</strong></p>
+<p>I’m from a village called Mabeskraal, classified under Rusternburg town/district in South Africa. My response in 3 scenarios:</p>
+<ol>
+<li class="">In a foreign country : I’m from South Africa</li>
+<li class="">In my home country: I’m from Rusternburg</li>
+<li class="">At local shopping mall: I’m from Mabeskraal</li>
+</ol>
+<p>Answers are different because "it depends" on where I am are at the particular point, and who's asking.
+In a case where the stranger is familiar with South Africa, dialog might go like this:</p>
+<ul>
+<li class="">Stranger: Where in South Africa?</li>
+<li class="">Me: In Rusternburg (Zooming 1 level down)</li>
+<li class="">Stranger: Oh I’ve been to Rusternburg, where exactly?</li>
+<li class="">Me: In a village called Mabeskraal (Zooming another level down)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="c4-modelling">C4 Modelling<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#c4-modelling" class="hash-link" aria-label="Direct link to C4 Modelling" title="Direct link to C4 Modelling" translate="no">​</a></h2>
+<p>How does C4 fit in all of this? It is all about the ability to zoom in and out "depending" on where you are and the people you are talking to.</p>
+<p>According to <a href="https://c4model.com/" target="_blank" rel="noopener noreferrer" class="">C4Model.com</a>, C4 is a way of creating maps of your software at various levels of detail just like what you would do on google maps. In google maps, you can zoom in &amp; out to different levels of detail.</p>
+<p>C4 model, inspired by UML and 4+1 model , is a simplified and practical way of describing systems from different levels of abstractions.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="c4-core-diagrams">C4 Core Diagrams<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#c4-core-diagrams" class="hash-link" aria-label="Direct link to C4 Core Diagrams" title="Direct link to C4 Core Diagrams" translate="no">​</a></h2>
+<p>Core diagrams provides a static view of a <strong>single software system</strong>. Core diagrams includes context, container, component and code.</p>
+<p><img decoding="async" loading="lazy" alt="Core Diagram" src="https://nolo28mokgosi@github.io/assets/images/corediagram-0ad342943a116a8c61a33c57e17c9f95.png" width="251" height="295" class="img_ev3q"></p>
+<p>The next sections discusses each diagram in detail.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-system-context-diagram">1: System Context Diagram<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#1-system-context-diagram" class="hash-link" aria-label="Direct link to 1: System Context Diagram" title="Direct link to 1: System Context Diagram" translate="no">​</a></h3>
+<p>Context diagram allows you to take a step back and see the bigger picture. It highlights the system we focusing on(hence the color blue), and the other systems and actors it integrates with. Each connection or relationship to actors or systems must have the purpose.</p>
+<p>The diagram is what we use at the beginning of the story before zooming into details. The diagram is good for both technical and non-technical people, but I’ve seen more value when presented to non-technical people.</p>
+<p>It is important <strong>not</strong> to add technical details or the components that makes up the system in this diagram. No need to mention Azure, AWS, API, Database details etc. Those details are mentioned as we zoom into the next level of details, the container diagram.</p>
+<p><img decoding="async" loading="lazy" alt="Context Diagram" src="https://nolo28mokgosi@github.io/assets/images/context-45418ab6967186784fcdef0695f05073.png" width="2480" height="1748" class="img_ev3q"><sub><sup>Credit c4model.com</sup></sub></p>
+<p>Because c4 represents a static view of a single software system, the "system in focus" is always blue. Other systems are gray in color because they are not the "single software system" we focusing on. If we need to focus on them, we need to create separate diagrams for them.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-container-diagram">2: Container Diagram<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#2-container-diagram" class="hash-link" aria-label="Direct link to 2: Container Diagram" title="Direct link to 2: Container Diagram" translate="no">​</a></h3>
+<p>A container diagram is a high-level technology focused diagram that zooms a level down into the focus system (Blue Box) highlighted in System Context Diagram.</p>
+<p>According to C4Model.com, a container represent an application or data store. It is a piece of software that we deploy in order for the whole system to work. Example of a container includes web app, mobile app, lamda function, azure functions, database, blob storage etc.</p>
+<p>Container != Docker Container (!= not equals to)
+Container does not represent a  dll/jar, its represent application which can be collections of dlls or Jars</p>
+<p>We can add technical details to containers like React Native Mobile App, Azure Function, Mongo DB etc. The diagram  <strong>does not</strong> highlight any network related concepts like fail over, clustering, deployment scenarios etc.</p>
+<p><img decoding="async" loading="lazy" alt="Container Diagram" src="https://nolo28mokgosi@github.io/assets/images/containers-ba14dd9412ef0eaf0e30984529e42e7d.png" width="2480" height="1748" class="img_ev3q"><sub><sup>Credit c4model.com</sup></sub></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-component-diagram">3: Component Diagram<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#3-component-diagram" class="hash-link" aria-label="Direct link to 3: Component Diagram" title="Direct link to 3: Component Diagram" translate="no">​</a></h3>
+<p>Component diagram is a level 3 diagram that drills down into a a container, highlighting the building blocks of a container.</p>
+<p>A component is a collection of implementation classes behind an interface.</p>
+<p>Important to note: Components are not separate deployable pieces of software, container is.</p>
+<p>I'm not a big fan of component diagram and I have not seen the need for them. It’s not recommended to create them unless they add value to you and your team. If anyone is interested in this level of details, it’s better they jump into the repo and see it fresh.</p>
+<p><img decoding="async" loading="lazy" alt="Component Diagram" src="https://nolo28mokgosi@github.io/assets/images/components-3a4f7df0a4591385bfed3d868a91982b.png" width="2480" height="1748" class="img_ev3q"><sub><sup>Credit c4model.com</sup></sub></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-code">4: Code<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#4-code" class="hash-link" aria-label="Direct link to 4: Code" title="Direct link to 4: Code" translate="no">​</a></h3>
+<p>It is the last level of C4 model where yo zoom into each component to show how it’s implemented as code.</p>
+<p>It is not recommended to create this model since some IDE can automatically generate them from code.</p>
+<p><img decoding="async" loading="lazy" alt="Classes Diagram" src="https://nolo28mokgosi@github.io/assets/images/classes-a4ba73eb58c9de0b74b5cbc5932a9cf6.png" width="2480" height="1748" class="img_ev3q"><sub><sup>Credit c4model.com</sup></sub></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="supplementary-diagrams">Supplementary Diagrams<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#supplementary-diagrams" class="hash-link" aria-label="Direct link to Supplementary Diagrams" title="Direct link to Supplementary Diagrams" translate="no">​</a></h2>
+<p>Samples of supplementary diagrams mentioned below are available on <a href="https://c4model.com/" target="_blank" rel="noopener noreferrer" class="">C4Model.com</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="system-landscape-diagram">System Landscape Diagram<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#system-landscape-diagram" class="hash-link" aria-label="Direct link to System Landscape Diagram" title="Direct link to System Landscape Diagram" translate="no">​</a></h3>
+<p>System landscape Diagram is a context diagram without focus in a single system.</p>
+<p>In some cases especially in projects, we need to present multiple applications in a single picture. Because C4 Core Diagrams focuses on a a static view of a <strong>single system</strong>, it might not be relevant.</p>
+<p>In my experience, this is one of the simple pictures to design provided you have core diagrams of all application within your organization.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dynamic-diagram">Dynamic Diagram<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#dynamic-diagram" class="hash-link" aria-label="Direct link to Dynamic Diagram" title="Direct link to Dynamic Diagram" translate="no">​</a></h3>
+<p>Just like on UML communication/collaboration diagram, it’s a diagram that shows sequence or numbered interactions between actors and applications.</p>
+<p>I find it useful to describe simple scenarios. Where lots of containers are involved, traditional sequence diagram is simpler to understand.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="deployment-diagram">Deployment Diagram<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#deployment-diagram" class="hash-link" aria-label="Direct link to Deployment Diagram" title="Direct link to Deployment Diagram" translate="no">​</a></h3>
+<p>Shows how systems and containers are mapped to infrastructure.
+It’s based on UML Deployment diagram.</p>
+<p>This is where we show networks, load balancers, firewalls etc.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="guidelines-when-creating-c4-diagrams">Guidelines when creating c4 diagrams<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#guidelines-when-creating-c4-diagrams" class="hash-link" aria-label="Direct link to Guidelines when creating c4 diagrams" title="Direct link to Guidelines when creating c4 diagrams" translate="no">​</a></h2>
+<p>According to <a href="https://c4model.com/" target="_blank" rel="noopener noreferrer" class="">C4Model.com</a>,</p>
+<ul>
+<li class="">Each diagram should have title describing diagram type and scope (e.g. Context diagram of Travel Sko).</li>
+<li class="">Each diagram should have a legend.</li>
+<li class="">Acronyms and abbreviations should be understandable, otherwise avoid them.</li>
+<li class="">Every container should have technology explicitly specified. (e.g Azure function, React Web app)</li>
+<li class="">Every relationship should be label with direction and intent</li>
+<li class="">Diagrams should not be stale. I prefer to only create Context and Container diagram because their rate of change is very low and easy to keep them fresh.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Some of the reasons why I like C4 diagramming/modelling</p>
+<ul>
+<li class="">It is a simplified UML.</li>
+<li class="">It’s practical, easy to understand.</li>
+<li class="">Promote distributed design within the organizations.</li>
+<li class="">Most important, it clarifies the System Boundary, which can be a struggle as highlighted on <a href="https://nolomokgosi.com/blog/understandingboundaries" target="_blank" rel="noopener noreferrer" class="">understanding boundaries</a> post.</li>
+</ul>
+<p>The first 2 diagrams (Context and Container) are key and can bring clarity and alignment needed through out the organization. If each system in the organization has this 2 diagrams (fresh not stale), there would not be a need to have meetings &amp; meetings where architects or engineers explains  details (structure, integration, relationships, deployed containers) of the system they look after. Most importantly, some conversations would not need architect or engineer to be present.</p>
+<p>It is important to note that C4 does not cover all architecture artifacts. Missing link:</p>
+<ul>
+<li class="">Sequence Diagram: Dynamic diagram can replace a sequence diagram but lots of lines/activities will complicate it. I still feel there’s a room for sequence and I’ll cover it in my next post.</li>
+<li class="">Business processes, workflows, state machines, domain models,</li>
+<li class="">Data models</li>
+</ul>
+<p>As we close, let’s marry our scenarios to c4</p>
+<ol>
+<li class="">In a foreign country : I’m from South Africa = Context Diagram</li>
+<li class="">In my home country: I’m from Rusternburg = Container Diagram</li>
+<li class="">At local shopping mall: I’m from Mabeskraal = Component Diagram</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reference">Reference<a href="https://nolo28mokgosi@github.io/blog/introductiontoc4#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p><a href="https://c4model.com/" target="_blank" rel="noopener noreferrer" class="">https://c4model.com</a></p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+            <category>diagramming</category>
+            <category>modelling</category>
+        </item>
+        <item>
+            <title><![CDATA[Understanding Boundaries]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/understandingboundaries</link>
+            <guid>https://nolo28mokgosi@github.io/blog/understandingboundaries</guid>
+            <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA["One of the undecided problems of software development is deciding what the boundaries of a piece of software is" - Martin Fowler. This is statement is so true, creeps into most of my design conversation.]]></description>
+            <content:encoded><![CDATA[<p>"One of the undecided problems of software development is deciding what the boundaries of a piece of software is" - <a href="https://martinfowler.com/bliki/ApplicationBoundary.html" target="_blank" rel="noopener noreferrer" class="">Martin Fowler</a>. This is statement is so true, creeps into most of my design conversation.</p>
+<p><img decoding="async" loading="lazy" alt="Cable Mess" src="https://nolo28mokgosi@github.io/assets/images/boundaries-b5117980d928cc6f69a882acbed8497b.jpg" width="552" height="300" class="img_ev3q"></p>
+<p><em>Photo by goodtherapy.org</em></p>
+<p>If we step out of tech world for a moment, we'll realise that boundaries are applied in our everyday life. Some of those boundaries has unwritten rules or principles.</p>
+<p>Let's zoom into John's life as an example. John is a 14 year old boy who lives with his parents and younger sister in a 4 bedroom house. He loves football and has posters all over the bedroom he shares with his younger sister. John's mother is strict and likes order in her house. John's father is chilled.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="johns-house">John's house<a href="https://nolo28mokgosi@github.io/blog/understandingboundaries#johns-house" class="hash-link" aria-label="Direct link to John's house" title="Direct link to John's house" translate="no">​</a></h2>
+<ul>
+<li class="">
+<p><strong>Bedroom 1:</strong> Parents bedroom, always clean and organised. It is clear that mother's standards and principles are followed.</p>
+</li>
+<li class="">
+<p><strong>Bedroom 2:</strong> A room John shares with his sister. Through constant screaming and ruling with terror, John's mother tried to instill her standards and principles and failed dismallly. John implemented his own standard &amp; principles</p>
+</li>
+<li class="">
+<p><strong>Kitchen &amp; Lounge:</strong> Just like John's parents bedroom, always organised. It is clear that mother's standards and principles are followed. Kitchen is for cooking. Lounge is where family watches 7de laan everyday at 7.</p>
+</li>
+</ul>
+<p>Looking at this example, and zooming into our everyday life, you will realise our space has boundaries and most of the rules or principles are not written down. For example, only sleep in the bedroom, cook in the kitchen.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="in-software-world">In Software World<a href="https://nolo28mokgosi@github.io/blog/understandingboundaries#in-software-world" class="hash-link" aria-label="Direct link to In Software World" title="Direct link to In Software World" translate="no">​</a></h2>
+<p>In large organisations where teams write software each and every day, it is important to define and document boundaries. Since teams have different stakeholders, you might find teams writing duplicate capabilities in the same organisation.</p>
+<p>Take this example:</p>
+<ul>
+<li class="">Stakeholder: Can you create a screen where i can manage client data?</li>
+<li class="">Engineer: Say no more.</li>
+<li class="">Stakeholder: I would like to send an email to client after completing this task.</li>
+<li class="">Engineer: I got it, its a simple functionality to build.</li>
+<li class="">Stakeholder: Can you make sure that I can see all the holidays on the system?</li>
+<li class="">Engineer: We know what to to build. We'll be done next week.</li>
+</ul>
+<p>In this case, tech team is writing software to fulfil stakeholder needs without checking if the capablility exists in the organisation. Since  boundaries are not applied, the team will end up with an application that manages client data, execute client communications &amp; managing holiday data.</p>
+<p>It does not mean it's bad to have such application. It's only bad if the boundary is not defined, it's done in isolation or leads to refactoring and data clean up projects in future.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/understandingboundaries#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>Defining boundaries in large organisations can be a difficult task but it is a good investment.</p>
+<p>The absence of software or application boundaries leads to</p>
+<ul>
+<li class="">Data being duplicated &amp; managed in different applications.</li>
+<li class="">Increase in cost at organisational level</li>
+<li class="">Bad client experience e.g. where client updates address or contact details and the update does not filter down to other applications</li>
+</ul>
+<p>The results of boundary definition exercise should include this major points:</p>
+<ul>
+<li class="">Application is responsible for ABC capability/function</li>
+<li class="">Application is NOT responsible for XYZ capability/function</li>
+</ul>
+<p><a href="https://teamtopologies.com/book" target="_blank" rel="noopener noreferrer" class="">Team Topologies</a> and <a href="https://www.amazon.co.uk/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215" target="_blank" rel="noopener noreferrer" class="">Domain Driven Design</a> books shines the light in this subject.</p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
+            <category>Domain Driven Design</category>
+        </item>
+        <item>
+            <title><![CDATA[Entanglement]]></title>
+            <link>https://nolo28mokgosi@github.io/blog/entanglement</link>
+            <guid>https://nolo28mokgosi@github.io/blog/entanglement</guid>
+            <pubDate>Thu, 02 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Imagine you are an engineer working in a application/system that has been operating for years. Your stakeholders asks  to implement a breaking change on the API.Assuming you joined the organisation less than a year ago, you ask around if anyone knows  about your API integration points and no one knows. You start feeling like an application you working on looks and feels like the picture below, "ENTANGLED".]]></description>
+            <content:encoded><![CDATA[<p>Imagine you are an engineer working in a application/system that has been operating for years. Your stakeholders asks  to implement a breaking change on the API.Assuming you joined the organisation less than a year ago, you ask around if anyone knows  about your API integration points and no one knows. You start feeling like an application you working on looks and feels like the picture below, "ENTANGLED".</p>
+<p><img decoding="async" loading="lazy" alt="Cable Mess" src="https://nolo28mokgosi@github.io/assets/images/messy-cables-388f3d0b35c3e9a71758193df87b3f17.png" width="564" height="285" class="img_ev3q"><br>
+<em>Photo by mikemontague.com</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-do-you-know-your-application-is-entangled">How do you know your application is entangled?<a href="https://nolo28mokgosi@github.io/blog/entanglement#how-do-you-know-your-application-is-entangled" class="hash-link" aria-label="Direct link to How do you know your application is entangled?" title="Direct link to How do you know your application is entangled?" translate="no">​</a></h2>
+<p>According to cambridge dictionary, entanglement is "a situation or relationship that you are involved in and that is difficult to escape from". The word was made popular in 2020 by famous couple in the US. In this document, we will discuss entaglement in IT applications.</p>
+<p>The minute you feel like you are diffusing a bomb when you are asked to implement a breaking changes on the API or switch off integration point, know that your application is entagled <!-- -->😃<!-- -->.</p>
+<p><img decoding="async" loading="lazy" alt="Diffuce bomb" src="https://nolo28mokgosi@github.io/assets/images/diffusebomb-3d31f316bd3bede55933a2fcb04c39c6.jpg" width="708" height="468" class="img_ev3q"><br>
+<em>Photo by mikemontague.com</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-avoid-entanglement">How to avoid entanglement<a href="https://nolo28mokgosi@github.io/blog/entanglement#how-to-avoid-entanglement" class="hash-link" aria-label="Direct link to How to avoid entanglement" title="Direct link to How to avoid entanglement" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p><strong>Document current state of your application</strong><br>
+<!-- -->There should be a simple highlevel documentation or design that outlines application integration points. It will also be beneficial to outline users/user groups interacting with the application.</p>
+</li>
+<li class="">
+<p><strong>Keep you current state of your application alive</strong><br>
+<!-- -->Documenting current state is one thing, keeping documentation alive is always a challenge.
+I've worked on <a href="https://c4model.com/" target="_blank" rel="noopener noreferrer" class="">C4</a> and love it. It's simple, maintainable especially if you focus only at "System Context" for organisation wide designs.</p>
+</li>
+<li class="">
+<p><strong>Agree to certain format</strong><br>
+<!-- -->Fact is different designers/architects/engineers document differently. There is a chance that most application have documentation somewhere in archives in word documents, wiki of some sort. We might be outdated, or might be difficult to find, or difficult to understand. Choose from formats/frameworks like <a href="https://c4model.com/" target="_blank" rel="noopener noreferrer" class="">C4</a> and <a href="https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf" target="_blank" rel="noopener noreferrer" class="">4+1</a>)</p>
+</li>
+<li class="">
+<p><strong>Be clear on design assets of the organisation</strong><br>
+<!-- -->Code in organisation is treated as a first class citizen. Gone are the days where we used to panic when engineer's machine crashed and we loose days worth of code. Nowadays our code is in the repo, and we have CI/CD in place.
+Just like code where we adhere to certain principles &amp; standandards, it is important to agree on organisation level design assest, and give them first class citizen membership.</p>
+</li>
+<li class="">
+<p><strong>Current state documenation must be accessible</strong>
+Current state provide answers to many questions asked in multiple meetings. Instead or reinventing the wheel or getting right people to answer questions like what are the integration points of the appliction? How do they integrate? Which users interact with the application? It's so cool to answer by a link to an up-to-date documentation/design.</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nolo28mokgosi@github.io/blog/entanglement#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<p>One might ask, why do we need to create more documents/design assets if we can read code and have a clear pictures. Statement is valid but it is important to remember that:</p>
+<ul>
+<li class="">Sometimes we need answers in our finger tips to make decisions</li>
+<li class="">Applications we are building today will live beyond our time (we might leave the orgnisation, or join other teams)</li>
+<li class="">Applications you working on is part of the broader eco-system of applications</li>
+<li class="">It helps to provide basic application information to decision makers, non-techincal community within our organisation</li>
+</ul>
+<p>If you would like to take it to the next level, checkout <a href="https://github.com/ddd-crew/bounded-context-canvas" target="_blank" rel="noopener noreferrer" class="">Bounded Context Canvas</a>.</p>]]></content:encoded>
+            <category>architecture</category>
+            <category>design</category>
         </item>
     </channel>
 </rss>

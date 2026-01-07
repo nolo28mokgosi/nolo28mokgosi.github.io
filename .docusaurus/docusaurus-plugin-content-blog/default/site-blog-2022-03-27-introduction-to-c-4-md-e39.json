@@ -4,26 +4,29 @@
   "title": "Introduction to C4 Diagramming",
   "description": "Scenarios",
   "date": "2022-03-27T00:00:00.000Z",
-  "formattedDate": "March 27, 2022",
   "tags": [
     {
+      "inline": true,
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
     },
     {
+      "inline": true,
       "label": "design",
       "permalink": "/blog/tags/design"
     },
     {
+      "inline": true,
       "label": "diagramming",
       "permalink": "/blog/tags/diagramming"
     },
     {
+      "inline": true,
       "label": "modelling",
       "permalink": "/blog/tags/modelling"
     }
   ],
-  "readingTime": 6.6,
+  "readingTime": 6.72,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -31,7 +34,8 @@
       "title": "admin",
       "url": "https://github.com/nolo28mokgosi",
       "imageURL": "/img/profile.png",
-      "key": "nolo"
+      "key": "nolo",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -45,6 +49,7 @@
       "modelling"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Sequence on C4",
     "permalink": "/blog/sequencediagramonc4"

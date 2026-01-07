@@ -4,18 +4,19 @@
   "title": "Entanglement",
   "description": "Imagine you are an engineer working in a application/system that has been operating for years. Your stakeholders asks  to implement a breaking change on the API.Assuming you joined the organisation less than a year ago, you ask around if anyone knows  about your API integration points and no one knows. You start feeling like an application you working on looks and feels like the picture below, \"ENTANGLED\".",
   "date": "2021-12-02T00:00:00.000Z",
-  "formattedDate": "December 2, 2021",
   "tags": [
     {
+      "inline": true,
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
     },
     {
+      "inline": true,
       "label": "design",
       "permalink": "/blog/tags/design"
     }
   ],
-  "readingTime": 2.755,
+  "readingTime": 2.89,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -23,7 +24,8 @@
       "title": "admin",
       "url": "https://github.com/nolo28mokgosi",
       "imageURL": "/img/profile.png",
-      "key": "nolo"
+      "key": "nolo",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -35,6 +37,7 @@
       "design"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Understanding Boundaries",
     "permalink": "/blog/understandingboundaries"

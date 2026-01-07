@@ -1,5 +1,4 @@
 {
-  "unversionedId": "development/DI-on-functions",
   "id": "development/DI-on-functions",
   "title": "Dependency injection on azure functions",
   "description": "di",
@@ -8,6 +7,7 @@
   "slug": "/development/dependencyinjectiononfunctions",
   "permalink": "/docs/development/dependencyinjectiononfunctions",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,

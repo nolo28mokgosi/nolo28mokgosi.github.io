@@ -4,30 +4,34 @@
   "title": "Creating C4 diagrams",
   "description": "Introduction",
   "date": "2022-05-14T00:00:00.000Z",
-  "formattedDate": "May 14, 2022",
   "tags": [
     {
+      "inline": true,
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
     },
     {
+      "inline": true,
       "label": "design",
       "permalink": "/blog/tags/design"
     },
     {
+      "inline": true,
       "label": "diagramming",
       "permalink": "/blog/tags/diagramming"
     },
     {
+      "inline": true,
       "label": "modelling",
       "permalink": "/blog/tags/modelling"
     },
     {
+      "inline": true,
       "label": "c4",
       "permalink": "/blog/tags/c-4"
     }
   ],
-  "readingTime": 2.985,
+  "readingTime": 3.34,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -35,7 +39,8 @@
       "title": "admin",
       "url": "https://github.com/nolo28mokgosi",
       "imageURL": "/img/profile.png",
-      "key": "nolo"
+      "key": "nolo",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -50,6 +55,7 @@
       "c4"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Orchestration and Choreography",
     "permalink": "/blog/orchestrationvschoreography"

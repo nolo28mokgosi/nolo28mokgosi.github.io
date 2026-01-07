@@ -1,5 +1,4 @@
 {
-  "unversionedId": "architecture/AI Agents",
   "id": "architecture/AI Agents",
   "title": "AI Agents (aka Digital Coworkers)",
   "description": "Context",
@@ -8,6 +7,7 @@
   "slug": "/architecture/AI Agents",
   "permalink": "/docs/architecture/AI Agents",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,

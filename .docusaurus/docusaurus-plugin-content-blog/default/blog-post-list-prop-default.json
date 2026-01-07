@@ -3,23 +3,33 @@
   "items": [
     {
       "title": "Architecture Decision Records",
-      "permalink": "/blog/architecturedecisionrecords"
+      "permalink": "/blog/architecturedecisionrecords",
+      "unlisted": false,
+      "date": "2023-08-13T00:00:00.000Z"
     },
     {
       "title": "Value Stream in action",
-      "permalink": "/blog/valuestreaminaction"
+      "permalink": "/blog/valuestreaminaction",
+      "unlisted": false,
+      "date": "2023-04-30T00:00:00.000Z"
     },
     {
       "title": "Capabilities in action",
-      "permalink": "/blog/businesscapabilitiesinaction"
+      "permalink": "/blog/businesscapabilitiesinaction",
+      "unlisted": false,
+      "date": "2022-09-25T00:00:00.000Z"
     },
     {
       "title": "Business Capabilities Map",
-      "permalink": "/blog/businesscapabilities"
+      "permalink": "/blog/businesscapabilities",
+      "unlisted": false,
+      "date": "2022-09-18T00:00:00.000Z"
     },
     {
       "title": "Software that serves users and developers",
-      "permalink": "/blog/buildrightthingright"
+      "permalink": "/blog/buildrightthingright",
+      "unlisted": false,
+      "date": "2022-07-17T00:00:00.000Z"
     }
   ]
 }

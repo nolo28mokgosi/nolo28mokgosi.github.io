@@ -4,17 +4,19 @@
   "title": "Understanding Boundaries",
   "description": "\"One of the undecided problems of software development is deciding what the boundaries of a piece of software is\" - Martin Fowler. This is statement is so true, creeps into most of my design conversation.",
   "date": "2022-01-09T00:00:00.000Z",
-  "formattedDate": "January 9, 2022",
   "tags": [
     {
+      "inline": true,
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
     },
     {
+      "inline": true,
       "label": "design",
       "permalink": "/blog/tags/design"
     },
     {
+      "inline": true,
       "label": "Domain Driven Design",
       "permalink": "/blog/tags/domain-driven-design"
     }
@@ -27,7 +29,8 @@
       "title": "admin",
       "url": "https://github.com/nolo28mokgosi",
       "imageURL": "/img/profile.png",
-      "key": "nolo"
+      "key": "nolo",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -40,6 +43,7 @@
       "Domain Driven Design"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Introduction to C4 Diagramming",
     "permalink": "/blog/introductiontoc4"

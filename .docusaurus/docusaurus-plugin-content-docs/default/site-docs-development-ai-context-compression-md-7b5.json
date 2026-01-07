@@ -1,5 +1,4 @@
 {
-  "unversionedId": "development/ai-context-compression",
   "id": "development/ai-context-compression",
   "title": "AI Context Compression",
   "description": "Exploring the difference between simple and easy code, and why context compression matters when using AI for development",
@@ -8,6 +7,7 @@
   "slug": "/development/aicontextcompression",
   "permalink": "/docs/development/aicontextcompression",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,

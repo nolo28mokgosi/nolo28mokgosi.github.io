@@ -4,26 +4,29 @@
   "title": "Software that serves users and developers",
   "description": "rightandwrong",
   "date": "2022-07-17T00:00:00.000Z",
-  "formattedDate": "July 17, 2022",
   "tags": [
     {
+      "inline": true,
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
     },
     {
+      "inline": true,
       "label": "design",
       "permalink": "/blog/tags/design"
     },
     {
+      "inline": true,
       "label": "planning",
       "permalink": "/blog/tags/planning"
     },
     {
+      "inline": true,
       "label": "strategy",
       "permalink": "/blog/tags/strategy"
     }
   ],
-  "readingTime": 5.08,
+  "readingTime": 5.15,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -31,7 +34,8 @@
       "title": "admin",
       "url": "https://github.com/nolo28mokgosi",
       "imageURL": "/img/profile.png",
-      "key": "nolo"
+      "key": "nolo",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -45,6 +49,7 @@
       "strategy"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Business Capabilities Map",
     "permalink": "/blog/businesscapabilities"

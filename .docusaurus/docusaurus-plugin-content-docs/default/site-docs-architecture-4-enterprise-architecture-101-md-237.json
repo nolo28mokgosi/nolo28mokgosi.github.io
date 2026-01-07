@@ -1,5 +1,4 @@
 {
-  "unversionedId": "architecture/Enterprise Architecture 101",
   "id": "architecture/Enterprise Architecture 101",
   "title": "Enterprise Architecture 101",
   "description": "Understanding Enterprise Architecture and how it differs from Solution Architecture",
@@ -8,16 +7,20 @@
   "slug": "/architecture/Enterprise Architecture 101",
   "permalink": "/docs/architecture/Enterprise Architecture 101",
   "draft": false,
+  "unlisted": false,
   "tags": [
     {
+      "inline": true,
       "label": "enterprise-architecture",
       "permalink": "/docs/tags/enterprise-architecture"
     },
     {
+      "inline": true,
       "label": "solution-architecture",
       "permalink": "/docs/tags/solution-architecture"
     },
     {
+      "inline": true,
       "label": "technology-strategy",
       "permalink": "/docs/tags/technology-strategy"
     }

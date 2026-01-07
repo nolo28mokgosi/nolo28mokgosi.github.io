@@ -4,18 +4,19 @@
   "title": "Orchestration and Choreography",
   "description": "Introduction",
   "date": "2022-06-17T00:00:00.000Z",
-  "formattedDate": "June 17, 2022",
   "tags": [
     {
+      "inline": true,
       "label": "architecture",
       "permalink": "/blog/tags/architecture"
     },
     {
+      "inline": true,
       "label": "design",
       "permalink": "/blog/tags/design"
     }
   ],
-  "readingTime": 3.8,
+  "readingTime": 4.11,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -23,7 +24,8 @@
       "title": "admin",
       "url": "https://github.com/nolo28mokgosi",
       "imageURL": "/img/profile.png",
-      "key": "nolo"
+      "key": "nolo",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -35,6 +37,7 @@
       "design"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Software that serves users and developers",
     "permalink": "/blog/buildrightthingright"
