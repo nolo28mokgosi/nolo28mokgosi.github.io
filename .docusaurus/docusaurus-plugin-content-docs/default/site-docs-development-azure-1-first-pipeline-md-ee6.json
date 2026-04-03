@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Enterprise Architecture 101",
-    "permalink": "/docs/architecture/Enterprise Architecture 101"
+    "title": "Enterprise Architect",
+    "permalink": "/docs/architecture/Enterprise Architect"
   },
   "next": {
     "title": "Firebase Token Validation in Azure",

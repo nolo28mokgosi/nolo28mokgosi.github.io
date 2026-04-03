@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "architecture/Enterprise Architect",
+              "path": "/docs/architecture/Enterprise Architect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "architecture/Enterprise Architecture 101",
               "path": "/docs/architecture/Enterprise Architecture 101",
               "sidebar": "tutorialSidebar"

@@ -40,6 +40,9 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All posts',
+          postsPerPage: 'ALL',
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/main/website/blog/',
@@ -75,25 +78,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Mini Docs',
+            title: 'Explore',
             items: [
               {
-                label: 'Toolbox',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Learnings',
-            items: [
-              {
-                label: 'Blog',
+                label: '📝 Blog',
                 to: '/blog',
               },
+              {
+                label: '🧰 Toolbox',
+                to: '/docs/intro',
+              },
+              {
+                label: '📂 Blog Archive',
+                to: '/blog/archive',
+              },
             ],
           },
           {
-            title: 'More',
+            title: 'Topics',
+            items: [
+              {
+                label: 'Architecture',
+                to: '/blog/tags/architecture',
+              },
+              {
+                label: 'Design',
+                to: '/blog/tags/design',
+              },
+            ],
+          },
+          {
+            title: 'Connect',
             items: [
               {
                 label: 'GitHub',
@@ -102,7 +117,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} @nolomokgosi · Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,21 +1,341 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global styles — back 2 basix
+ * Infima overrides + custom design system
  */
 
-/* You can override the default Infima variables here. */
+/* ── Brand tokens ─────────────────────────────────────── */
 :root {
   --ifm-color-primary: #d9b310;
---ifm-color-primary-dark: #c3a10e;
---ifm-color-primary-darker: #b8980e;
---ifm-color-primary-darkest: #987d0b;
---ifm-color-primary-light: #eec413;
---ifm-color-primary-lighter: #eec71e;
---ifm-color-primary-lightest: #f1cf3e;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary-dark: #c3a10e;
+  --ifm-color-primary-darker: #b8980e;
+  --ifm-color-primary-darkest: #987d0b;
+  --ifm-color-primary-light: #eec413;
+  --ifm-color-primary-lighter: #eec71e;
+  --ifm-color-primary-lightest: #f1cf3e;
+
+  --ifm-code-font-size: 94%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.7;
+
+  /* Navbar */
+  --ifm-navbar-height: 60px;
+  --ifm-navbar-shadow: 0 1px 0 rgba(0,0,0,0.08);
+
+  /* Sidebar */
+  --ifm-sidebar-width: 280px;
+
+  /* Content */
+  --ifm-leading: 1.75rem;
+  --b2b-surface: #f8f7f4;
+  --b2b-border: #e8e4db;
 }
 
+/* ── Dark mode tokens ─────────────────────────────────── */
+html[data-theme='dark'] {
+  --ifm-background-color: #0f1117;
+  --ifm-background-surface-color: #161b27;
+  --ifm-navbar-background-color: #0f1117;
+  --ifm-toc-border-color: rgba(255,255,255,0.08);
+  --b2b-surface: #161b27;
+  --b2b-border: rgba(255,255,255,0.08);
+}
+
+/* ── Google Fonts ─────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ── Navbar ───────────────────────────────────────────── */
+.navbar {
+  border-bottom: 1px solid var(--b2b-border);
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.92);
+}
+
+html[data-theme='dark'] .navbar {
+  background: rgba(15,17,23,0.92);
+  border-bottom-color: rgba(255,255,255,0.06);
+}
+
+.navbar__title {
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar__link {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-color-primary-dark) !important;
+}
+
+/* ── Footer ───────────────────────────────────────────── */
+.footer {
+  background: #0f1117 !important;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 3rem 0 2rem;
+}
+
+.footer__title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4) !important;
+  margin-bottom: 0.75rem;
+}
+
+.footer__link-item {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.65) !important;
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light) !important;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.3);
+  margin-top: 2rem;
+}
+
+/* ── Blog list page ───────────────────────────────────── */
+
+/* Full-width wrapper — remove the narrow max-width constraint */
+.blog-list-page .container,
+.blog-wrapper .container {
+  max-width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* The two-column layout: sidebar + content */
+.blog-wrapper .row {
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+/* Sidebar — fixed, compact width */
+.blog-wrapper .col--3,
+.blog-wrapper [class*='blogSidebarDesktop'] {
+  flex: 0 0 220px !important;
+  max-width: 220px !important;
+  min-width: 0;
+  font-size: 0.82rem;
+}
+
+/* Main content area — takes all remaining space */
+.blog-wrapper .col--9,
+.blog-wrapper [class*='blogPostsContainer'],
+.blog-wrapper .col:not([class*='col--3']) {
+  flex: 1 1 0 !important;
+  max-width: 100% !important;
+  min-width: 0;
+}
+
+/* Blog post card */
+article.margin-bottom--xl {
+  border: 1px solid var(--b2b-border);
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  background: var(--b2b-surface);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  max-width: 100%;
+}
+
+article.margin-bottom--xl:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+  transform: translateY(-3px);
+}
+
+html[data-theme='dark'] article.margin-bottom--xl:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+
+/* Collapse sidebar to full width on smaller screens */
+@media (max-width: 996px) {
+  .blog-wrapper .row {
+    flex-wrap: wrap;
+  }
+
+  .blog-wrapper .col--3,
+  .blog-wrapper [class*='blogSidebarDesktop'] {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .blog-wrapper .col--9,
+  .blog-wrapper .col:not([class*='col--3']) {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .blog-list-page .container,
+  .blog-wrapper .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+/* Blog post header */
+.blog-post-title {
+  font-size: clamp(1.4rem, 3vw, 1.9rem) !important;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.blog-post-title a {
+  color: var(--ifm-heading-color) !important;
+}
+
+.blog-post-title a:hover {
+  color: var(--ifm-color-primary-dark) !important;
+  text-decoration: none;
+}
+
+/* Tags */
+.tag {
+  border-radius: 6px !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  padding: 0.2rem 0.6rem !important;
+}
+
+/* ── Blog post page ───────────────────────────────────── */
+.blog-post-page article {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.blog-post-page h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+/* ── Docs ─────────────────────────────────────────────── */
+.docs-wrapper .menu {
+  font-size: 0.875rem;
+}
+
+.menu__link {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.menu__link:hover {
+  background: rgba(217,179,16,0.1) !important;
+  color: var(--ifm-color-primary-dark) !important;
+}
+
+.menu__link--active {
+  background: rgba(217,179,16,0.12) !important;
+  color: var(--ifm-color-primary-darkest) !important;
+  font-weight: 700;
+}
+
+html[data-theme='dark'] .menu__link--active {
+  color: var(--ifm-color-primary-light) !important;
+  background: rgba(217,179,16,0.08) !important;
+}
+
+.menu__list-item-collapsible:hover {
+  background: rgba(217,179,16,0.06) !important;
+}
+
+/* Doc content */
+.markdown h1 {
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--b2b-border);
+}
+
+.markdown h3 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+}
+
+.markdown p,
+.markdown li {
+  line-height: 1.75;
+  color: var(--ifm-font-color-base);
+}
+
+.markdown code {
+  border-radius: 5px;
+  font-size: 0.88em;
+  padding: 0.15em 0.45em;
+  background: rgba(217,179,16,0.1);
+  border: 1px solid rgba(217,179,16,0.2);
+}
+
+html[data-theme='dark'] .markdown code {
+  background: rgba(217,179,16,0.08);
+  border-color: rgba(217,179,16,0.15);
+}
+
+/* Table of Contents */
+.table-of-contents {
+  font-size: 0.82rem;
+}
+
+.table-of-contents__link {
+  color: var(--ifm-color-emphasis-600);
+  transition: color 0.15s ease;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary-dark) !important;
+  font-weight: 600;
+}
+
+/* ── Code blocks ──────────────────────────────────────── */
+.prism-code {
+  border-radius: 12px !important;
+  font-size: 0.875rem !important;
+}
+
+/* ── Admonitions ──────────────────────────────────────── */
+.admonition {
+  border-radius: 10px;
+  border-left-width: 4px;
+}
+
+/* ── Pagination ───────────────────────────────────────── */
+.pagination-nav__link {
+  border-radius: 12px;
+  border: 1px solid var(--b2b-border);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(217,179,16,0.15);
+  text-decoration: none;
+}
+
+.pagination-nav__label {
+  font-weight: 700;
+}
+
+/* ── Highlight code line ──────────────────────────────── */
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;

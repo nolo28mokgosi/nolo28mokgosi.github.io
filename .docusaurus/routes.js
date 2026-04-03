@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'ae0'),
+    component: ComponentCreator('/blog', '239'),
     exact: true
   },
   {
@@ -93,11 +93,6 @@ export default [
     exact: true
   },
   {
-    path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'fa3'),
-    exact: true
-  },
-  {
     path: '/blog/sequencediagramonc4',
     component: ComponentCreator('/blog/sequencediagramonc4', '22b'),
     exact: true
@@ -114,12 +109,7 @@ export default [
   },
   {
     path: '/blog/tags/architecture',
-    component: ComponentCreator('/blog/tags/architecture', '149'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/architecture/page/2',
-    component: ComponentCreator('/blog/tags/architecture/page/2', '866'),
+    component: ComponentCreator('/blog/tags/architecture', 'aef'),
     exact: true
   },
   {
@@ -134,12 +124,7 @@ export default [
   },
   {
     path: '/blog/tags/design',
-    component: ComponentCreator('/blog/tags/design', 'afb'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/design/page/2',
-    component: ComponentCreator('/blog/tags/design/page/2', 'e9e'),
+    component: ComponentCreator('/blog/tags/design', '828'),
     exact: true
   },
   {
@@ -189,11 +174,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '90b'),
+    component: ComponentCreator('/docs', 'c55'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'dfe'),
+        component: ComponentCreator('/docs', 'f37'),
         routes: [
           {
             path: '/docs/tags',
@@ -217,7 +202,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'fdd'),
+            component: ComponentCreator('/docs', '042'),
             routes: [
               {
                 path: '/docs/architecture/AI Agents',
@@ -228,6 +213,12 @@ export default [
               {
                 path: '/docs/architecture/design-patterns/sidecarpattern',
                 component: ComponentCreator('/docs/architecture/design-patterns/sidecarpattern', '1be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/architecture/Enterprise Architect',
+                component: ComponentCreator('/docs/architecture/Enterprise Architect', '9ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

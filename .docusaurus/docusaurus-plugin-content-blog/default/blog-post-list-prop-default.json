@@ -1,5 +1,5 @@
 {
-  "title": "Recent posts",
+  "title": "All posts",
   "items": [
     {
       "title": "Architecture Decision Records",
@@ -30,6 +30,42 @@
       "permalink": "/blog/buildrightthingright",
       "unlisted": false,
       "date": "2022-07-17T00:00:00.000Z"
+    },
+    {
+      "title": "Orchestration and Choreography",
+      "permalink": "/blog/orchestrationvschoreography",
+      "unlisted": false,
+      "date": "2022-06-17T00:00:00.000Z"
+    },
+    {
+      "title": "Creating C4 diagrams",
+      "permalink": "/blog/createC4diagrams",
+      "unlisted": false,
+      "date": "2022-05-14T00:00:00.000Z"
+    },
+    {
+      "title": "Sequence on C4",
+      "permalink": "/blog/sequencediagramonc4",
+      "unlisted": false,
+      "date": "2022-04-09T00:00:00.000Z"
+    },
+    {
+      "title": "Introduction to C4 Diagramming",
+      "permalink": "/blog/introductiontoc4",
+      "unlisted": false,
+      "date": "2022-03-27T00:00:00.000Z"
+    },
+    {
+      "title": "Understanding Boundaries",
+      "permalink": "/blog/understandingboundaries",
+      "unlisted": false,
+      "date": "2022-01-09T00:00:00.000Z"
+    },
+    {
+      "title": "Entanglement",
+      "permalink": "/blog/entanglement",
+      "unlisted": false,
+      "date": "2021-12-02T00:00:00.000Z"
     }
   ]
 }

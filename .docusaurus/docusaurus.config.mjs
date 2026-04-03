@@ -42,7 +42,10 @@ export default {
           "sidebarPath": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true
+          "showReadingTime": true,
+          "blogSidebarCount": "ALL",
+          "blogSidebarTitle": "All posts",
+          "postsPerPage": "ALL"
         },
         "theme": {
           "customCss": "/Users/admin/Development/github-repo/nolo28mokgosi.github.io/src/css/custom.css"
@@ -76,25 +79,37 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Mini Docs",
+          "title": "Explore",
           "items": [
             {
-              "label": "Toolbox",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Learnings",
-          "items": [
-            {
-              "label": "Blog",
+              "label": "📝 Blog",
               "to": "/blog"
+            },
+            {
+              "label": "🧰 Toolbox",
+              "to": "/docs/intro"
+            },
+            {
+              "label": "📂 Blog Archive",
+              "to": "/blog/archive"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "Topics",
+          "items": [
+            {
+              "label": "Architecture",
+              "to": "/blog/tags/architecture"
+            },
+            {
+              "label": "Design",
+              "to": "/blog/tags/design"
+            }
+          ]
+        },
+        {
+          "title": "Connect",
           "items": [
             {
               "label": "GitHub",
@@ -103,7 +118,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2026 Built with Docusaurus."
+      "copyright": "© 2026 @nolomokgosi · Built with Docusaurus"
     },
     "prism": {
       "theme": {

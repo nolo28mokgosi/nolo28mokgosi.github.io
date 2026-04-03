@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-ae0": {
+  "/blog-239": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -78,6 +78,9 @@
       },
       {
         "content": "content---blog-958-e53"
+      },
+      {
+        "content": "content---blogef-6-2a3"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -188,19 +191,6 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-orchestrationvschoreography-63-d-247"
   },
-  "/blog/page/2-fa3": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-page-2-ef-6-9c2"
-      }
-    ],
-    "__props": "__props---blog-page-28-ea-cf7"
-  },
   "/blog/sequencediagramonc4-22b": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -233,7 +223,7 @@
     ],
     "__props": "__props---blog-tags-adr-77-a-06d"
   },
-  "/blog/tags/architecture-149": {
+  "/blog/tags/architecture-aef": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -269,22 +259,12 @@
       },
       {
         "content": "content---blog-958-e53"
+      },
+      {
+        "content": "content---blogef-6-2a3"
       }
     ],
     "__props": "__props---blog-tags-architecture-852-acb"
-  },
-  "/blog/tags/architecture/page/2-866": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-page-2-ef-6-9c2"
-      }
-    ],
-    "__props": "__props---blog-tags-architecture-page-28-ca-539"
   },
   "/blog/tags/business-architecture-0c6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -321,7 +301,7 @@
     ],
     "__props": "__props---blog-tags-c-4852-754"
   },
-  "/blog/tags/design-afb": {
+  "/blog/tags/design-828": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -357,22 +337,12 @@
       },
       {
         "content": "content---blog-958-e53"
+      },
+      {
+        "content": "content---blogef-6-2a3"
       }
     ],
     "__props": "__props---blog-tags-designbb-1-00c"
-  },
-  "/blog/tags/design/page/2-e9e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-page-2-ef-6-9c2"
-      }
-    ],
-    "__props": "__props---blog-tags-design-page-27-e-6-be7"
   },
   "/blog/tags/diagramming-63a": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -514,13 +484,13 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-90b": {
+  "/docs-c55": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-dfe": {
+  "/docs-f37": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
@@ -540,7 +510,7 @@
     "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__props": "__props---docs-tags-technology-strategy-00-a-a0e"
   },
-  "/docs-fdd": {
+  "/docs-042": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/architecture/AI Agents-2d1": {
@@ -550,6 +520,10 @@
   "/docs/architecture/design-patterns/sidecarpattern-1be": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-architecture-design-patterns-sidecarpattern-3-da-696"
+  },
+  "/docs/architecture/Enterprise Architect-9ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-enterprise-architect-8-d-6-d9d"
   },
   "/docs/architecture/Enterprise Architecture 101-c79": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1,0 +1,24 @@
+{
+  "id": "architecture/Enterprise Architect",
+  "title": "Enterprise Architect",
+  "description": "In his blogpost, Steve argues that Enterprise Architecture is a business role, not a tech role.",
+  "source": "@site/docs/architecture/5.Enterprise Architect.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/Enterprise Architect",
+  "permalink": "/docs/architecture/Enterprise Architect",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Enterprise Architecture 101",
+    "permalink": "/docs/architecture/Enterprise Architecture 101"
+  },
+  "next": {
+    "title": "First Azure Pipeline",
+    "permalink": "/docs/development/azure/first_azure_pipeline"
+  }
+}

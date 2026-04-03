@@ -1,11 +1,114 @@
+/* ── Section wrapper ──────────────────────────────────── */
 .features {
+  padding: 5rem 0 6rem;
+  background: var(--ifm-background-color);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--ifm-heading-color);
+  margin: 0 0 0.5rem;
+}
+
+.sectionSubtitle {
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+/* ── Feature cards ────────────────────────────────────── */
+.featureCol {
+  padding: 0.75rem;
+}
+
+.featureCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  background: var(--ifm-card-background-color, var(--ifm-background-surface-color));
+}
+
+.featureCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.featureIconWrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(217, 179, 16, 0.15), rgba(217, 179, 16, 0.05));
   display: flex;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-shrink: 0;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 48px;
+  width: 48px;
+}
+
+.featureBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.featureTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  color: var(--ifm-heading-color);
+}
+
+.featureDesc {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 1.25rem;
+  flex: 1;
+}
+
+.featureLink {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary-dark);
+  text-decoration: none;
+  transition: color 0.2s ease, letter-spacing 0.2s ease;
+  align-self: flex-start;
+}
+
+.featureLink:hover {
+  color: var(--ifm-color-primary-darkest);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* ── Dark mode tweaks ─────────────────────────────────── */
+html[data-theme='dark'] .featureCard {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+html[data-theme='dark'] .featureCard:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+  border-color: var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] .featureLink {
+  color: var(--ifm-color-primary-light);
 }
