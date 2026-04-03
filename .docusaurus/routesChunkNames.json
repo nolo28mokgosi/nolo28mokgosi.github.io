@@ -1,532 +1,575 @@
 {
-  "/blog-239": {
-    "__comp": "a6aa9e1f",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "sidebar": "814f3328",
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-239": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "ad303493"
+        "content": "content---blogad-3-393"
       },
       {
-        "content": "7c036d04"
+        "content": "content---blog-7-c-0-0a1"
       },
       {
-        "content": "48d1a63c"
+        "content": "content---blog-48-d-654"
       },
       {
-        "content": "eb4a0b86"
+        "content": "content---blogeb-4-78c"
       },
       {
-        "content": "e7eb4425"
+        "content": "content---bloge-7-e-679"
       },
       {
-        "content": "18271656"
+        "content": "content---blog-182-9c5"
       },
       {
-        "content": "b8ff0d7a"
+        "content": "content---blogb-8-f-3de"
       },
       {
-        "content": "bce0bc3a"
+        "content": "content---blogbce-b96"
       },
       {
-        "content": "05152e64"
+        "content": "content---blog-051-719"
       },
       {
-        "content": "95885957"
+        "content": "content---blog-958-e53"
       },
       {
-        "content": "ef6e25b6"
+        "content": "content---blogef-6-2a3"
       }
     ],
-    "__props": "c15d9823"
+    "__props": "__props---blogc-15-573"
   },
   "/blog/architecturedecisionrecords-62b": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "7c531fda"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-architecturedecisionrecords-7-c-5-38d"
   },
   "/blog/archive-182": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "__props": "f81c1134"
+    "__props": "__props---blog-archivef-81-229"
   },
   "/blog/authors-0b7": {
-    "__comp": "621db11d",
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "__props": "ef8b811a"
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
   },
   "/blog/buildrightthingright-f66": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "26d8b45c"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-buildrightthingright-26-d-a77"
   },
   "/blog/businesscapabilities-de2": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "a8da0782"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-businesscapabilitiesa-8-d-3a0"
   },
   "/blog/businesscapabilitiesinaction-f81": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "c4a15f7e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-businesscapabilitiesinactionc-4-a-31f"
   },
   "/blog/createC4diagrams-c9b": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "492e018e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-create-c-4-diagrams-492-7b9"
   },
   "/blog/entanglement-899": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "0045e96c"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-entanglement-004-aa9"
   },
   "/blog/introductiontoc4-11f": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "e39718eb"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-introductiontoc-4-e-39-684"
   },
   "/blog/orchestrationvschoreography-56c": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "63db126e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-orchestrationvschoreography-63-d-247"
   },
   "/blog/sequencediagramonc4-22b": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "a63f2fc1"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-sequencediagramonc-4-a-63-178"
   },
   "/blog/tags-287": {
-    "__comp": "01a85c17",
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "__props": "3a2db09e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
   },
   "/blog/tags/adr-06e": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "ad303493"
+        "content": "content---blogad-3-393"
       }
     ],
-    "__props": "77a9bdae"
+    "__props": "__props---blog-tags-adr-77-a-06d"
   },
   "/blog/tags/architecture-aef": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "ad303493"
+        "content": "content---blogad-3-393"
       },
       {
-        "content": "7c036d04"
+        "content": "content---blog-7-c-0-0a1"
       },
       {
-        "content": "48d1a63c"
+        "content": "content---blog-48-d-654"
       },
       {
-        "content": "eb4a0b86"
+        "content": "content---blogeb-4-78c"
       },
       {
-        "content": "e7eb4425"
+        "content": "content---bloge-7-e-679"
       },
       {
-        "content": "18271656"
+        "content": "content---blog-182-9c5"
       },
       {
-        "content": "b8ff0d7a"
+        "content": "content---blogb-8-f-3de"
       },
       {
-        "content": "bce0bc3a"
+        "content": "content---blogbce-b96"
       },
       {
-        "content": "05152e64"
+        "content": "content---blog-051-719"
       },
       {
-        "content": "95885957"
+        "content": "content---blog-958-e53"
       },
       {
-        "content": "ef6e25b6"
+        "content": "content---blogef-6-2a3"
       }
     ],
-    "__props": "8520f5db"
+    "__props": "__props---blog-tags-architecture-852-acb"
   },
   "/blog/tags/business-architecture-0c6": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "7c036d04"
+        "content": "content---blog-7-c-0-0a1"
       },
       {
-        "content": "48d1a63c"
+        "content": "content---blog-48-d-654"
       },
       {
-        "content": "eb4a0b86"
+        "content": "content---blogeb-4-78c"
       }
     ],
-    "__props": "5cd95b3e"
+    "__props": "__props---blog-tags-business-architecture-5-cd-a41"
   },
   "/blog/tags/c-4-9c4": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "b8ff0d7a"
+        "content": "content---blogb-8-f-3de"
       },
       {
-        "content": "bce0bc3a"
+        "content": "content---blogbce-b96"
       }
     ],
-    "__props": "852b1396"
+    "__props": "__props---blog-tags-c-4852-754"
   },
   "/blog/tags/design-828": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "ad303493"
+        "content": "content---blogad-3-393"
       },
       {
-        "content": "7c036d04"
+        "content": "content---blog-7-c-0-0a1"
       },
       {
-        "content": "48d1a63c"
+        "content": "content---blog-48-d-654"
       },
       {
-        "content": "eb4a0b86"
+        "content": "content---blogeb-4-78c"
       },
       {
-        "content": "e7eb4425"
+        "content": "content---bloge-7-e-679"
       },
       {
-        "content": "18271656"
+        "content": "content---blog-182-9c5"
       },
       {
-        "content": "b8ff0d7a"
+        "content": "content---blogb-8-f-3de"
       },
       {
-        "content": "bce0bc3a"
+        "content": "content---blogbce-b96"
       },
       {
-        "content": "05152e64"
+        "content": "content---blog-051-719"
       },
       {
-        "content": "95885957"
+        "content": "content---blog-958-e53"
       },
       {
-        "content": "ef6e25b6"
+        "content": "content---blogef-6-2a3"
       }
     ],
-    "__props": "bb1a3e9c"
+    "__props": "__props---blog-tags-designbb-1-00c"
   },
   "/blog/tags/diagramming-63a": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "b8ff0d7a"
+        "content": "content---blogb-8-f-3de"
       },
       {
-        "content": "bce0bc3a"
+        "content": "content---blogbce-b96"
       },
       {
-        "content": "05152e64"
+        "content": "content---blog-051-719"
       }
     ],
-    "__props": "de0401a6"
+    "__props": "__props---blog-tags-diagrammingde-0-569"
   },
   "/blog/tags/domain-driven-design-2a3": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "95885957"
+        "content": "content---blog-958-e53"
       }
     ],
-    "__props": "7e00b614"
+    "__props": "__props---blog-tags-domain-driven-design-7-e-0-70b"
   },
   "/blog/tags/modelling-4b7": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "b8ff0d7a"
+        "content": "content---blogb-8-f-3de"
       },
       {
-        "content": "bce0bc3a"
+        "content": "content---blogbce-b96"
       },
       {
-        "content": "05152e64"
+        "content": "content---blog-051-719"
       }
     ],
-    "__props": "1b242852"
+    "__props": "__props---blog-tags-modelling-1-b-2-f9b"
   },
   "/blog/tags/planning-947": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "ad303493"
+        "content": "content---blogad-3-393"
       },
       {
-        "content": "7c036d04"
+        "content": "content---blog-7-c-0-0a1"
       },
       {
-        "content": "48d1a63c"
+        "content": "content---blog-48-d-654"
       },
       {
-        "content": "eb4a0b86"
+        "content": "content---blogeb-4-78c"
       },
       {
-        "content": "e7eb4425"
+        "content": "content---bloge-7-e-679"
       }
     ],
-    "__props": "fcc929c5"
+    "__props": "__props---blog-tags-planningfcc-b37"
   },
   "/blog/tags/solutions-architecture-00d": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "ad303493"
+        "content": "content---blogad-3-393"
       }
     ],
-    "__props": "7725a1c9"
+    "__props": "__props---blog-tags-solutions-architecture-772-ece"
   },
   "/blog/tags/strategy-e18": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "7c036d04"
+        "content": "content---blog-7-c-0-0a1"
       },
       {
-        "content": "48d1a63c"
+        "content": "content---blog-48-d-654"
       },
       {
-        "content": "eb4a0b86"
+        "content": "content---blogeb-4-78c"
       },
       {
-        "content": "e7eb4425"
+        "content": "content---bloge-7-e-679"
       }
     ],
-    "__props": "afd8ac1e"
+    "__props": "__props---blog-tags-strategyafd-3bc"
   },
   "/blog/understandingboundaries-836": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "36d78c24"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-understandingboundaries-36-d-6ba"
   },
   "/blog/valuestreaminaction-eda": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-architecturedecisionrecordsace-8b7"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "99cc9977"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-valuestreaminaction-99-c-947"
   },
   "/markdown-page-3d7": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---markdown-pagea-74-7b5"
     },
-    "content": "393be207"
+    "content": "content---markdown-page-393-028"
   },
   "/docs-c55": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docsaba-d7c"
     }
   },
   "/docs-f37": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
   },
   "/docs/tags-fce": {
-    "__comp": "3720c009",
-    "__props": "898514b1"
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__props": "__props---docs-tags-898-65c"
   },
   "/docs/tags/enterprise-architecture-c4f": {
-    "__comp": "df203c0f",
-    "__props": "179670a3"
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-enterprise-architecture-179-aed"
   },
   "/docs/tags/solution-architecture-79e": {
-    "__comp": "df203c0f",
-    "__props": "2bbb8013"
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-solution-architecture-2-bb-2c2"
   },
   "/docs/tags/technology-strategy-f42": {
-    "__comp": "df203c0f",
-    "__props": "00a4e9d7"
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-technology-strategy-00-a-a0e"
   },
   "/docs-042": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/architecture/AI Agents-2d1": {
-    "__comp": "17896441",
-    "content": "8ebf17e7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-ai-agents-8-eb-1ce"
   },
   "/docs/architecture/design-patterns/sidecarpattern-1be": {
-    "__comp": "17896441",
-    "content": "3da05d72"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-design-patterns-sidecarpattern-3-da-696"
   },
   "/docs/architecture/Enterprise Architect-9ae": {
-    "__comp": "17896441",
-    "content": "8d6980f7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-enterprise-architect-8-d-6-d9d"
   },
   "/docs/architecture/Enterprise Architecture 101-c79": {
-    "__comp": "17896441",
-    "content": "237bc46e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-enterprise-architecture-101237-38a"
   },
   "/docs/architecture/Focus Cycle-a17": {
-    "__comp": "17896441",
-    "content": "6fb4cb16"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-focus-cycle-6-fb-f50"
   },
   "/docs/development/aicontextcompression-a82": {
-    "__comp": "17896441",
-    "content": "7b549975"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-aicontextcompression-7-b-5-7a1"
   },
   "/docs/development/azure/azure_static_site-948": {
-    "__comp": "17896441",
-    "content": "6dc8b58c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-azure-azure-static-site-6-dc-562"
   },
   "/docs/development/azure/first_azure_pipeline-df9": {
-    "__comp": "17896441",
-    "content": "ee6e6a2d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-azure-first-azure-pipelineee-6-cf0"
   },
   "/docs/development/azure/jwttokenvalidationonazurefunction-08c": {
-    "__comp": "17896441",
-    "content": "44f9e41c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-azure-jwttokenvalidationonazurefunction-44-f-9f8"
   },
   "/docs/development/azure/websiteOnAzureContainerisedApps-1d0": {
-    "__comp": "17896441",
-    "content": "2c64b77f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-azure-website-on-azure-containerised-apps-2-c-6-32c"
   },
   "/docs/development/dependencyinjectiononfunctions-0d9": {
-    "__comp": "17896441",
-    "content": "17276678"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-dependencyinjectiononfunctions-172-75f"
   },
   "/docs/development/react native/expodeployment-46a": {
-    "__comp": "17896441",
-    "content": "ea1030ba"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-development-react-native-expodeploymentea-1-04d"
   },
   "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---markdown-pagea-74-7b5"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }
