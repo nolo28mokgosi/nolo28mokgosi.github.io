@@ -23,8 +23,8 @@ This is where I capture things I don't want to forget — ideas that clicked, pa
 
 Browse by section in the sidebar, or jump straight into a topic below:
 
-- 🏛️ [Architecture →](/docs/architecture/2.Focus%20Cycle)
-- 💻 [Development →](/docs/development/DI-on-functions)
+- 🏛️ [Architecture →](/docs/architecture/Focus%20Cycle)
+- 💻 [Development →](/docs/development/dependencyinjectiononfunctions)
 ar_position: 1
 ---
 
